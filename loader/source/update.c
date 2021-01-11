@@ -67,13 +67,13 @@ typedef enum {
 } DOWNLOADS;
 
 static const downloads_t Downloads[] = {
-	{"https://github.com/Special-Niewbie/Nintendont-CrisMMMod/raw/main/nintendont/boot.dol", "Downloading MMMod", "boot.dol", 0x700000}, // 7MB
+	{"https://github.com/Special-Niewbie/Nintendont-CrisMMMod/raw/main/nintendont/boot.dol", "Downloading CrisMMMod", "boot.dol", 0x700000}, // 7MB
 	{"http://send0r.lima-city.de/Nintendont/MasterMod/boot.dol", "Downloading MasterMod", "boot.dol", 0x400000}, // 4MB
 	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/loader/loader.dol", "Updating Nintendont", "boot.dol", 0x400000}, // 4MB
 	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/nintendont/titles.txt", "Updating titles.txt", "titles.txt", 0x80000}, // 512KB
 	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/controllerconfigs/controllers.zip", "Updating controllers.zip", "controllers.zip", 0x8000}, // 32KB
 	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/nintendont/gcn_md5.zip", "Updating gcn_md5.txt", "gcn_md5.zip", 0x20000}, // 128 KB
-	{"http://send0r.lima-city.de/Nintendont/Mr.%20Mysterio's%20Mod/NintendontVersion.h", "Checking Latest Version", "", 0x400} // 1KB
+	{"https://raw.githubusercontent.com/Special-Niewbie/Nintendont-CrisMMMod/main/common/include/NintendontVersion.h", "Checking Latest Version", "", 0x400} // 1KB
 };
 
 extern void changeToDefaultDrive();
@@ -335,7 +335,7 @@ void UpdateNintendont(void) {
 			PrintButtonActions("Go Back", "Select", NULL, NULL);
 
 			// Update menu.
-			PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*5, "Update MMMod");
+			PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*5, "Update CrisMMMod");
 			PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*6, "Download MasterMod (discontinued)");
 			PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*7, "Download official Nintendont");
 			PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*8, "Download titles.txt");
