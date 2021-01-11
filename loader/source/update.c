@@ -67,7 +67,7 @@ typedef enum {
 } DOWNLOADS;
 
 static const downloads_t Downloads[] = {
-	{"http://send0r.lima-city.de/Nintendont/Mr.%20Mysterio's%20Mod/boot.dol", "Downloading MMMod", "boot.dol", 0x700000}, // 7MB
+	{"https://github.com/Special-Niewbie/Nintendont-CrisMMMod/raw/main/nintendont/boot.dol", "Downloading MMMod", "boot.dol", 0x700000}, // 7MB
 	{"http://send0r.lima-city.de/Nintendont/MasterMod/boot.dol", "Downloading MasterMod", "boot.dol", 0x400000}, // 4MB
 	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/loader/loader.dol", "Updating Nintendont", "boot.dol", 0x400000}, // 4MB
 	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/nintendont/titles.txt", "Updating titles.txt", "titles.txt", 0x80000}, // 512KB

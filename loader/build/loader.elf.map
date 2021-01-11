@@ -11237,16 +11237,16 @@ Linker script and memory map
                                          0xc8 (size before relaxing)
  *fill*         0x00000000806a2879        0x3 
  .rodata.str1.4
-                0x00000000806a287c      0x270 update.o
-                                        0x28d (size before relaxing)
+                0x00000000806a287c      0x280 update.o
+                                        0x29d (size before relaxing)
  .rodata.Downloads
-                0x00000000806a2aec       0x70 update.o
+                0x00000000806a2afc       0x70 update.o
  .rodata.USB_OGC_OpenDevice.str1.4
-                0x00000000806a2b5c       0x27 usb.o
- *fill*         0x00000000806a2b83        0x1 
+                0x00000000806a2b6c       0x27 usb.o
+ *fill*         0x00000000806a2b93        0x1 
  .rodata.USB_OGC_GetDeviceList.str1.4
-                0x00000000806a2b84        0x6 usb.o
- *fill*         0x00000000806a2b8a       0x16 
+                0x00000000806a2b94        0x6 usb.o
+ *fill*         0x00000000806a2b9a        0x6 
  .rodata.__oh0_path
                 0x00000000806a2ba0        0xd usb.o
  *fill*         0x00000000806a2bad       0x13 
