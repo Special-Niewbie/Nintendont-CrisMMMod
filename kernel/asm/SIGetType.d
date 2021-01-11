@@ -1,0 +1,1 @@
+SIGetType.elf: SIGetType.S

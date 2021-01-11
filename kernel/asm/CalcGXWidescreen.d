@@ -1,0 +1,1 @@
+CalcGXWidescreen.elf: CalcGXWidescreen.S

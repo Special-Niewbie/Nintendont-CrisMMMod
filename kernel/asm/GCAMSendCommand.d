@@ -1,0 +1,1 @@
+GCAMSendCommand.elf: GCAMSendCommand.S
