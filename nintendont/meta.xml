@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<app version="1">
+	<name>Nintendont-CrisMMMod</name>
+	<coder>FIX94, crediar, AbdallahTerro, send0r, Mr. Mysterio</coder>
+	<modder>CrisMMMod</modder>
+	<version>7.1 CrisMMMod</version>
+	<release_date>20210110000000</release_date>
+	<short_description>Gamecube Loader</short_description>
+	<long_description>Commiters: GerbilSoft, JoostinOnline, GreyRogue, Howard, Cyan 
+
+ Project website: https://github.com/FIX94/Nintendont 
+
+Nintendont allows you to run GameCube games on a Wii or Wii U from an SD or HDD device.</long_description>
+	<long_description>CrisMMMod Project website: https://github.com/Special-Niewbie/Nintendont-CrisMMMod</long_description>
+	<no_ios_reload/>
+	<ahb_access/>
+</app>
