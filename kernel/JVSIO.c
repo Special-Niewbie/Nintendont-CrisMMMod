@@ -435,7 +435,7 @@ void JVSIOCommand( char *DataIn, char *DataOut )
 								if(analogPedals)
 									val = PadBuff[0].triggerLeft;
 								else {
-                                    					if(PadBuff[0].button & PAD_BUTTON_B val = 0xFF;
+                                    					if(PadBuff[0].button & PAD_BUTTON_B) val = 0xFF;
                                 				}
 							}
 							break;
