@@ -566,13 +566,12 @@ void Preview(const int menuNumber, const int selected) {
     bool exists = strlen(launch_dir);
     char path[MAXPATHLEN];
     char folder[6][8] = {
-        "A/", 
-		"B/",
+        "A/",
+	"B/",
         "C/",
         "D/",
-		"E/",
-        "F/"
-	      
+	"E/",
+        "F/"     
     };
     
     snprintf(path, sizeof(path), "%sPreview/%s%02d.png",
