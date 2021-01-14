@@ -1,1 +1,0 @@
-start.o: start.s

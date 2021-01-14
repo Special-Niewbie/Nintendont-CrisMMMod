@@ -1,1 +1,0 @@
-FakeAIInterrupt.elf: FakeAIInterrupt.S

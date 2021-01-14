@@ -1,1 +1,0 @@
-RestoreSettingsYAKRVB.elf: RestoreSettingsYAKRVB.S

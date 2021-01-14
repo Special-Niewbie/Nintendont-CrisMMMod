@@ -1,1 +1,0 @@
-syscalls.o: syscalls.s

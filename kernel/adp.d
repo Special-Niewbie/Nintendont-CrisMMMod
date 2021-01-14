@@ -1,1 +1,0 @@
-adp.o: adp.c

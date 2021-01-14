@@ -1,1 +1,0 @@
-GXInitTlutObj.elf: GXInitTlutObj.S

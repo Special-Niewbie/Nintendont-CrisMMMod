@@ -1,1 +1,0 @@
-SIInitStore.elf: SIInitStore.S

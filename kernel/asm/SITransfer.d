@@ -1,1 +1,0 @@
-SITransfer.elf: SITransfer.S

@@ -1,1 +1,0 @@
-CalcWidescreen.elf: CalcWidescreen.S

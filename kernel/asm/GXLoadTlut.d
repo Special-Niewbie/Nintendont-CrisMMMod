@@ -1,1 +1,0 @@
-GXLoadTlut.elf: GXLoadTlut.S

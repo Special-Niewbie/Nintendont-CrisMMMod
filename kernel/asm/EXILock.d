@@ -1,1 +1,0 @@
-EXILock.elf: EXILock.S

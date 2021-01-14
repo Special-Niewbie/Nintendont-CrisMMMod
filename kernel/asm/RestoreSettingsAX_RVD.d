@@ -1,1 +1,0 @@
-RestoreSettingsAX_RVD.elf: RestoreSettingsAX_RVD.S

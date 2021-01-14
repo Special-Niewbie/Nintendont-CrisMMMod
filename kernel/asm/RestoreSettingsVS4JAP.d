@@ -1,1 +1,0 @@
-RestoreSettingsVS4JAP.elf: RestoreSettingsVS4JAP.S

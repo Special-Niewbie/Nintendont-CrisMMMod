@@ -1,1 +1,0 @@
-ARStartDMA.elf: ARStartDMA.S
