@@ -580,7 +580,7 @@ Linker script and memory map
  *(.init)
                 0x0000000012f00000                . = ALIGN (0x4)
 
-.text           0x0000000012f00000    0x39a80
+.text           0x0000000012f00000    0x3a4b0
  *(.text*)
  .text          0x0000000012f00000       0x20 start.o
                 0x0000000012f00000                _start
@@ -634,1056 +634,1057 @@ Linker script and memory map
                 0x0000000012f01af4      0x258 GCAM.o
                 0x0000000012f01af4                GCAMUpdateRegisters
  .text.JVSIOCommand
-                0x0000000012f01d4c     0x1f28 JVSIO.o
+                0x0000000012f01d4c     0x2968 JVSIO.o
                 0x0000000012f01d4c                JVSIOCommand
  .text.JVSIOMessage
-                0x0000000012f03c74       0x2c JVSIOMessage.o
-                0x0000000012f03c74                JVSIOMessage
+                0x0000000012f046b4       0x2c JVSIOMessage.o
+                0x0000000012f046b4                JVSIOMessage
  .text.JVSIOstart
-                0x0000000012f03ca0      0x128 JVSIOMessage.o
-                0x0000000012f03ca0                JVSIOstart
+                0x0000000012f046e0      0x128 JVSIOMessage.o
+                0x0000000012f046e0                JVSIOstart
  .text.addDataBuffer
-                0x0000000012f03dc8       0xa8 JVSIOMessage.o
-                0x0000000012f03dc8                addDataBuffer
+                0x0000000012f04808       0xa8 JVSIOMessage.o
+                0x0000000012f04808                addDataBuffer
  .text.addDataString
-                0x0000000012f03e70       0xb0 JVSIOMessage.o
-                0x0000000012f03e70                addDataString
+                0x0000000012f048b0       0xb0 JVSIOMessage.o
+                0x0000000012f048b0                addDataString
  .text.addDataByte
-                0x0000000012f03f20       0x94 JVSIOMessage.o
-                0x0000000012f03f20                addDataByte
- .text.end      0x0000000012f03fb4       0xc4 JVSIOMessage.o
-                0x0000000012f03fb4                end
- .text.FSTInit  0x0000000012f04078      0x1c0 FST.o
-                0x0000000012f04078                FSTInit
+                0x0000000012f04960       0x94 JVSIOMessage.o
+                0x0000000012f04960                addDataByte
+ .text.end      0x0000000012f049f4       0xc4 JVSIOMessage.o
+                0x0000000012f049f4                end
+ .text.FSTInit  0x0000000012f04ab8      0x1c0 FST.o
+                0x0000000012f04ab8                FSTInit
  .text.FSTCleanup
-                0x0000000012f04238       0x38 FST.o
-                0x0000000012f04238                FSTCleanup
- .text.FSTRead  0x0000000012f04270      0x6ac FST.o
-                0x0000000012f04270                FSTRead
+                0x0000000012f04c78       0x38 FST.o
+                0x0000000012f04c78                FSTCleanup
+ .text.FSTRead  0x0000000012f04cb0      0x6ac FST.o
+                0x0000000012f04cb0                FSTRead
  .text.DIRegister
-                0x0000000012f0491c       0x44 DI.o
-                0x0000000012f0491c                DIRegister
+                0x0000000012f0535c       0x44 DI.o
+                0x0000000012f0535c                DIRegister
  .text.DIUnregister
-                0x0000000012f04960       0x38 DI.o
-                0x0000000012f04960                DIUnregister
+                0x0000000012f053a0       0x38 DI.o
+                0x0000000012f053a0                DIUnregister
  .text.DiscCheckAsync
-                0x0000000012f04998       0x48 DI.o
-                0x0000000012f04998                DiscCheckAsync
+                0x0000000012f053d8       0x48 DI.o
+                0x0000000012f053d8                DiscCheckAsync
  .text.DiscReadSync
-                0x0000000012f049e0       0xf4 DI.o
-                0x0000000012f049e0                DiscReadSync
- .text.DIinit   0x0000000012f04ad4      0x360 DI.o
-                0x0000000012f04ad4                DIinit
+                0x0000000012f05420       0xf4 DI.o
+                0x0000000012f05420                DiscReadSync
+ .text.DIinit   0x0000000012f05514      0x360 DI.o
+                0x0000000012f05514                DIinit
  .text.DISetDIMMVersion
-                0x0000000012f04e34       0x10 DI.o
-                0x0000000012f04e34                DISetDIMMVersion
+                0x0000000012f05874       0x10 DI.o
+                0x0000000012f05874                DISetDIMMVersion
  .text.DIChangeDisc
-                0x0000000012f04e44       0xd0 DI.o
-                0x0000000012f04e44                DIChangeDisc
+                0x0000000012f05884       0xd0 DI.o
+                0x0000000012f05884                DIChangeDisc
  .text.DIInterrupt
-                0x0000000012f04f14      0x180 DI.o
-                0x0000000012f04f14                DIInterrupt
+                0x0000000012f05954      0x180 DI.o
+                0x0000000012f05954                DIInterrupt
  .text.DIUpdateRegisters
-                0x0000000012f05094      0xb4c DI.o
-                0x0000000012f05094                DIUpdateRegisters
+                0x0000000012f05ad4      0xb4c DI.o
+                0x0000000012f05ad4                DIUpdateRegisters
  .text.DIReadThread
-                0x0000000012f05be0      0x3c0 DI.o
-                0x0000000012f05be0                DIReadThread
+                0x0000000012f06620      0x3c0 DI.o
+                0x0000000012f06620                DIReadThread
  .text.DIFinishAsync
-                0x0000000012f05fa0       0x54 DI.o
-                0x0000000012f05fa0                DIFinishAsync
+                0x0000000012f069e0       0x54 DI.o
+                0x0000000012f069e0                DIFinishAsync
  .text.RealDI_Thread
-                0x0000000012f05ff4       0x48 RealDI.o
-                0x0000000012f05ff4                RealDI_Thread
+                0x0000000012f06a34       0x48 RealDI.o
+                0x0000000012f06a34                RealDI_Thread
  .text.RealDI_Update
-                0x0000000012f0603c       0xa8 RealDI.o
-                0x0000000012f0603c                RealDI_Update
+                0x0000000012f06a7c       0xa8 RealDI.o
+                0x0000000012f06a7c                RealDI_Update
  .text.RealDI_NewDisc
-                0x0000000012f060e4      0x16c RealDI.o
-                0x0000000012f060e4                RealDI_NewDisc
+                0x0000000012f06b24      0x16c RealDI.o
+                0x0000000012f06b24                RealDI_NewDisc
  .text.ReadRealDisc
-                0x0000000012f06250      0x374 RealDI.o
-                0x0000000012f06250                ReadRealDisc
+                0x0000000012f06c90      0x374 RealDI.o
+                0x0000000012f06c90                ReadRealDisc
  .text.RealDI_Identify
-                0x0000000012f065c4      0x168 RealDI.o
-                0x0000000012f065c4                RealDI_Identify
+                0x0000000012f07004      0x168 RealDI.o
+                0x0000000012f07004                RealDI_Identify
  .text.RealDI_Init
-                0x0000000012f0672c      0x144 RealDI.o
-                0x0000000012f0672c                RealDI_Init
+                0x0000000012f0716c      0x144 RealDI.o
+                0x0000000012f0716c                RealDI_Init
  .text.GameNeedsHook
-                0x0000000012f06870      0x504 Patch.o
+                0x0000000012f072b0      0x504 Patch.o
  .text.printpatchfound
-                0x0000000012f06d74       0x2c Patch.o
+                0x0000000012f077b4       0x2c Patch.o
  .text.PatchAX_Dsp
-                0x0000000012f06da0      0x4a0 Patch.o
- .text.PatchB   0x0000000012f07240       0x14 Patch.o
-                0x0000000012f07240                PatchB
- .text.PatchBL  0x0000000012f07254       0x14 Patch.o
-                0x0000000012f07254                PatchBL
+                0x0000000012f077e0      0x4a0 Patch.o
+ .text.PatchB   0x0000000012f07c80       0x14 Patch.o
+                0x0000000012f07c80                PatchB
+ .text.PatchBL  0x0000000012f07c94       0x14 Patch.o
+                0x0000000012f07c94                PatchBL
  .text.PatchCopy
-                0x0000000012f07268       0x2c Patch.o
-                0x0000000012f07268                PatchCopy
+                0x0000000012f07ca8       0x2c Patch.o
+                0x0000000012f07ca8                PatchCopy
  .text.PatchFuncInterface
-                0x0000000012f07294      0x330 Patch.o
-                0x0000000012f07294                PatchFuncInterface
+                0x0000000012f07cd4      0x330 Patch.o
+                0x0000000012f07cd4                PatchFuncInterface
  .text.PatchPatchBuffer
-                0x0000000012f075c4      0x10c Patch.o
-                0x0000000012f075c4                PatchPatchBuffer
+                0x0000000012f08004      0x10c Patch.o
+                0x0000000012f08004                PatchPatchBuffer
  .text.MPattern
-                0x0000000012f076d0      0x1e8 Patch.o
-                0x0000000012f076d0                MPattern
+                0x0000000012f08110      0x1e8 Patch.o
+                0x0000000012f08110                MPattern
  .text.PatchInit
-                0x0000000012f078b8       0x48 Patch.o
-                0x0000000012f078b8                PatchInit
- .text.SetIPL   0x0000000012f07900       0x14 Patch.o
-                0x0000000012f07900                SetIPL
+                0x0000000012f082f8       0x48 Patch.o
+                0x0000000012f082f8                PatchInit
+ .text.SetIPL   0x0000000012f08340       0x14 Patch.o
+                0x0000000012f08340                SetIPL
  .text.SetIPL_TRI
-                0x0000000012f07914       0x24 Patch.o
-                0x0000000012f07914                SetIPL_TRI
+                0x0000000012f08354       0x24 Patch.o
+                0x0000000012f08354                SetIPL_TRI
  .text.Check_Cheats
-                0x0000000012f07938      0x1a8 Patch.o
-                0x0000000012f07938                Check_Cheats
+                0x0000000012f08378      0x1a8 Patch.o
+                0x0000000012f08378                Check_Cheats
  .text.DoPatches
-                0x0000000012f07ae0     0xa3e0 Patch.o
-                0x0000000012f07ae0                DoPatches
+                0x0000000012f08520     0xa3e0 Patch.o
+                0x0000000012f08520                DoPatches
  .text.PatchGame
-                0x0000000012f11ec0      0x54c Patch.o
-                0x0000000012f11ec0                PatchGame
+                0x0000000012f12900      0x54c Patch.o
+                0x0000000012f12900                PatchGame
  .text.PatchTimers
-                0x0000000012f1240c      0xf24 PatchTimers.o
-                0x0000000012f1240c                PatchTimers
+                0x0000000012f12e4c      0xf24 PatchTimers.o
+                0x0000000012f12e4c                PatchTimers
  .text.PatchStaticTimers
-                0x0000000012f13330      0x338 PatchTimers.o
-                0x0000000012f13330                PatchStaticTimers
- .text.TRIInit  0x0000000012f13668       0x28 TRI.o
-                0x0000000012f13668                TRIInit
+                0x0000000012f13d70      0x338 PatchTimers.o
+                0x0000000012f13d70                PatchStaticTimers
+ .text.TRIInit  0x0000000012f140a8       0x40 TRI.o
+                0x0000000012f140a8                TRIInit
  .text.TRIReset
-                0x0000000012f13690       0x70 TRI.o
-                0x0000000012f13690                TRIReset
+                0x0000000012f140e8       0x70 TRI.o
+                0x0000000012f140e8                TRIReset
  .text.TRIBackupSettings
-                0x0000000012f13700      0x154 TRI.o
-                0x0000000012f13700                TRIBackupSettings
+                0x0000000012f14158      0x154 TRI.o
+                0x0000000012f14158                TRIBackupSettings
  .text.TRIReadSettings
-                0x0000000012f13854      0x104 TRI.o
-                0x0000000012f13854                TRIReadSettings
+                0x0000000012f142ac      0x104 TRI.o
+                0x0000000012f142ac                TRIReadSettings
  .text.TRISetupGames
-                0x0000000012f13958     0x1754 TRI.o
-                0x0000000012f13958                TRISetupGames
+                0x0000000012f143b0     0x1724 TRI.o
+                0x0000000012f143b0                TRISetupGames
  .text.PatchWideMulti
-                0x0000000012f150ac       0x60 PatchWidescreen.o
-                0x0000000012f150ac                PatchWideMulti
+                0x0000000012f15ad4       0x60 PatchWidescreen.o
+                0x0000000012f15ad4                PatchWideMulti
  .text.PatchWidescreen
-                0x0000000012f1510c      0x200 PatchWidescreen.o
-                0x0000000012f1510c                PatchWidescreen
+                0x0000000012f15b34      0x200 PatchWidescreen.o
+                0x0000000012f15b34                PatchWidescreen
  .text.PatchStaticWidescreen
-                0x0000000012f1530c     0x1b58 PatchWidescreen.o
-                0x0000000012f1530c                PatchStaticWidescreen
- .text.ISOInit  0x0000000012f16e64      0xb3c ISO.o
-                0x0000000012f16e64                ISOInit
+                0x0000000012f15d34     0x1b58 PatchWidescreen.o
+                0x0000000012f15d34                PatchStaticWidescreen
+ .text.ISOInit  0x0000000012f1788c      0xb3c ISO.o
+                0x0000000012f1788c                ISOInit
  .text.ISOClose
-                0x0000000012f179a0       0x68 ISO.o
-                0x0000000012f179a0                ISOClose
+                0x0000000012f183c8       0x68 ISO.o
+                0x0000000012f183c8                ISOClose
  .text.ISOSetupCache
-                0x0000000012f17a08       0xf0 ISO.o
-                0x0000000012f17a08                ISOSetupCache
- .text.ISOSeek  0x0000000012f17af8       0xfc ISO.o
-                0x0000000012f17af8                ISOSeek
- .text.ISORead  0x0000000012f17bf4      0x8cc ISO.o
-                0x0000000012f17bf4                ISORead
+                0x0000000012f18430       0xf0 ISO.o
+                0x0000000012f18430                ISOSetupCache
+ .text.ISOSeek  0x0000000012f18520       0xfc ISO.o
+                0x0000000012f18520                ISOSeek
+ .text.ISORead  0x0000000012f1861c      0x8cc ISO.o
+                0x0000000012f1861c                ISORead
  .text.WritePCM48to32
-                0x0000000012f184c0      0x104 Stream.o
-                0x0000000012f184c0                WritePCM48to32
+                0x0000000012f18ee8      0x104 Stream.o
+                0x0000000012f18ee8                WritePCM48to32
  .text.WritePCM48
-                0x0000000012f185c4       0x60 Stream.o
-                0x0000000012f185c4                WritePCM48
+                0x0000000012f18fec       0x60 Stream.o
+                0x0000000012f18fec                WritePCM48
  .text.StreamInit
-                0x0000000012f18624       0x94 Stream.o
-                0x0000000012f18624                StreamInit
+                0x0000000012f1904c       0x94 Stream.o
+                0x0000000012f1904c                StreamInit
  .text.StreamUpdateRegisters
-                0x0000000012f186b8      0x270 Stream.o
-                0x0000000012f186b8                StreamUpdateRegisters
+                0x0000000012f190e0      0x270 Stream.o
+                0x0000000012f190e0                StreamUpdateRegisters
  .text.StreamStartStream
-                0x0000000012f18928      0x2d0 Stream.o
-                0x0000000012f18928                StreamStartStream
+                0x0000000012f19350      0x2d0 Stream.o
+                0x0000000012f19350                StreamStartStream
  .text.StreamEndStream
-                0x0000000012f18bf8       0x24 Stream.o
-                0x0000000012f18bf8                StreamEndStream
+                0x0000000012f19620       0x24 Stream.o
+                0x0000000012f19620                StreamEndStream
  .text.ADPdecodebuffer
-                0x0000000012f18c1c      0x264 adp.o
-                0x0000000012f18c1c                ADPdecodebuffer
+                0x0000000012f19644      0x264 adp.o
+                0x0000000012f19644                ADPdecodebuffer
  .text.EXIDeviceMemoryCard
-                0x0000000012f18e80      0x2f4 EXI.o
+                0x0000000012f198a8      0x2f4 EXI.o
  .text.EXIDevice_ROM_RTC_SRAM_UART.isra.0
-                0x0000000012f19174      0x204 EXI.o
- .text.EXIInit  0x0000000012f19378       0xac EXI.o
-                0x0000000012f19378                EXIInit
+                0x0000000012f19b9c      0x204 EXI.o
+ .text.EXIInit  0x0000000012f19da0       0xac EXI.o
+                0x0000000012f19da0                EXIInit
  .text.EXISetTimings
-                0x0000000012f19424       0xc0 EXI.o
-                0x0000000012f19424                EXISetTimings
+                0x0000000012f19e4c       0xc0 EXI.o
+                0x0000000012f19e4c                EXISetTimings
  .text.EXICheckTimer
-                0x0000000012f194e4       0x40 EXI.o
-                0x0000000012f194e4                EXICheckTimer
+                0x0000000012f19f0c       0x40 EXI.o
+                0x0000000012f19f0c                EXICheckTimer
  .text.EXIInterrupt
-                0x0000000012f19524       0x8c EXI.o
-                0x0000000012f19524                EXIInterrupt
+                0x0000000012f19f4c       0x8c EXI.o
+                0x0000000012f19f4c                EXIInterrupt
  .text.EXIShutdown
-                0x0000000012f195b0       0x50 EXI.o
-                0x0000000012f195b0                EXIShutdown
+                0x0000000012f19fd8       0x50 EXI.o
+                0x0000000012f19fd8                EXIShutdown
  .text.EXIDeviceSP1
-                0x0000000012f19600      0x380 EXI.o
-                0x0000000012f19600                EXIDeviceSP1
+                0x0000000012f1a028      0x380 EXI.o
+                0x0000000012f1a028                EXIDeviceSP1
  .text.EXIUpdateRegistersNEW
-                0x0000000012f19980      0x22c EXI.o
-                0x0000000012f19980                EXIUpdateRegistersNEW
+                0x0000000012f1a3a8      0x22c EXI.o
+                0x0000000012f1a3a8                EXIUpdateRegistersNEW
  .text.EXIPrepareTRIGameStart
-                0x0000000012f19bac       0xb4 EXI.o
-                0x0000000012f19bac                EXIPrepareTRIGameStart
+                0x0000000012f1a5d4       0xb4 EXI.o
+                0x0000000012f1a5d4                EXIPrepareTRIGameStart
  .text.SRAM_Init
-                0x0000000012f19c60      0x194 SRAM.o
-                0x0000000012f19c60                SRAM_Init
+                0x0000000012f1a688      0x194 SRAM.o
+                0x0000000012f1a688                SRAM_Init
  .text.GCNCard_IsEnabled
-                0x0000000012f19df4       0x30 GCNCard.o
-                0x0000000012f19df4                GCNCard_IsEnabled
+                0x0000000012f1a81c       0x30 GCNCard.o
+                0x0000000012f1a81c                GCNCard_IsEnabled
  .text.GCNCard_Load
-                0x0000000012f19e24      0x374 GCNCard.o
-                0x0000000012f19e24                GCNCard_Load
+                0x0000000012f1a84c      0x374 GCNCard.o
+                0x0000000012f1a84c                GCNCard_Load
  .text.GCNCard_GetTotalSize
-                0x0000000012f1a198       0x18 GCNCard.o
-                0x0000000012f1a198                GCNCard_GetTotalSize
+                0x0000000012f1abc0       0x18 GCNCard.o
+                0x0000000012f1abc0                GCNCard_GetTotalSize
  .text.GCNCard_CheckChanges
-                0x0000000012f1a1b0       0x34 GCNCard.o
-                0x0000000012f1a1b0                GCNCard_CheckChanges
+                0x0000000012f1abd8       0x34 GCNCard.o
+                0x0000000012f1abd8                GCNCard_CheckChanges
  .text.GCNCard_Save
-                0x0000000012f1a1e4      0x144 GCNCard.o
-                0x0000000012f1a1e4                GCNCard_Save
+                0x0000000012f1ac0c      0x144 GCNCard.o
+                0x0000000012f1ac0c                GCNCard_Save
  .text.GCNCard_ClearWriteCount
-                0x0000000012f1a328       0x2c GCNCard.o
-                0x0000000012f1a328                GCNCard_ClearWriteCount
+                0x0000000012f1ad50       0x2c GCNCard.o
+                0x0000000012f1ad50                GCNCard_ClearWriteCount
  .text.GCNCard_SetBlockOffset
-                0x0000000012f1a354       0x54 GCNCard.o
-                0x0000000012f1a354                GCNCard_SetBlockOffset
+                0x0000000012f1ad7c       0x54 GCNCard.o
+                0x0000000012f1ad7c                GCNCard_SetBlockOffset
  .text.GCNCard_Write
-                0x0000000012f1a3a8      0x100 GCNCard.o
-                0x0000000012f1a3a8                GCNCard_Write
+                0x0000000012f1add0      0x100 GCNCard.o
+                0x0000000012f1add0                GCNCard_Write
  .text.GCNCard_Read
-                0x0000000012f1a4a8       0x6c GCNCard.o
-                0x0000000012f1a4a8                GCNCard_Read
+                0x0000000012f1aed0       0x6c GCNCard.o
+                0x0000000012f1aed0                GCNCard_Read
  .text.GCNCard_GetCode
-                0x0000000012f1a514       0x30 GCNCard.o
-                0x0000000012f1a514                GCNCard_GetCode
+                0x0000000012f1af3c       0x30 GCNCard.o
+                0x0000000012f1af3c                GCNCard_GetCode
  .text.GCNCard_SetBlockOffset_Erase
-                0x0000000012f1a544       0x48 GCNCard.o
-                0x0000000012f1a544                GCNCard_SetBlockOffset_Erase
- .text.SIInit   0x0000000012f1a58c       0x88 SI.o
-                0x0000000012f1a58c                SIInit
+                0x0000000012f1af6c       0x48 GCNCard.o
+                0x0000000012f1af6c                GCNCard_SetBlockOffset_Erase
+ .text.SIInit   0x0000000012f1afb4       0x88 SI.o
+                0x0000000012f1afb4                SIInit
  .text.SIInterrupt
-                0x0000000012f1a614       0xd8 SI.o
-                0x0000000012f1a614                SIInterrupt
+                0x0000000012f1b03c       0xd8 SI.o
+                0x0000000012f1b03c                SIInterrupt
  .text.SIUpdateRegisters
-                0x0000000012f1a6ec      0x244 SI.o
-                0x0000000012f1a6ec                SIUpdateRegisters
+                0x0000000012f1b114      0x244 SI.o
+                0x0000000012f1b114                SIUpdateRegisters
  .text.HIDAlarm
-                0x0000000012f1a930       0xa8 HID.o
+                0x0000000012f1b358       0xa8 HID.o
  .text.HIDCTRLRumble
-                0x0000000012f1a9d8       0xd8 HID.o
-                0x0000000012f1a9d8                HIDCTRLRumble
+                0x0000000012f1b400       0xd8 HID.o
+                0x0000000012f1b400                HIDCTRLRumble
  .text.HIDIRQRumble
-                0x0000000012f1aab0       0xec HID.o
-                0x0000000012f1aab0                HIDIRQRumble
+                0x0000000012f1b4d8       0xec HID.o
+                0x0000000012f1b4d8                HIDIRQRumble
  .text.HIDGCRumble
-                0x0000000012f1ab9c       0xd8 HID.o
-                0x0000000012f1ab9c                HIDGCRumble
+                0x0000000012f1b5c4       0xd8 HID.o
+                0x0000000012f1b5c4                HIDGCRumble
  .text.HIDPS3Rumble
-                0x0000000012f1ac74      0x11c HID.o
-                0x0000000012f1ac74                HIDPS3Rumble
+                0x0000000012f1b69c      0x11c HID.o
+                0x0000000012f1b69c                HIDPS3Rumble
  .text.HIDIRQRead
-                0x0000000012f1ad90      0x158 HID.o
-                0x0000000012f1ad90                HIDIRQRead
+                0x0000000012f1b7b8      0x158 HID.o
+                0x0000000012f1b7b8                HIDIRQRead
  .text.HIDPS3Read
-                0x0000000012f1aee8      0x184 HID.o
-                0x0000000012f1aee8                HIDPS3Read
- .text.HIDInit  0x0000000012f1b06c      0x20c HID.o
-                0x0000000012f1b06c                HIDInit
+                0x0000000012f1b910      0x184 HID.o
+                0x0000000012f1b910                HIDPS3Read
+ .text.HIDInit  0x0000000012f1ba94      0x20c HID.o
+                0x0000000012f1ba94                HIDInit
  .text.HIDClose
-                0x0000000012f1b278       0x20 HID.o
-                0x0000000012f1b278                HIDClose
+                0x0000000012f1bca0       0x20 HID.o
+                0x0000000012f1bca0                HIDClose
  .text.HIDGCInit
-                0x0000000012f1b298       0xc0 HID.o
-                0x0000000012f1b298                HIDGCInit
+                0x0000000012f1bcc0       0xc0 HID.o
+                0x0000000012f1bcc0                HIDGCInit
  .text.HIDPS3Init
-                0x0000000012f1b358       0xbc HID.o
-                0x0000000012f1b358                HIDPS3Init
+                0x0000000012f1bd80       0xbc HID.o
+                0x0000000012f1bd80                HIDPS3Init
  .text.ConfigGetValue
-                0x0000000012f1b414      0x1c0 HID.o
-                0x0000000012f1b414                ConfigGetValue
+                0x0000000012f1be3c      0x1c0 HID.o
+                0x0000000012f1be3c                ConfigGetValue
  .text.ConfigGetDecValue
-                0x0000000012f1b5d4      0x12c HID.o
-                0x0000000012f1b5d4                ConfigGetDecValue
- .text.HIDOpen  0x0000000012f1b700     0x2750 HID.o
-                0x0000000012f1b700                HIDOpen
+                0x0000000012f1bffc      0x12c HID.o
+                0x0000000012f1bffc                ConfigGetDecValue
+ .text.HIDOpen  0x0000000012f1c128     0x2750 HID.o
+                0x0000000012f1c128                HIDOpen
  .text.HIDUpdateRegisters
-                0x0000000012f1de50      0x328 HID.o
-                0x0000000012f1de50                HIDUpdateRegisters
+                0x0000000012f1e878      0x328 HID.o
+                0x0000000012f1e878                HIDUpdateRegisters
  .text.disk_read_sd
-                0x0000000012f1e178       0xbc diskio.o
-                0x0000000012f1e178                disk_read_sd
+                0x0000000012f1eba0       0xbc diskio.o
+                0x0000000012f1eba0                disk_read_sd
  .text.disk_write_sd
-                0x0000000012f1e234       0xa0 diskio.o
-                0x0000000012f1e234                disk_write_sd
+                0x0000000012f1ec5c       0xa0 diskio.o
+                0x0000000012f1ec5c                disk_write_sd
  .text.disk_read_usb
-                0x0000000012f1e2d4       0xbc diskio.o
-                0x0000000012f1e2d4                disk_read_usb
+                0x0000000012f1ecfc       0xbc diskio.o
+                0x0000000012f1ecfc                disk_read_usb
  .text.disk_write_usb
-                0x0000000012f1e390       0xbc diskio.o
-                0x0000000012f1e390                disk_write_usb
+                0x0000000012f1edb8       0xbc diskio.o
+                0x0000000012f1edb8                disk_write_usb
  .text.disk_status
-                0x0000000012f1e44c        0x8 diskio.o
-                0x0000000012f1e44c                disk_status
+                0x0000000012f1ee74        0x8 diskio.o
+                0x0000000012f1ee74                disk_status
  .text.disk_initialize
-                0x0000000012f1e454        0x8 diskio.o
-                0x0000000012f1e454                disk_initialize
+                0x0000000012f1ee7c        0x8 diskio.o
+                0x0000000012f1ee7c                disk_initialize
  .text.disk_ioctl
-                0x0000000012f1e45c       0x1c diskio.o
-                0x0000000012f1e45c                disk_ioctl
+                0x0000000012f1ee84       0x1c diskio.o
+                0x0000000012f1ee84                disk_ioctl
  .text.get_fattime
-                0x0000000012f1e478       0x50 diskio.o
-                0x0000000012f1e478                get_fattime
+                0x0000000012f1eea0       0x50 diskio.o
+                0x0000000012f1eea0                get_fattime
  .text.SetDiskFunctions
-                0x0000000012f1e4c8       0x48 diskio.o
-                0x0000000012f1e4c8                SetDiskFunctions
+                0x0000000012f1eef0       0x48 diskio.o
+                0x0000000012f1eef0                SetDiskFunctions
  .text.ConfigSyncBeforeRead
-                0x0000000012f1e510       0x10 Config.o
-                0x0000000012f1e510                ConfigSyncBeforeRead
+                0x0000000012f1ef38       0x10 Config.o
+                0x0000000012f1ef38                ConfigSyncBeforeRead
  .text.ConfigInit
-                0x0000000012f1e520      0x120 Config.o
-                0x0000000012f1e520                ConfigInit
- .text          0x0000000012f1e640      0x134 utils_asm.o
-                0x0000000012f1e640                memcpy
-                0x0000000012f1e71c                memset32
-                0x0000000012f1e734                memset16
-                0x0000000012f1e74c                memset8
-                0x0000000012f1e764                read64
-                0x0000000012f1e76c                write64
- .text._main    0x0000000012f1e774      0xebc main.o
-                0x0000000012f1e774                _main
- .text          0x0000000012f1f630      0x180 syscalls.o
-                0x0000000012f1f630                thread_create
-                0x0000000012f1f638                syscall_02
-                0x0000000012f1f640                syscall_03
-                0x0000000012f1f648                syscall_04
-                0x0000000012f1f650                syscall_05
-                0x0000000012f1f658                syscall_07
-                0x0000000012f1f660                syscall_09
-                0x0000000012f1f668                syscall_0a
-                0x0000000012f1f670                syscall_0b
-                0x0000000012f1f678                syscall_0d
-                0x0000000012f1f680                syscall_0e
-                0x0000000012f1f688                TimerCreate
-                0x0000000012f1f690                TimerDestroy
-                0x0000000012f1f698                heap_create
-                0x0000000012f1f6a0                heap_destroy
-                0x0000000012f1f6a8                syscall_18
-                0x0000000012f1f6b0                heap_alloc_aligned
-                0x0000000012f1f6b8                syscall_1a
-                0x0000000012f1f6c0                syscall_1b
-                0x0000000012f1f6c8                IOS_Open
-                0x0000000012f1f6d0                IOS_Close
-                0x0000000012f1f6d8                IOS_Read
-                0x0000000012f1f6e0                IOS_Write
-                0x0000000012f1f6e8                IOS_Seek
-                0x0000000012f1f6f0                IOS_Ioctl
-                0x0000000012f1f6f8                IOS_Ioctlv
-                0x0000000012f1f700                IOS_IoctlAsync
-                0x0000000012f1f708                IOS_IoctlvAsync
-                0x0000000012f1f710                syscall_2a
-                0x0000000012f1f718                syscall_2b
-                0x0000000012f1f720                syscall_2d
-                0x0000000012f1f728                syscall_2f
-                0x0000000012f1f730                syscall_30
-                0x0000000012f1f738                syscall_34
-                0x0000000012f1f740                sync_before_read
-                0x0000000012f1f748                sync_after_write
-                0x0000000012f1f750                syscall_41
-                0x0000000012f1f758                syscall_42
-                0x0000000012f1f760                syscall_43
-                0x0000000012f1f768                syscall_4c
-                0x0000000012f1f770                syscall_4d
-                0x0000000012f1f778                syscall_54
-                0x0000000012f1f780                VirtualToPhysical
-                0x0000000012f1f788                syscall_59
-                0x0000000012f1f790                syscall_5a
-                0x0000000012f1f798                sha1
-                0x0000000012f1f7a0                svc_write
+                0x0000000012f1ef48      0x120 Config.o
+                0x0000000012f1ef48                ConfigInit
+ .text          0x0000000012f1f068      0x134 utils_asm.o
+                0x0000000012f1f068                memcpy
+                0x0000000012f1f144                memset32
+                0x0000000012f1f15c                memset16
+                0x0000000012f1f174                memset8
+                0x0000000012f1f18c                read64
+                0x0000000012f1f194                write64
+ .text._main    0x0000000012f1f19c      0xebc main.o
+                0x0000000012f1f19c                _main
+ *fill*         0x0000000012f20058        0x8 
+ .text          0x0000000012f20060      0x180 syscalls.o
+                0x0000000012f20060                thread_create
+                0x0000000012f20068                syscall_02
+                0x0000000012f20070                syscall_03
+                0x0000000012f20078                syscall_04
+                0x0000000012f20080                syscall_05
+                0x0000000012f20088                syscall_07
+                0x0000000012f20090                syscall_09
+                0x0000000012f20098                syscall_0a
+                0x0000000012f200a0                syscall_0b
+                0x0000000012f200a8                syscall_0d
+                0x0000000012f200b0                syscall_0e
+                0x0000000012f200b8                TimerCreate
+                0x0000000012f200c0                TimerDestroy
+                0x0000000012f200c8                heap_create
+                0x0000000012f200d0                heap_destroy
+                0x0000000012f200d8                syscall_18
+                0x0000000012f200e0                heap_alloc_aligned
+                0x0000000012f200e8                syscall_1a
+                0x0000000012f200f0                syscall_1b
+                0x0000000012f200f8                IOS_Open
+                0x0000000012f20100                IOS_Close
+                0x0000000012f20108                IOS_Read
+                0x0000000012f20110                IOS_Write
+                0x0000000012f20118                IOS_Seek
+                0x0000000012f20120                IOS_Ioctl
+                0x0000000012f20128                IOS_Ioctlv
+                0x0000000012f20130                IOS_IoctlAsync
+                0x0000000012f20138                IOS_IoctlvAsync
+                0x0000000012f20140                syscall_2a
+                0x0000000012f20148                syscall_2b
+                0x0000000012f20150                syscall_2d
+                0x0000000012f20158                syscall_2f
+                0x0000000012f20160                syscall_30
+                0x0000000012f20168                syscall_34
+                0x0000000012f20170                sync_before_read
+                0x0000000012f20178                sync_after_write
+                0x0000000012f20180                syscall_41
+                0x0000000012f20188                syscall_42
+                0x0000000012f20190                syscall_43
+                0x0000000012f20198                syscall_4c
+                0x0000000012f201a0                syscall_4d
+                0x0000000012f201a8                syscall_54
+                0x0000000012f201b0                VirtualToPhysical
+                0x0000000012f201b8                syscall_59
+                0x0000000012f201c0                syscall_5a
+                0x0000000012f201c8                sha1
+                0x0000000012f201d0                svc_write
  .text.ReadSpeed_Init
-                0x0000000012f1f7b0       0xc0 ReadSpeed.o
-                0x0000000012f1f7b0                ReadSpeed_Init
+                0x0000000012f201e0       0xc0 ReadSpeed.o
+                0x0000000012f201e0                ReadSpeed_Init
  .text.ReadSpeed_Start
-                0x0000000012f1f870       0x30 ReadSpeed.o
-                0x0000000012f1f870                ReadSpeed_Start
+                0x0000000012f202a0       0x30 ReadSpeed.o
+                0x0000000012f202a0                ReadSpeed_Start
  .text.ReadSpeed_Motor
-                0x0000000012f1f8a0       0x48 ReadSpeed.o
-                0x0000000012f1f8a0                ReadSpeed_Motor
+                0x0000000012f202d0       0x48 ReadSpeed.o
+                0x0000000012f202d0                ReadSpeed_Motor
  .text.ReadSpeed_Setup
-                0x0000000012f1f8e8      0x1e8 ReadSpeed.o
-                0x0000000012f1f8e8                ReadSpeed_Setup
+                0x0000000012f20318      0x1e8 ReadSpeed.o
+                0x0000000012f20318                ReadSpeed_Setup
  .text.ReadSpeed_End
-                0x0000000012f1fad0       0xac ReadSpeed.o
-                0x0000000012f1fad0                ReadSpeed_End
- .text.number   0x0000000012f1fb7c      0x2a8 vsprintf.o
+                0x0000000012f20500       0xac ReadSpeed.o
+                0x0000000012f20500                ReadSpeed_End
+ .text.number   0x0000000012f205ac      0x2a8 vsprintf.o
  .text._vsprintf
-                0x0000000012f1fe24      0x80c vsprintf.o
-                0x0000000012f1fe24                _vsprintf
+                0x0000000012f20854      0x80c vsprintf.o
+                0x0000000012f20854                _vsprintf
  .text.dbgprintf
-                0x0000000012f20630      0x178 vsprintf.o
-                0x0000000012f20630                dbgprintf
+                0x0000000012f21060      0x178 vsprintf.o
+                0x0000000012f21060                dbgprintf
  .text.closeLog
-                0x0000000012f207a8       0x28 vsprintf.o
-                0x0000000012f207a8                closeLog
+                0x0000000012f211d8       0x28 vsprintf.o
+                0x0000000012f211d8                closeLog
  .text.CheckOSReport
-                0x0000000012f207d0       0x84 vsprintf.o
-                0x0000000012f207d0                CheckOSReport
+                0x0000000012f21200       0x84 vsprintf.o
+                0x0000000012f21200                CheckOSReport
  .text._sprintf.constprop.0
-                0x0000000012f20854       0x30 string.o
+                0x0000000012f21284       0x30 string.o
  .text._sprintf.constprop.1
-                0x0000000012f20884       0x30 string.o
+                0x0000000012f212b4       0x30 string.o
  .text._sprintf.constprop.2
-                0x0000000012f208b4       0x30 string.o
+                0x0000000012f212e4       0x30 string.o
  .text._sprintf.constprop.3
-                0x0000000012f208e4       0x30 string.o
+                0x0000000012f21314       0x30 string.o
  .text._sprintf.constprop.4
-                0x0000000012f20914       0x30 string.o
+                0x0000000012f21344       0x30 string.o
  .text._sprintf.constprop.5
-                0x0000000012f20944       0x30 string.o
- .text.memcmp   0x0000000012f20974       0x50 string.o
-                0x0000000012f20974                memcmp
- .text.memset   0x0000000012f209c4       0x2c string.o
-                0x0000000012f209c4                memset
+                0x0000000012f21374       0x30 string.o
+ .text.memcmp   0x0000000012f213a4       0x50 string.o
+                0x0000000012f213a4                memcmp
+ .text.memset   0x0000000012f213f4       0x2c string.o
+                0x0000000012f213f4                memset
  .text._sprintf
-                0x0000000012f209f0       0x2c string.o
-                0x0000000012f209f0                _sprintf
- .text.hexdump  0x0000000012f20a1c      0x150 string.o
-                0x0000000012f20a1c                hexdump
+                0x0000000012f21420       0x2c string.o
+                0x0000000012f21420                _sprintf
+ .text.hexdump  0x0000000012f2144c      0x150 string.o
+                0x0000000012f2144c                hexdump
  .text.prs_decompress
-                0x0000000012f20b6c      0x240 prs.o
-                0x0000000012f20b6c                prs_decompress
+                0x0000000012f2159c      0x240 prs.o
+                0x0000000012f2159c                prs_decompress
  .text.prs_decompress_size
-                0x0000000012f20dac      0x144 prs.o
-                0x0000000012f20dac                prs_decompress_size
+                0x0000000012f217dc      0x144 prs.o
+                0x0000000012f217dc                prs_decompress_size
  .text.__sdio_sendcommand
-                0x0000000012f20ef0      0x114 SDI.o
+                0x0000000012f21920      0x114 SDI.o
  .text.__sdio_sendcommand.constprop.0
-                0x0000000012f21004       0xfc SDI.o
+                0x0000000012f21a34       0xfc SDI.o
  .text.__sdio_waithcr
-                0x0000000012f21100      0x194 SDI.o
+                0x0000000012f21b30      0x194 SDI.o
  .text.__sd0_deselect.isra.0
-                0x0000000012f21294       0xc8 SDI.o
+                0x0000000012f21cc4       0xc8 SDI.o
  .text.SDHCInit
-                0x0000000012f2135c      0xb74 SDI.o
-                0x0000000012f2135c                SDHCInit
+                0x0000000012f21d8c      0xb74 SDI.o
+                0x0000000012f21d8c                SDHCInit
  .text.SDHCShutdown
-                0x0000000012f21ed0       0x20 SDI.o
-                0x0000000012f21ed0                SDHCShutdown
+                0x0000000012f22900       0x20 SDI.o
+                0x0000000012f22900                SDHCShutdown
  .text.sdio_ReadSectors
-                0x0000000012f21ef0      0x390 SDI.o
-                0x0000000012f21ef0                sdio_ReadSectors
+                0x0000000012f22920      0x390 SDI.o
+                0x0000000012f22920                sdio_ReadSectors
  .text.sdio_WriteSectors
-                0x0000000012f22280      0x368 SDI.o
-                0x0000000012f22280                sdio_WriteSectors
+                0x0000000012f22cb0      0x368 SDI.o
+                0x0000000012f22cb0                sdio_WriteSectors
  .text.USB_Initialize
-                0x0000000012f225e8       0x3c usb.o
-                0x0000000012f225e8                USB_Initialize
+                0x0000000012f23018       0x3c usb.o
+                0x0000000012f23018                USB_Initialize
  .text.USB_Deinitialize
-                0x0000000012f22624       0x50 usb.o
-                0x0000000012f22624                USB_Deinitialize
+                0x0000000012f23054       0x50 usb.o
+                0x0000000012f23054                USB_Deinitialize
  .text.USB_WriteBlkMsg
-                0x0000000012f22674       0xac usb.o
-                0x0000000012f22674                USB_WriteBlkMsg
+                0x0000000012f230a4       0xac usb.o
+                0x0000000012f230a4                USB_WriteBlkMsg
  .text.USB_WriteCtrlMsg
-                0x0000000012f22720       0xb8 usb.o
-                0x0000000012f22720                USB_WriteCtrlMsg
+                0x0000000012f23150       0xb8 usb.o
+                0x0000000012f23150                USB_WriteCtrlMsg
  .text.USB_ClearHalt
-                0x0000000012f227d8       0x78 usb.o
-                0x0000000012f227d8                USB_ClearHalt
+                0x0000000012f23208       0x78 usb.o
+                0x0000000012f23208                USB_ClearHalt
  .text.USBStorage_Open
-                0x0000000012f22850       0xf4 usbstorage.o
-                0x0000000012f22850                USBStorage_Open
+                0x0000000012f23280       0xf4 usbstorage.o
+                0x0000000012f23280                USBStorage_Open
  .text.USBStorage_Startup
-                0x0000000012f22944       0x70 usbstorage.o
-                0x0000000012f22944                USBStorage_Startup
+                0x0000000012f23374       0x70 usbstorage.o
+                0x0000000012f23374                USBStorage_Startup
  .text.USBStorage_ReadSectors
-                0x0000000012f229b4      0x3d4 usbstorage.o
-                0x0000000012f229b4                USBStorage_ReadSectors
+                0x0000000012f233e4      0x3d4 usbstorage.o
+                0x0000000012f233e4                USBStorage_ReadSectors
  .text.USBStorage_WriteSectors
-                0x0000000012f22d88      0x3c4 usbstorage.o
-                0x0000000012f22d88                USBStorage_WriteSectors
+                0x0000000012f237b8      0x3c4 usbstorage.o
+                0x0000000012f237b8                USBStorage_WriteSectors
  .text.USBStorage_Shutdown
-                0x0000000012f2314c       0xb8 usbstorage.o
-                0x0000000012f2314c                USBStorage_Shutdown
+                0x0000000012f23b7c       0xb8 usbstorage.o
+                0x0000000012f23b7c                USBStorage_Shutdown
  .text.WDVD_FST_Open
-                0x0000000012f23204      0x204 wdvd.o
-                0x0000000012f23204                WDVD_FST_Open
+                0x0000000012f23c34      0x204 wdvd.o
+                0x0000000012f23c34                WDVD_FST_Open
  .text.WDVD_FST_Close
-                0x0000000012f23408       0x34 wdvd.o
-                0x0000000012f23408                WDVD_FST_Close
+                0x0000000012f23e38       0x34 wdvd.o
+                0x0000000012f23e38                WDVD_FST_Close
  .text.WDVD_FST_OpenDisc
-                0x0000000012f2343c       0x20 wdvd.o
-                0x0000000012f2343c                WDVD_FST_OpenDisc
+                0x0000000012f23e6c       0x20 wdvd.o
+                0x0000000012f23e6c                WDVD_FST_OpenDisc
  .text.WDVD_FST_LSeek
-                0x0000000012f2345c       0x54 wdvd.o
-                0x0000000012f2345c                WDVD_FST_LSeek
+                0x0000000012f23e8c       0x54 wdvd.o
+                0x0000000012f23e8c                WDVD_FST_LSeek
  .text.WDVD_FST_Read
-                0x0000000012f234b0      0x140 wdvd.o
-                0x0000000012f234b0                WDVD_FST_Read
+                0x0000000012f23ee0      0x140 wdvd.o
+                0x0000000012f23ee0                WDVD_FST_Read
  .text.WDVD_FST_Mount
-                0x0000000012f235f0      0x244 wdvd.o
-                0x0000000012f235f0                WDVD_FST_Mount
+                0x0000000012f24020      0x244 wdvd.o
+                0x0000000012f24020                WDVD_FST_Mount
  .text.WDVD_Init
-                0x0000000012f23834       0x40 wdvd.o
-                0x0000000012f23834                WDVD_Init
+                0x0000000012f24264       0x40 wdvd.o
+                0x0000000012f24264                WDVD_Init
  .text.SOCKAlarm
-                0x0000000012f23874      0x354 sock.o
+                0x0000000012f242a4      0x354 sock.o
  .text.SOCKInit
-                0x0000000012f23bc8      0x284 sock.o
-                0x0000000012f23bc8                SOCKInit
+                0x0000000012f245f8      0x284 sock.o
+                0x0000000012f245f8                SOCKInit
  .text.SOCKUpdateRegisters
-                0x0000000012f23e4c      0xa2c sock.o
-                0x0000000012f23e4c                SOCKUpdateRegisters
+                0x0000000012f2487c      0xa2c sock.o
+                0x0000000012f2487c                SOCKUpdateRegisters
  .text.acl_wlp_completed
-                0x0000000012f24878        0x8 lwbt/bte.o
-                0x0000000012f24878                acl_wlp_completed
+                0x0000000012f252a8        0x8 lwbt/bte.o
+                0x0000000012f252a8                acl_wlp_completed
  .text.bte_hci_apply_patch_complete
-                0x0000000012f24880       0xd0 lwbt/bte.o
-                0x0000000012f24880                bte_hci_apply_patch_complete
+                0x0000000012f252b0       0xd0 lwbt/bte.o
+                0x0000000012f252b0                bte_hci_apply_patch_complete
  .text.__bte_send_pending_request
-                0x0000000012f24950       0xa8 lwbt/bte.o
+                0x0000000012f25380       0xa8 lwbt/bte.o
  .text.acl_conn_complete
-                0x0000000012f249f8       0x18 lwbt/bte.o
-                0x0000000012f249f8                acl_conn_complete
+                0x0000000012f25428       0x18 lwbt/bte.o
+                0x0000000012f25428                acl_conn_complete
  .text.bte_hci_initcore_complete2
-                0x0000000012f24a10      0x140 lwbt/bte.o
-                0x0000000012f24a10                bte_hci_initcore_complete2
+                0x0000000012f25440      0x140 lwbt/bte.o
+                0x0000000012f25440                bte_hci_initcore_complete2
  .text.bte_hci_initcore_complete
-                0x0000000012f24b50      0x1a4 lwbt/bte.o
-                0x0000000012f24b50                bte_hci_initcore_complete
+                0x0000000012f25580      0x1a4 lwbt/bte.o
+                0x0000000012f25580                bte_hci_initcore_complete
  .text.bte_hci_patch_complete
-                0x0000000012f24cf4      0x1cc lwbt/bte.o
-                0x0000000012f24cf4                bte_hci_patch_complete
+                0x0000000012f25724      0x1cc lwbt/bte.o
+                0x0000000012f25724                bte_hci_patch_complete
  .text.bte_hci_initsub_complete
-                0x0000000012f24ec0      0x190 lwbt/bte.o
-                0x0000000012f24ec0                bte_hci_initsub_complete
+                0x0000000012f258f0      0x190 lwbt/bte.o
+                0x0000000012f258f0                bte_hci_initsub_complete
  .text.__bte_shutdown_finished
-                0x0000000012f25050       0x5c lwbt/bte.o
+                0x0000000012f25a80       0x5c lwbt/bte.o
  .text.l2cap_disconnect_cfm
-                0x0000000012f250ac      0x144 lwbt/bte.o
-                0x0000000012f250ac                l2cap_disconnect_cfm
+                0x0000000012f25adc      0x144 lwbt/bte.o
+                0x0000000012f25adc                l2cap_disconnect_cfm
  .text.l2cap_accepted
-                0x0000000012f251f0       0xe4 lwbt/bte.o
-                0x0000000012f251f0                l2cap_accepted
+                0x0000000012f25c20       0xe4 lwbt/bte.o
+                0x0000000012f25c20                l2cap_accepted
  .text.bte_process_input
-                0x0000000012f252d4       0xd8 lwbt/bte.o
+                0x0000000012f25d04       0xd8 lwbt/bte.o
  .text.bte_read_stored_link_key_complete
-                0x0000000012f253ac      0x14c lwbt/bte.o
-                0x0000000012f253ac                bte_read_stored_link_key_complete
+                0x0000000012f25ddc      0x14c lwbt/bte.o
+                0x0000000012f25ddc                bte_read_stored_link_key_complete
  .text.l2cap_disconnected_ind
-                0x0000000012f254f8      0x11c lwbt/bte.o
-                0x0000000012f254f8                l2cap_disconnected_ind
+                0x0000000012f25f28      0x11c lwbt/bte.o
+                0x0000000012f25f28                l2cap_disconnected_ind
  .text.BTE_Init
-                0x0000000012f25614       0x8c lwbt/bte.o
-                0x0000000012f25614                BTE_Init
+                0x0000000012f26044       0x8c lwbt/bte.o
+                0x0000000012f26044                BTE_Init
  .text.BTE_Shutdown
-                0x0000000012f256a0       0x6c lwbt/bte.o
-                0x0000000012f256a0                BTE_Shutdown
+                0x0000000012f260d0       0x6c lwbt/bte.o
+                0x0000000012f260d0                BTE_Shutdown
  .text.BTE_InitCore
-                0x0000000012f2570c       0x40 lwbt/bte.o
-                0x0000000012f2570c                BTE_InitCore
+                0x0000000012f2613c       0x40 lwbt/bte.o
+                0x0000000012f2613c                BTE_InitCore
  .text.BTE_ApplyPatch
-                0x0000000012f2574c       0x5c lwbt/bte.o
-                0x0000000012f2574c                BTE_ApplyPatch
+                0x0000000012f2617c       0x5c lwbt/bte.o
+                0x0000000012f2617c                BTE_ApplyPatch
  .text.BTE_InitSub
-                0x0000000012f257a8       0x44 lwbt/bte.o
-                0x0000000012f257a8                BTE_InitSub
+                0x0000000012f261d8       0x44 lwbt/bte.o
+                0x0000000012f261d8                BTE_InitSub
  .text.BTE_ReadStoredLinkKey
-                0x0000000012f257ec       0x40 lwbt/bte.o
-                0x0000000012f257ec                BTE_ReadStoredLinkKey
- .text.bte_new  0x0000000012f2582c       0x34 lwbt/bte.o
-                0x0000000012f2582c                bte_new
+                0x0000000012f2621c       0x40 lwbt/bte.o
+                0x0000000012f2621c                BTE_ReadStoredLinkKey
+ .text.bte_new  0x0000000012f2625c       0x34 lwbt/bte.o
+                0x0000000012f2625c                bte_new
  .text.bte_registerdeviceasync
-                0x0000000012f25860       0xd8 lwbt/bte.o
-                0x0000000012f25860                bte_registerdeviceasync
+                0x0000000012f26290       0xd8 lwbt/bte.o
+                0x0000000012f26290                bte_registerdeviceasync
  .text.bte_disconnect
-                0x0000000012f25938       0x48 lwbt/bte.o
-                0x0000000012f25938                bte_disconnect
+                0x0000000012f26368       0x48 lwbt/bte.o
+                0x0000000012f26368                bte_disconnect
  .text.bte_senddata
-                0x0000000012f25980       0xb8 lwbt/bte.o
-                0x0000000012f25980                bte_senddata
- .text.bte_arg  0x0000000012f25a38        0x8 lwbt/bte.o
-                0x0000000012f25a38                bte_arg
+                0x0000000012f263b0       0xb8 lwbt/bte.o
+                0x0000000012f263b0                bte_senddata
+ .text.bte_arg  0x0000000012f26468        0x8 lwbt/bte.o
+                0x0000000012f26468                bte_arg
  .text.bte_received
-                0x0000000012f25a40        0x8 lwbt/bte.o
-                0x0000000012f25a40                bte_received
+                0x0000000012f26470        0x8 lwbt/bte.o
+                0x0000000012f26470                bte_received
  .text.bte_disconnected
-                0x0000000012f25a48        0x8 lwbt/bte.o
-                0x0000000012f25a48                bte_disconnected
+                0x0000000012f26478        0x8 lwbt/bte.o
+                0x0000000012f26478                bte_disconnected
  .text.btmemb_init
-                0x0000000012f25a50       0x24 lwbt/btmemb.o
-                0x0000000012f25a50                btmemb_init
+                0x0000000012f26480       0x24 lwbt/btmemb.o
+                0x0000000012f26480                btmemb_init
  .text.btmemb_alloc
-                0x0000000012f25a74       0x5c lwbt/btmemb.o
-                0x0000000012f25a74                btmemb_alloc
+                0x0000000012f264a4       0x5c lwbt/btmemb.o
+                0x0000000012f264a4                btmemb_alloc
  .text.btmemb_free
-                0x0000000012f25ad0       0x74 lwbt/btmemb.o
-                0x0000000012f25ad0                btmemb_free
+                0x0000000012f26500       0x74 lwbt/btmemb.o
+                0x0000000012f26500                btmemb_free
  .text.plug_holes
-                0x0000000012f25b44       0xa8 lwbt/btmemr.o
+                0x0000000012f26574       0xa8 lwbt/btmemr.o
  .text.btmemr_init
-                0x0000000012f25bec       0x60 lwbt/btmemr.o
-                0x0000000012f25bec                btmemr_init
+                0x0000000012f2661c       0x60 lwbt/btmemr.o
+                0x0000000012f2661c                btmemr_init
  .text.btmemr_malloc
-                0x0000000012f25c4c      0x138 lwbt/btmemr.o
-                0x0000000012f25c4c                btmemr_malloc
+                0x0000000012f2667c      0x138 lwbt/btmemr.o
+                0x0000000012f2667c                btmemr_malloc
  .text.btmemr_free
-                0x0000000012f25d84       0xe8 lwbt/btmemr.o
-                0x0000000012f25d84                btmemr_free
+                0x0000000012f267b4       0xe8 lwbt/btmemr.o
+                0x0000000012f267b4                btmemr_free
  .text.btmemr_realloc
-                0x0000000012f25e6c       0xa0 lwbt/btmemr.o
-                0x0000000012f25e6c                btmemr_realloc
+                0x0000000012f2689c       0xa0 lwbt/btmemr.o
+                0x0000000012f2689c                btmemr_realloc
  .text.btpbuf_init
-                0x0000000012f25f0c       0x20 lwbt/btpbuf.o
-                0x0000000012f25f0c                btpbuf_init
+                0x0000000012f2693c       0x20 lwbt/btpbuf.o
+                0x0000000012f2693c                btpbuf_init
  .text.btpbuf_alloc
-                0x0000000012f25f2c      0x21c lwbt/btpbuf.o
-                0x0000000012f25f2c                btpbuf_alloc
+                0x0000000012f2695c      0x21c lwbt/btpbuf.o
+                0x0000000012f2695c                btpbuf_alloc
  .text.btpbuf_free
-                0x0000000012f26148       0x9c lwbt/btpbuf.o
-                0x0000000012f26148                btpbuf_free
+                0x0000000012f26b78       0x9c lwbt/btpbuf.o
+                0x0000000012f26b78                btpbuf_free
  .text.btpbuf_realloc
-                0x0000000012f261e4      0x154 lwbt/btpbuf.o
-                0x0000000012f261e4                btpbuf_realloc
+                0x0000000012f26c14      0x154 lwbt/btpbuf.o
+                0x0000000012f26c14                btpbuf_realloc
  .text.btpbuf_header
-                0x0000000012f26338       0x8c lwbt/btpbuf.o
-                0x0000000012f26338                btpbuf_header
+                0x0000000012f26d68       0x8c lwbt/btpbuf.o
+                0x0000000012f26d68                btpbuf_header
  .text.btpbuf_ref
-                0x0000000012f263c4       0x14 lwbt/btpbuf.o
-                0x0000000012f263c4                btpbuf_ref
+                0x0000000012f26df4       0x14 lwbt/btpbuf.o
+                0x0000000012f26df4                btpbuf_ref
  .text.btpbuf_chain
-                0x0000000012f263d8       0x68 lwbt/btpbuf.o
-                0x0000000012f263d8                btpbuf_chain
+                0x0000000012f26e08       0x68 lwbt/btpbuf.o
+                0x0000000012f26e08                btpbuf_chain
  .text.btpbuf_dechain
-                0x0000000012f26440       0xcc lwbt/btpbuf.o
-                0x0000000012f26440                btpbuf_dechain
+                0x0000000012f26e70       0xcc lwbt/btpbuf.o
+                0x0000000012f26e70                btpbuf_dechain
  .text.btpbuf_take
-                0x0000000012f2650c      0x214 lwbt/btpbuf.o
-                0x0000000012f2650c                btpbuf_take
+                0x0000000012f26f3c      0x214 lwbt/btpbuf.o
+                0x0000000012f26f3c                btpbuf_take
  .text.hci_init
-                0x0000000012f26720       0x90 lwbt/hci.o
-                0x0000000012f26720                hci_init
+                0x0000000012f27150       0x90 lwbt/hci.o
+                0x0000000012f27150                hci_init
  .text.hci_reset_all
-                0x0000000012f267b0      0x1a8 lwbt/hci.o
-                0x0000000012f267b0                hci_reset_all
- .text.hci_arg  0x0000000012f26958       0x14 lwbt/hci.o
-                0x0000000012f26958                hci_arg
+                0x0000000012f271e0      0x1a8 lwbt/hci.o
+                0x0000000012f271e0                hci_reset_all
+ .text.hci_arg  0x0000000012f27388       0x14 lwbt/hci.o
+                0x0000000012f27388                hci_arg
  .text.hci_cmd_complete
-                0x0000000012f2696c       0x14 lwbt/hci.o
-                0x0000000012f2696c                hci_cmd_complete
+                0x0000000012f2739c       0x14 lwbt/hci.o
+                0x0000000012f2739c                hci_cmd_complete
  .text.hci_connection_complete
-                0x0000000012f26980       0x14 lwbt/hci.o
-                0x0000000012f26980                hci_connection_complete
+                0x0000000012f273b0       0x14 lwbt/hci.o
+                0x0000000012f273b0                hci_connection_complete
  .text.hci_wlp_complete
-                0x0000000012f26994       0x14 lwbt/hci.o
-                0x0000000012f26994                hci_wlp_complete
+                0x0000000012f273c4       0x14 lwbt/hci.o
+                0x0000000012f273c4                hci_wlp_complete
  .text.hci_reset
-                0x0000000012f269a8       0x8c lwbt/hci.o
-                0x0000000012f269a8                hci_reset
+                0x0000000012f273d8       0x8c lwbt/hci.o
+                0x0000000012f273d8                hci_reset
  .text.hci_read_buffer_size
-                0x0000000012f26a34       0x8c lwbt/hci.o
-                0x0000000012f26a34                hci_read_buffer_size
+                0x0000000012f27464       0x8c lwbt/hci.o
+                0x0000000012f27464                hci_read_buffer_size
  .text.hci_read_bd_addr
-                0x0000000012f26ac0       0x8c lwbt/hci.o
-                0x0000000012f26ac0                hci_read_bd_addr
+                0x0000000012f274f0       0x8c lwbt/hci.o
+                0x0000000012f274f0                hci_read_bd_addr
  .text.hci_read_local_version
-                0x0000000012f26b4c       0x88 lwbt/hci.o
-                0x0000000012f26b4c                hci_read_local_version
+                0x0000000012f2757c       0x88 lwbt/hci.o
+                0x0000000012f2757c                hci_read_local_version
  .text.hci_read_local_features
-                0x0000000012f26bd4       0x8c lwbt/hci.o
-                0x0000000012f26bd4                hci_read_local_features
+                0x0000000012f27604       0x8c lwbt/hci.o
+                0x0000000012f27604                hci_read_local_features
  .text.hci_read_stored_link_key
-                0x0000000012f26c60       0xe4 lwbt/hci.o
-                0x0000000012f26c60                hci_read_stored_link_key
+                0x0000000012f27690       0xe4 lwbt/hci.o
+                0x0000000012f27690                hci_read_stored_link_key
  .text.hci_write_page_timeout
-                0x0000000012f26d44       0xc4 lwbt/hci.o
-                0x0000000012f26d44                hci_write_page_timeout
+                0x0000000012f27774       0xc4 lwbt/hci.o
+                0x0000000012f27774                hci_write_page_timeout
  .text.hci_write_scan_enable
-                0x0000000012f26e08       0x94 lwbt/hci.o
-                0x0000000012f26e08                hci_write_scan_enable
+                0x0000000012f27838       0x94 lwbt/hci.o
+                0x0000000012f27838                hci_write_scan_enable
  .text.hci_accecpt_conn_request
-                0x0000000012f26e9c       0xb0 lwbt/hci.o
-                0x0000000012f26e9c                hci_accecpt_conn_request
+                0x0000000012f278cc       0xb0 lwbt/hci.o
+                0x0000000012f278cc                hci_accecpt_conn_request
  .text.hci_write_local_name
-                0x0000000012f26f4c       0xa8 lwbt/hci.o
-                0x0000000012f26f4c                hci_write_local_name
+                0x0000000012f2797c       0xa8 lwbt/hci.o
+                0x0000000012f2797c                hci_write_local_name
  .text.hci_write_pin_type
-                0x0000000012f26ff4       0x94 lwbt/hci.o
-                0x0000000012f26ff4                hci_write_pin_type
+                0x0000000012f27a24       0x94 lwbt/hci.o
+                0x0000000012f27a24                hci_write_pin_type
  .text.hci_write_inquiry_mode
-                0x0000000012f27088       0x94 lwbt/hci.o
-                0x0000000012f27088                hci_write_inquiry_mode
+                0x0000000012f27ab8       0x94 lwbt/hci.o
+                0x0000000012f27ab8                hci_write_inquiry_mode
  .text.hci_write_page_scan_type
-                0x0000000012f2711c       0x94 lwbt/hci.o
-                0x0000000012f2711c                hci_write_page_scan_type
+                0x0000000012f27b4c       0x94 lwbt/hci.o
+                0x0000000012f27b4c                hci_write_page_scan_type
  .text.hci_write_inquiry_scan_type
-                0x0000000012f271b0       0x94 lwbt/hci.o
-                0x0000000012f271b0                hci_write_inquiry_scan_type
+                0x0000000012f27be0       0x94 lwbt/hci.o
+                0x0000000012f27be0                hci_write_inquiry_scan_type
  .text.hci_vendor_specific_command
-                0x0000000012f27244       0xa8 lwbt/hci.o
-                0x0000000012f27244                hci_vendor_specific_command
+                0x0000000012f27c74       0xa8 lwbt/hci.o
+                0x0000000012f27c74                hci_vendor_specific_command
  .text.hci_write_link_policy_settings
-                0x0000000012f272ec      0x18c lwbt/hci.o
-                0x0000000012f272ec                hci_write_link_policy_settings
+                0x0000000012f27d1c      0x18c lwbt/hci.o
+                0x0000000012f27d1c                hci_write_link_policy_settings
  .text.hci_pin_code_request_neg_reply
-                0x0000000012f27478       0xa4 lwbt/hci.o
-                0x0000000012f27478                hci_pin_code_request_neg_reply
+                0x0000000012f27ea8       0xa4 lwbt/hci.o
+                0x0000000012f27ea8                hci_pin_code_request_neg_reply
  .text.hci_disconnect
-                0x0000000012f2751c      0x15c lwbt/hci.o
-                0x0000000012f2751c                hci_disconnect
+                0x0000000012f27f4c      0x15c lwbt/hci.o
+                0x0000000012f27f4c                hci_disconnect
  .text.hci_write_cod
-                0x0000000012f27678       0xa4 lwbt/hci.o
-                0x0000000012f27678                hci_write_cod
+                0x0000000012f280a8       0xa4 lwbt/hci.o
+                0x0000000012f280a8                hci_write_cod
  .text.hci_host_buffer_size
-                0x0000000012f2771c      0x110 lwbt/hci.o
-                0x0000000012f2771c                hci_host_buffer_size
+                0x0000000012f2814c      0x110 lwbt/hci.o
+                0x0000000012f2814c                hci_host_buffer_size
  .text.hci_host_num_comp_packets
-                0x0000000012f2782c      0x118 lwbt/hci.o
-                0x0000000012f2782c                hci_host_num_comp_packets
+                0x0000000012f2825c      0x118 lwbt/hci.o
+                0x0000000012f2825c                hci_host_num_comp_packets
  .text.lp_pdu_maxsize
-                0x0000000012f27944       0x14 lwbt/hci.o
-                0x0000000012f27944                lp_pdu_maxsize
+                0x0000000012f28374       0x14 lwbt/hci.o
+                0x0000000012f28374                lp_pdu_maxsize
  .text.lp_acl_write
-                0x0000000012f27958      0x1a4 lwbt/hci.o
-                0x0000000012f27958                lp_acl_write
+                0x0000000012f28388      0x1a4 lwbt/hci.o
+                0x0000000012f28388                lp_acl_write
  .text.lp_write_flush_timeout
-                0x0000000012f27afc      0x18c lwbt/hci.o
-                0x0000000012f27afc                lp_write_flush_timeout
+                0x0000000012f2852c      0x18c lwbt/hci.o
+                0x0000000012f2852c                lp_write_flush_timeout
  .text.hci_event_handler
-                0x0000000012f27c88      0xc44 lwbt/hci.o
-                0x0000000012f27c88                hci_event_handler
+                0x0000000012f286b8      0xc44 lwbt/hci.o
+                0x0000000012f286b8                hci_event_handler
  .text.hci_acldata_handler
-                0x0000000012f288cc       0xf0 lwbt/hci.o
-                0x0000000012f288cc                hci_acldata_handler
+                0x0000000012f292fc       0xf0 lwbt/hci.o
+                0x0000000012f292fc                hci_acldata_handler
  .text.l2cap_init
-                0x0000000012f289bc       0x9c lwbt/l2cap.o
-                0x0000000012f289bc                l2cap_init
+                0x0000000012f293ec       0x9c lwbt/l2cap.o
+                0x0000000012f293ec                l2cap_init
  .text.l2cap_write
-                0x0000000012f28a58       0xfc lwbt/l2cap.o
-                0x0000000012f28a58                l2cap_write
+                0x0000000012f29488       0xfc lwbt/l2cap.o
+                0x0000000012f29488                l2cap_write
  .text.l2cap_new
-                0x0000000012f28b54       0x54 lwbt/l2cap.o
-                0x0000000012f28b54                l2cap_new
+                0x0000000012f29584       0x54 lwbt/l2cap.o
+                0x0000000012f29584                l2cap_new
  .text.l2cap_close
-                0x0000000012f28ba8      0x170 lwbt/l2cap.o
-                0x0000000012f28ba8                l2cap_close
+                0x0000000012f295d8      0x170 lwbt/l2cap.o
+                0x0000000012f295d8                l2cap_close
  .text.l2cap_reset_all
-                0x0000000012f28d18      0x180 lwbt/l2cap.o
-                0x0000000012f28d18                l2cap_reset_all
+                0x0000000012f29748      0x180 lwbt/l2cap.o
+                0x0000000012f29748                l2cap_reset_all
  .text.l2cap_signal
-                0x0000000012f28e98      0x178 lwbt/l2cap.o
-                0x0000000012f28e98                l2cap_signal
+                0x0000000012f298c8      0x178 lwbt/l2cap.o
+                0x0000000012f298c8                l2cap_signal
  .text.l2ca_config_req
-                0x0000000012f29010      0x150 lwbt/l2cap.o
-                0x0000000012f29010                l2ca_config_req
+                0x0000000012f29a40      0x150 lwbt/l2cap.o
+                0x0000000012f29a40                l2ca_config_req
  .text.l2ca_disconnect_req
-                0x0000000012f29160       0xe8 lwbt/l2cap.o
-                0x0000000012f29160                l2ca_disconnect_req
+                0x0000000012f29b90       0xe8 lwbt/l2cap.o
+                0x0000000012f29b90                l2ca_disconnect_req
  .text.l2cap_tmr
-                0x0000000012f29248      0x378 lwbt/l2cap.o
-                0x0000000012f29248                l2cap_tmr
+                0x0000000012f29c78      0x378 lwbt/l2cap.o
+                0x0000000012f29c78                l2cap_tmr
  .text.l2cap_process_sig
-                0x0000000012f295c0     0x15b4 lwbt/l2cap.o
-                0x0000000012f295c0                l2cap_process_sig
+                0x0000000012f29ff0     0x15b4 lwbt/l2cap.o
+                0x0000000012f29ff0                l2cap_process_sig
  .text.l2cap_input
-                0x0000000012f2ab74      0x5dc lwbt/l2cap.o
-                0x0000000012f2ab74                l2cap_input
+                0x0000000012f2b5a4      0x5dc lwbt/l2cap.o
+                0x0000000012f2b5a4                l2cap_input
  .text.l2ca_datawrite
-                0x0000000012f2b150      0x100 lwbt/l2cap.o
-                0x0000000012f2b150                l2ca_datawrite
+                0x0000000012f2bb80      0x100 lwbt/l2cap.o
+                0x0000000012f2bb80                l2ca_datawrite
  .text.lp_connect_cfm
-                0x0000000012f2b250      0x180 lwbt/l2cap.o
-                0x0000000012f2b250                lp_connect_cfm
+                0x0000000012f2bc80      0x180 lwbt/l2cap.o
+                0x0000000012f2bc80                lp_connect_cfm
  .text.lp_connect_ind
-                0x0000000012f2b3d0        0x4 lwbt/l2cap.o
-                0x0000000012f2b3d0                lp_connect_ind
+                0x0000000012f2be00        0x4 lwbt/l2cap.o
+                0x0000000012f2be00                lp_connect_ind
  .text.lp_disconnect_ind
-                0x0000000012f2b3d4      0x1a0 lwbt/l2cap.o
-                0x0000000012f2b3d4                lp_disconnect_ind
+                0x0000000012f2be04      0x1a0 lwbt/l2cap.o
+                0x0000000012f2be04                lp_disconnect_ind
  .text.l2cap_arg
-                0x0000000012f2b574        0x8 lwbt/l2cap.o
-                0x0000000012f2b574                l2cap_arg
+                0x0000000012f2bfa4        0x8 lwbt/l2cap.o
+                0x0000000012f2bfa4                l2cap_arg
  .text.l2cap_connect_ind
-                0x0000000012f2b57c       0xa4 lwbt/l2cap.o
-                0x0000000012f2b57c                l2cap_connect_ind
+                0x0000000012f2bfac       0xa4 lwbt/l2cap.o
+                0x0000000012f2bfac                l2cap_connect_ind
  .text.l2cap_disconnect_ind
-                0x0000000012f2b620        0x8 lwbt/l2cap.o
-                0x0000000012f2b620                l2cap_disconnect_ind
+                0x0000000012f2c050        0x8 lwbt/l2cap.o
+                0x0000000012f2c050                l2cap_disconnect_ind
  .text.l2cap_recv
-                0x0000000012f2b628        0x8 lwbt/l2cap.o
-                0x0000000012f2b628                l2cap_recv
+                0x0000000012f2c058        0x8 lwbt/l2cap.o
+                0x0000000012f2c058                l2cap_recv
  .text.bulkreadAlarm
-                0x0000000012f2b630       0x74 lwbt/physbusif.o
+                0x0000000012f2c060       0x74 lwbt/physbusif.o
  .text.intrreadAlarm
-                0x0000000012f2b6a4       0x74 lwbt/physbusif.o
+                0x0000000012f2c0d4       0x74 lwbt/physbusif.o
  .text.__readbulkdataCB
-                0x0000000012f2b718       0xd8 lwbt/physbusif.o
-                0x0000000012f2b718                __readbulkdataCB
+                0x0000000012f2c148       0xd8 lwbt/physbusif.o
+                0x0000000012f2c148                __readbulkdataCB
  .text.__readintrdataCB
-                0x0000000012f2b7f0       0xd8 lwbt/physbusif.o
-                0x0000000012f2b7f0                __readintrdataCB
+                0x0000000012f2c220       0xd8 lwbt/physbusif.o
+                0x0000000012f2c220                __readintrdataCB
  .text.__issue_intrread
-                0x0000000012f2b8c8       0xf0 lwbt/physbusif.o
-                0x0000000012f2b8c8                __issue_intrread
+                0x0000000012f2c2f8       0xf0 lwbt/physbusif.o
+                0x0000000012f2c2f8                __issue_intrread
  .text.__issue_bulkread
-                0x0000000012f2b9b8       0xec lwbt/physbusif.o
-                0x0000000012f2b9b8                __issue_bulkread
- *fill*         0x0000000012f2baa4        0x4 
+                0x0000000012f2c3e8       0xec lwbt/physbusif.o
+                0x0000000012f2c3e8                __issue_bulkread
+ *fill*         0x0000000012f2c4d4        0x4 
  .text.physbusif_init
-                0x0000000012f2baa8      0x38c lwbt/physbusif.o
-                0x0000000012f2baa8                physbusif_init
+                0x0000000012f2c4d8      0x38c lwbt/physbusif.o
+                0x0000000012f2c4d8                physbusif_init
  .text.physbusif_close
-                0x0000000012f2be34       0x1c lwbt/physbusif.o
-                0x0000000012f2be34                physbusif_close
+                0x0000000012f2c864       0x1c lwbt/physbusif.o
+                0x0000000012f2c864                physbusif_close
  .text.physbusif_shutdown
-                0x0000000012f2be50       0x2c lwbt/physbusif.o
-                0x0000000012f2be50                physbusif_shutdown
+                0x0000000012f2c880       0x2c lwbt/physbusif.o
+                0x0000000012f2c880                physbusif_shutdown
  .text.physbusif_reset_all
-                0x0000000012f2be7c        0x4 lwbt/physbusif.o
-                0x0000000012f2be7c                physbusif_reset_all
+                0x0000000012f2c8ac        0x4 lwbt/physbusif.o
+                0x0000000012f2c8ac                physbusif_reset_all
  .text.physbusif_output
-                0x0000000012f2be80      0x384 lwbt/physbusif.o
-                0x0000000012f2be80                physbusif_output
+                0x0000000012f2c8b0      0x384 lwbt/physbusif.o
+                0x0000000012f2c8b0                physbusif_output
  .text.BTHandleDisconnect
-                0x0000000012f2c204      0x110 BT.o
+                0x0000000012f2cc34      0x110 BT.o
  .text.BTReadLinkKeyCB
-                0x0000000012f2c314       0x18 BT.o
+                0x0000000012f2cd44       0x18 BT.o
  .text.BTPatchCB
-                0x0000000012f2c32c       0x18 BT.o
+                0x0000000012f2cd5c       0x18 BT.o
  .text.BTHandleData
-                0x0000000012f2c344      0xf78 BT.o
+                0x0000000012f2cd74      0xf78 BT.o
  .text.BTInitCoreCB
-                0x0000000012f2d2bc       0x34 BT.o
+                0x0000000012f2dcec       0x34 BT.o
  .text.BTHandleConnect
-                0x0000000012f2d2f0      0x114 BT.o
+                0x0000000012f2dd20      0x114 BT.o
  .text.BTUpdateRegisters.part.0
-                0x0000000012f2d404      0x36c BT.o
+                0x0000000012f2de34      0x36c BT.o
  .text.BTCompleteCB
-                0x0000000012f2d770      0x170 BT.o
- .text.BTInit   0x0000000012f2d8e0      0x10c BT.o
-                0x0000000012f2d8e0                BTInit
+                0x0000000012f2e1a0      0x170 BT.o
+ .text.BTInit   0x0000000012f2e310      0x10c BT.o
+                0x0000000012f2e310                BTInit
  .text.BTUpdateRegisters
-                0x0000000012f2d9ec       0x18 BT.o
-                0x0000000012f2d9ec                BTUpdateRegisters
+                0x0000000012f2e41c       0x18 BT.o
+                0x0000000012f2e41c                BTUpdateRegisters
  .text.move_window.part.0
-                0x0000000012f2da04       0xe0 ../fatfs/libfatfs-arm.a(ff-arm.o)
- .text.get_fat  0x0000000012f2dae4      0x2cc ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f2e434       0xe0 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.get_fat  0x0000000012f2e514      0x2cc ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.dir_next.constprop.0
-                0x0000000012f2ddb0      0x110 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f2e7e0      0x110 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.put_fat.part.0
-                0x0000000012f2dec0      0x2b8 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f2e8f0      0x2b8 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.change_bitmap
-                0x0000000012f2e178       0xf8 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f2eba8       0xf8 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.load_xdir
-                0x0000000012f2e270      0x358 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f2eca0      0x358 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.check_fs
-                0x0000000012f2e5c8      0x1a4 ../fatfs/libfatfs-arm.a(ff-arm.o)
- .text.sync_fs  0x0000000012f2e76c      0x180 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f2eff8      0x1a4 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.sync_fs  0x0000000012f2f19c      0x180 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.create_chain
-                0x0000000012f2e8ec      0x608 ../fatfs/libfatfs-arm.a(ff-arm.o)
- .text.dir_sdi  0x0000000012f2eef4      0x424 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f2f31c      0x608 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.dir_sdi  0x0000000012f2f924      0x424 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.store_xdir
-                0x0000000012f2f318      0x330 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f2fd48      0x330 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.dir_find
-                0x0000000012f2f648      0xd24 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f30078      0xd24 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.remove_chain.constprop.0
-                0x0000000012f3036c      0x3f8 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f30d9c      0x3f8 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.dir_alloc
-                0x0000000012f30764      0x4b4 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f31194      0x4b4 ../fatfs/libfatfs-arm.a(ff-arm.o)
  .text.find_volume
-                0x0000000012f30c18      0xe3c ../fatfs/libfatfs-arm.a(ff-arm.o)
- .text.f_mount  0x0000000012f31a54       0xd0 ../fatfs/libfatfs-arm.a(ff-arm.o)
-                0x0000000012f31a54                f_mount
- .text.f_open   0x0000000012f31b24     0x1c30 ../fatfs/libfatfs-arm.a(ff-arm.o)
-                0x0000000012f31b24                f_open
- .text.f_read   0x0000000012f33754      0x4d0 ../fatfs/libfatfs-arm.a(ff-arm.o)
-                0x0000000012f33754                f_read
- .text.f_write  0x0000000012f33c24      0x680 ../fatfs/libfatfs-arm.a(ff-arm.o)
-                0x0000000012f33c24                f_write
- .text.f_sync   0x0000000012f342a4      0x3cc ../fatfs/libfatfs-arm.a(ff-arm.o)
-                0x0000000012f342a4                f_sync
- .text.f_close  0x0000000012f34670       0x64 ../fatfs/libfatfs-arm.a(ff-arm.o)
-                0x0000000012f34670                f_close
- .text.f_lseek  0x0000000012f346d4      0x52c ../fatfs/libfatfs-arm.a(ff-arm.o)
-                0x0000000012f346d4                f_lseek
+                0x0000000012f31648      0xe3c ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.f_mount  0x0000000012f32484       0xd0 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f32484                f_mount
+ .text.f_open   0x0000000012f32554     0x1c30 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f32554                f_open
+ .text.f_read   0x0000000012f34184      0x4d0 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f34184                f_read
+ .text.f_write  0x0000000012f34654      0x680 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f34654                f_write
+ .text.f_sync   0x0000000012f34cd4      0x3cc ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f34cd4                f_sync
+ .text.f_close  0x0000000012f350a0       0x64 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f350a0                f_close
+ .text.f_lseek  0x0000000012f35104      0x52c ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f35104                f_lseek
  .text.f_open_char
-                0x0000000012f34c00       0xac ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
-                0x0000000012f34c00                f_open_char
+                0x0000000012f35630       0xac ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+                0x0000000012f35630                f_open_char
  .text.ff_convert
-                0x0000000012f34cac       0x74 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
-                0x0000000012f34cac                ff_convert
+                0x0000000012f356dc       0x74 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+                0x0000000012f356dc                ff_convert
  .text.ff_wtoupper
-                0x0000000012f34d20      0x144 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
-                0x0000000012f34d20                ff_wtoupper
- .text          0x0000000012f34e64       0x20 be/libc.a(lib_a-gmtime.o)
-                0x0000000012f34e64                gmtime
- .text          0x0000000012f34e84       0x14 be/libc.a(lib_a-gmtime_r.o)
-                0x0000000012f34e84                gmtime_r
- .text          0x0000000012f34e98       0x38 be/libc.a(lib_a-isprint.o)
-                0x0000000012f34e98                isgraph
-                0x0000000012f34eb4                isprint
- .text          0x0000000012f34ed0       0x48 be/libc.a(lib_a-mbstowcs.o)
-                0x0000000012f34ed0                mbstowcs
- .text          0x0000000012f34f18       0xc8 be/libc.a(lib_a-mbstowcs_r.o)
-                0x0000000012f34f18                _mbstowcs_r
- .text          0x0000000012f34fe0      0x7a4 be/libc.a(lib_a-mbtowc_r.o)
-                0x0000000012f34fe0                __utf8_mbtowc
-                0x0000000012f35304                _mbtowc_r
-                0x0000000012f35358                __ascii_mbtowc
-                0x0000000012f353a4                __sjis_mbtowc
-                0x0000000012f3548c                __eucjp_mbtowc
-                0x0000000012f355d4                __jis_mbtowc
- .text          0x0000000012f35784      0x748 be/libc.a(lib_a-mktm_r.o)
-                0x0000000012f35784                __tzcalc_limits
-                0x0000000012f359c4                _mktm_r
- .text          0x0000000012f35ecc       0x6c be/libc.a(lib_a-strcasecmp.o)
-                0x0000000012f35ecc                strcasecmp
- .text          0x0000000012f35f38      0x1c4 be/libc.a(lib_a-strchr.o)
-                0x0000000012f35f38                strchr
- .text          0x0000000012f360fc       0xf4 be/libc.a(lib_a-strcpy.o)
-                0x0000000012f360fc                strcpy
- .text          0x0000000012f361f0       0x60 be/libc.a(lib_a-strlen.o)
-                0x0000000012f361f0                strlen
- .text          0x0000000012f36250      0x160 be/libc.a(lib_a-strncmp.o)
-                0x0000000012f36250                strncmp
- .text          0x0000000012f363b0       0xd4 be/libc.a(lib_a-strncpy.o)
-                0x0000000012f363b0                strncpy
- .text          0x0000000012f36484       0x68 be/libc.a(lib_a-strnlen.o)
-                0x0000000012f36484                strnlen
- .text          0x0000000012f364ec      0x7d0 be/libc.a(lib_a-strstr.o)
-                0x0000000012f3695c                strstr
- .text          0x0000000012f36cbc      0x20c be/libc.a(lib_a-strtoul.o)
-                0x0000000012f36cbc                _strtoul_r
-                0x0000000012f36ea0                strtoul
- .text          0x0000000012f36ec8        0x8 be/libc.a(lib_a-tzlock.o)
-                0x0000000012f36ec8                __tz_lock
-                0x0000000012f36ecc                __tz_unlock
- .text          0x0000000012f36ed0      0x3d4 be/libc.a(lib_a-wctomb_r.o)
-                0x0000000012f36ed0                __utf8_wctomb
-                0x0000000012f36fe8                _wctomb_r
-                0x0000000012f37038                __ascii_wctomb
-                0x0000000012f37064                __sjis_wctomb
-                0x0000000012f370f4                __eucjp_wctomb
-                0x0000000012f371c0                __jis_wctomb
- .text          0x0000000012f372a4       0x18 be/libc.a(lib_a-ctype_.o)
-                0x0000000012f372a4                __set_ctype
- .text          0x0000000012f372bc        0xc be/libc.a(lib_a-gettzinfo.o)
-                0x0000000012f372bc                __gettzinfo
- .text          0x0000000012f372c8      0xd94 be/libc.a(lib_a-locale.o)
-                0x0000000012f37cc8                _setlocale_r
-                0x0000000012f37ff4                __locale_charset
-                0x0000000012f38000                __locale_mb_cur_max
-                0x0000000012f38010                __locale_msgcharset
-                0x0000000012f3801c                __locale_cjk_lang
-                0x0000000012f3802c                _localeconv_r
-                0x0000000012f38038                setlocale
-                0x0000000012f38050                localeconv
- .text          0x0000000012f3805c      0x114 be/libc.a(lib_a-memchr-stub.o)
-                0x0000000012f3805c                memchr
- .text          0x0000000012f38170       0x9c be/libc.a(lib_a-strcat.o)
-                0x0000000012f38170                strcat
- .text          0x0000000012f3820c      0x240 be/libc.a(lib_a-strcmp.o)
-                0x0000000012f3820c                strcmp
- .text          0x0000000012f3844c       0x54 be/libc.a(lib_a-strlcpy.o)
-                0x0000000012f3844c                strlcpy
- .text          0x0000000012f384a0       0x8c be/libc.a(lib_a-strncasecmp.o)
-                0x0000000012f384a0                strncasecmp
- .text          0x0000000012f3852c      0x1f8 be/libc.a(lib_a-strtol.o)
-                0x0000000012f3852c                _strtol_r
-                0x0000000012f386fc                strtol
- .text          0x0000000012f38724       0xf4 be/libc.a(lib_a-getenv_r.o)
-                0x0000000012f38724                _findenv_r
-                0x0000000012f387fc                _getenv_r
- .text          0x0000000012f38818        0x8 be/libc.a(lib_a-envlock.o)
-                0x0000000012f38818                __env_lock
-                0x0000000012f3881c                __env_unlock
- .text          0x0000000012f38820      0x114 be/libgcc.a(_udivsi3.o)
-                0x0000000012f38820                __aeabi_uidiv
-                0x0000000012f38820                __udivsi3
-                0x0000000012f38914                __aeabi_uidivmod
- .text          0x0000000012f38934        0x4 be/libgcc.a(_dvmd_tls.o)
-                0x0000000012f38934                __aeabi_idiv0
-                0x0000000012f38934                __aeabi_ldiv0
- .text          0x0000000012f38938      0x2a8 be/libgcc.a(_arm_addsubsf3.o)
-                0x0000000012f38938                __aeabi_frsub
-                0x0000000012f38940                __subsf3
-                0x0000000012f38940                __aeabi_fsub
-                0x0000000012f38944                __aeabi_fadd
-                0x0000000012f38944                __addsf3
-                0x0000000012f38b00                __aeabi_ui2f
-                0x0000000012f38b00                __floatunsisf
-                0x0000000012f38b08                __aeabi_i2f
-                0x0000000012f38b08                __floatsisf
-                0x0000000012f38b24                __aeabi_ul2f
-                0x0000000012f38b24                __floatundisf
-                0x0000000012f38b34                __aeabi_l2f
-                0x0000000012f38b34                __floatdisf
- .text          0x0000000012f38be0      0x2f8 be/libgcc.a(_arm_muldivsf3.o)
-                0x0000000012f38be0                __mulsf3
-                0x0000000012f38be0                __aeabi_fmul
-                0x0000000012f38d78                __aeabi_fdiv
-                0x0000000012f38d78                __divsf3
- .text          0x0000000012f38ed8      0x114 be/libgcc.a(_arm_cmpsf2.o)
-                0x0000000012f38ed8                __gesf2
-                0x0000000012f38ed8                __gtsf2
-                0x0000000012f38ee0                __lesf2
-                0x0000000012f38ee0                __ltsf2
-                0x0000000012f38ee8                __nesf2
-                0x0000000012f38ee8                __eqsf2
-                0x0000000012f38ee8                __cmpsf2
-                0x0000000012f38f4c                __aeabi_cfrcmple
-                0x0000000012f38f5c                __aeabi_cfcmpeq
-                0x0000000012f38f5c                __aeabi_cfcmple
-                0x0000000012f38f74                __aeabi_fcmpeq
-                0x0000000012f38f8c                __aeabi_fcmplt
-                0x0000000012f38fa4                __aeabi_fcmple
-                0x0000000012f38fbc                __aeabi_fcmpge
-                0x0000000012f38fd4                __aeabi_fcmpgt
- .text          0x0000000012f38fec       0x54 be/libgcc.a(_arm_fixunssfsi.o)
-                0x0000000012f38fec                __fixunssfsi
-                0x0000000012f38fec                __aeabi_f2uiz
- .text          0x0000000012f39040       0x3c be/libgcc.a(_aeabi_uldivmod.o)
-                0x0000000012f39040                __aeabi_uldivmod
- .text          0x0000000012f3907c       0x84 be/libgcc.a(bpabi.o)
-                0x0000000012f3907c                __gnu_ldivmod_helper
-                0x0000000012f390c0                __gnu_uldivmod_helper
- .text          0x0000000012f39100      0x4c4 be/libgcc.a(_divdi3.o)
-                0x0000000012f39100                __divdi3
- .text          0x0000000012f395c4      0x474 be/libgcc.a(_udivdi3.o)
-                0x0000000012f395c4                __udivdi3
- .text          0x0000000012f39a38       0x48 be/libgcc.a(_clzsi2.o)
-                0x0000000012f39a38                __clzsi2
+                0x0000000012f35750      0x144 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+                0x0000000012f35750                ff_wtoupper
+ .text          0x0000000012f35894       0x20 be/libc.a(lib_a-gmtime.o)
+                0x0000000012f35894                gmtime
+ .text          0x0000000012f358b4       0x14 be/libc.a(lib_a-gmtime_r.o)
+                0x0000000012f358b4                gmtime_r
+ .text          0x0000000012f358c8       0x38 be/libc.a(lib_a-isprint.o)
+                0x0000000012f358c8                isgraph
+                0x0000000012f358e4                isprint
+ .text          0x0000000012f35900       0x48 be/libc.a(lib_a-mbstowcs.o)
+                0x0000000012f35900                mbstowcs
+ .text          0x0000000012f35948       0xc8 be/libc.a(lib_a-mbstowcs_r.o)
+                0x0000000012f35948                _mbstowcs_r
+ .text          0x0000000012f35a10      0x7a4 be/libc.a(lib_a-mbtowc_r.o)
+                0x0000000012f35a10                __utf8_mbtowc
+                0x0000000012f35d34                _mbtowc_r
+                0x0000000012f35d88                __ascii_mbtowc
+                0x0000000012f35dd4                __sjis_mbtowc
+                0x0000000012f35ebc                __eucjp_mbtowc
+                0x0000000012f36004                __jis_mbtowc
+ .text          0x0000000012f361b4      0x748 be/libc.a(lib_a-mktm_r.o)
+                0x0000000012f361b4                __tzcalc_limits
+                0x0000000012f363f4                _mktm_r
+ .text          0x0000000012f368fc       0x6c be/libc.a(lib_a-strcasecmp.o)
+                0x0000000012f368fc                strcasecmp
+ .text          0x0000000012f36968      0x1c4 be/libc.a(lib_a-strchr.o)
+                0x0000000012f36968                strchr
+ .text          0x0000000012f36b2c       0xf4 be/libc.a(lib_a-strcpy.o)
+                0x0000000012f36b2c                strcpy
+ .text          0x0000000012f36c20       0x60 be/libc.a(lib_a-strlen.o)
+                0x0000000012f36c20                strlen
+ .text          0x0000000012f36c80      0x160 be/libc.a(lib_a-strncmp.o)
+                0x0000000012f36c80                strncmp
+ .text          0x0000000012f36de0       0xd4 be/libc.a(lib_a-strncpy.o)
+                0x0000000012f36de0                strncpy
+ .text          0x0000000012f36eb4       0x68 be/libc.a(lib_a-strnlen.o)
+                0x0000000012f36eb4                strnlen
+ .text          0x0000000012f36f1c      0x7d0 be/libc.a(lib_a-strstr.o)
+                0x0000000012f3738c                strstr
+ .text          0x0000000012f376ec      0x20c be/libc.a(lib_a-strtoul.o)
+                0x0000000012f376ec                _strtoul_r
+                0x0000000012f378d0                strtoul
+ .text          0x0000000012f378f8        0x8 be/libc.a(lib_a-tzlock.o)
+                0x0000000012f378f8                __tz_lock
+                0x0000000012f378fc                __tz_unlock
+ .text          0x0000000012f37900      0x3d4 be/libc.a(lib_a-wctomb_r.o)
+                0x0000000012f37900                __utf8_wctomb
+                0x0000000012f37a18                _wctomb_r
+                0x0000000012f37a68                __ascii_wctomb
+                0x0000000012f37a94                __sjis_wctomb
+                0x0000000012f37b24                __eucjp_wctomb
+                0x0000000012f37bf0                __jis_wctomb
+ .text          0x0000000012f37cd4       0x18 be/libc.a(lib_a-ctype_.o)
+                0x0000000012f37cd4                __set_ctype
+ .text          0x0000000012f37cec        0xc be/libc.a(lib_a-gettzinfo.o)
+                0x0000000012f37cec                __gettzinfo
+ .text          0x0000000012f37cf8      0xd94 be/libc.a(lib_a-locale.o)
+                0x0000000012f386f8                _setlocale_r
+                0x0000000012f38a24                __locale_charset
+                0x0000000012f38a30                __locale_mb_cur_max
+                0x0000000012f38a40                __locale_msgcharset
+                0x0000000012f38a4c                __locale_cjk_lang
+                0x0000000012f38a5c                _localeconv_r
+                0x0000000012f38a68                setlocale
+                0x0000000012f38a80                localeconv
+ .text          0x0000000012f38a8c      0x114 be/libc.a(lib_a-memchr-stub.o)
+                0x0000000012f38a8c                memchr
+ .text          0x0000000012f38ba0       0x9c be/libc.a(lib_a-strcat.o)
+                0x0000000012f38ba0                strcat
+ .text          0x0000000012f38c3c      0x240 be/libc.a(lib_a-strcmp.o)
+                0x0000000012f38c3c                strcmp
+ .text          0x0000000012f38e7c       0x54 be/libc.a(lib_a-strlcpy.o)
+                0x0000000012f38e7c                strlcpy
+ .text          0x0000000012f38ed0       0x8c be/libc.a(lib_a-strncasecmp.o)
+                0x0000000012f38ed0                strncasecmp
+ .text          0x0000000012f38f5c      0x1f8 be/libc.a(lib_a-strtol.o)
+                0x0000000012f38f5c                _strtol_r
+                0x0000000012f3912c                strtol
+ .text          0x0000000012f39154       0xf4 be/libc.a(lib_a-getenv_r.o)
+                0x0000000012f39154                _findenv_r
+                0x0000000012f3922c                _getenv_r
+ .text          0x0000000012f39248        0x8 be/libc.a(lib_a-envlock.o)
+                0x0000000012f39248                __env_lock
+                0x0000000012f3924c                __env_unlock
+ .text          0x0000000012f39250      0x114 be/libgcc.a(_udivsi3.o)
+                0x0000000012f39250                __aeabi_uidiv
+                0x0000000012f39250                __udivsi3
+                0x0000000012f39344                __aeabi_uidivmod
+ .text          0x0000000012f39364        0x4 be/libgcc.a(_dvmd_tls.o)
+                0x0000000012f39364                __aeabi_idiv0
+                0x0000000012f39364                __aeabi_ldiv0
+ .text          0x0000000012f39368      0x2a8 be/libgcc.a(_arm_addsubsf3.o)
+                0x0000000012f39368                __aeabi_frsub
+                0x0000000012f39370                __subsf3
+                0x0000000012f39370                __aeabi_fsub
+                0x0000000012f39374                __aeabi_fadd
+                0x0000000012f39374                __addsf3
+                0x0000000012f39530                __aeabi_ui2f
+                0x0000000012f39530                __floatunsisf
+                0x0000000012f39538                __aeabi_i2f
+                0x0000000012f39538                __floatsisf
+                0x0000000012f39554                __aeabi_ul2f
+                0x0000000012f39554                __floatundisf
+                0x0000000012f39564                __aeabi_l2f
+                0x0000000012f39564                __floatdisf
+ .text          0x0000000012f39610      0x2f8 be/libgcc.a(_arm_muldivsf3.o)
+                0x0000000012f39610                __mulsf3
+                0x0000000012f39610                __aeabi_fmul
+                0x0000000012f397a8                __aeabi_fdiv
+                0x0000000012f397a8                __divsf3
+ .text          0x0000000012f39908      0x114 be/libgcc.a(_arm_cmpsf2.o)
+                0x0000000012f39908                __gesf2
+                0x0000000012f39908                __gtsf2
+                0x0000000012f39910                __lesf2
+                0x0000000012f39910                __ltsf2
+                0x0000000012f39918                __nesf2
+                0x0000000012f39918                __eqsf2
+                0x0000000012f39918                __cmpsf2
+                0x0000000012f3997c                __aeabi_cfrcmple
+                0x0000000012f3998c                __aeabi_cfcmpeq
+                0x0000000012f3998c                __aeabi_cfcmple
+                0x0000000012f399a4                __aeabi_fcmpeq
+                0x0000000012f399bc                __aeabi_fcmplt
+                0x0000000012f399d4                __aeabi_fcmple
+                0x0000000012f399ec                __aeabi_fcmpge
+                0x0000000012f39a04                __aeabi_fcmpgt
+ .text          0x0000000012f39a1c       0x54 be/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000012f39a1c                __fixunssfsi
+                0x0000000012f39a1c                __aeabi_f2uiz
+ .text          0x0000000012f39a70       0x3c be/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000012f39a70                __aeabi_uldivmod
+ .text          0x0000000012f39aac       0x84 be/libgcc.a(bpabi.o)
+                0x0000000012f39aac                __gnu_ldivmod_helper
+                0x0000000012f39af0                __gnu_uldivmod_helper
+ .text          0x0000000012f39b30      0x4c4 be/libgcc.a(_divdi3.o)
+                0x0000000012f39b30                __divdi3
+ .text          0x0000000012f39ff4      0x474 be/libgcc.a(_udivdi3.o)
+                0x0000000012f39ff4                __udivdi3
+ .text          0x0000000012f3a468       0x48 be/libgcc.a(_clzsi2.o)
+                0x0000000012f3a468                __clzsi2
  *(.text.*)
  *(.gnu.warning)
  *(.gnu.linkonce.t*)
  *(.glue_7)
- .glue_7        0x0000000012f39a80        0x0 linker stubs
+ .glue_7        0x0000000012f3a4b0        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000012f39a80        0x0 linker stubs
-                0x0000000012f39a80                . = ALIGN (0x4)
+ .glue_7t       0x0000000012f3a4b0        0x0 linker stubs
+                0x0000000012f3a4b0                . = ALIGN (0x4)
 
-.vfp11_veneer   0x0000000012f39a80        0x0
- .vfp11_veneer  0x0000000012f39a80        0x0 linker stubs
+.vfp11_veneer   0x0000000012f3a4b0        0x0
+ .vfp11_veneer  0x0000000012f3a4b0        0x0 linker stubs
 
-.v4_bx          0x0000000012f39a80        0x0
- .v4_bx         0x0000000012f39a80        0x0 linker stubs
+.v4_bx          0x0000000012f3a4b0        0x0
+ .v4_bx         0x0000000012f3a4b0        0x0 linker stubs
 
-.iplt           0x0000000012f39a80        0x0
- .iplt          0x0000000012f39a80        0x0 start.o
+.iplt           0x0000000012f3a4b0        0x0
+ .iplt          0x0000000012f3a4b0        0x0 start.o
 
 .rodata         0x0000000012f60000     0x7bb4
  *(.rodata)
@@ -2722,27 +2723,31 @@ Linker script and memory map
                 0x0000000012f6e600        0x4 TRI.o
  .bss.TRISettingsSize
                 0x0000000012f6e604        0x4 TRI.o
- .bss.arcadeMode
+ .bss.analogPedals
                 0x0000000012f6e608        0x4 TRI.o
-                0x0000000012f6e608                arcadeMode
+                0x0000000012f6e608                analogPedals
+ .bss.arcadeMode
+                0x0000000012f6e60c        0x4 TRI.o
+                0x0000000012f6e60c                arcadeMode
  .bss.CacheInited
-                0x0000000012f6e60c        0x4 ISO.o
- .bss.DC        0x0000000012f6e610     0x3000 ISO.o
+                0x0000000012f6e610        0x4 ISO.o
+ .bss.DC        0x0000000012f6e614     0x3000 ISO.o
  .bss.DataCacheOffset
-                0x0000000012f71610        0x4 ISO.o
- .bss.Datel     0x0000000012f71614        0x4 ISO.o
-                0x0000000012f71614                Datel
- .bss.GameFile  0x0000000012f71618       0x50 ISO.o
+                0x0000000012f71614        0x4 ISO.o
+ .bss.Datel     0x0000000012f71618        0x4 ISO.o
+                0x0000000012f71618                Datel
+ *fill*         0x0000000012f7161c        0x4 
+ .bss.GameFile  0x0000000012f71620       0x50 ISO.o
  .bss.ISOFileOpen
-                0x0000000012f71668        0x4 ISO.o
-                0x0000000012f71668                ISOFileOpen
- .bss.ISO_IsCISO
-                0x0000000012f7166c        0x4 ISO.o
- .bss.TempCacheCount
                 0x0000000012f71670        0x4 ISO.o
+                0x0000000012f71670                ISOFileOpen
+ .bss.ISO_IsCISO
+                0x0000000012f71674        0x4 ISO.o
+ .bss.TempCacheCount
+                0x0000000012f71678        0x4 ISO.o
  .bss.ciso_block_map
-                0x0000000012f71674      0x800 ISO.o
- *fill*         0x0000000012f71e74        0xc 
+                0x0000000012f7167c      0x800 ISO.o
+ *fill*         0x0000000012f71e7c        0x4 
  .bss.isoTmpBuf
                 0x0000000012f71e80       0x20 ISO.o
  .bss.CurrentWriter
@@ -3462,101 +3467,101 @@ LOAD linker stubs
  .comment       0x0000000000000045       0x23 be/libgcc.a(_divdi3.o)
  .comment       0x0000000000000045       0x23 be/libgcc.a(_udivdi3.o)
 
-.debug_line     0x0000000000000000    0x37aff
+.debug_line     0x0000000000000000    0x37ba1
  .debug_line    0x0000000000000000       0x40 start.o
  .debug_line    0x0000000000000040      0x7a7 common.o
  .debug_line    0x00000000000007e7       0xba alloc.o
  .debug_line    0x00000000000008a1     0x1416 GCAM.o
- .debug_line    0x0000000000001cb7      0xa45 JVSIO.o
- .debug_line    0x00000000000026fc      0x558 JVSIOMessage.o
- .debug_line    0x0000000000002c54      0x6b1 FST.o
- .debug_line    0x0000000000003305     0x1487 DI.o
- .debug_line    0x000000000000478c      0x884 RealDI.o
- .debug_line    0x0000000000005010     0xe899 Patch.o
- .debug_line    0x00000000000138a9     0x13af PatchTimers.o
- .debug_line    0x0000000000014c58     0x1b56 TRI.o
- .debug_line    0x00000000000167ae     0x20fd PatchWidescreen.o
- .debug_line    0x00000000000188ab     0x117f ISO.o
- .debug_line    0x0000000000019a2a      0x850 Stream.o
- .debug_line    0x000000000001a27a      0x33d adp.o
- .debug_line    0x000000000001a5b7      0xebf EXI.o
- .debug_line    0x000000000001b476      0x68b SRAM.o
- .debug_line    0x000000000001bb01      0x7bb GCNCard.o
- .debug_line    0x000000000001c2bc      0x4f1 SI.o
- .debug_line    0x000000000001c7ad     0x3355 HID.o
- .debug_line    0x000000000001fb02      0x421 diskio.o
- .debug_line    0x000000000001ff23      0x172 Config.o
- .debug_line    0x0000000000020095       0x87 utils_asm.o
- .debug_line    0x000000000002011c      0xeee main.o
- .debug_line    0x000000000002100a       0x69 syscalls.o
- .debug_line    0x0000000000021073      0x3fe ReadSpeed.o
- .debug_line    0x0000000000021471      0xa8a vsprintf.o
- .debug_line    0x0000000000021efb      0x43e string.o
- .debug_line    0x0000000000022339      0x55d prs.o
- .debug_line    0x0000000000022896     0x160f SDI.o
- .debug_line    0x0000000000023ea5      0x37e usb.o
- .debug_line    0x0000000000024223      0x8dd usbstorage.o
- .debug_line    0x0000000000024b00      0x978 wdvd.o
- .debug_line    0x0000000000025478      0xac7 sock.o
- .debug_line    0x0000000000025f3f     0x1945 lwbt/bte.o
- .debug_line    0x0000000000027884      0x1df lwbt/btmemb.o
- .debug_line    0x0000000000027a63      0x578 lwbt/btmemr.o
- .debug_line    0x0000000000027fdb      0xa0e lwbt/btpbuf.o
- .debug_line    0x00000000000289e9     0x31a6 lwbt/hci.o
- .debug_line    0x000000000002bb8f     0x2a04 lwbt/l2cap.o
- .debug_line    0x000000000002e593      0xb51 lwbt/physbusif.o
- .debug_line    0x000000000002f0e4     0x1942 BT.o
- .debug_line    0x0000000000030a26     0x6b52 ../fatfs/libfatfs-arm.a(ff-arm.o)
- .debug_line    0x0000000000037578      0x3a5 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
- .debug_line    0x000000000003791d      0x1e2 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .debug_line    0x0000000000001cb7      0xafc JVSIO.o
+ .debug_line    0x00000000000027b3      0x558 JVSIOMessage.o
+ .debug_line    0x0000000000002d0b      0x6b1 FST.o
+ .debug_line    0x00000000000033bc     0x1487 DI.o
+ .debug_line    0x0000000000004843      0x884 RealDI.o
+ .debug_line    0x00000000000050c7     0xe899 Patch.o
+ .debug_line    0x0000000000013960     0x13af PatchTimers.o
+ .debug_line    0x0000000000014d0f     0x1b41 TRI.o
+ .debug_line    0x0000000000016850     0x20fd PatchWidescreen.o
+ .debug_line    0x000000000001894d     0x117f ISO.o
+ .debug_line    0x0000000000019acc      0x850 Stream.o
+ .debug_line    0x000000000001a31c      0x33d adp.o
+ .debug_line    0x000000000001a659      0xebf EXI.o
+ .debug_line    0x000000000001b518      0x68b SRAM.o
+ .debug_line    0x000000000001bba3      0x7bb GCNCard.o
+ .debug_line    0x000000000001c35e      0x4f1 SI.o
+ .debug_line    0x000000000001c84f     0x3355 HID.o
+ .debug_line    0x000000000001fba4      0x421 diskio.o
+ .debug_line    0x000000000001ffc5      0x172 Config.o
+ .debug_line    0x0000000000020137       0x87 utils_asm.o
+ .debug_line    0x00000000000201be      0xeee main.o
+ .debug_line    0x00000000000210ac       0x69 syscalls.o
+ .debug_line    0x0000000000021115      0x3fe ReadSpeed.o
+ .debug_line    0x0000000000021513      0xa8a vsprintf.o
+ .debug_line    0x0000000000021f9d      0x43e string.o
+ .debug_line    0x00000000000223db      0x55d prs.o
+ .debug_line    0x0000000000022938     0x160f SDI.o
+ .debug_line    0x0000000000023f47      0x37e usb.o
+ .debug_line    0x00000000000242c5      0x8dd usbstorage.o
+ .debug_line    0x0000000000024ba2      0x978 wdvd.o
+ .debug_line    0x000000000002551a      0xac7 sock.o
+ .debug_line    0x0000000000025fe1     0x1945 lwbt/bte.o
+ .debug_line    0x0000000000027926      0x1df lwbt/btmemb.o
+ .debug_line    0x0000000000027b05      0x578 lwbt/btmemr.o
+ .debug_line    0x000000000002807d      0xa0e lwbt/btpbuf.o
+ .debug_line    0x0000000000028a8b     0x31a6 lwbt/hci.o
+ .debug_line    0x000000000002bc31     0x2a04 lwbt/l2cap.o
+ .debug_line    0x000000000002e635      0xb51 lwbt/physbusif.o
+ .debug_line    0x000000000002f186     0x1942 BT.o
+ .debug_line    0x0000000000030ac8     0x6b52 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_line    0x000000000003761a      0x3a5 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_line    0x00000000000379bf      0x1e2 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
 
-.debug_info     0x0000000000000000    0x5dce6
+.debug_info     0x0000000000000000    0x5dce1
  .debug_info    0x0000000000000000       0x26 start.o
- .debug_info    0x0000000000000026     0x10f9 common.o
- .debug_info    0x000000000000111f      0x1d9 alloc.o
- .debug_info    0x00000000000012f8     0x182f GCAM.o
- .debug_info    0x0000000000002b27      0xbd9 JVSIO.o
- .debug_info    0x0000000000003700      0x5be JVSIOMessage.o
- .debug_info    0x0000000000003cbe      0xe1c FST.o
- .debug_info    0x0000000000004ada     0x2fec DI.o
- .debug_info    0x0000000000007ac6     0x1422 RealDI.o
- .debug_info    0x0000000000008ee8    0x18615 Patch.o
- .debug_info    0x00000000000214fd     0x2cd8 PatchTimers.o
- .debug_info    0x00000000000241d5     0x430f TRI.o
- .debug_info    0x00000000000284e4     0x47cc PatchWidescreen.o
- .debug_info    0x000000000002ccb0     0x20f1 ISO.o
- .debug_info    0x000000000002eda1      0xdd2 Stream.o
- .debug_info    0x000000000002fb73      0x2e4 adp.o
- .debug_info    0x000000000002fe57     0x198a EXI.o
- .debug_info    0x00000000000317e1      0x68f SRAM.o
- .debug_info    0x0000000000031e70     0x105d GCNCard.o
- .debug_info    0x0000000000032ecd      0x8ca SI.o
- .debug_info    0x0000000000033797     0x6fdd HID.o
- .debug_info    0x000000000003a774      0xbd6 diskio.o
- .debug_info    0x000000000003b34a      0x82a Config.o
- .debug_info    0x000000000003bb74       0x26 utils_asm.o
- .debug_info    0x000000000003bb9a     0x2d16 main.o
- .debug_info    0x000000000003e8b0       0x26 syscalls.o
- .debug_info    0x000000000003e8d6      0x7a8 ReadSpeed.o
- .debug_info    0x000000000003f07e      0xf88 vsprintf.o
- .debug_info    0x0000000000040006      0x6ad string.o
- .debug_info    0x00000000000406b3      0x294 prs.o
- .debug_info    0x0000000000040947     0x26fd SDI.o
- .debug_info    0x0000000000043044      0xada usb.o
- .debug_info    0x0000000000043b1e      0xff6 usbstorage.o
- .debug_info    0x0000000000044b14     0x1019 wdvd.o
- .debug_info    0x0000000000045b2d     0x131a sock.o
- .debug_info    0x0000000000046e47     0x3239 lwbt/bte.o
- .debug_info    0x000000000004a080      0x294 lwbt/btmemb.o
- .debug_info    0x000000000004a314      0x574 lwbt/btmemr.o
- .debug_info    0x000000000004a888      0xc78 lwbt/btpbuf.o
- .debug_info    0x000000000004b500     0x4806 lwbt/hci.o
- .debug_info    0x000000000004fd06     0x38d5 lwbt/l2cap.o
- .debug_info    0x00000000000535db     0x1762 lwbt/physbusif.o
- .debug_info    0x0000000000054d3d     0x23e9 BT.o
- .debug_info    0x0000000000057126     0x60fa ../fatfs/libfatfs-arm.a(ff-arm.o)
- .debug_info    0x000000000005d220      0x8f8 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
- .debug_info    0x000000000005db18      0x1ce ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .debug_info    0x0000000000000026     0x1102 common.o
+ .debug_info    0x0000000000001128      0x1d9 alloc.o
+ .debug_info    0x0000000000001301     0x182f GCAM.o
+ .debug_info    0x0000000000002b30      0xbe5 JVSIO.o
+ .debug_info    0x0000000000003715      0x5be JVSIOMessage.o
+ .debug_info    0x0000000000003cd3      0xe1c FST.o
+ .debug_info    0x0000000000004aef     0x2fec DI.o
+ .debug_info    0x0000000000007adb     0x1422 RealDI.o
+ .debug_info    0x0000000000008efd    0x1861e Patch.o
+ .debug_info    0x000000000002151b     0x2cd8 PatchTimers.o
+ .debug_info    0x00000000000241f3     0x42ad TRI.o
+ .debug_info    0x00000000000284a0     0x47cc PatchWidescreen.o
+ .debug_info    0x000000000002cc6c     0x20fa ISO.o
+ .debug_info    0x000000000002ed66      0xdd2 Stream.o
+ .debug_info    0x000000000002fb38      0x2e4 adp.o
+ .debug_info    0x000000000002fe1c     0x1993 EXI.o
+ .debug_info    0x00000000000317af      0x68f SRAM.o
+ .debug_info    0x0000000000031e3e     0x1066 GCNCard.o
+ .debug_info    0x0000000000032ea4      0x8ca SI.o
+ .debug_info    0x000000000003376e     0x6fdd HID.o
+ .debug_info    0x000000000003a74b      0xbd6 diskio.o
+ .debug_info    0x000000000003b321      0x833 Config.o
+ .debug_info    0x000000000003bb54       0x26 utils_asm.o
+ .debug_info    0x000000000003bb7a     0x2d1f main.o
+ .debug_info    0x000000000003e899       0x26 syscalls.o
+ .debug_info    0x000000000003e8bf      0x7b1 ReadSpeed.o
+ .debug_info    0x000000000003f070      0xf88 vsprintf.o
+ .debug_info    0x000000000003fff8      0x6ad string.o
+ .debug_info    0x00000000000406a5      0x294 prs.o
+ .debug_info    0x0000000000040939     0x26fd SDI.o
+ .debug_info    0x0000000000043036      0xada usb.o
+ .debug_info    0x0000000000043b10      0xff6 usbstorage.o
+ .debug_info    0x0000000000044b06     0x1019 wdvd.o
+ .debug_info    0x0000000000045b1f     0x131a sock.o
+ .debug_info    0x0000000000046e39     0x3239 lwbt/bte.o
+ .debug_info    0x000000000004a072      0x294 lwbt/btmemb.o
+ .debug_info    0x000000000004a306      0x574 lwbt/btmemr.o
+ .debug_info    0x000000000004a87a      0xc78 lwbt/btpbuf.o
+ .debug_info    0x000000000004b4f2     0x4806 lwbt/hci.o
+ .debug_info    0x000000000004fcf8     0x38d5 lwbt/l2cap.o
+ .debug_info    0x00000000000535cd     0x1762 lwbt/physbusif.o
+ .debug_info    0x0000000000054d2f     0x23f2 BT.o
+ .debug_info    0x0000000000057121     0x60fa ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_info    0x000000000005d21b      0x8f8 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_info    0x000000000005db13      0x1ce ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
 
 .debug_abbrev   0x0000000000000000     0x90f8
  .debug_abbrev  0x0000000000000000       0x14 start.o
@@ -3700,188 +3705,188 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000000010d8       0x28 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
 
-.debug_str      0x0000000000000000     0x740d
+.debug_str      0x0000000000000000     0x7434
  .debug_str     0x0000000000000000       0x39 start.o
- .debug_str     0x0000000000000039      0x53e common.o
-                                        0x66a (size before relaxing)
- .debug_str     0x0000000000000577       0x39 alloc.o
+ .debug_str     0x0000000000000039      0x558 common.o
+                                        0x684 (size before relaxing)
+ .debug_str     0x0000000000000591       0x39 alloc.o
                                         0x219 (size before relaxing)
- .debug_str     0x00000000000005b0      0x5fe GCAM.o
+ .debug_str     0x00000000000005ca      0x5fe GCAM.o
                                         0x906 (size before relaxing)
- .debug_str     0x0000000000000bae      0x1c9 JVSIO.o
-                                        0x48b (size before relaxing)
- .debug_str     0x0000000000000d77       0x39 JVSIOMessage.o
+ .debug_str     0x0000000000000bc8      0x1d6 JVSIO.o
+                                        0x498 (size before relaxing)
+ .debug_str     0x0000000000000d9e       0x39 JVSIOMessage.o
                                         0x259 (size before relaxing)
- .debug_str     0x0000000000000db0      0x113 FST.o
+ .debug_str     0x0000000000000dd7      0x113 FST.o
                                         0x63c (size before relaxing)
- .debug_str     0x0000000000000ec3      0x47f DI.o
+ .debug_str     0x0000000000000eea      0x47f DI.o
                                         0xb95 (size before relaxing)
- .debug_str     0x0000000000001342      0x240 RealDI.o
+ .debug_str     0x0000000000001369      0x240 RealDI.o
                                         0x687 (size before relaxing)
- .debug_str     0x0000000000001582     0x1c7a Patch.o
-                                       0x2748 (size before relaxing)
- .debug_str     0x00000000000031fc       0xa2 PatchTimers.o
+ .debug_str     0x00000000000015a9     0x1c7a Patch.o
+                                       0x2762 (size before relaxing)
+ .debug_str     0x0000000000003223       0xa2 PatchTimers.o
                                         0x315 (size before relaxing)
- .debug_str     0x000000000000329e      0x2a4 TRI.o
-                                        0xac0 (size before relaxing)
- .debug_str     0x0000000000003542       0x8c PatchWidescreen.o
+ .debug_str     0x00000000000032c5      0x2a4 TRI.o
+                                        0xae7 (size before relaxing)
+ .debug_str     0x0000000000003569       0x8c PatchWidescreen.o
                                         0x337 (size before relaxing)
- .debug_str     0x00000000000035ce      0x20c ISO.o
-                                        0x991 (size before relaxing)
- .debug_str     0x00000000000037da      0x19d Stream.o
+ .debug_str     0x00000000000035f5      0x20c ISO.o
+                                        0x9ab (size before relaxing)
+ .debug_str     0x0000000000003801      0x19d Stream.o
                                         0x40c (size before relaxing)
- .debug_str     0x0000000000003977       0x51 adp.o
+ .debug_str     0x000000000000399e       0x51 adp.o
                                         0x1ce (size before relaxing)
- .debug_str     0x00000000000039c8      0x524 EXI.o
-                                        0xa90 (size before relaxing)
- .debug_str     0x0000000000003eec      0x158 SRAM.o
+ .debug_str     0x00000000000039ef      0x524 EXI.o
+                                        0xaaa (size before relaxing)
+ .debug_str     0x0000000000003f13      0x158 SRAM.o
                                         0x589 (size before relaxing)
- .debug_str     0x0000000000004044       0xde GCNCard.o
-                                        0x8c5 (size before relaxing)
- .debug_str     0x0000000000004122       0x78 SI.o
+ .debug_str     0x000000000000406b       0xde GCNCard.o
+                                        0x8df (size before relaxing)
+ .debug_str     0x0000000000004149       0x78 SI.o
                                         0x31f (size before relaxing)
- .debug_str     0x000000000000419a      0x803 HID.o
+ .debug_str     0x00000000000041c1      0x803 HID.o
                                         0xf96 (size before relaxing)
- .debug_str     0x000000000000499d      0x177 diskio.o
+ .debug_str     0x00000000000049c4      0x177 diskio.o
                                         0x457 (size before relaxing)
- .debug_str     0x0000000000004b14       0x29 Config.o
-                                        0x6b0 (size before relaxing)
- .debug_str     0x0000000000004b3d        0xc utils_asm.o
+ .debug_str     0x0000000000004b3b       0x29 Config.o
+                                        0x6ca (size before relaxing)
+ .debug_str     0x0000000000004b64        0xc utils_asm.o
                                          0x3d (size before relaxing)
- .debug_str     0x0000000000004b49      0x195 main.o
-                                        0xd32 (size before relaxing)
- .debug_str     0x0000000000004cde        0xb syscalls.o
+ .debug_str     0x0000000000004b70      0x195 main.o
+                                        0xd4c (size before relaxing)
+ .debug_str     0x0000000000004d05        0xb syscalls.o
                                          0x3c (size before relaxing)
- .debug_str     0x0000000000004ce9       0xf6 ReadSpeed.o
-                                        0x5ab (size before relaxing)
- .debug_str     0x0000000000004ddf       0xc2 vsprintf.o
+ .debug_str     0x0000000000004d10       0xf6 ReadSpeed.o
+                                        0x5c5 (size before relaxing)
+ .debug_str     0x0000000000004e06       0xc2 vsprintf.o
                                         0x667 (size before relaxing)
- .debug_str     0x0000000000004ea1       0x17 string.o
+ .debug_str     0x0000000000004ec8       0x17 string.o
                                         0x241 (size before relaxing)
- .debug_str     0x0000000000004eb8       0x3f prs.o
+ .debug_str     0x0000000000004edf       0x3f prs.o
                                         0x23d (size before relaxing)
- .debug_str     0x0000000000004ef7      0x227 SDI.o
+ .debug_str     0x0000000000004f1e      0x227 SDI.o
                                         0x4f2 (size before relaxing)
- .debug_str     0x000000000000511e       0xe3 usb.o
+ .debug_str     0x0000000000005145       0xe3 usb.o
                                         0x442 (size before relaxing)
- .debug_str     0x0000000000005201      0x137 usbstorage.o
+ .debug_str     0x0000000000005228      0x137 usbstorage.o
                                         0x4ee (size before relaxing)
- .debug_str     0x0000000000005338      0x1f2 wdvd.o
+ .debug_str     0x000000000000535f      0x1f2 wdvd.o
                                         0x53c (size before relaxing)
- .debug_str     0x000000000000552a      0x18e sock.o
+ .debug_str     0x0000000000005551      0x18e sock.o
                                         0x566 (size before relaxing)
- .debug_str     0x00000000000056b8      0xb2a lwbt/bte.o
+ .debug_str     0x00000000000056df      0xb2a lwbt/bte.o
                                         0xe10 (size before relaxing)
- .debug_str     0x00000000000061e2       0x28 lwbt/btmemb.o
+ .debug_str     0x0000000000006209       0x28 lwbt/btmemb.o
                                         0x229 (size before relaxing)
- .debug_str     0x000000000000620a       0x9b lwbt/btmemr.o
+ .debug_str     0x0000000000006231       0x9b lwbt/btmemr.o
                                         0x287 (size before relaxing)
- .debug_str     0x00000000000062a5      0x10b lwbt/btpbuf.o
+ .debug_str     0x00000000000062cc      0x10b lwbt/btpbuf.o
                                         0x3f7 (size before relaxing)
- .debug_str     0x00000000000063b0      0x513 lwbt/hci.o
+ .debug_str     0x00000000000063d7      0x513 lwbt/hci.o
                                         0xbef (size before relaxing)
- .debug_str     0x00000000000068c3      0x24f lwbt/l2cap.o
+ .debug_str     0x00000000000068ea      0x24f lwbt/l2cap.o
                                         0x8b4 (size before relaxing)
- .debug_str     0x0000000000006b12      0x25b lwbt/physbusif.o
+ .debug_str     0x0000000000006b39      0x25b lwbt/physbusif.o
                                         0x786 (size before relaxing)
- .debug_str     0x0000000000006d6d      0x28a BT.o
-                                        0xb36 (size before relaxing)
- .debug_str     0x0000000000006ff7      0x366 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_str     0x0000000000006d94      0x28a BT.o
+                                        0xb50 (size before relaxing)
+ .debug_str     0x000000000000701e      0x366 ../fatfs/libfatfs-arm.a(ff-arm.o)
                                         0x86c (size before relaxing)
- .debug_str     0x000000000000735d       0x96 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_str     0x0000000000007384       0x96 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
                                         0x4c3 (size before relaxing)
- .debug_str     0x00000000000073f3       0x1a ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .debug_str     0x000000000000741a       0x1a ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
                                         0x1dc (size before relaxing)
 
-.debug_loc      0x0000000000000000    0x554ea
+.debug_loc      0x0000000000000000    0x554f2
  .debug_loc     0x0000000000000000      0xad3 common.o
  .debug_loc     0x0000000000000ad3       0xf2 alloc.o
  .debug_loc     0x0000000000000bc5     0x1310 GCAM.o
- .debug_loc     0x0000000000001ed5      0x9b5 JVSIO.o
- .debug_loc     0x000000000000288a      0x7ff JVSIOMessage.o
- .debug_loc     0x0000000000003089      0x573 FST.o
- .debug_loc     0x00000000000035fc     0x1be6 DI.o
- .debug_loc     0x00000000000051e2      0x8fb RealDI.o
- .debug_loc     0x0000000000005add    0x181a8 Patch.o
- .debug_loc     0x000000000001dc85     0x26dd PatchTimers.o
- .debug_loc     0x0000000000020362     0x2537 TRI.o
- .debug_loc     0x0000000000022899     0x3b41 PatchWidescreen.o
- .debug_loc     0x00000000000263da     0x2766 ISO.o
- .debug_loc     0x0000000000028b40      0x686 Stream.o
- .debug_loc     0x00000000000291c6      0x83b adp.o
- .debug_loc     0x0000000000029a01     0x1b6d EXI.o
- .debug_loc     0x000000000002b56e      0x84a SRAM.o
- .debug_loc     0x000000000002bdb8      0x7ec GCNCard.o
- .debug_loc     0x000000000002c5a4      0x77e SI.o
- .debug_loc     0x000000000002cd22     0x54ed HID.o
- .debug_loc     0x000000000003220f      0x622 diskio.o
- .debug_loc     0x0000000000032831       0x2f Config.o
- .debug_loc     0x0000000000032860     0x14cb main.o
- .debug_loc     0x0000000000033d2b      0x368 ReadSpeed.o
- .debug_loc     0x0000000000034093     0x119f vsprintf.o
- .debug_loc     0x0000000000035232      0x58d string.o
- .debug_loc     0x00000000000357bf      0xcb6 prs.o
- .debug_loc     0x0000000000036475     0x22a5 SDI.o
- .debug_loc     0x000000000003871a      0x978 usb.o
- .debug_loc     0x0000000000039092      0xcab usbstorage.o
- .debug_loc     0x0000000000039d3d      0x689 wdvd.o
- .debug_loc     0x000000000003a3c6      0x730 sock.o
- .debug_loc     0x000000000003aaf6     0x3282 lwbt/bte.o
- .debug_loc     0x000000000003dd78      0x219 lwbt/btmemb.o
- .debug_loc     0x000000000003df91      0x731 lwbt/btmemr.o
- .debug_loc     0x000000000003e6c2      0xc78 lwbt/btpbuf.o
- .debug_loc     0x000000000003f33a     0x38e5 lwbt/hci.o
- .debug_loc     0x0000000000042c1f     0x28de lwbt/l2cap.o
- .debug_loc     0x00000000000454fd      0x8b2 lwbt/physbusif.o
- .debug_loc     0x0000000000045daf     0x11f2 BT.o
- .debug_loc     0x0000000000046fa1     0xdb9d ../fatfs/libfatfs-arm.a(ff-arm.o)
- .debug_loc     0x0000000000054b3e      0x5f5 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
- .debug_loc     0x0000000000055133      0x3b7 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .debug_loc     0x0000000000001ed5      0xa3b JVSIO.o
+ .debug_loc     0x0000000000002910      0x7ff JVSIOMessage.o
+ .debug_loc     0x000000000000310f      0x573 FST.o
+ .debug_loc     0x0000000000003682     0x1be6 DI.o
+ .debug_loc     0x0000000000005268      0x8fb RealDI.o
+ .debug_loc     0x0000000000005b63    0x181a8 Patch.o
+ .debug_loc     0x000000000001dd0b     0x26dd PatchTimers.o
+ .debug_loc     0x00000000000203e8     0x24b9 TRI.o
+ .debug_loc     0x00000000000228a1     0x3b41 PatchWidescreen.o
+ .debug_loc     0x00000000000263e2     0x2766 ISO.o
+ .debug_loc     0x0000000000028b48      0x686 Stream.o
+ .debug_loc     0x00000000000291ce      0x83b adp.o
+ .debug_loc     0x0000000000029a09     0x1b6d EXI.o
+ .debug_loc     0x000000000002b576      0x84a SRAM.o
+ .debug_loc     0x000000000002bdc0      0x7ec GCNCard.o
+ .debug_loc     0x000000000002c5ac      0x77e SI.o
+ .debug_loc     0x000000000002cd2a     0x54ed HID.o
+ .debug_loc     0x0000000000032217      0x622 diskio.o
+ .debug_loc     0x0000000000032839       0x2f Config.o
+ .debug_loc     0x0000000000032868     0x14cb main.o
+ .debug_loc     0x0000000000033d33      0x368 ReadSpeed.o
+ .debug_loc     0x000000000003409b     0x119f vsprintf.o
+ .debug_loc     0x000000000003523a      0x58d string.o
+ .debug_loc     0x00000000000357c7      0xcb6 prs.o
+ .debug_loc     0x000000000003647d     0x22a5 SDI.o
+ .debug_loc     0x0000000000038722      0x978 usb.o
+ .debug_loc     0x000000000003909a      0xcab usbstorage.o
+ .debug_loc     0x0000000000039d45      0x689 wdvd.o
+ .debug_loc     0x000000000003a3ce      0x730 sock.o
+ .debug_loc     0x000000000003aafe     0x3282 lwbt/bte.o
+ .debug_loc     0x000000000003dd80      0x219 lwbt/btmemb.o
+ .debug_loc     0x000000000003df99      0x731 lwbt/btmemr.o
+ .debug_loc     0x000000000003e6ca      0xc78 lwbt/btpbuf.o
+ .debug_loc     0x000000000003f342     0x38e5 lwbt/hci.o
+ .debug_loc     0x0000000000042c27     0x28de lwbt/l2cap.o
+ .debug_loc     0x0000000000045505      0x8b2 lwbt/physbusif.o
+ .debug_loc     0x0000000000045db7     0x11f2 BT.o
+ .debug_loc     0x0000000000046fa9     0xdb9d ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_loc     0x0000000000054b46      0x5f5 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_loc     0x000000000005513b      0x3b7 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
 
-.debug_ranges   0x0000000000000000     0xbe58
+.debug_ranges   0x0000000000000000     0xbea0
  .debug_ranges  0x0000000000000000      0x228 common.o
  .debug_ranges  0x0000000000000228       0x20 alloc.o
  .debug_ranges  0x0000000000000248      0x200 GCAM.o
- .debug_ranges  0x0000000000000448      0x150 JVSIO.o
- .debug_ranges  0x0000000000000598      0x200 JVSIOMessage.o
- .debug_ranges  0x0000000000000798       0x88 FST.o
- .debug_ranges  0x0000000000000820      0x3a8 DI.o
- .debug_ranges  0x0000000000000bc8      0x1e0 RealDI.o
- .debug_ranges  0x0000000000000da8     0x4520 Patch.o
- .debug_ranges  0x00000000000052c8      0x6b8 PatchTimers.o
- .debug_ranges  0x0000000000005980      0x170 TRI.o
- .debug_ranges  0x0000000000005af0      0x868 PatchWidescreen.o
- .debug_ranges  0x0000000000006358      0x770 ISO.o
- .debug_ranges  0x0000000000006ac8      0x2c8 Stream.o
- .debug_ranges  0x0000000000006d90       0x88 adp.o
- .debug_ranges  0x0000000000006e18      0x2d0 EXI.o
- .debug_ranges  0x00000000000070e8       0x90 SRAM.o
- .debug_ranges  0x0000000000007178      0x158 GCNCard.o
- .debug_ranges  0x00000000000072d0      0x110 SI.o
- .debug_ranges  0x00000000000073e0      0xaf0 HID.o
- .debug_ranges  0x0000000000007ed0       0x78 diskio.o
- .debug_ranges  0x0000000000007f48       0x30 Config.o
- .debug_ranges  0x0000000000007f78      0x218 main.o
- .debug_ranges  0x0000000000008190       0xf8 ReadSpeed.o
- .debug_ranges  0x0000000000008288       0xb8 vsprintf.o
- .debug_ranges  0x0000000000008340       0xa0 string.o
- .debug_ranges  0x00000000000083e0       0x18 prs.o
- .debug_ranges  0x00000000000083f8      0x388 SDI.o
- .debug_ranges  0x0000000000008780      0x128 usb.o
- .debug_ranges  0x00000000000088a8      0x2b0 usbstorage.o
- .debug_ranges  0x0000000000008b58      0x208 wdvd.o
- .debug_ranges  0x0000000000008d60       0xe8 sock.o
- .debug_ranges  0x0000000000008e48      0x2a8 lwbt/bte.o
- .debug_ranges  0x00000000000090f0       0x28 lwbt/btmemb.o
- .debug_ranges  0x0000000000009118       0x88 lwbt/btmemr.o
- .debug_ranges  0x00000000000091a0      0x140 lwbt/btpbuf.o
- .debug_ranges  0x00000000000092e0      0xc98 lwbt/hci.o
- .debug_ranges  0x0000000000009f78      0x660 lwbt/l2cap.o
- .debug_ranges  0x000000000000a5d8      0x198 lwbt/physbusif.o
- .debug_ranges  0x000000000000a770      0x398 BT.o
- .debug_ranges  0x000000000000ab08     0x1258 ../fatfs/libfatfs-arm.a(ff-arm.o)
- .debug_ranges  0x000000000000bd60       0xe0 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
- .debug_ranges  0x000000000000be40       0x18 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .debug_ranges  0x0000000000000448      0x168 JVSIO.o
+ .debug_ranges  0x00000000000005b0      0x200 JVSIOMessage.o
+ .debug_ranges  0x00000000000007b0       0x88 FST.o
+ .debug_ranges  0x0000000000000838      0x3a8 DI.o
+ .debug_ranges  0x0000000000000be0      0x1e0 RealDI.o
+ .debug_ranges  0x0000000000000dc0     0x4520 Patch.o
+ .debug_ranges  0x00000000000052e0      0x6b8 PatchTimers.o
+ .debug_ranges  0x0000000000005998      0x1a0 TRI.o
+ .debug_ranges  0x0000000000005b38      0x868 PatchWidescreen.o
+ .debug_ranges  0x00000000000063a0      0x770 ISO.o
+ .debug_ranges  0x0000000000006b10      0x2c8 Stream.o
+ .debug_ranges  0x0000000000006dd8       0x88 adp.o
+ .debug_ranges  0x0000000000006e60      0x2d0 EXI.o
+ .debug_ranges  0x0000000000007130       0x90 SRAM.o
+ .debug_ranges  0x00000000000071c0      0x158 GCNCard.o
+ .debug_ranges  0x0000000000007318      0x110 SI.o
+ .debug_ranges  0x0000000000007428      0xaf0 HID.o
+ .debug_ranges  0x0000000000007f18       0x78 diskio.o
+ .debug_ranges  0x0000000000007f90       0x30 Config.o
+ .debug_ranges  0x0000000000007fc0      0x218 main.o
+ .debug_ranges  0x00000000000081d8       0xf8 ReadSpeed.o
+ .debug_ranges  0x00000000000082d0       0xb8 vsprintf.o
+ .debug_ranges  0x0000000000008388       0xa0 string.o
+ .debug_ranges  0x0000000000008428       0x18 prs.o
+ .debug_ranges  0x0000000000008440      0x388 SDI.o
+ .debug_ranges  0x00000000000087c8      0x128 usb.o
+ .debug_ranges  0x00000000000088f0      0x2b0 usbstorage.o
+ .debug_ranges  0x0000000000008ba0      0x208 wdvd.o
+ .debug_ranges  0x0000000000008da8       0xe8 sock.o
+ .debug_ranges  0x0000000000008e90      0x2a8 lwbt/bte.o
+ .debug_ranges  0x0000000000009138       0x28 lwbt/btmemb.o
+ .debug_ranges  0x0000000000009160       0x88 lwbt/btmemr.o
+ .debug_ranges  0x00000000000091e8      0x140 lwbt/btpbuf.o
+ .debug_ranges  0x0000000000009328      0xc98 lwbt/hci.o
+ .debug_ranges  0x0000000000009fc0      0x660 lwbt/l2cap.o
+ .debug_ranges  0x000000000000a620      0x198 lwbt/physbusif.o
+ .debug_ranges  0x000000000000a7b8      0x398 BT.o
+ .debug_ranges  0x000000000000ab50     0x1258 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_ranges  0x000000000000bda8       0xe0 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_ranges  0x000000000000be88       0x18 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
 
 .debug_frame    0x0000000000000000     0x3994
  .debug_frame   0x0000000000000000      0x144 common.o

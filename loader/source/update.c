@@ -67,13 +67,13 @@ typedef enum {
 } DOWNLOADS;
 
 static const downloads_t Downloads[] = {
-	{"https://github.com/Special-Niewbie/Nintendont-CrisMMMod/raw/main/nintendont/boot.dol", "Downloading CrisMMMod", "boot.dol", 0x700000}, // 7MB
+	{"https://helixteamhub.cloud/api/projects/nintendont-crismmmod/repositories/nintendont-crismmmodweb/commits/webdav/files/boot.dol?api_signing_key=cc53b4ea-688d-40a0-bd89-99ef16ce604c&expires_at=2121-01-13T03%3A27%3A58.283Z&signature=920cf6e46db81df6a9d2a6bc8fe07f7535452814909ce6244759bab3de9b588b", "Downloading CrisMMMod", "boot.dol", 0x700000}, // 7MB
 	{"http://send0r.lima-city.de/Nintendont/MasterMod/boot.dol", "Downloading MasterMod", "boot.dol", 0x400000}, // 4MB
 	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/loader/loader.dol", "Updating Nintendont", "boot.dol", 0x400000}, // 4MB
-	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/nintendont/titles.txt", "Updating titles.txt", "titles.txt", 0x80000}, // 512KB
-	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/controllerconfigs/controllers.zip", "Updating controllers.zip", "controllers.zip", 0x8000}, // 32KB
-	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/nintendont/gcn_md5.zip", "Updating gcn_md5.txt", "gcn_md5.zip", 0x20000}, // 128 KB
-	{"https://raw.githubusercontent.com/Special-Niewbie/Nintendont-CrisMMMod/main/common/include/NintendontVersion.h", "Checking Latest Version", "", 0x400} // 1KB
+	{"https://helixteamhub.cloud/api/projects/nintendont-crismmmod/repositories/nintendont-crismmmodweb/commits/webdav/files/titles.txt?api_signing_key=cc53b4ea-688d-40a0-bd89-99ef16ce604c&expires_at=2121-01-14T01%3A40%3A55.387Z&signature=f8456a323aeeedd87d265ea84430f8bc8e5b68baf38214a2a0e7d949356b721e", "Updating titles.txt", "titles.txt", 0x80000}, // 512KB
+	{"https://helixteamhub.cloud/api/projects/nintendont-crismmmod/repositories/nintendont-crismmmodweb/commits/webdav/files/controllers.zip?api_signing_key=cc53b4ea-688d-40a0-bd89-99ef16ce604c&expires_at=2121-01-14T01%3A44%3A59.694Z&signature=54a53322e50e1215f6c3de95b2dc2331c1dd4532d3968d02011e41d146887039", "Updating controllers.zip", "controllers.zip", 0x8000}, // 32KB
+	{"https://helixteamhub.cloud/api/projects/nintendont-crismmmod/repositories/nintendont-crismmmodweb/commits/webdav/files/gcn_md5.zip?api_signing_key=cc53b4ea-688d-40a0-bd89-99ef16ce604c&expires_at=2121-01-14T01%3A42%3A03.787Z&signature=1f7126712abb6162391204e79a1dc8724bf434529c66d0de082f62b6382d9f4f", "Updating gcn_md5.txt", "gcn_md5.zip", 0x20000}, // 128 KB
+	{"https://helixteamhub.cloud/api/projects/nintendont-crismmmod/repositories/nintendont-crismmmodweb/commits/webdav/files/NintendontVersion.h?api_signing_key=cc53b4ea-688d-40a0-bd89-99ef16ce604c&expires_at=2121-01-13T03%3A21%3A42.887Z&signature=56c355708239e87a8a153776aba516e7eaba62e28991a0f540254688eeb3ffba", "Checking Latest Version", "", 0x400} // 1KB
 };
 
 extern void changeToDefaultDrive();
