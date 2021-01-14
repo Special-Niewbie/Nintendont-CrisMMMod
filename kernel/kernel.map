@@ -1,0 +1,3934 @@
+Archive member included to satisfy reference by file (symbol)
+
+../fatfs/libfatfs-arm.a(ff-arm.o)
+                              main.o (f_mount)
+../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+                              GCAM.o (f_open_char)
+../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+                              ../fatfs/libfatfs-arm.a(ff-arm.o) (ff_convert)
+be/libc.a(lib_a-gmtime.o)     diskio.o (gmtime)
+be/libc.a(lib_a-gmtime_r.o)   be/libc.a(lib_a-gmtime.o) (gmtime_r)
+be/libc.a(lib_a-impure.o)     be/libc.a(lib_a-gmtime.o) (_impure_ptr)
+be/libc.a(lib_a-isprint.o)    common.o (isprint)
+be/libc.a(lib_a-mbstowcs.o)   ../fatfs/libfatfs-arm.a(ff_utf8-arm.o) (mbstowcs)
+be/libc.a(lib_a-mbstowcs_r.o)
+                              be/libc.a(lib_a-mbstowcs.o) (_mbstowcs_r)
+be/libc.a(lib_a-mbtowc_r.o)   be/libc.a(lib_a-mbstowcs_r.o) (__mbtowc)
+be/libc.a(lib_a-mktm_r.o)     be/libc.a(lib_a-gmtime_r.o) (_mktm_r)
+be/libc.a(lib_a-strcasecmp.o)
+                              DI.o (strcasecmp)
+be/libc.a(lib_a-strchr.o)     HID.o (strchr)
+be/libc.a(lib_a-strcpy.o)     DI.o (strcpy)
+be/libc.a(lib_a-strlen.o)     JVSIOMessage.o (strlen)
+be/libc.a(lib_a-strncmp.o)    DI.o (strncmp)
+be/libc.a(lib_a-strncpy.o)    vsprintf.o (strncpy)
+be/libc.a(lib_a-strnlen.o)    vsprintf.o (strnlen)
+be/libc.a(lib_a-strstr.o)     HID.o (strstr)
+be/libc.a(lib_a-strtoul.o)    HID.o (strtoul)
+be/libc.a(lib_a-tzlock.o)     be/libc.a(lib_a-mktm_r.o) (__tz_lock)
+be/libc.a(lib_a-tzvars.o)     be/libc.a(lib_a-mktm_r.o) (_daylight)
+be/libc.a(lib_a-wcstombs.o)   ../fatfs/libfatfs-arm.a(ff_utf8-arm.o) (wcstombs)
+be/libc.a(lib_a-wcstombs_r.o)
+                              be/libc.a(lib_a-wcstombs.o) (_wcstombs_r)
+be/libc.a(lib_a-wctomb_r.o)   be/libc.a(lib_a-wcstombs_r.o) (__wctomb)
+be/libc.a(lib_a-ctype_.o)     be/libc.a(lib_a-isprint.o) (__ctype_ptr__)
+be/libc.a(lib_a-gettzinfo.o)  be/libc.a(lib_a-mktm_r.o) (__gettzinfo)
+be/libc.a(lib_a-locale.o)     be/libc.a(lib_a-mbstowcs_r.o) (__locale_charset)
+be/libc.a(lib_a-memchr-stub.o)
+                              be/libc.a(lib_a-strstr.o) (memchr)
+be/libc.a(lib_a-strcat.o)     be/libc.a(lib_a-locale.o) (strcat)
+be/libc.a(lib_a-strcmp.o)     be/libc.a(lib_a-locale.o) (strcmp)
+be/libc.a(lib_a-strlcpy.o)    be/libc.a(lib_a-locale.o) (strlcpy)
+be/libc.a(lib_a-strncasecmp.o)
+                              be/libc.a(lib_a-locale.o) (strncasecmp)
+be/libc.a(lib_a-strtol.o)     be/libc.a(lib_a-locale.o) (_strtol_r)
+be/libc.a(lib_a-getenv_r.o)   be/libc.a(lib_a-locale.o) (_getenv_r)
+be/libc.a(lib_a-environ.o)    be/libc.a(lib_a-getenv_r.o) (environ)
+be/libc.a(lib_a-envlock.o)    be/libc.a(lib_a-getenv_r.o) (__env_lock)
+be/libgcc.a(_udivsi3.o)       ../fatfs/libfatfs-arm.a(ff-arm.o) (__aeabi_uidiv)
+be/libgcc.a(_divsi3.o)        ../fatfs/libfatfs-arm.a(ff-arm.o) (__aeabi_idiv)
+be/libgcc.a(_dvmd_tls.o)      be/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+be/libgcc.a(_arm_addsubsf3.o)
+                              ReadSpeed.o (__aeabi_fadd)
+be/libgcc.a(_arm_muldivsf3.o)
+                              common.o (__aeabi_fmul)
+be/libgcc.a(_arm_cmpsf2.o)    common.o (__aeabi_fcmpgt)
+be/libgcc.a(_arm_fixunssfsi.o)
+                              ReadSpeed.o (__aeabi_f2uiz)
+be/libgcc.a(_aeabi_ldivmod.o)
+                              HID.o (__aeabi_ldivmod)
+be/libgcc.a(_aeabi_uldivmod.o)
+                              HID.o (__aeabi_uldivmod)
+be/libgcc.a(bpabi.o)          be/libgcc.a(_aeabi_ldivmod.o) (__gnu_ldivmod_helper)
+be/libgcc.a(_divdi3.o)        be/libgcc.a(bpabi.o) (__divdi3)
+be/libgcc.a(_udivdi3.o)       be/libgcc.a(bpabi.o) (__udivdi3)
+be/libgcc.a(_clzsi2.o)        be/libgcc.a(_divdi3.o) (__clzsi2)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 start.o
+ .bss           0x0000000000000000        0x0 start.o
+ .text          0x0000000000000000        0x0 common.o
+ .data          0x0000000000000000        0x0 common.o
+ .bss           0x0000000000000000        0x0 common.o
+ .text.wait_for_ppc
+                0x0000000000000000       0x74 common.o
+ .text          0x0000000000000000        0x0 alloc.o
+ .data          0x0000000000000000        0x0 alloc.o
+ .bss           0x0000000000000000        0x0 alloc.o
+ .text          0x0000000000000000        0x0 GCAM.o
+ .data          0x0000000000000000        0x0 GCAM.o
+ .bss           0x0000000000000000        0x0 GCAM.o
+ .text.GCAMCARDCleanStatus
+                0x0000000000000000       0x1c GCAM.o
+ .text          0x0000000000000000        0x0 JVSIO.o
+ .data          0x0000000000000000        0x0 JVSIO.o
+ .bss           0x0000000000000000        0x0 JVSIO.o
+ .text          0x0000000000000000        0x0 JVSIOMessage.o
+ .data          0x0000000000000000        0x0 JVSIOMessage.o
+ .bss           0x0000000000000000        0x0 JVSIOMessage.o
+ .text.addData  0x0000000000000000       0xc0 JVSIOMessage.o
+ .text          0x0000000000000000        0x0 FST.o
+ .data          0x0000000000000000        0x0 FST.o
+ .bss           0x0000000000000000        0x0 FST.o
+ .text          0x0000000000000000        0x0 DI.o
+ .data          0x0000000000000000        0x0 DI.o
+ .bss           0x0000000000000000        0x0 DI.o
+ .text.ReadSegaBoot
+                0x0000000000000000       0x74 DI.o
+ .bss.DI_Thread
+                0x0000000000000000        0x4 DI.o
+ .text          0x0000000000000000        0x0 RealDI.o
+ .data          0x0000000000000000        0x0 RealDI.o
+ .bss           0x0000000000000000        0x0 RealDI.o
+ .text.ClearRealDiscBuffer
+                0x0000000000000000       0x48 RealDI.o
+ .text          0x0000000000000000        0x0 Patch.o
+ .data          0x0000000000000000        0x0 Patch.o
+ .bss           0x0000000000000000        0x0 Patch.o
+ .text.PatchJmpToMEM2
+                0x0000000000000000       0x48 Patch.o
+ .text.CPattern
+                0x0000000000000000       0x18 Patch.o
+ .bss.AllPGroups
+                0x0000000000000000        0x1 Patch.o
+ .bss.FPatternCodes
+                0x0000000000000000        0x4 Patch.o
+ .bss.FPatternGroups
+                0x0000000000000000        0x1 Patch.o
+ .rodata.EXIGetID
+                0x0000000000000000       0x4c Patch.o
+ .rodata.OSReportDM
+                0x0000000000000000       0x4c Patch.o
+ .text          0x0000000000000000        0x0 PatchTimers.o
+ .data          0x0000000000000000        0x0 PatchTimers.o
+ .bss           0x0000000000000000        0x0 PatchTimers.o
+ .text          0x0000000000000000        0x0 TRI.o
+ .data          0x0000000000000000        0x0 TRI.o
+ .bss           0x0000000000000000        0x0 TRI.o
+ .text          0x0000000000000000        0x0 PatchWidescreen.o
+ .data          0x0000000000000000        0x0 PatchWidescreen.o
+ .bss           0x0000000000000000        0x0 PatchWidescreen.o
+ .text.PatchWideDiv
+                0x0000000000000000       0x60 PatchWidescreen.o
+ .text.PatchGXWideMulti
+                0x0000000000000000       0x40 PatchWidescreen.o
+ .rodata.CalcGXWidescreen
+                0x0000000000000000       0x5c PatchWidescreen.o
+ .text          0x0000000000000000        0x0 ISO.o
+ .data          0x0000000000000000        0x0 ISO.o
+ .bss           0x0000000000000000        0x0 ISO.o
+ .text          0x0000000000000000        0x0 Stream.o
+ .data          0x0000000000000000        0x0 Stream.o
+ .bss           0x0000000000000000        0x0 Stream.o
+ .text.StreamPrepare
+                0x0000000000000000       0x8c Stream.o
+ .text.StreamUpdate
+                0x0000000000000000       0xd4 Stream.o
+ .text.StreamGetChunkSize
+                0x0000000000000000       0x10 Stream.o
+ .text          0x0000000000000000        0x0 adp.o
+ .data          0x0000000000000000        0x0 adp.o
+ .bss           0x0000000000000000        0x0 adp.o
+ .text.ADPDecodeSample
+                0x0000000000000000       0xfc adp.o
+ .text          0x0000000000000000        0x0 EXI.o
+ .data          0x0000000000000000        0x0 EXI.o
+ .bss           0x0000000000000000        0x0 EXI.o
+ .text.EXIReadFontFile
+                0x0000000000000000       0x3c EXI.o
+ .text          0x0000000000000000        0x0 SRAM.o
+ .data          0x0000000000000000        0x0 SRAM.o
+ .bss           0x0000000000000000        0x0 SRAM.o
+ .text.SRAM_UpdateChecksum
+                0x0000000000000000       0x64 SRAM.o
+ .text.SRAM_SetFlashID
+                0x0000000000000000      0x394 SRAM.o
+ .text          0x0000000000000000        0x0 GCNCard.o
+ .data          0x0000000000000000        0x0 GCNCard.o
+ .bss           0x0000000000000000        0x0 GCNCard.o
+ .text          0x0000000000000000        0x0 SI.o
+ .data          0x0000000000000000        0x0 SI.o
+ .bss           0x0000000000000000        0x0 SI.o
+ .text          0x0000000000000000        0x0 HID.o
+ .data          0x0000000000000000        0x0 HID.o
+ .bss           0x0000000000000000        0x0 HID.o
+ .text.HIDPS3SetLED
+                0x0000000000000000       0x98 HID.o
+ .text.HIDPS3SetRumble
+                0x0000000000000000       0x90 HID.o
+ .rodata.ss_led_pattern
+                0x0000000000000000        0x8 HID.o
+ .text          0x0000000000000000        0x0 diskio.o
+ .data          0x0000000000000000        0x0 diskio.o
+ .bss           0x0000000000000000        0x0 diskio.o
+ .text          0x0000000000000000        0x0 Config.o
+ .data          0x0000000000000000        0x0 Config.o
+ .bss           0x0000000000000000        0x0 Config.o
+ .data          0x0000000000000000        0x0 utils_asm.o
+ .bss           0x0000000000000000        0x0 utils_asm.o
+ .text          0x0000000000000000        0x0 ES.o
+ .data          0x0000000000000000        0x0 ES.o
+ .bss           0x0000000000000000        0x0 ES.o
+ .text.iCleanUpTikTMD
+                0x0000000000000000       0x48 ES.o
+ .text.iGetTMDView
+                0x0000000000000000      0x220 ES.o
+ .rodata.GetTMDView.str1.4
+                0x0000000000000000       0x23 ES.o
+ .text.GetTMDView
+                0x0000000000000000       0x8c ES.o
+ .rodata.GetUID.str1.4
+                0x0000000000000000        0xd ES.o
+ .text.GetUID   0x0000000000000000      0x238 ES.o
+ .rodata.ES_CheckSharedContent.str1.4
+                0x0000000000000000       0x15 ES.o
+ .text.ES_CheckSharedContent
+                0x0000000000000000       0xf0 ES.o
+ .text.GetSharedContentID
+                0x0000000000000000       0xec ES.o
+ .rodata.LoadModules.str1.4
+                0x0000000000000000       0x62 ES.o
+ .text.LoadModules
+                0x0000000000000000      0x188 ES.o
+ .text.ES_BootSystem
+                0x0000000000000000       0xb0 ES.o
+ .text.ES_Init  0x0000000000000000       0x7c ES.o
+ .text.GetTicketView
+                0x0000000000000000      0x1bc ES.o
+ .bss.CNTMap    0x0000000000000000        0x4 ES.o
+ .bss.CNTMapDirty
+                0x0000000000000000        0x4 ES.o
+ .bss.CNTSize   0x0000000000000000        0x4 ES.o
+ .bss.iTIK      0x0000000000000000        0x4 ES.o
+ .bss.iTMD      0x0000000000000000        0x4 ES.o
+ .debug_info    0x0000000000000000     0x1106 ES.o
+ .debug_abbrev  0x0000000000000000      0x2f7 ES.o
+ .debug_loc     0x0000000000000000      0x702 ES.o
+ .debug_aranges
+                0x0000000000000000       0x68 ES.o
+ .debug_ranges  0x0000000000000000       0x98 ES.o
+ .debug_line    0x0000000000000000      0x998 ES.o
+ .debug_str     0x0000000000000000      0x5c0 ES.o
+ .comment       0x0000000000000000       0x24 ES.o
+ .debug_frame   0x0000000000000000      0x184 ES.o
+ .ARM.attributes
+                0x0000000000000000       0x2c ES.o
+ .text          0x0000000000000000        0x0 NAND.o
+ .data          0x0000000000000000        0x0 NAND.o
+ .bss           0x0000000000000000        0x0 NAND.o
+ .text.NANDLoadFile
+                0x0000000000000000       0x9c NAND.o
+ .debug_info    0x0000000000000000      0x216 NAND.o
+ .debug_abbrev  0x0000000000000000       0xde NAND.o
+ .debug_loc     0x0000000000000000      0x108 NAND.o
+ .debug_aranges
+                0x0000000000000000       0x20 NAND.o
+ .debug_ranges  0x0000000000000000       0x10 NAND.o
+ .debug_line    0x0000000000000000       0xd0 NAND.o
+ .debug_str     0x0000000000000000      0x21b NAND.o
+ .comment       0x0000000000000000       0x24 NAND.o
+ .debug_frame   0x0000000000000000       0x2c NAND.o
+ .ARM.attributes
+                0x0000000000000000       0x2c NAND.o
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 syscalls.o
+ .bss           0x0000000000000000        0x0 syscalls.o
+ .text          0x0000000000000000        0x0 ReadSpeed.o
+ .data          0x0000000000000000        0x0 ReadSpeed.o
+ .bss           0x0000000000000000        0x0 ReadSpeed.o
+ .text          0x0000000000000000        0x0 vsprintf.o
+ .data          0x0000000000000000        0x0 vsprintf.o
+ .bss           0x0000000000000000        0x0 vsprintf.o
+ .text          0x0000000000000000        0x0 string.o
+ .data          0x0000000000000000        0x0 string.o
+ .bss           0x0000000000000000        0x0 string.o
+ .text          0x0000000000000000        0x0 prs.o
+ .data          0x0000000000000000        0x0 prs.o
+ .bss           0x0000000000000000        0x0 prs.o
+ .text          0x0000000000000000        0x0 SDI.o
+ .data          0x0000000000000000        0x0 SDI.o
+ .bss           0x0000000000000000        0x0 SDI.o
+ .text.__sdio_getstatus
+                0x0000000000000000       0x50 SDI.o
+ .text          0x0000000000000000        0x0 usb.o
+ .data          0x0000000000000000        0x0 usb.o
+ .bss           0x0000000000000000        0x0 usb.o
+ .text.USB_ReadIntrMsg
+                0x0000000000000000       0xac usb.o
+ .text.USB_WriteIntrMsg
+                0x0000000000000000       0xac usb.o
+ .text.USB_ReadBlkMsg
+                0x0000000000000000       0xac usb.o
+ .text.USB_ReadCtrlMsg
+                0x0000000000000000       0xb8 usb.o
+ .text          0x0000000000000000        0x0 usbstorage.o
+ .data          0x0000000000000000        0x0 usbstorage.o
+ .bss           0x0000000000000000        0x0 usbstorage.o
+ .text.USBStorage_Close
+                0x0000000000000000       0x68 usbstorage.o
+ .text          0x0000000000000000        0x0 wdvd.o
+ .data          0x0000000000000000        0x0 wdvd.o
+ .bss           0x0000000000000000        0x0 wdvd.o
+ .text.FstName  0x0000000000000000       0x30 wdvd.o
+ .text.WDVD_FST_IsMounted
+                0x0000000000000000       0x10 wdvd.o
+ .text.WDVD_FST_Unmount
+                0x0000000000000000       0x54 wdvd.o
+ .text.WDVD_Close
+                0x0000000000000000       0x2c wdvd.o
+ .text.WDVD_GetHandle
+                0x0000000000000000       0x10 wdvd.o
+ .text.WDVD_Reset
+                0x0000000000000000       0x74 wdvd.o
+ .text.WDVD_ReadDiskId
+                0x0000000000000000       0x90 wdvd.o
+ .text.WDVD_UnencryptedRead
+                0x0000000000000000       0xb0 wdvd.o
+ .text.WDVD_Read
+                0x0000000000000000       0x88 wdvd.o
+ .text.WDVD_WaitForDisc
+                0x0000000000000000       0x6c wdvd.o
+ .text.WDVD_GetCoverStatus
+                0x0000000000000000       0x8c wdvd.o
+ .bss.outbuf    0x0000000000000000       0x20 wdvd.o
+ .text          0x0000000000000000        0x0 sock.o
+ .data          0x0000000000000000        0x0 sock.o
+ .bss           0x0000000000000000        0x0 sock.o
+ .text.SOCKShutdown
+                0x0000000000000000       0x40 sock.o
+ .text          0x0000000000000000        0x0 lwbt/bte.o
+ .data          0x0000000000000000        0x0 lwbt/bte.o
+ .bss           0x0000000000000000        0x0 lwbt/bte.o
+ .text.bte_inquiry_complete
+                0x0000000000000000      0x168 lwbt/bte.o
+ .text.BTE_SetDisconnectCallback
+                0x0000000000000000        0x4 lwbt/bte.o
+ .text.bte_inquiry
+                0x0000000000000000      0x124 lwbt/bte.o
+ .text.bte_inquiry_ex
+                0x0000000000000000      0x140 lwbt/bte.o
+ .text.bte_sendmessageasync
+                0x0000000000000000      0x114 lwbt/bte.o
+ .text.bte_sendmessage
+                0x0000000000000000      0x150 lwbt/bte.o
+ .text.pin_req  0x0000000000000000        0x8 lwbt/bte.o
+ .text.link_key_not
+                0x0000000000000000        0xc lwbt/bte.o
+ .text          0x0000000000000000        0x0 lwbt/btmemb.o
+ .data          0x0000000000000000        0x0 lwbt/btmemb.o
+ .bss           0x0000000000000000        0x0 lwbt/btmemb.o
+ .text.btmemb_ref
+                0x0000000000000000       0x14 lwbt/btmemb.o
+ .text          0x0000000000000000        0x0 lwbt/btmemr.o
+ .data          0x0000000000000000        0x0 lwbt/btmemr.o
+ .bss           0x0000000000000000        0x0 lwbt/btmemr.o
+ .text.btmemr_reallocm
+                0x0000000000000000      0x11c lwbt/btmemr.o
+ .text          0x0000000000000000        0x0 lwbt/btpbuf.o
+ .data          0x0000000000000000        0x0 lwbt/btpbuf.o
+ .bss           0x0000000000000000        0x0 lwbt/btpbuf.o
+ .text.btpbuf_clen
+                0x0000000000000000       0x2c lwbt/btpbuf.o
+ .text.btpbuf_cat
+                0x0000000000000000       0x50 lwbt/btpbuf.o
+ .text.btpbuf_queue
+                0x0000000000000000       0x44 lwbt/btpbuf.o
+ .text.btpbuf_dequeue
+                0x0000000000000000       0x44 lwbt/btpbuf.o
+ .text          0x0000000000000000        0x0 lwbt/hci.o
+ .data          0x0000000000000000        0x0 lwbt/hci.o
+ .bss           0x0000000000000000        0x0 lwbt/hci.o
+ .text.hci_new  0x0000000000000000       0x2c lwbt/hci.o
+ .text.hci_get_link
+                0x0000000000000000       0x8c lwbt/hci.o
+ .text.hci_close
+                0x0000000000000000       0xb8 lwbt/hci.o
+ .text.hci_pin_req
+                0x0000000000000000       0x14 lwbt/hci.o
+ .text.hci_link_key_not
+                0x0000000000000000       0x14 lwbt/hci.o
+ .text.hci_conn_req
+                0x0000000000000000       0x14 lwbt/hci.o
+ .text.hci_reg_dev_info
+                0x0000000000000000       0xb4 lwbt/hci.o
+ .text.hci_cmd_ass
+                0x0000000000000000       0x50 lwbt/hci.o
+ .text.hci_set_event_filter
+                0x0000000000000000      0x120 lwbt/hci.o
+ .text.hci_inquiry
+                0x0000000000000000      0x104 lwbt/hci.o
+ .text.hci_periodic_inquiry
+                0x0000000000000000      0x178 lwbt/hci.o
+ .text.hci_exit_periodic_inquiry
+                0x0000000000000000       0x88 lwbt/hci.o
+ .text.hci_set_event_mask
+                0x0000000000000000       0xd4 lwbt/hci.o
+ .text.hci_read_remote_name
+                0x0000000000000000      0x184 lwbt/hci.o
+ .text.hci_sniff_mode
+                0x0000000000000000      0x224 lwbt/hci.o
+ .text.hci_pin_code_request_reply
+                0x0000000000000000       0xd8 lwbt/hci.o
+ .text.hci_reject_connection_request
+                0x0000000000000000       0xb0 lwbt/hci.o
+ .text.hci_write_stored_link_key
+                0x0000000000000000       0xc8 lwbt/hci.o
+ .text.hci_read_current_lap
+                0x0000000000000000       0x8c lwbt/hci.o
+ .text.hci_set_hc_to_h_fc
+                0x0000000000000000       0x94 lwbt/hci.o
+ .text.lp_is_connected
+                0x0000000000000000       0x90 lwbt/hci.o
+ .text.lp_connect_req
+                0x0000000000000000      0x22c lwbt/hci.o
+ .bss.hci_tmp_key
+                0x0000000000000000        0x4 lwbt/hci.o
+ .rodata.CSWTCH.157
+                0x0000000000000000        0xc lwbt/hci.o
+ .text          0x0000000000000000        0x0 lwbt/l2cap.o
+ .data          0x0000000000000000        0x0 lwbt/l2cap.o
+ .bss           0x0000000000000000        0x0 lwbt/l2cap.o
+ .text.l2cap_rexmit_signal
+                0x0000000000000000       0x10 lwbt/l2cap.o
+ .text.l2ca_connect_req
+                0x0000000000000000      0x1a0 lwbt/l2cap.o
+ .text.l2ca_ping
+                0x0000000000000000      0x17c lwbt/l2cap.o
+ .text.l2cap_disconnect_bb
+                0x0000000000000000       0x18 lwbt/l2cap.o
+ .text.l2cap_next_sigid
+                0x0000000000000000       0x28 lwbt/l2cap.o
+ .text.l2cap_timeout_ind
+                0x0000000000000000        0x8 lwbt/l2cap.o
+ .text          0x0000000000000000        0x0 lwbt/physbusif.o
+ .data          0x0000000000000000        0x0 lwbt/physbusif.o
+ .bss           0x0000000000000000        0x0 lwbt/physbusif.o
+ .text          0x0000000000000000        0x0 BT.o
+ .data          0x0000000000000000        0x0 BT.o
+ .bss           0x0000000000000000        0x0 BT.o
+ .text          0x0000000000000000        0x0 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .data          0x0000000000000000        0x0 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .bss           0x0000000000000000        0x0 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text          0x0000000000000000        0x0 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .data          0x0000000000000000        0x0 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .bss           0x0000000000000000        0x0 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .text.wchar_to_char
+                0x0000000000000000       0x58 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .text.f_mount_char
+                0x0000000000000000       0xac ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .text.f_mkdir_char
+                0x0000000000000000       0x9c ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .text.f_unlink_char
+                0x0000000000000000       0x9c ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .bss.tmpchar.0
+                0x0000000000000000      0x200 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .text          0x0000000000000000        0x0 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .data          0x0000000000000000        0x0 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .bss           0x0000000000000000        0x0 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-gmtime.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-gmtime.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-gmtime_r.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-gmtime_r.o)
+ .text          0x0000000000000000        0x0 be/libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-impure.o)
+ .rodata        0x0000000000000000        0x4 be/libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-isprint.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-isprint.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-mbstowcs.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-mbstowcs.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-mbstowcs_r.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-mbstowcs_r.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-mbtowc_r.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-mktm_r.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-mktm_r.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strcasecmp.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strcasecmp.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strchr.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strchr.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strcpy.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strcpy.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strncmp.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strncmp.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strncpy.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strncpy.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strnlen.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strnlen.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strstr.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strstr.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strtoul.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strtoul.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-tzlock.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-tzlock.o)
+ .text          0x0000000000000000        0x0 be/libc.a(lib_a-tzvars.o)
+ .data          0x0000000000000000        0x8 be/libc.a(lib_a-tzvars.o)
+ .rodata.str1.4
+                0x0000000000000000        0x4 be/libc.a(lib_a-tzvars.o)
+ .text          0x0000000000000000       0x48 be/libc.a(lib_a-wcstombs.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-wcstombs.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-wcstombs.o)
+ .comment       0x0000000000000000       0x23 be/libc.a(lib_a-wcstombs.o)
+ .ARM.attributes
+                0x0000000000000000       0x30 be/libc.a(lib_a-wcstombs.o)
+ .text          0x0000000000000000      0x164 be/libc.a(lib_a-wcstombs_r.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-wcstombs_r.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-wcstombs_r.o)
+ .comment       0x0000000000000000       0x23 be/libc.a(lib_a-wcstombs_r.o)
+ .ARM.attributes
+                0x0000000000000000       0x30 be/libc.a(lib_a-wcstombs_r.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-wctomb_r.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-gettzinfo.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-memchr-stub.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-memchr-stub.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strcat.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strcat.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strcmp.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strlcpy.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strlcpy.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strncasecmp.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strncasecmp.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-strtol.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-strtol.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-getenv_r.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-getenv_r.o)
+ .text          0x0000000000000000        0x0 be/libc.a(lib_a-environ.o)
+ .data          0x0000000000000000        0x0 be/libc.a(lib_a-envlock.o)
+ .bss           0x0000000000000000        0x0 be/libc.a(lib_a-envlock.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000      0x148 be/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x18 be/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_arm_muldivsf3.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_arm_cmpsf2.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_arm_fixunssfsi.o)
+ .text          0x0000000000000000       0x44 be/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x18 be/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(bpabi.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(bpabi.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_divdi3.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_divdi3.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 be/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 be/libgcc.a(_clzsi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+code             0x0000000012f00000 0x0000000000060000
+data             0x0000000012f60000 0x0000000000080000
+stack            0x0000000012fe0000 0x0000000000010000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000002000                __stack_size = 0x2000
+                0x0000000012fe2000                __phy_stack_addr = (0x12fe0000 + __stack_size)
+                0x0000000000001000                __di_stack_size = 0x1000
+                0x0000000012fe3000                __di_stack_addr = (__phy_stack_addr + __di_stack_size)
+                0x0000000000000400                __realdi_stack_size = 0x400
+                0x0000000012fe3400                __realdi_stack_addr = (__di_stack_addr + __realdi_stack_size)
+                0x0000000000000400                __hid_stack_size = 0x400
+                0x0000000012fe3800                __hid_stack_addr = (__realdi_stack_addr + __hid_stack_size)
+                0x0000000000000400                __intr_stack_size = 0x400
+                0x0000000012fe3c00                __intr_stack_addr = (__hid_stack_addr + __intr_stack_size)
+                0x0000000000000400                __blk_stack_size = 0x400
+                0x0000000012fe4000                __blk_stack_addr = (__intr_stack_addr + __blk_stack_size)
+
+.init           0x0000000012f00000        0x0
+ *(.init)
+                0x0000000012f00000                . = ALIGN (0x4)
+
+.text           0x0000000012f00000    0x3a4b0
+ *(.text*)
+ .text          0x0000000012f00000       0x20 start.o
+                0x0000000012f00000                _start
+ .text.BootStatus
+                0x0000000012f00020       0xbc common.o
+                0x0000000012f00020                BootStatus
+ .text.BootStatusError
+                0x0000000012f000dc       0x24 common.o
+                0x0000000012f000dc                BootStatusError
+ .text.R32      0x0000000012f00100       0x58 common.o
+                0x0000000012f00100                R32
+ .text.W32      0x0000000012f00158       0x94 common.o
+                0x0000000012f00158                W32
+ .text.udelay   0x0000000012f001ec       0x70 common.o
+                0x0000000012f001ec                udelay
+ .text.mdelay   0x0000000012f0025c       0x78 common.o
+                0x0000000012f0025c                mdelay
+ .text.Shutdown
+                0x0000000012f002d4       0xec common.o
+                0x0000000012f002d4                Shutdown
+ .text.Asciify  0x0000000012f003c0       0x50 common.o
+                0x0000000012f003c0                Asciify
+ .text.InitCurrentTime
+                0x0000000012f00410       0x48 common.o
+                0x0000000012f00410                InitCurrentTime
+ .text.GetCurrentTime
+                0x0000000012f00458       0x80 common.o
+                0x0000000012f00458                GetCurrentTime
+ .text.malloc   0x0000000012f004d8       0x1c alloc.o
+                0x0000000012f004d8                malloc
+ .text.malloca  0x0000000012f004f4       0x20 alloc.o
+                0x0000000012f004f4                malloca
+ .text.free     0x0000000012f00514       0x10 alloc.o
+                0x0000000012f00514                free
+ .text.GCAMInit
+                0x0000000012f00524      0x204 GCAM.o
+                0x0000000012f00524                GCAMInit
+ .text.GCAMGetCARDName
+                0x0000000012f00728       0x88 GCAM.o
+                0x0000000012f00728                GCAMGetCARDName
+ .text.GCAMCARDIsValid
+                0x0000000012f007b0       0x6c GCAM.o
+                0x0000000012f007b0                GCAMCARDIsValid
+ .text.GCAMCARDCommand
+                0x0000000012f0081c      0xc28 GCAM.o
+                0x0000000012f0081c                GCAMCARDCommand
+ .text.GCAMCommand
+                0x0000000012f01444      0x6b0 GCAM.o
+                0x0000000012f01444                GCAMCommand
+ .text.GCAMUpdateRegisters
+                0x0000000012f01af4      0x258 GCAM.o
+                0x0000000012f01af4                GCAMUpdateRegisters
+ .text.JVSIOCommand
+                0x0000000012f01d4c     0x2968 JVSIO.o
+                0x0000000012f01d4c                JVSIOCommand
+ .text.JVSIOMessage
+                0x0000000012f046b4       0x2c JVSIOMessage.o
+                0x0000000012f046b4                JVSIOMessage
+ .text.JVSIOstart
+                0x0000000012f046e0      0x128 JVSIOMessage.o
+                0x0000000012f046e0                JVSIOstart
+ .text.addDataBuffer
+                0x0000000012f04808       0xa8 JVSIOMessage.o
+                0x0000000012f04808                addDataBuffer
+ .text.addDataString
+                0x0000000012f048b0       0xb0 JVSIOMessage.o
+                0x0000000012f048b0                addDataString
+ .text.addDataByte
+                0x0000000012f04960       0x94 JVSIOMessage.o
+                0x0000000012f04960                addDataByte
+ .text.end      0x0000000012f049f4       0xc4 JVSIOMessage.o
+                0x0000000012f049f4                end
+ .text.FSTInit  0x0000000012f04ab8      0x1c0 FST.o
+                0x0000000012f04ab8                FSTInit
+ .text.FSTCleanup
+                0x0000000012f04c78       0x38 FST.o
+                0x0000000012f04c78                FSTCleanup
+ .text.FSTRead  0x0000000012f04cb0      0x6ac FST.o
+                0x0000000012f04cb0                FSTRead
+ .text.DIRegister
+                0x0000000012f0535c       0x44 DI.o
+                0x0000000012f0535c                DIRegister
+ .text.DIUnregister
+                0x0000000012f053a0       0x38 DI.o
+                0x0000000012f053a0                DIUnregister
+ .text.DiscCheckAsync
+                0x0000000012f053d8       0x48 DI.o
+                0x0000000012f053d8                DiscCheckAsync
+ .text.DiscReadSync
+                0x0000000012f05420       0xf4 DI.o
+                0x0000000012f05420                DiscReadSync
+ .text.DIinit   0x0000000012f05514      0x360 DI.o
+                0x0000000012f05514                DIinit
+ .text.DISetDIMMVersion
+                0x0000000012f05874       0x10 DI.o
+                0x0000000012f05874                DISetDIMMVersion
+ .text.DIChangeDisc
+                0x0000000012f05884       0xd0 DI.o
+                0x0000000012f05884                DIChangeDisc
+ .text.DIInterrupt
+                0x0000000012f05954      0x180 DI.o
+                0x0000000012f05954                DIInterrupt
+ .text.DIUpdateRegisters
+                0x0000000012f05ad4      0xb4c DI.o
+                0x0000000012f05ad4                DIUpdateRegisters
+ .text.DIReadThread
+                0x0000000012f06620      0x3c0 DI.o
+                0x0000000012f06620                DIReadThread
+ .text.DIFinishAsync
+                0x0000000012f069e0       0x54 DI.o
+                0x0000000012f069e0                DIFinishAsync
+ .text.RealDI_Thread
+                0x0000000012f06a34       0x48 RealDI.o
+                0x0000000012f06a34                RealDI_Thread
+ .text.RealDI_Update
+                0x0000000012f06a7c       0xa8 RealDI.o
+                0x0000000012f06a7c                RealDI_Update
+ .text.RealDI_NewDisc
+                0x0000000012f06b24      0x16c RealDI.o
+                0x0000000012f06b24                RealDI_NewDisc
+ .text.ReadRealDisc
+                0x0000000012f06c90      0x374 RealDI.o
+                0x0000000012f06c90                ReadRealDisc
+ .text.RealDI_Identify
+                0x0000000012f07004      0x168 RealDI.o
+                0x0000000012f07004                RealDI_Identify
+ .text.RealDI_Init
+                0x0000000012f0716c      0x144 RealDI.o
+                0x0000000012f0716c                RealDI_Init
+ .text.GameNeedsHook
+                0x0000000012f072b0      0x504 Patch.o
+ .text.printpatchfound
+                0x0000000012f077b4       0x2c Patch.o
+ .text.PatchAX_Dsp
+                0x0000000012f077e0      0x4a0 Patch.o
+ .text.PatchB   0x0000000012f07c80       0x14 Patch.o
+                0x0000000012f07c80                PatchB
+ .text.PatchBL  0x0000000012f07c94       0x14 Patch.o
+                0x0000000012f07c94                PatchBL
+ .text.PatchCopy
+                0x0000000012f07ca8       0x2c Patch.o
+                0x0000000012f07ca8                PatchCopy
+ .text.PatchFuncInterface
+                0x0000000012f07cd4      0x330 Patch.o
+                0x0000000012f07cd4                PatchFuncInterface
+ .text.PatchPatchBuffer
+                0x0000000012f08004      0x10c Patch.o
+                0x0000000012f08004                PatchPatchBuffer
+ .text.MPattern
+                0x0000000012f08110      0x1e8 Patch.o
+                0x0000000012f08110                MPattern
+ .text.PatchInit
+                0x0000000012f082f8       0x48 Patch.o
+                0x0000000012f082f8                PatchInit
+ .text.SetIPL   0x0000000012f08340       0x14 Patch.o
+                0x0000000012f08340                SetIPL
+ .text.SetIPL_TRI
+                0x0000000012f08354       0x24 Patch.o
+                0x0000000012f08354                SetIPL_TRI
+ .text.Check_Cheats
+                0x0000000012f08378      0x1a8 Patch.o
+                0x0000000012f08378                Check_Cheats
+ .text.DoPatches
+                0x0000000012f08520     0xa3e0 Patch.o
+                0x0000000012f08520                DoPatches
+ .text.PatchGame
+                0x0000000012f12900      0x54c Patch.o
+                0x0000000012f12900                PatchGame
+ .text.PatchTimers
+                0x0000000012f12e4c      0xf24 PatchTimers.o
+                0x0000000012f12e4c                PatchTimers
+ .text.PatchStaticTimers
+                0x0000000012f13d70      0x338 PatchTimers.o
+                0x0000000012f13d70                PatchStaticTimers
+ .text.TRIInit  0x0000000012f140a8       0x40 TRI.o
+                0x0000000012f140a8                TRIInit
+ .text.TRIReset
+                0x0000000012f140e8       0x70 TRI.o
+                0x0000000012f140e8                TRIReset
+ .text.TRIBackupSettings
+                0x0000000012f14158      0x154 TRI.o
+                0x0000000012f14158                TRIBackupSettings
+ .text.TRIReadSettings
+                0x0000000012f142ac      0x104 TRI.o
+                0x0000000012f142ac                TRIReadSettings
+ .text.TRISetupGames
+                0x0000000012f143b0     0x1724 TRI.o
+                0x0000000012f143b0                TRISetupGames
+ .text.PatchWideMulti
+                0x0000000012f15ad4       0x60 PatchWidescreen.o
+                0x0000000012f15ad4                PatchWideMulti
+ .text.PatchWidescreen
+                0x0000000012f15b34      0x200 PatchWidescreen.o
+                0x0000000012f15b34                PatchWidescreen
+ .text.PatchStaticWidescreen
+                0x0000000012f15d34     0x1b58 PatchWidescreen.o
+                0x0000000012f15d34                PatchStaticWidescreen
+ .text.ISOInit  0x0000000012f1788c      0xb3c ISO.o
+                0x0000000012f1788c                ISOInit
+ .text.ISOClose
+                0x0000000012f183c8       0x68 ISO.o
+                0x0000000012f183c8                ISOClose
+ .text.ISOSetupCache
+                0x0000000012f18430       0xf0 ISO.o
+                0x0000000012f18430                ISOSetupCache
+ .text.ISOSeek  0x0000000012f18520       0xfc ISO.o
+                0x0000000012f18520                ISOSeek
+ .text.ISORead  0x0000000012f1861c      0x8cc ISO.o
+                0x0000000012f1861c                ISORead
+ .text.WritePCM48to32
+                0x0000000012f18ee8      0x104 Stream.o
+                0x0000000012f18ee8                WritePCM48to32
+ .text.WritePCM48
+                0x0000000012f18fec       0x60 Stream.o
+                0x0000000012f18fec                WritePCM48
+ .text.StreamInit
+                0x0000000012f1904c       0x94 Stream.o
+                0x0000000012f1904c                StreamInit
+ .text.StreamUpdateRegisters
+                0x0000000012f190e0      0x270 Stream.o
+                0x0000000012f190e0                StreamUpdateRegisters
+ .text.StreamStartStream
+                0x0000000012f19350      0x2d0 Stream.o
+                0x0000000012f19350                StreamStartStream
+ .text.StreamEndStream
+                0x0000000012f19620       0x24 Stream.o
+                0x0000000012f19620                StreamEndStream
+ .text.ADPdecodebuffer
+                0x0000000012f19644      0x264 adp.o
+                0x0000000012f19644                ADPdecodebuffer
+ .text.EXIDeviceMemoryCard
+                0x0000000012f198a8      0x2f4 EXI.o
+ .text.EXIDevice_ROM_RTC_SRAM_UART.isra.0
+                0x0000000012f19b9c      0x204 EXI.o
+ .text.EXIInit  0x0000000012f19da0       0xac EXI.o
+                0x0000000012f19da0                EXIInit
+ .text.EXISetTimings
+                0x0000000012f19e4c       0xc0 EXI.o
+                0x0000000012f19e4c                EXISetTimings
+ .text.EXICheckTimer
+                0x0000000012f19f0c       0x40 EXI.o
+                0x0000000012f19f0c                EXICheckTimer
+ .text.EXIInterrupt
+                0x0000000012f19f4c       0x8c EXI.o
+                0x0000000012f19f4c                EXIInterrupt
+ .text.EXIShutdown
+                0x0000000012f19fd8       0x50 EXI.o
+                0x0000000012f19fd8                EXIShutdown
+ .text.EXIDeviceSP1
+                0x0000000012f1a028      0x380 EXI.o
+                0x0000000012f1a028                EXIDeviceSP1
+ .text.EXIUpdateRegistersNEW
+                0x0000000012f1a3a8      0x22c EXI.o
+                0x0000000012f1a3a8                EXIUpdateRegistersNEW
+ .text.EXIPrepareTRIGameStart
+                0x0000000012f1a5d4       0xb4 EXI.o
+                0x0000000012f1a5d4                EXIPrepareTRIGameStart
+ .text.SRAM_Init
+                0x0000000012f1a688      0x194 SRAM.o
+                0x0000000012f1a688                SRAM_Init
+ .text.GCNCard_IsEnabled
+                0x0000000012f1a81c       0x30 GCNCard.o
+                0x0000000012f1a81c                GCNCard_IsEnabled
+ .text.GCNCard_Load
+                0x0000000012f1a84c      0x374 GCNCard.o
+                0x0000000012f1a84c                GCNCard_Load
+ .text.GCNCard_GetTotalSize
+                0x0000000012f1abc0       0x18 GCNCard.o
+                0x0000000012f1abc0                GCNCard_GetTotalSize
+ .text.GCNCard_CheckChanges
+                0x0000000012f1abd8       0x34 GCNCard.o
+                0x0000000012f1abd8                GCNCard_CheckChanges
+ .text.GCNCard_Save
+                0x0000000012f1ac0c      0x144 GCNCard.o
+                0x0000000012f1ac0c                GCNCard_Save
+ .text.GCNCard_ClearWriteCount
+                0x0000000012f1ad50       0x2c GCNCard.o
+                0x0000000012f1ad50                GCNCard_ClearWriteCount
+ .text.GCNCard_SetBlockOffset
+                0x0000000012f1ad7c       0x54 GCNCard.o
+                0x0000000012f1ad7c                GCNCard_SetBlockOffset
+ .text.GCNCard_Write
+                0x0000000012f1add0      0x100 GCNCard.o
+                0x0000000012f1add0                GCNCard_Write
+ .text.GCNCard_Read
+                0x0000000012f1aed0       0x6c GCNCard.o
+                0x0000000012f1aed0                GCNCard_Read
+ .text.GCNCard_GetCode
+                0x0000000012f1af3c       0x30 GCNCard.o
+                0x0000000012f1af3c                GCNCard_GetCode
+ .text.GCNCard_SetBlockOffset_Erase
+                0x0000000012f1af6c       0x48 GCNCard.o
+                0x0000000012f1af6c                GCNCard_SetBlockOffset_Erase
+ .text.SIInit   0x0000000012f1afb4       0x88 SI.o
+                0x0000000012f1afb4                SIInit
+ .text.SIInterrupt
+                0x0000000012f1b03c       0xd8 SI.o
+                0x0000000012f1b03c                SIInterrupt
+ .text.SIUpdateRegisters
+                0x0000000012f1b114      0x244 SI.o
+                0x0000000012f1b114                SIUpdateRegisters
+ .text.HIDAlarm
+                0x0000000012f1b358       0xa8 HID.o
+ .text.HIDCTRLRumble
+                0x0000000012f1b400       0xd8 HID.o
+                0x0000000012f1b400                HIDCTRLRumble
+ .text.HIDIRQRumble
+                0x0000000012f1b4d8       0xec HID.o
+                0x0000000012f1b4d8                HIDIRQRumble
+ .text.HIDGCRumble
+                0x0000000012f1b5c4       0xd8 HID.o
+                0x0000000012f1b5c4                HIDGCRumble
+ .text.HIDPS3Rumble
+                0x0000000012f1b69c      0x11c HID.o
+                0x0000000012f1b69c                HIDPS3Rumble
+ .text.HIDIRQRead
+                0x0000000012f1b7b8      0x158 HID.o
+                0x0000000012f1b7b8                HIDIRQRead
+ .text.HIDPS3Read
+                0x0000000012f1b910      0x184 HID.o
+                0x0000000012f1b910                HIDPS3Read
+ .text.HIDInit  0x0000000012f1ba94      0x20c HID.o
+                0x0000000012f1ba94                HIDInit
+ .text.HIDClose
+                0x0000000012f1bca0       0x20 HID.o
+                0x0000000012f1bca0                HIDClose
+ .text.HIDGCInit
+                0x0000000012f1bcc0       0xc0 HID.o
+                0x0000000012f1bcc0                HIDGCInit
+ .text.HIDPS3Init
+                0x0000000012f1bd80       0xbc HID.o
+                0x0000000012f1bd80                HIDPS3Init
+ .text.ConfigGetValue
+                0x0000000012f1be3c      0x1c0 HID.o
+                0x0000000012f1be3c                ConfigGetValue
+ .text.ConfigGetDecValue
+                0x0000000012f1bffc      0x12c HID.o
+                0x0000000012f1bffc                ConfigGetDecValue
+ .text.HIDOpen  0x0000000012f1c128     0x2750 HID.o
+                0x0000000012f1c128                HIDOpen
+ .text.HIDUpdateRegisters
+                0x0000000012f1e878      0x328 HID.o
+                0x0000000012f1e878                HIDUpdateRegisters
+ .text.disk_read_sd
+                0x0000000012f1eba0       0xbc diskio.o
+                0x0000000012f1eba0                disk_read_sd
+ .text.disk_write_sd
+                0x0000000012f1ec5c       0xa0 diskio.o
+                0x0000000012f1ec5c                disk_write_sd
+ .text.disk_read_usb
+                0x0000000012f1ecfc       0xbc diskio.o
+                0x0000000012f1ecfc                disk_read_usb
+ .text.disk_write_usb
+                0x0000000012f1edb8       0xbc diskio.o
+                0x0000000012f1edb8                disk_write_usb
+ .text.disk_status
+                0x0000000012f1ee74        0x8 diskio.o
+                0x0000000012f1ee74                disk_status
+ .text.disk_initialize
+                0x0000000012f1ee7c        0x8 diskio.o
+                0x0000000012f1ee7c                disk_initialize
+ .text.disk_ioctl
+                0x0000000012f1ee84       0x1c diskio.o
+                0x0000000012f1ee84                disk_ioctl
+ .text.get_fattime
+                0x0000000012f1eea0       0x50 diskio.o
+                0x0000000012f1eea0                get_fattime
+ .text.SetDiskFunctions
+                0x0000000012f1eef0       0x48 diskio.o
+                0x0000000012f1eef0                SetDiskFunctions
+ .text.ConfigSyncBeforeRead
+                0x0000000012f1ef38       0x10 Config.o
+                0x0000000012f1ef38                ConfigSyncBeforeRead
+ .text.ConfigInit
+                0x0000000012f1ef48      0x120 Config.o
+                0x0000000012f1ef48                ConfigInit
+ .text          0x0000000012f1f068      0x134 utils_asm.o
+                0x0000000012f1f068                memcpy
+                0x0000000012f1f144                memset32
+                0x0000000012f1f15c                memset16
+                0x0000000012f1f174                memset8
+                0x0000000012f1f18c                read64
+                0x0000000012f1f194                write64
+ .text._main    0x0000000012f1f19c      0xebc main.o
+                0x0000000012f1f19c                _main
+ *fill*         0x0000000012f20058        0x8 
+ .text          0x0000000012f20060      0x180 syscalls.o
+                0x0000000012f20060                thread_create
+                0x0000000012f20068                syscall_02
+                0x0000000012f20070                syscall_03
+                0x0000000012f20078                syscall_04
+                0x0000000012f20080                syscall_05
+                0x0000000012f20088                syscall_07
+                0x0000000012f20090                syscall_09
+                0x0000000012f20098                syscall_0a
+                0x0000000012f200a0                syscall_0b
+                0x0000000012f200a8                syscall_0d
+                0x0000000012f200b0                syscall_0e
+                0x0000000012f200b8                TimerCreate
+                0x0000000012f200c0                TimerDestroy
+                0x0000000012f200c8                heap_create
+                0x0000000012f200d0                heap_destroy
+                0x0000000012f200d8                syscall_18
+                0x0000000012f200e0                heap_alloc_aligned
+                0x0000000012f200e8                syscall_1a
+                0x0000000012f200f0                syscall_1b
+                0x0000000012f200f8                IOS_Open
+                0x0000000012f20100                IOS_Close
+                0x0000000012f20108                IOS_Read
+                0x0000000012f20110                IOS_Write
+                0x0000000012f20118                IOS_Seek
+                0x0000000012f20120                IOS_Ioctl
+                0x0000000012f20128                IOS_Ioctlv
+                0x0000000012f20130                IOS_IoctlAsync
+                0x0000000012f20138                IOS_IoctlvAsync
+                0x0000000012f20140                syscall_2a
+                0x0000000012f20148                syscall_2b
+                0x0000000012f20150                syscall_2d
+                0x0000000012f20158                syscall_2f
+                0x0000000012f20160                syscall_30
+                0x0000000012f20168                syscall_34
+                0x0000000012f20170                sync_before_read
+                0x0000000012f20178                sync_after_write
+                0x0000000012f20180                syscall_41
+                0x0000000012f20188                syscall_42
+                0x0000000012f20190                syscall_43
+                0x0000000012f20198                syscall_4c
+                0x0000000012f201a0                syscall_4d
+                0x0000000012f201a8                syscall_54
+                0x0000000012f201b0                VirtualToPhysical
+                0x0000000012f201b8                syscall_59
+                0x0000000012f201c0                syscall_5a
+                0x0000000012f201c8                sha1
+                0x0000000012f201d0                svc_write
+ .text.ReadSpeed_Init
+                0x0000000012f201e0       0xc0 ReadSpeed.o
+                0x0000000012f201e0                ReadSpeed_Init
+ .text.ReadSpeed_Start
+                0x0000000012f202a0       0x30 ReadSpeed.o
+                0x0000000012f202a0                ReadSpeed_Start
+ .text.ReadSpeed_Motor
+                0x0000000012f202d0       0x48 ReadSpeed.o
+                0x0000000012f202d0                ReadSpeed_Motor
+ .text.ReadSpeed_Setup
+                0x0000000012f20318      0x1e8 ReadSpeed.o
+                0x0000000012f20318                ReadSpeed_Setup
+ .text.ReadSpeed_End
+                0x0000000012f20500       0xac ReadSpeed.o
+                0x0000000012f20500                ReadSpeed_End
+ .text.number   0x0000000012f205ac      0x2a8 vsprintf.o
+ .text._vsprintf
+                0x0000000012f20854      0x80c vsprintf.o
+                0x0000000012f20854                _vsprintf
+ .text.dbgprintf
+                0x0000000012f21060      0x178 vsprintf.o
+                0x0000000012f21060                dbgprintf
+ .text.closeLog
+                0x0000000012f211d8       0x28 vsprintf.o
+                0x0000000012f211d8                closeLog
+ .text.CheckOSReport
+                0x0000000012f21200       0x84 vsprintf.o
+                0x0000000012f21200                CheckOSReport
+ .text._sprintf.constprop.0
+                0x0000000012f21284       0x30 string.o
+ .text._sprintf.constprop.1
+                0x0000000012f212b4       0x30 string.o
+ .text._sprintf.constprop.2
+                0x0000000012f212e4       0x30 string.o
+ .text._sprintf.constprop.3
+                0x0000000012f21314       0x30 string.o
+ .text._sprintf.constprop.4
+                0x0000000012f21344       0x30 string.o
+ .text._sprintf.constprop.5
+                0x0000000012f21374       0x30 string.o
+ .text.memcmp   0x0000000012f213a4       0x50 string.o
+                0x0000000012f213a4                memcmp
+ .text.memset   0x0000000012f213f4       0x2c string.o
+                0x0000000012f213f4                memset
+ .text._sprintf
+                0x0000000012f21420       0x2c string.o
+                0x0000000012f21420                _sprintf
+ .text.hexdump  0x0000000012f2144c      0x150 string.o
+                0x0000000012f2144c                hexdump
+ .text.prs_decompress
+                0x0000000012f2159c      0x240 prs.o
+                0x0000000012f2159c                prs_decompress
+ .text.prs_decompress_size
+                0x0000000012f217dc      0x144 prs.o
+                0x0000000012f217dc                prs_decompress_size
+ .text.__sdio_sendcommand
+                0x0000000012f21920      0x114 SDI.o
+ .text.__sdio_sendcommand.constprop.0
+                0x0000000012f21a34       0xfc SDI.o
+ .text.__sdio_waithcr
+                0x0000000012f21b30      0x194 SDI.o
+ .text.__sd0_deselect.isra.0
+                0x0000000012f21cc4       0xc8 SDI.o
+ .text.SDHCInit
+                0x0000000012f21d8c      0xb74 SDI.o
+                0x0000000012f21d8c                SDHCInit
+ .text.SDHCShutdown
+                0x0000000012f22900       0x20 SDI.o
+                0x0000000012f22900                SDHCShutdown
+ .text.sdio_ReadSectors
+                0x0000000012f22920      0x390 SDI.o
+                0x0000000012f22920                sdio_ReadSectors
+ .text.sdio_WriteSectors
+                0x0000000012f22cb0      0x368 SDI.o
+                0x0000000012f22cb0                sdio_WriteSectors
+ .text.USB_Initialize
+                0x0000000012f23018       0x3c usb.o
+                0x0000000012f23018                USB_Initialize
+ .text.USB_Deinitialize
+                0x0000000012f23054       0x50 usb.o
+                0x0000000012f23054                USB_Deinitialize
+ .text.USB_WriteBlkMsg
+                0x0000000012f230a4       0xac usb.o
+                0x0000000012f230a4                USB_WriteBlkMsg
+ .text.USB_WriteCtrlMsg
+                0x0000000012f23150       0xb8 usb.o
+                0x0000000012f23150                USB_WriteCtrlMsg
+ .text.USB_ClearHalt
+                0x0000000012f23208       0x78 usb.o
+                0x0000000012f23208                USB_ClearHalt
+ .text.USBStorage_Open
+                0x0000000012f23280       0xf4 usbstorage.o
+                0x0000000012f23280                USBStorage_Open
+ .text.USBStorage_Startup
+                0x0000000012f23374       0x70 usbstorage.o
+                0x0000000012f23374                USBStorage_Startup
+ .text.USBStorage_ReadSectors
+                0x0000000012f233e4      0x3d4 usbstorage.o
+                0x0000000012f233e4                USBStorage_ReadSectors
+ .text.USBStorage_WriteSectors
+                0x0000000012f237b8      0x3c4 usbstorage.o
+                0x0000000012f237b8                USBStorage_WriteSectors
+ .text.USBStorage_Shutdown
+                0x0000000012f23b7c       0xb8 usbstorage.o
+                0x0000000012f23b7c                USBStorage_Shutdown
+ .text.WDVD_FST_Open
+                0x0000000012f23c34      0x204 wdvd.o
+                0x0000000012f23c34                WDVD_FST_Open
+ .text.WDVD_FST_Close
+                0x0000000012f23e38       0x34 wdvd.o
+                0x0000000012f23e38                WDVD_FST_Close
+ .text.WDVD_FST_OpenDisc
+                0x0000000012f23e6c       0x20 wdvd.o
+                0x0000000012f23e6c                WDVD_FST_OpenDisc
+ .text.WDVD_FST_LSeek
+                0x0000000012f23e8c       0x54 wdvd.o
+                0x0000000012f23e8c                WDVD_FST_LSeek
+ .text.WDVD_FST_Read
+                0x0000000012f23ee0      0x140 wdvd.o
+                0x0000000012f23ee0                WDVD_FST_Read
+ .text.WDVD_FST_Mount
+                0x0000000012f24020      0x244 wdvd.o
+                0x0000000012f24020                WDVD_FST_Mount
+ .text.WDVD_Init
+                0x0000000012f24264       0x40 wdvd.o
+                0x0000000012f24264                WDVD_Init
+ .text.SOCKAlarm
+                0x0000000012f242a4      0x354 sock.o
+ .text.SOCKInit
+                0x0000000012f245f8      0x284 sock.o
+                0x0000000012f245f8                SOCKInit
+ .text.SOCKUpdateRegisters
+                0x0000000012f2487c      0xa2c sock.o
+                0x0000000012f2487c                SOCKUpdateRegisters
+ .text.acl_wlp_completed
+                0x0000000012f252a8        0x8 lwbt/bte.o
+                0x0000000012f252a8                acl_wlp_completed
+ .text.bte_hci_apply_patch_complete
+                0x0000000012f252b0       0xd0 lwbt/bte.o
+                0x0000000012f252b0                bte_hci_apply_patch_complete
+ .text.__bte_send_pending_request
+                0x0000000012f25380       0xa8 lwbt/bte.o
+ .text.acl_conn_complete
+                0x0000000012f25428       0x18 lwbt/bte.o
+                0x0000000012f25428                acl_conn_complete
+ .text.bte_hci_initcore_complete2
+                0x0000000012f25440      0x140 lwbt/bte.o
+                0x0000000012f25440                bte_hci_initcore_complete2
+ .text.bte_hci_initcore_complete
+                0x0000000012f25580      0x1a4 lwbt/bte.o
+                0x0000000012f25580                bte_hci_initcore_complete
+ .text.bte_hci_patch_complete
+                0x0000000012f25724      0x1cc lwbt/bte.o
+                0x0000000012f25724                bte_hci_patch_complete
+ .text.bte_hci_initsub_complete
+                0x0000000012f258f0      0x190 lwbt/bte.o
+                0x0000000012f258f0                bte_hci_initsub_complete
+ .text.__bte_shutdown_finished
+                0x0000000012f25a80       0x5c lwbt/bte.o
+ .text.l2cap_disconnect_cfm
+                0x0000000012f25adc      0x144 lwbt/bte.o
+                0x0000000012f25adc                l2cap_disconnect_cfm
+ .text.l2cap_accepted
+                0x0000000012f25c20       0xe4 lwbt/bte.o
+                0x0000000012f25c20                l2cap_accepted
+ .text.bte_process_input
+                0x0000000012f25d04       0xd8 lwbt/bte.o
+ .text.bte_read_stored_link_key_complete
+                0x0000000012f25ddc      0x14c lwbt/bte.o
+                0x0000000012f25ddc                bte_read_stored_link_key_complete
+ .text.l2cap_disconnected_ind
+                0x0000000012f25f28      0x11c lwbt/bte.o
+                0x0000000012f25f28                l2cap_disconnected_ind
+ .text.BTE_Init
+                0x0000000012f26044       0x8c lwbt/bte.o
+                0x0000000012f26044                BTE_Init
+ .text.BTE_Shutdown
+                0x0000000012f260d0       0x6c lwbt/bte.o
+                0x0000000012f260d0                BTE_Shutdown
+ .text.BTE_InitCore
+                0x0000000012f2613c       0x40 lwbt/bte.o
+                0x0000000012f2613c                BTE_InitCore
+ .text.BTE_ApplyPatch
+                0x0000000012f2617c       0x5c lwbt/bte.o
+                0x0000000012f2617c                BTE_ApplyPatch
+ .text.BTE_InitSub
+                0x0000000012f261d8       0x44 lwbt/bte.o
+                0x0000000012f261d8                BTE_InitSub
+ .text.BTE_ReadStoredLinkKey
+                0x0000000012f2621c       0x40 lwbt/bte.o
+                0x0000000012f2621c                BTE_ReadStoredLinkKey
+ .text.bte_new  0x0000000012f2625c       0x34 lwbt/bte.o
+                0x0000000012f2625c                bte_new
+ .text.bte_registerdeviceasync
+                0x0000000012f26290       0xd8 lwbt/bte.o
+                0x0000000012f26290                bte_registerdeviceasync
+ .text.bte_disconnect
+                0x0000000012f26368       0x48 lwbt/bte.o
+                0x0000000012f26368                bte_disconnect
+ .text.bte_senddata
+                0x0000000012f263b0       0xb8 lwbt/bte.o
+                0x0000000012f263b0                bte_senddata
+ .text.bte_arg  0x0000000012f26468        0x8 lwbt/bte.o
+                0x0000000012f26468                bte_arg
+ .text.bte_received
+                0x0000000012f26470        0x8 lwbt/bte.o
+                0x0000000012f26470                bte_received
+ .text.bte_disconnected
+                0x0000000012f26478        0x8 lwbt/bte.o
+                0x0000000012f26478                bte_disconnected
+ .text.btmemb_init
+                0x0000000012f26480       0x24 lwbt/btmemb.o
+                0x0000000012f26480                btmemb_init
+ .text.btmemb_alloc
+                0x0000000012f264a4       0x5c lwbt/btmemb.o
+                0x0000000012f264a4                btmemb_alloc
+ .text.btmemb_free
+                0x0000000012f26500       0x74 lwbt/btmemb.o
+                0x0000000012f26500                btmemb_free
+ .text.plug_holes
+                0x0000000012f26574       0xa8 lwbt/btmemr.o
+ .text.btmemr_init
+                0x0000000012f2661c       0x60 lwbt/btmemr.o
+                0x0000000012f2661c                btmemr_init
+ .text.btmemr_malloc
+                0x0000000012f2667c      0x138 lwbt/btmemr.o
+                0x0000000012f2667c                btmemr_malloc
+ .text.btmemr_free
+                0x0000000012f267b4       0xe8 lwbt/btmemr.o
+                0x0000000012f267b4                btmemr_free
+ .text.btmemr_realloc
+                0x0000000012f2689c       0xa0 lwbt/btmemr.o
+                0x0000000012f2689c                btmemr_realloc
+ .text.btpbuf_init
+                0x0000000012f2693c       0x20 lwbt/btpbuf.o
+                0x0000000012f2693c                btpbuf_init
+ .text.btpbuf_alloc
+                0x0000000012f2695c      0x21c lwbt/btpbuf.o
+                0x0000000012f2695c                btpbuf_alloc
+ .text.btpbuf_free
+                0x0000000012f26b78       0x9c lwbt/btpbuf.o
+                0x0000000012f26b78                btpbuf_free
+ .text.btpbuf_realloc
+                0x0000000012f26c14      0x154 lwbt/btpbuf.o
+                0x0000000012f26c14                btpbuf_realloc
+ .text.btpbuf_header
+                0x0000000012f26d68       0x8c lwbt/btpbuf.o
+                0x0000000012f26d68                btpbuf_header
+ .text.btpbuf_ref
+                0x0000000012f26df4       0x14 lwbt/btpbuf.o
+                0x0000000012f26df4                btpbuf_ref
+ .text.btpbuf_chain
+                0x0000000012f26e08       0x68 lwbt/btpbuf.o
+                0x0000000012f26e08                btpbuf_chain
+ .text.btpbuf_dechain
+                0x0000000012f26e70       0xcc lwbt/btpbuf.o
+                0x0000000012f26e70                btpbuf_dechain
+ .text.btpbuf_take
+                0x0000000012f26f3c      0x214 lwbt/btpbuf.o
+                0x0000000012f26f3c                btpbuf_take
+ .text.hci_init
+                0x0000000012f27150       0x90 lwbt/hci.o
+                0x0000000012f27150                hci_init
+ .text.hci_reset_all
+                0x0000000012f271e0      0x1a8 lwbt/hci.o
+                0x0000000012f271e0                hci_reset_all
+ .text.hci_arg  0x0000000012f27388       0x14 lwbt/hci.o
+                0x0000000012f27388                hci_arg
+ .text.hci_cmd_complete
+                0x0000000012f2739c       0x14 lwbt/hci.o
+                0x0000000012f2739c                hci_cmd_complete
+ .text.hci_connection_complete
+                0x0000000012f273b0       0x14 lwbt/hci.o
+                0x0000000012f273b0                hci_connection_complete
+ .text.hci_wlp_complete
+                0x0000000012f273c4       0x14 lwbt/hci.o
+                0x0000000012f273c4                hci_wlp_complete
+ .text.hci_reset
+                0x0000000012f273d8       0x8c lwbt/hci.o
+                0x0000000012f273d8                hci_reset
+ .text.hci_read_buffer_size
+                0x0000000012f27464       0x8c lwbt/hci.o
+                0x0000000012f27464                hci_read_buffer_size
+ .text.hci_read_bd_addr
+                0x0000000012f274f0       0x8c lwbt/hci.o
+                0x0000000012f274f0                hci_read_bd_addr
+ .text.hci_read_local_version
+                0x0000000012f2757c       0x88 lwbt/hci.o
+                0x0000000012f2757c                hci_read_local_version
+ .text.hci_read_local_features
+                0x0000000012f27604       0x8c lwbt/hci.o
+                0x0000000012f27604                hci_read_local_features
+ .text.hci_read_stored_link_key
+                0x0000000012f27690       0xe4 lwbt/hci.o
+                0x0000000012f27690                hci_read_stored_link_key
+ .text.hci_write_page_timeout
+                0x0000000012f27774       0xc4 lwbt/hci.o
+                0x0000000012f27774                hci_write_page_timeout
+ .text.hci_write_scan_enable
+                0x0000000012f27838       0x94 lwbt/hci.o
+                0x0000000012f27838                hci_write_scan_enable
+ .text.hci_accecpt_conn_request
+                0x0000000012f278cc       0xb0 lwbt/hci.o
+                0x0000000012f278cc                hci_accecpt_conn_request
+ .text.hci_write_local_name
+                0x0000000012f2797c       0xa8 lwbt/hci.o
+                0x0000000012f2797c                hci_write_local_name
+ .text.hci_write_pin_type
+                0x0000000012f27a24       0x94 lwbt/hci.o
+                0x0000000012f27a24                hci_write_pin_type
+ .text.hci_write_inquiry_mode
+                0x0000000012f27ab8       0x94 lwbt/hci.o
+                0x0000000012f27ab8                hci_write_inquiry_mode
+ .text.hci_write_page_scan_type
+                0x0000000012f27b4c       0x94 lwbt/hci.o
+                0x0000000012f27b4c                hci_write_page_scan_type
+ .text.hci_write_inquiry_scan_type
+                0x0000000012f27be0       0x94 lwbt/hci.o
+                0x0000000012f27be0                hci_write_inquiry_scan_type
+ .text.hci_vendor_specific_command
+                0x0000000012f27c74       0xa8 lwbt/hci.o
+                0x0000000012f27c74                hci_vendor_specific_command
+ .text.hci_write_link_policy_settings
+                0x0000000012f27d1c      0x18c lwbt/hci.o
+                0x0000000012f27d1c                hci_write_link_policy_settings
+ .text.hci_pin_code_request_neg_reply
+                0x0000000012f27ea8       0xa4 lwbt/hci.o
+                0x0000000012f27ea8                hci_pin_code_request_neg_reply
+ .text.hci_disconnect
+                0x0000000012f27f4c      0x15c lwbt/hci.o
+                0x0000000012f27f4c                hci_disconnect
+ .text.hci_write_cod
+                0x0000000012f280a8       0xa4 lwbt/hci.o
+                0x0000000012f280a8                hci_write_cod
+ .text.hci_host_buffer_size
+                0x0000000012f2814c      0x110 lwbt/hci.o
+                0x0000000012f2814c                hci_host_buffer_size
+ .text.hci_host_num_comp_packets
+                0x0000000012f2825c      0x118 lwbt/hci.o
+                0x0000000012f2825c                hci_host_num_comp_packets
+ .text.lp_pdu_maxsize
+                0x0000000012f28374       0x14 lwbt/hci.o
+                0x0000000012f28374                lp_pdu_maxsize
+ .text.lp_acl_write
+                0x0000000012f28388      0x1a4 lwbt/hci.o
+                0x0000000012f28388                lp_acl_write
+ .text.lp_write_flush_timeout
+                0x0000000012f2852c      0x18c lwbt/hci.o
+                0x0000000012f2852c                lp_write_flush_timeout
+ .text.hci_event_handler
+                0x0000000012f286b8      0xc44 lwbt/hci.o
+                0x0000000012f286b8                hci_event_handler
+ .text.hci_acldata_handler
+                0x0000000012f292fc       0xf0 lwbt/hci.o
+                0x0000000012f292fc                hci_acldata_handler
+ .text.l2cap_init
+                0x0000000012f293ec       0x9c lwbt/l2cap.o
+                0x0000000012f293ec                l2cap_init
+ .text.l2cap_write
+                0x0000000012f29488       0xfc lwbt/l2cap.o
+                0x0000000012f29488                l2cap_write
+ .text.l2cap_new
+                0x0000000012f29584       0x54 lwbt/l2cap.o
+                0x0000000012f29584                l2cap_new
+ .text.l2cap_close
+                0x0000000012f295d8      0x170 lwbt/l2cap.o
+                0x0000000012f295d8                l2cap_close
+ .text.l2cap_reset_all
+                0x0000000012f29748      0x180 lwbt/l2cap.o
+                0x0000000012f29748                l2cap_reset_all
+ .text.l2cap_signal
+                0x0000000012f298c8      0x178 lwbt/l2cap.o
+                0x0000000012f298c8                l2cap_signal
+ .text.l2ca_config_req
+                0x0000000012f29a40      0x150 lwbt/l2cap.o
+                0x0000000012f29a40                l2ca_config_req
+ .text.l2ca_disconnect_req
+                0x0000000012f29b90       0xe8 lwbt/l2cap.o
+                0x0000000012f29b90                l2ca_disconnect_req
+ .text.l2cap_tmr
+                0x0000000012f29c78      0x378 lwbt/l2cap.o
+                0x0000000012f29c78                l2cap_tmr
+ .text.l2cap_process_sig
+                0x0000000012f29ff0     0x15b4 lwbt/l2cap.o
+                0x0000000012f29ff0                l2cap_process_sig
+ .text.l2cap_input
+                0x0000000012f2b5a4      0x5dc lwbt/l2cap.o
+                0x0000000012f2b5a4                l2cap_input
+ .text.l2ca_datawrite
+                0x0000000012f2bb80      0x100 lwbt/l2cap.o
+                0x0000000012f2bb80                l2ca_datawrite
+ .text.lp_connect_cfm
+                0x0000000012f2bc80      0x180 lwbt/l2cap.o
+                0x0000000012f2bc80                lp_connect_cfm
+ .text.lp_connect_ind
+                0x0000000012f2be00        0x4 lwbt/l2cap.o
+                0x0000000012f2be00                lp_connect_ind
+ .text.lp_disconnect_ind
+                0x0000000012f2be04      0x1a0 lwbt/l2cap.o
+                0x0000000012f2be04                lp_disconnect_ind
+ .text.l2cap_arg
+                0x0000000012f2bfa4        0x8 lwbt/l2cap.o
+                0x0000000012f2bfa4                l2cap_arg
+ .text.l2cap_connect_ind
+                0x0000000012f2bfac       0xa4 lwbt/l2cap.o
+                0x0000000012f2bfac                l2cap_connect_ind
+ .text.l2cap_disconnect_ind
+                0x0000000012f2c050        0x8 lwbt/l2cap.o
+                0x0000000012f2c050                l2cap_disconnect_ind
+ .text.l2cap_recv
+                0x0000000012f2c058        0x8 lwbt/l2cap.o
+                0x0000000012f2c058                l2cap_recv
+ .text.bulkreadAlarm
+                0x0000000012f2c060       0x74 lwbt/physbusif.o
+ .text.intrreadAlarm
+                0x0000000012f2c0d4       0x74 lwbt/physbusif.o
+ .text.__readbulkdataCB
+                0x0000000012f2c148       0xd8 lwbt/physbusif.o
+                0x0000000012f2c148                __readbulkdataCB
+ .text.__readintrdataCB
+                0x0000000012f2c220       0xd8 lwbt/physbusif.o
+                0x0000000012f2c220                __readintrdataCB
+ .text.__issue_intrread
+                0x0000000012f2c2f8       0xf0 lwbt/physbusif.o
+                0x0000000012f2c2f8                __issue_intrread
+ .text.__issue_bulkread
+                0x0000000012f2c3e8       0xec lwbt/physbusif.o
+                0x0000000012f2c3e8                __issue_bulkread
+ *fill*         0x0000000012f2c4d4        0x4 
+ .text.physbusif_init
+                0x0000000012f2c4d8      0x38c lwbt/physbusif.o
+                0x0000000012f2c4d8                physbusif_init
+ .text.physbusif_close
+                0x0000000012f2c864       0x1c lwbt/physbusif.o
+                0x0000000012f2c864                physbusif_close
+ .text.physbusif_shutdown
+                0x0000000012f2c880       0x2c lwbt/physbusif.o
+                0x0000000012f2c880                physbusif_shutdown
+ .text.physbusif_reset_all
+                0x0000000012f2c8ac        0x4 lwbt/physbusif.o
+                0x0000000012f2c8ac                physbusif_reset_all
+ .text.physbusif_output
+                0x0000000012f2c8b0      0x384 lwbt/physbusif.o
+                0x0000000012f2c8b0                physbusif_output
+ .text.BTHandleDisconnect
+                0x0000000012f2cc34      0x110 BT.o
+ .text.BTReadLinkKeyCB
+                0x0000000012f2cd44       0x18 BT.o
+ .text.BTPatchCB
+                0x0000000012f2cd5c       0x18 BT.o
+ .text.BTHandleData
+                0x0000000012f2cd74      0xf78 BT.o
+ .text.BTInitCoreCB
+                0x0000000012f2dcec       0x34 BT.o
+ .text.BTHandleConnect
+                0x0000000012f2dd20      0x114 BT.o
+ .text.BTUpdateRegisters.part.0
+                0x0000000012f2de34      0x36c BT.o
+ .text.BTCompleteCB
+                0x0000000012f2e1a0      0x170 BT.o
+ .text.BTInit   0x0000000012f2e310      0x10c BT.o
+                0x0000000012f2e310                BTInit
+ .text.BTUpdateRegisters
+                0x0000000012f2e41c       0x18 BT.o
+                0x0000000012f2e41c                BTUpdateRegisters
+ .text.move_window.part.0
+                0x0000000012f2e434       0xe0 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.get_fat  0x0000000012f2e514      0x2cc ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.dir_next.constprop.0
+                0x0000000012f2e7e0      0x110 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.put_fat.part.0
+                0x0000000012f2e8f0      0x2b8 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.change_bitmap
+                0x0000000012f2eba8       0xf8 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.load_xdir
+                0x0000000012f2eca0      0x358 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.check_fs
+                0x0000000012f2eff8      0x1a4 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.sync_fs  0x0000000012f2f19c      0x180 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.create_chain
+                0x0000000012f2f31c      0x608 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.dir_sdi  0x0000000012f2f924      0x424 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.store_xdir
+                0x0000000012f2fd48      0x330 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.dir_find
+                0x0000000012f30078      0xd24 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.remove_chain.constprop.0
+                0x0000000012f30d9c      0x3f8 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.dir_alloc
+                0x0000000012f31194      0x4b4 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.find_volume
+                0x0000000012f31648      0xe3c ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .text.f_mount  0x0000000012f32484       0xd0 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f32484                f_mount
+ .text.f_open   0x0000000012f32554     0x1c30 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f32554                f_open
+ .text.f_read   0x0000000012f34184      0x4d0 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f34184                f_read
+ .text.f_write  0x0000000012f34654      0x680 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f34654                f_write
+ .text.f_sync   0x0000000012f34cd4      0x3cc ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f34cd4                f_sync
+ .text.f_close  0x0000000012f350a0       0x64 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f350a0                f_close
+ .text.f_lseek  0x0000000012f35104      0x52c ../fatfs/libfatfs-arm.a(ff-arm.o)
+                0x0000000012f35104                f_lseek
+ .text.f_open_char
+                0x0000000012f35630       0xac ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+                0x0000000012f35630                f_open_char
+ .text.ff_convert
+                0x0000000012f356dc       0x74 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+                0x0000000012f356dc                ff_convert
+ .text.ff_wtoupper
+                0x0000000012f35750      0x144 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+                0x0000000012f35750                ff_wtoupper
+ .text          0x0000000012f35894       0x20 be/libc.a(lib_a-gmtime.o)
+                0x0000000012f35894                gmtime
+ .text          0x0000000012f358b4       0x14 be/libc.a(lib_a-gmtime_r.o)
+                0x0000000012f358b4                gmtime_r
+ .text          0x0000000012f358c8       0x38 be/libc.a(lib_a-isprint.o)
+                0x0000000012f358c8                isgraph
+                0x0000000012f358e4                isprint
+ .text          0x0000000012f35900       0x48 be/libc.a(lib_a-mbstowcs.o)
+                0x0000000012f35900                mbstowcs
+ .text          0x0000000012f35948       0xc8 be/libc.a(lib_a-mbstowcs_r.o)
+                0x0000000012f35948                _mbstowcs_r
+ .text          0x0000000012f35a10      0x7a4 be/libc.a(lib_a-mbtowc_r.o)
+                0x0000000012f35a10                __utf8_mbtowc
+                0x0000000012f35d34                _mbtowc_r
+                0x0000000012f35d88                __ascii_mbtowc
+                0x0000000012f35dd4                __sjis_mbtowc
+                0x0000000012f35ebc                __eucjp_mbtowc
+                0x0000000012f36004                __jis_mbtowc
+ .text          0x0000000012f361b4      0x748 be/libc.a(lib_a-mktm_r.o)
+                0x0000000012f361b4                __tzcalc_limits
+                0x0000000012f363f4                _mktm_r
+ .text          0x0000000012f368fc       0x6c be/libc.a(lib_a-strcasecmp.o)
+                0x0000000012f368fc                strcasecmp
+ .text          0x0000000012f36968      0x1c4 be/libc.a(lib_a-strchr.o)
+                0x0000000012f36968                strchr
+ .text          0x0000000012f36b2c       0xf4 be/libc.a(lib_a-strcpy.o)
+                0x0000000012f36b2c                strcpy
+ .text          0x0000000012f36c20       0x60 be/libc.a(lib_a-strlen.o)
+                0x0000000012f36c20                strlen
+ .text          0x0000000012f36c80      0x160 be/libc.a(lib_a-strncmp.o)
+                0x0000000012f36c80                strncmp
+ .text          0x0000000012f36de0       0xd4 be/libc.a(lib_a-strncpy.o)
+                0x0000000012f36de0                strncpy
+ .text          0x0000000012f36eb4       0x68 be/libc.a(lib_a-strnlen.o)
+                0x0000000012f36eb4                strnlen
+ .text          0x0000000012f36f1c      0x7d0 be/libc.a(lib_a-strstr.o)
+                0x0000000012f3738c                strstr
+ .text          0x0000000012f376ec      0x20c be/libc.a(lib_a-strtoul.o)
+                0x0000000012f376ec                _strtoul_r
+                0x0000000012f378d0                strtoul
+ .text          0x0000000012f378f8        0x8 be/libc.a(lib_a-tzlock.o)
+                0x0000000012f378f8                __tz_lock
+                0x0000000012f378fc                __tz_unlock
+ .text          0x0000000012f37900      0x3d4 be/libc.a(lib_a-wctomb_r.o)
+                0x0000000012f37900                __utf8_wctomb
+                0x0000000012f37a18                _wctomb_r
+                0x0000000012f37a68                __ascii_wctomb
+                0x0000000012f37a94                __sjis_wctomb
+                0x0000000012f37b24                __eucjp_wctomb
+                0x0000000012f37bf0                __jis_wctomb
+ .text          0x0000000012f37cd4       0x18 be/libc.a(lib_a-ctype_.o)
+                0x0000000012f37cd4                __set_ctype
+ .text          0x0000000012f37cec        0xc be/libc.a(lib_a-gettzinfo.o)
+                0x0000000012f37cec                __gettzinfo
+ .text          0x0000000012f37cf8      0xd94 be/libc.a(lib_a-locale.o)
+                0x0000000012f386f8                _setlocale_r
+                0x0000000012f38a24                __locale_charset
+                0x0000000012f38a30                __locale_mb_cur_max
+                0x0000000012f38a40                __locale_msgcharset
+                0x0000000012f38a4c                __locale_cjk_lang
+                0x0000000012f38a5c                _localeconv_r
+                0x0000000012f38a68                setlocale
+                0x0000000012f38a80                localeconv
+ .text          0x0000000012f38a8c      0x114 be/libc.a(lib_a-memchr-stub.o)
+                0x0000000012f38a8c                memchr
+ .text          0x0000000012f38ba0       0x9c be/libc.a(lib_a-strcat.o)
+                0x0000000012f38ba0                strcat
+ .text          0x0000000012f38c3c      0x240 be/libc.a(lib_a-strcmp.o)
+                0x0000000012f38c3c                strcmp
+ .text          0x0000000012f38e7c       0x54 be/libc.a(lib_a-strlcpy.o)
+                0x0000000012f38e7c                strlcpy
+ .text          0x0000000012f38ed0       0x8c be/libc.a(lib_a-strncasecmp.o)
+                0x0000000012f38ed0                strncasecmp
+ .text          0x0000000012f38f5c      0x1f8 be/libc.a(lib_a-strtol.o)
+                0x0000000012f38f5c                _strtol_r
+                0x0000000012f3912c                strtol
+ .text          0x0000000012f39154       0xf4 be/libc.a(lib_a-getenv_r.o)
+                0x0000000012f39154                _findenv_r
+                0x0000000012f3922c                _getenv_r
+ .text          0x0000000012f39248        0x8 be/libc.a(lib_a-envlock.o)
+                0x0000000012f39248                __env_lock
+                0x0000000012f3924c                __env_unlock
+ .text          0x0000000012f39250      0x114 be/libgcc.a(_udivsi3.o)
+                0x0000000012f39250                __aeabi_uidiv
+                0x0000000012f39250                __udivsi3
+                0x0000000012f39344                __aeabi_uidivmod
+ .text          0x0000000012f39364        0x4 be/libgcc.a(_dvmd_tls.o)
+                0x0000000012f39364                __aeabi_idiv0
+                0x0000000012f39364                __aeabi_ldiv0
+ .text          0x0000000012f39368      0x2a8 be/libgcc.a(_arm_addsubsf3.o)
+                0x0000000012f39368                __aeabi_frsub
+                0x0000000012f39370                __subsf3
+                0x0000000012f39370                __aeabi_fsub
+                0x0000000012f39374                __aeabi_fadd
+                0x0000000012f39374                __addsf3
+                0x0000000012f39530                __aeabi_ui2f
+                0x0000000012f39530                __floatunsisf
+                0x0000000012f39538                __aeabi_i2f
+                0x0000000012f39538                __floatsisf
+                0x0000000012f39554                __aeabi_ul2f
+                0x0000000012f39554                __floatundisf
+                0x0000000012f39564                __aeabi_l2f
+                0x0000000012f39564                __floatdisf
+ .text          0x0000000012f39610      0x2f8 be/libgcc.a(_arm_muldivsf3.o)
+                0x0000000012f39610                __mulsf3
+                0x0000000012f39610                __aeabi_fmul
+                0x0000000012f397a8                __aeabi_fdiv
+                0x0000000012f397a8                __divsf3
+ .text          0x0000000012f39908      0x114 be/libgcc.a(_arm_cmpsf2.o)
+                0x0000000012f39908                __gesf2
+                0x0000000012f39908                __gtsf2
+                0x0000000012f39910                __lesf2
+                0x0000000012f39910                __ltsf2
+                0x0000000012f39918                __nesf2
+                0x0000000012f39918                __eqsf2
+                0x0000000012f39918                __cmpsf2
+                0x0000000012f3997c                __aeabi_cfrcmple
+                0x0000000012f3998c                __aeabi_cfcmpeq
+                0x0000000012f3998c                __aeabi_cfcmple
+                0x0000000012f399a4                __aeabi_fcmpeq
+                0x0000000012f399bc                __aeabi_fcmplt
+                0x0000000012f399d4                __aeabi_fcmple
+                0x0000000012f399ec                __aeabi_fcmpge
+                0x0000000012f39a04                __aeabi_fcmpgt
+ .text          0x0000000012f39a1c       0x54 be/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000012f39a1c                __fixunssfsi
+                0x0000000012f39a1c                __aeabi_f2uiz
+ .text          0x0000000012f39a70       0x3c be/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000012f39a70                __aeabi_uldivmod
+ .text          0x0000000012f39aac       0x84 be/libgcc.a(bpabi.o)
+                0x0000000012f39aac                __gnu_ldivmod_helper
+                0x0000000012f39af0                __gnu_uldivmod_helper
+ .text          0x0000000012f39b30      0x4c4 be/libgcc.a(_divdi3.o)
+                0x0000000012f39b30                __divdi3
+ .text          0x0000000012f39ff4      0x474 be/libgcc.a(_udivdi3.o)
+                0x0000000012f39ff4                __udivdi3
+ .text          0x0000000012f3a468       0x48 be/libgcc.a(_clzsi2.o)
+                0x0000000012f3a468                __clzsi2
+ *(.text.*)
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+ *(.glue_7)
+ .glue_7        0x0000000012f3a4b0        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000012f3a4b0        0x0 linker stubs
+                0x0000000012f3a4b0                . = ALIGN (0x4)
+
+.vfp11_veneer   0x0000000012f3a4b0        0x0
+ .vfp11_veneer  0x0000000012f3a4b0        0x0 linker stubs
+
+.v4_bx          0x0000000012f3a4b0        0x0
+ .v4_bx         0x0000000012f3a4b0        0x0 linker stubs
+
+.iplt           0x0000000012f3a4b0        0x0
+ .iplt          0x0000000012f3a4b0        0x0 start.o
+
+.rodata         0x0000000012f60000     0x7bb4
+ *(.rodata)
+ .rodata        0x0000000012f60000       0x45 GCAM.o
+ *fill*         0x0000000012f60045        0x3 
+ .rodata        0x0000000012f60048       0x63 JVSIO.o
+ *fill*         0x0000000012f600ab        0x1 
+ .rodata        0x0000000012f600ac        0x7 lwbt/bte.o
+ *fill*         0x0000000012f600b3        0x1 
+ .rodata        0x0000000012f600b4       0x90 be/libc.a(lib_a-mbtowc_r.o)
+ .rodata        0x0000000012f60144       0x68 be/libc.a(lib_a-mktm_r.o)
+ .rodata        0x0000000012f601ac      0x104 be/libc.a(lib_a-ctype_.o)
+                0x0000000012f601ac                _ctype_
+ .rodata        0x0000000012f602b0       0x1c be/libc.a(lib_a-locale.o)
+ *all.rodata*(*)
+ *(.roda)
+ *(.rodata.*)
+ .rodata.Shutdown.str1.4
+                0x0000000012f602cc       0x1a common.o
+ *fill*         0x0000000012f602e6       0x1a 
+ .rodata.stm_imm
+                0x0000000012f60300       0x13 common.o
+ *fill*         0x0000000012f60313        0x1 
+ .rodata.GCAMGetCARDName.str1.4
+                0x0000000012f60314       0x5b GCAM.o
+ *fill*         0x0000000012f6036f        0x1 
+ .rodata.GCAMCARDIsValid.str1.4
+                0x0000000012f60370        0xc GCAM.o
+ .rodata.GCAMCommand.str1.4
+                0x0000000012f6037c       0x10 GCAM.o
+ .rodata.TRI_NamcoChar
+                0x0000000012f6038c       0x3b JVSIO.o
+ *fill*         0x0000000012f603c7        0x1 
+ .rodata.TRI_SegaChar
+                0x0000000012f603c8       0x33 JVSIO.o
+ *fill*         0x0000000012f603fb        0x1 
+ .rodata.FSTInit.str1.4
+                0x0000000012f603fc       0x1e FST.o
+ *fill*         0x0000000012f6041a        0x2 
+ .rodata.FSTRead.str1.4
+                0x0000000012f6041c       0x3c FST.o
+ .rodata.DIRegister.str1.4
+                0x0000000012f60458        0xa DI.o
+ *fill*         0x0000000012f60462        0x2 
+ .rodata.DIUpdateRegisters.str1.4
+                0x0000000012f60464       0x10 DI.o
+ .rodata.DIReadThread.str1.4
+                0x0000000012f60474        0x3 DI.o
+ *fill*         0x0000000012f60477        0x1 
+ .rodata.DI_READ_BUFFER
+                0x0000000012f60478        0x4 DI.o
+                0x0000000012f60478                DI_READ_BUFFER
+ .rodata.DI_READ_BUFFER_LENGTH
+                0x0000000012f6047c        0x4 DI.o
+                0x0000000012f6047c                DI_READ_BUFFER_LENGTH
+ .rodata.disc_filenames
+                0x0000000012f60480       0x80 DI.o
+ .rodata.RealDI_Identify.str1.4
+                0x0000000012f60500       0x5f RealDI.o
+ *fill*         0x0000000012f6055f        0x1 
+ .rodata.di_path
+                0x0000000012f60560        0x8 RealDI.o
+ .rodata.GameNeedsHook.str1.4
+                0x0000000012f60568       0x36 Patch.o
+ *fill*         0x0000000012f6059e        0x2 
+ .rodata.printpatchfound.str1.4
+                0x0000000012f605a0       0x42 Patch.o
+ *fill*         0x0000000012f605e2        0x2 
+ .rodata.PatchFuncInterface.str1.4
+                0x0000000012f605e4       0x7e Patch.o
+ *fill*         0x0000000012f60662        0x2 
+ .rodata.PatchPatchBuffer.str1.4
+                0x0000000012f60664       0x25 Patch.o
+ *fill*         0x0000000012f60689        0x3 
+ .rodata.SetIPL_TRI.str1.4
+                0x0000000012f6068c       0x11 Patch.o
+ *fill*         0x0000000012f6069d        0x3 
+ .rodata.Check_Cheats.str1.4
+                0x0000000012f606a0       0x31 Patch.o
+                                         0x3d (size before relaxing)
+ *fill*         0x0000000012f606d1        0x3 
+ .rodata.DoPatches.str1.4
+                0x0000000012f606d4     0x1862 Patch.o
+                                       0x1866 (size before relaxing)
+ *fill*         0x0000000012f61f36        0x2 
+ .rodata.PatchGame.str1.4
+                0x0000000012f61f38       0x53 Patch.o
+ *fill*         0x0000000012f61f8b        0x1 
+ .rodata.str1.4
+                0x0000000012f61f8c      0x719 Patch.o
+                                        0x72d (size before relaxing)
+ *fill*         0x0000000012f626a5        0x3 
+ .rodata.ARQPostRequest
+                0x0000000012f626a8       0xe4 Patch.o
+                0x0000000012f626a8                ARQPostRequest
+ .rodata.ARStartDMA
+                0x0000000012f6278c       0xbc Patch.o
+                0x0000000012f6278c                ARStartDMA
+ .rodata.ARStartDMA_Hook
+                0x0000000012f62848       0x1c Patch.o
+                0x0000000012f62848                ARStartDMA_Hook
+ .rodata.ARStartDMA_PM
+                0x0000000012f62864       0xcc Patch.o
+                0x0000000012f62864                ARStartDMA_PM
+ .rodata.ARStartDMA_TC
+                0x0000000012f62930       0xcc Patch.o
+                0x0000000012f62930                ARStartDMA_TC
+ .rodata.AllFPatterns
+                0x0000000012f629fc       0x6c Patch.o
+ .rodata.DHCP_get_dns
+                0x0000000012f62a68       0x10 Patch.o
+                0x0000000012f62a68                DHCP_get_dns
+ .rodata.DHCP_get_gateway
+                0x0000000012f62a78       0x10 Patch.o
+                0x0000000012f62a78                DHCP_get_gateway
+ .rodata.DHCP_release
+                0x0000000012f62a88       0x10 Patch.o
+                0x0000000012f62a88                DHCP_release
+ .rodata.DHCP_request_nb
+                0x0000000012f62a98       0x10 Patch.o
+                0x0000000012f62a98                DHCP_request_nb
+ .rodata.DSPHashes
+                0x0000000012f62aa8      0x154 Patch.o
+ .rodata.DSPPattern
+                0x0000000012f62bfc       0x80 Patch.o
+ .rodata.DVDGetDriveStatus
+                0x0000000012f62c7c        0x8 Patch.o
+ .rodata.DVDSendCMDEncrypted
+                0x0000000012f62c84       0x1c Patch.o
+                0x0000000012f62c84                DVDSendCMDEncrypted
+ .rodata.DatelTimer
+                0x0000000012f62ca0       0x14 Patch.o
+                0x0000000012f62ca0                DatelTimer
+ .rodata.DiskDriveInfo
+                0x0000000012f62cb4       0x20 Patch.o
+                0x0000000012f62cb4                DiskDriveInfo
+ .rodata.DspMatches
+                0x0000000012f62cd4       0xc0 Patch.o
+ .rodata.EXIDMA
+                0x0000000012f62d94       0x70 Patch.o
+                0x0000000012f62d94                EXIDMA
+ .rodata.EXIImm
+                0x0000000012f62e04       0xc8 Patch.o
+                0x0000000012f62e04                EXIImm
+ .rodata.EXILock
+                0x0000000012f62ecc        0x8 Patch.o
+                0x0000000012f62ecc                EXILock
+ .rodata.EXIProbe
+                0x0000000012f62ed4       0x58 Patch.o
+                0x0000000012f62ed4                EXIProbe
+ .rodata.EXISelect
+                0x0000000012f62f2c       0x34 Patch.o
+                0x0000000012f62f2c                EXISelect
+ .rodata.FakeEntryLoad
+                0x0000000012f62f60       0x64 Patch.o
+                0x0000000012f62f60                FakeEntryLoad
+ .rodata.FakeInterrupt
+                0x0000000012f62fc4       0x58 Patch.o
+                0x0000000012f62fc4                FakeInterrupt
+ .rodata.FakeInterrupt_DBG
+                0x0000000012f6301c       0x50 Patch.o
+                0x0000000012f6301c                FakeInterrupt_DBG
+ .rodata.FakeInterrupt_Datel
+                0x0000000012f6306c       0x6c Patch.o
+                0x0000000012f6306c                FakeInterrupt_Datel
+ .rodata.FakeRSWLoad
+                0x0000000012f630d8       0x1c Patch.o
+                0x0000000012f630d8                FakeRSWLoad
+ .rodata.FakeRSWStore
+                0x0000000012f630f4       0x20 Patch.o
+                0x0000000012f630f4                FakeRSWStore
+ .rodata.GCAMSendCommand
+                0x0000000012f63114       0xbc Patch.o
+                0x0000000012f63114                GCAMSendCommand
+ .rodata.GXDeflickerOff
+                0x0000000012f631d0        0x7 Patch.o
+ *fill*         0x0000000012f631d7        0x1 
+ .rodata.GXDeflickerOn
+                0x0000000012f631d8        0x7 Patch.o
+ *fill*         0x0000000012f631df        0x1 
+ .rodata.GXInitTlutObj
+                0x0000000012f631e0       0x1c Patch.o
+                0x0000000012f631e0                GXInitTlutObj
+ .rodata.GXIntDfAt04
+                0x0000000012f631fc       0x10 Patch.o
+ .rodata.GXLoadTlut
+                0x0000000012f6320c        0xc Patch.o
+                0x0000000012f6320c                GXLoadTlut
+ .rodata.HSPIntrruptHandler
+                0x0000000012f63218       0x3c Patch.o
+                0x0000000012f63218                HSPIntrruptHandler
+ .rodata.IPClearConfigError
+                0x0000000012f63254       0x10 Patch.o
+                0x0000000012f63254                IPClearConfigError
+ .rodata.IPGetAddr
+                0x0000000012f63264       0x10 Patch.o
+                0x0000000012f63264                IPGetAddr
+ .rodata.IPGetConfigError
+                0x0000000012f63274       0x10 Patch.o
+                0x0000000012f63274                IPGetConfigError
+ .rodata.IPGetLinkState
+                0x0000000012f63284       0x10 Patch.o
+                0x0000000012f63284                IPGetLinkState
+ .rodata.IPGetMacAddr
+                0x0000000012f63294       0x10 Patch.o
+                0x0000000012f63294                IPGetMacAddr
+ .rodata.IPGetMtu
+                0x0000000012f632a4       0x10 Patch.o
+                0x0000000012f632a4                IPGetMtu
+ .rodata.IPGetNetmask
+                0x0000000012f632b4       0x10 Patch.o
+                0x0000000012f632b4                IPGetNetmask
+ .rodata.IPSetConfigError
+                0x0000000012f632c4       0x10 Patch.o
+                0x0000000012f632c4                IPSetConfigError
+ .rodata.KeyboardRead
+                0x0000000012f632d4       0x10 Patch.o
+                0x0000000012f632d4                KeyboardRead
+ .rodata.MajoraAudioStream
+                0x0000000012f632e4       0xcc Patch.o
+                0x0000000012f632e4                MajoraAudioStream
+ .rodata.MajoraLoadRegs
+                0x0000000012f633b0       0x1c Patch.o
+                0x0000000012f633b0                MajoraLoadRegs
+ .rodata.MajoraSaveRegs
+                0x0000000012f633cc       0x28 Patch.o
+                0x0000000012f633cc                MajoraSaveRegs
+ .rodata.OSExceptionInit
+                0x0000000012f633f4       0x14 Patch.o
+                0x0000000012f633f4                OSExceptionInit
+ .rodata.PADControlAllMotors
+                0x0000000012f63408       0x2c Patch.o
+                0x0000000012f63408                PADControlAllMotors
+ .rodata.PADControlMotor
+                0x0000000012f63434       0x24 Patch.o
+                0x0000000012f63434                PADControlMotor
+ .rodata.PADIsBarrel
+                0x0000000012f63458       0x2c Patch.o
+                0x0000000012f63458                PADIsBarrel
+ .rodata.PADIsBarrelOri
+                0x0000000012f63484       0x1c Patch.o
+ .rodata.PADRead
+                0x0000000012f634a0       0x70 Patch.o
+                0x0000000012f634a0                PADRead
+ .rodata.ReadROM
+                0x0000000012f63510       0x6c Patch.o
+                0x0000000012f63510                ReadROM
+ .rodata.Return0
+                0x0000000012f6357c        0x8 Patch.o
+                0x0000000012f6357c                Return0
+ .rodata.Return1
+                0x0000000012f63584        0x8 Patch.o
+                0x0000000012f63584                Return1
+ .rodata.ReturnMinus1
+                0x0000000012f6358c        0x8 Patch.o
+                0x0000000012f6358c                ReturnMinus1
+ .rodata.SIGetType
+                0x0000000012f63594       0x38 Patch.o
+                0x0000000012f63594                SIGetType
+ .rodata.SIInitStore
+                0x0000000012f635cc       0x1c Patch.o
+                0x0000000012f635cc                SIInitStore
+ .rodata.SIIntrruptHandler
+                0x0000000012f635e8       0x14 Patch.o
+                0x0000000012f635e8                SIIntrruptHandler
+ .rodata.SITransfer
+                0x0000000012f635fc      0x118 Patch.o
+                0x0000000012f635fc                SITransfer
+ .rodata.SOAccept
+                0x0000000012f63714       0x10 Patch.o
+                0x0000000012f63714                SOAccept
+ .rodata.SOBind
+                0x0000000012f63724       0x10 Patch.o
+                0x0000000012f63724                SOBind
+ .rodata.SOCleanup
+                0x0000000012f63734       0x10 Patch.o
+                0x0000000012f63734                SOCleanup
+ .rodata.SOClose
+                0x0000000012f63744       0x10 Patch.o
+                0x0000000012f63744                SOClose
+ .rodata.SOFcntl
+                0x0000000012f63754       0x10 Patch.o
+                0x0000000012f63754                SOFcntl
+ .rodata.SOInit
+                0x0000000012f63764       0x10 Patch.o
+                0x0000000012f63764                SOInit
+ .rodata.SOListen
+                0x0000000012f63774       0x10 Patch.o
+                0x0000000012f63774                SOListen
+ .rodata.SOPoll
+                0x0000000012f63784       0x10 Patch.o
+                0x0000000012f63784                SOPoll
+ .rodata.SORecvFrom
+                0x0000000012f63794       0x10 Patch.o
+                0x0000000012f63794                SORecvFrom
+ .rodata.SOSendTo
+                0x0000000012f637a4       0x10 Patch.o
+                0x0000000012f637a4                SOSendTo
+ .rodata.SOSetSockOpt
+                0x0000000012f637b4       0x10 Patch.o
+                0x0000000012f637b4                SOSetSockOpt
+ .rodata.SOShutdown
+                0x0000000012f637c4       0x10 Patch.o
+                0x0000000012f637c4                SOShutdown
+ .rodata.SOSocket
+                0x0000000012f637d4       0x10 Patch.o
+                0x0000000012f637d4                SOSocket
+ .rodata.SOStartup
+                0x0000000012f637e4       0x10 Patch.o
+                0x0000000012f637e4                SOStartup
+ .rodata.SonicRidersCopy
+                0x0000000012f637f4       0x18 Patch.o
+                0x0000000012f637f4                SonicRidersCopy
+ .rodata.SwitcherPrs
+                0x0000000012f6380c       0x40 Patch.o
+                0x0000000012f6380c                SwitcherPrs
+ .rodata.TCIntrruptHandler
+                0x0000000012f6384c       0x14 Patch.o
+                0x0000000012f6384c                TCIntrruptHandler
+ .rodata.__ARHandler
+                0x0000000012f63860       0xd0 Patch.o
+                0x0000000012f63860                __ARHandler
+ .rodata.__CARDClearStatus
+                0x0000000012f63930        0x8 Patch.o
+                0x0000000012f63930                __CARDClearStatus
+ .rodata.__CARDReadStatus
+                0x0000000012f63938       0x10 Patch.o
+                0x0000000012f63938                __CARDReadStatus
+ .rodata.__DSPHandler
+                0x0000000012f63948      0x1d4 Patch.o
+                0x0000000012f63948                __DSPHandler
+ .rodata.__DVDInterruptHandler
+                0x0000000012f63b1c       0x48 Patch.o
+                0x0000000012f63b1c                __DVDInterruptHandler
+ .rodata.__GXSetVAT
+                0x0000000012f63b64       0x7c Patch.o
+                0x0000000012f63b64                __GXSetVAT
+ .rodata.avetcp_init
+                0x0000000012f63be0       0x10 Patch.o
+                0x0000000012f63be0                avetcp_init
+ .rodata.avetcp_term
+                0x0000000012f63bf0       0x10 Patch.o
+                0x0000000012f63bf0                avetcp_term
+ .rodata.codehandler
+                0x0000000012f63c00     0x10d0 Patch.o
+                0x0000000012f63c00                codehandler
+ .rodata.codehandler_stub
+                0x0000000012f64cd0       0x44 Patch.o
+                0x0000000012f64cd0                codehandler_stub
+ .rodata.codehandleronly
+                0x0000000012f64d14      0xaa8 Patch.o
+                0x0000000012f64d14                codehandleronly
+ .rodata.dns_clear_server
+                0x0000000012f657bc       0x10 Patch.o
+                0x0000000012f657bc                dns_clear_server
+ .rodata.dns_close
+                0x0000000012f657cc       0x10 Patch.o
+                0x0000000012f657cc                dns_close
+ .rodata.dns_get_addr
+                0x0000000012f657dc       0x10 Patch.o
+                0x0000000012f657dc                dns_get_addr
+ .rodata.dns_open_addr
+                0x0000000012f657ec       0x10 Patch.o
+                0x0000000012f657ec                dns_open_addr
+ .rodata.dns_set_server
+                0x0000000012f657fc       0x10 Patch.o
+                0x0000000012f657fc                dns_set_server
+ .rodata.patch_fwrite_GC
+                0x0000000012f6580c       0x90 Patch.o
+                0x0000000012f6580c                patch_fwrite_GC
+ .rodata.patch_fwrite_Log
+                0x0000000012f6589c       0x68 Patch.o
+                0x0000000012f6589c                patch_fwrite_Log
+ .rodata.tcp_abort
+                0x0000000012f65904       0x10 Patch.o
+                0x0000000012f65904                tcp_abort
+ .rodata.tcp_accept
+                0x0000000012f65914       0x10 Patch.o
+                0x0000000012f65914                tcp_accept
+ .rodata.tcp_bind
+                0x0000000012f65924       0x10 Patch.o
+                0x0000000012f65924                tcp_bind
+ .rodata.tcp_connect
+                0x0000000012f65934       0x10 Patch.o
+                0x0000000012f65934                tcp_connect
+ .rodata.tcp_create
+                0x0000000012f65944       0x10 Patch.o
+                0x0000000012f65944                tcp_create
+ .rodata.tcp_delete
+                0x0000000012f65954       0x10 Patch.o
+                0x0000000012f65954                tcp_delete
+ .rodata.tcp_getaddr
+                0x0000000012f65964       0x10 Patch.o
+                0x0000000012f65964                tcp_getaddr
+ .rodata.tcp_listen
+                0x0000000012f65974       0x10 Patch.o
+                0x0000000012f65974                tcp_listen
+ .rodata.tcp_receive
+                0x0000000012f65984       0x10 Patch.o
+                0x0000000012f65984                tcp_receive
+ .rodata.tcp_send
+                0x0000000012f65994       0x10 Patch.o
+                0x0000000012f65994                tcp_send
+ .rodata.tcp_stat
+                0x0000000012f659a4       0x10 Patch.o
+                0x0000000012f659a4                tcp_stat
+ .rodata.PatchTimers.str1.4
+                0x0000000012f659b4      0x563 PatchTimers.o
+ *fill*         0x0000000012f65f17        0x1 
+ .rodata.PatchStaticTimers.str1.4
+                0x0000000012f65f18      0x18b PatchTimers.o
+ *fill*         0x0000000012f660a3        0x1 
+ .rodata.TRIBackupSettings.str1.4
+                0x0000000012f660a4       0x1b TRI.o
+ *fill*         0x0000000012f660bf        0x1 
+ .rodata.TRIReadSettings.str1.4
+                0x0000000012f660c0       0x17 TRI.o
+ *fill*         0x0000000012f660d7        0x1 
+ .rodata.TRISetupGames.str1.4
+                0x0000000012f660d8      0x26b TRI.o
+ *fill*         0x0000000012f66343        0x1 
+ .rodata.CheckTestMenu
+                0x0000000012f66344       0x30 TRI.o
+                0x0000000012f66344                CheckTestMenu
+ .rodata.CheckTestMenuGP
+                0x0000000012f66374       0x34 TRI.o
+                0x0000000012f66374                CheckTestMenuGP
+ .rodata.CheckTestMenuVS
+                0x0000000012f663a8       0x34 TRI.o
+                0x0000000012f663a8                CheckTestMenuVS
+ .rodata.CheckTestMenuYakyuu
+                0x0000000012f663dc       0x34 TRI.o
+                0x0000000012f663dc                CheckTestMenuYakyuu
+ .rodata.PADControlMotorGP
+                0x0000000012f66410       0x44 TRI.o
+                0x0000000012f66410                PADControlMotorGP
+ .rodata.PADReadF
+                0x0000000012f66454       0x44 TRI.o
+                0x0000000012f66454                PADReadF
+ .rodata.PADReadGP
+                0x0000000012f66498       0x3c TRI.o
+                0x0000000012f66498                PADReadGP
+ .rodata.PADReadVS
+                0x0000000012f664d4       0x3c TRI.o
+                0x0000000012f664d4                PADReadVS
+ .rodata.PADReadVS3
+                0x0000000012f66510       0x3c TRI.o
+                0x0000000012f66510                PADReadVS3
+ .rodata.RestoreSettingsAX_RVC
+                0x0000000012f6654c       0x28 TRI.o
+                0x0000000012f6654c                RestoreSettingsAX_RVC
+ .rodata.RestoreSettingsAX_RVD
+                0x0000000012f66574       0x28 TRI.o
+                0x0000000012f66574                RestoreSettingsAX_RVD
+ .rodata.RestoreSettingsAX_RVE
+                0x0000000012f6659c       0x28 TRI.o
+                0x0000000012f6659c                RestoreSettingsAX_RVE
+ .rodata.RestoreSettingsVS3V02
+                0x0000000012f665c4       0x2c TRI.o
+                0x0000000012f665c4                RestoreSettingsVS3V02
+ .rodata.RestoreSettingsVS4EXP
+                0x0000000012f665f0       0x2c TRI.o
+                0x0000000012f665f0                RestoreSettingsVS4EXP
+ .rodata.RestoreSettingsVS4JAP
+                0x0000000012f6661c       0x2c TRI.o
+                0x0000000012f6661c                RestoreSettingsVS4JAP
+ .rodata.RestoreSettingsVS4V06EXP
+                0x0000000012f66648       0x2c TRI.o
+                0x0000000012f66648                RestoreSettingsVS4V06EXP
+ .rodata.RestoreSettingsVS4V06JAP
+                0x0000000012f66674       0x2c TRI.o
+                0x0000000012f66674                RestoreSettingsVS4V06JAP
+ .rodata.RestoreSettingsYAKRVB
+                0x0000000012f666a0       0x28 TRI.o
+                0x0000000012f666a0                RestoreSettingsYAKRVB
+ .rodata.RestoreSettingsYAKRVC
+                0x0000000012f666c8       0x28 TRI.o
+                0x0000000012f666c8                RestoreSettingsYAKRVC
+ .rodata.SETTINGS_AX_RVC
+                0x0000000012f666f0       0x1a TRI.o
+ *fill*         0x0000000012f6670a        0x2 
+ .rodata.SETTINGS_AX_RVD
+                0x0000000012f6670c       0x1a TRI.o
+ *fill*         0x0000000012f66726        0x2 
+ .rodata.SETTINGS_AX_RVE
+                0x0000000012f66728       0x1a TRI.o
+ *fill*         0x0000000012f66742        0x2 
+ .rodata.SETTINGS_VS3V02
+                0x0000000012f66744       0x1a TRI.o
+ *fill*         0x0000000012f6675e        0x2 
+ .rodata.SETTINGS_VS4EXP
+                0x0000000012f66760       0x1a TRI.o
+ *fill*         0x0000000012f6677a        0x2 
+ .rodata.SETTINGS_VS4JAP
+                0x0000000012f6677c       0x1a TRI.o
+ *fill*         0x0000000012f66796        0x2 
+ .rodata.SETTINGS_VS4V06EXP
+                0x0000000012f66798       0x1d TRI.o
+ *fill*         0x0000000012f667b5        0x3 
+ .rodata.SETTINGS_VS4V06JAP
+                0x0000000012f667b8       0x1d TRI.o
+ *fill*         0x0000000012f667d5        0x3 
+ .rodata.SETTINGS_YAKRVB
+                0x0000000012f667d8       0x1a TRI.o
+ *fill*         0x0000000012f667f2        0x2 
+ .rodata.SETTINGS_YAKRVC
+                0x0000000012f667f4       0x1a TRI.o
+ *fill*         0x0000000012f6680e        0x2 
+ .rodata.PatchWidescreen.str1.4
+                0x0000000012f66810      0x150 PatchWidescreen.o
+ .rodata.PatchStaticWidescreen.str1.4
+                0x0000000012f66960      0x409 PatchWidescreen.o
+ *fill*         0x0000000012f66d69        0x3 
+ .rodata.CalcWidescreen
+                0x0000000012f66d6c       0x44 PatchWidescreen.o
+                0x0000000012f66d6c                CalcWidescreen
+ .rodata.CalcWidescreenDiv
+                0x0000000012f66db0       0x44 PatchWidescreen.o
+                0x0000000012f66db0                CalcWidescreenDiv
+ .rodata.ISOInit.str1.4
+                0x0000000012f66df4       0x22 ISO.o
+ *fill*         0x0000000012f66e16        0x2 
+ .rodata.EXIDevice_ROM_RTC_SRAM_UART.isra.0.str1.4
+                0x0000000012f66e18       0x50 EXI.o
+ .rodata.EXIInit.str1.4
+                0x0000000012f66e68       0x10 EXI.o
+ .rodata.EXISetTimings.str1.4
+                0x0000000012f66e78       0x20 EXI.o
+ .rodata.EXIShutdown.str1.4
+                0x0000000012f66e98       0x28 EXI.o
+ .rodata.EXIPrepareTRIGameStart.str1.4
+                0x0000000012f66ec0       0x1d EXI.o
+ *fill*         0x0000000012f66edd        0x3 
+ .rodata.sb311block
+                0x0000000012f66ee0       0xd8 EXI.o
+ .rodata.GCNCard_Load.str1.4
+                0x0000000012f66fb8       0xc6 GCNCard.o
+ *fill*         0x0000000012f6707e        0x2 
+ .rodata.GCNCard_Save.str1.4
+                0x0000000012f67080       0x35 GCNCard.o
+ *fill*         0x0000000012f670b5        0x3 
+ .rodata.HIDInit.str1.4
+                0x0000000012f670b8        0xd HID.o
+ *fill*         0x0000000012f670c5        0x3 
+ .rodata.ConfigGetValue.str1.4
+                0x0000000012f670c8        0x5 HID.o
+ *fill*         0x0000000012f670cd        0x3 
+ .rodata.HIDOpen.str1.4
+                0x0000000012f670d0      0x165 HID.o
+                                        0x185 (size before relaxing)
+ *fill*         0x0000000012f67235        0x3 
+ .rodata.rawData
+                0x0000000012f67238       0x31 HID.o
+ *fill*         0x0000000012f67269        0x3 
+ .rodata.disk_read_usb.str1.4
+                0x0000000012f6726c       0x45 diskio.o
+ *fill*         0x0000000012f672b1        0x3 
+ .rodata.disk_write_usb.str1.4
+                0x0000000012f672b4       0x45 diskio.o
+ *fill*         0x0000000012f672f9        0x3 
+ .rodata.ConfigInit.str1.4
+                0x0000000012f672fc       0x74 Config.o
+ .rodata._main.str1.4
+                0x0000000012f67370      0x109 main.o
+ *fill*         0x0000000012f67479        0x3 
+ .rodata.fatDevName
+                0x0000000012f6747c        0x4 main.o
+ .rodata.ReadSpeed_Init.str1.4
+                0x0000000012f67480       0x38 ReadSpeed.o
+ .rodata.number.str1.4
+                0x0000000012f674b8       0x4d vsprintf.o
+ *fill*         0x0000000012f67505        0x3 
+ .rodata.dbgprintf.str1.4
+                0x0000000012f67508       0x66 vsprintf.o
+ .rodata._sprintf.constprop.0.str1.4
+                0x0000000012f6756e       0x66 string.o
+                                          0x3 (size before relaxing)
+ *fill*         0x0000000012f6756e        0x2 
+ .rodata._sprintf.constprop.1.str1.4
+                0x0000000012f67570        0x3 string.o
+ .rodata._sprintf.constprop.2.str1.4
+                0x0000000012f67573        0x3 string.o
+                                          0x2 (size before relaxing)
+ *fill*         0x0000000012f67573        0x1 
+ .rodata._sprintf.constprop.3.str1.4
+                0x0000000012f67574        0x6 string.o
+ *fill*         0x0000000012f6757a        0x2 
+ .rodata._sprintf.constprop.4.str1.4
+                0x0000000012f6757c        0x4 string.o
+ .rodata._sprintf.constprop.5.str1.4
+                0x0000000012f67580        0x7 string.o
+ *fill*         0x0000000012f67587       0x19 
+ .rodata.__ven_path
+                0x0000000012f675a0        0xd usb.o
+ *fill*         0x0000000012f675ad        0x3 
+ .rodata.str1.4
+                0x0000000012f675b0       0x16 wdvd.o
+ *fill*         0x0000000012f675c6       0x1a 
+ .rodata.di_fs  0x0000000012f675e0        0x8 wdvd.o
+ .rodata.discName
+                0x0000000012f675e8        0x8 wdvd.o
+ .rodata.SOCKInit.str1.4
+                0x0000000012f675f0       0x24 sock.o
+ .rodata.bte_hci_initcore_complete2.str1.4
+                0x0000000012f67614        0x4 lwbt/bte.o
+ .rodata.bte_hci_initcore_complete.str1.4
+                0x0000000012f67618        0x4 lwbt/bte.o
+                                          0x1 (size before relaxing)
+ .rodata.bte_hci_initsub_complete.str1.4
+                0x0000000012f67618        0x4 lwbt/bte.o
+ .rodata.physbusif_init.str1.4
+                0x0000000012f6761c       0x13 lwbt/physbusif.o
+ *fill*         0x0000000012f6762f        0x1 
+ .rodata.BTCompleteCB.str1.4
+                0x0000000012f67630        0x4 BT.o
+ .rodata.LEDState
+                0x0000000012f67634        0x5 BT.o
+ *fill*         0x0000000012f67639        0x3 
+ .rodata.f_open.str1.4
+                0x0000000012f6763c       0x13 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ *fill*         0x0000000012f6764f        0x1 
+ .rodata.ExCvt  0x0000000012f67650       0x80 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .rodata.LfnOfs
+                0x0000000012f676d0        0xd ../fatfs/libfatfs-arm.a(ff-arm.o)
+ *fill*         0x0000000012f676dd        0x3 
+ .rodata.Tbl    0x0000000012f676e0      0x100 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .rodata.cvt1.1
+                0x0000000012f677e0      0x1f2 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ *fill*         0x0000000012f679d2        0x2 
+ .rodata.cvt2.0
+                0x0000000012f679d4       0xbc ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .rodata.str1.4
+                0x0000000012f67a90        0x4 be/libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x0000000012f67a90      0x124 be/libc.a(lib_a-locale.o)
+                                        0x130 (size before relaxing)
+ *(.gnu.linkonce.r*)
+                0x0000000012f67bb4                . = ALIGN (0x4)
+
+.rel.dyn        0x0000000012f67bb4        0x0
+ .rel.iplt      0x0000000012f67bb4        0x0 start.o
+
+.data           0x0000000012f67bb4     0x5444
+ *(.data)
+ *fill*         0x0000000012f67bb4        0x4 
+ .data          0x0000000012f67bb8      0x430 be/libc.a(lib_a-impure.o)
+                0x0000000012f67bb8                _impure_ptr
+ .data          0x0000000012f67fe8        0x4 be/libc.a(lib_a-mbtowc_r.o)
+                0x0000000012f67fe8                __mbtowc
+ .data          0x0000000012f67fec        0x4 be/libc.a(lib_a-wctomb_r.o)
+                0x0000000012f67fec                __wctomb
+ .data          0x0000000012f67ff0        0x4 be/libc.a(lib_a-ctype_.o)
+                0x0000000012f67ff0                __ctype_ptr__
+ .data          0x0000000012f67ff4       0x40 be/libc.a(lib_a-gettzinfo.o)
+ .data          0x0000000012f68034      0x17c be/libc.a(lib_a-locale.o)
+                0x0000000012f68034                __default_locale
+                0x0000000012f68154                __mb_cur_max
+ .data          0x0000000012f681b0        0x4 be/libc.a(lib_a-environ.o)
+                0x0000000012f681b0                environ
+ *(.data.*)
+ .data.d10_0    0x0000000012f681b4        0x4 JVSIO.o
+                0x0000000012f681b4                d10_0
+ .data.d10_1    0x0000000012f681b8        0x4 JVSIO.o
+                0x0000000012f681b8                d10_1
+ .data.DI_Handle
+                0x0000000012f681bc        0x4 DI.o
+                0x0000000012f681bc                DI_Handle
+ .data.DI_MessageQueue
+                0x0000000012f681c0        0x4 DI.o
+                0x0000000012f681c0                DI_MessageQueue
+ *fill*         0x0000000012f681c4        0x4 
+ .data.DVD_OFFSET64
+                0x0000000012f681c8        0x8 RealDI.o
+ .data.di_fd    0x0000000012f681d0        0x4 RealDI.o
+ .data.realdiqueue
+                0x0000000012f681d4        0x4 RealDI.o
+ .data.DatelFPatterns
+                0x0000000012f681d8       0x60 Patch.o
+ .data.EXIFPatterns
+                0x0000000012f68238      0xcc0 Patch.o
+ .data.NinSOPatterns
+                0x0000000012f68ef8      0x4b0 Patch.o
+ .data.NormalFPatterns
+                0x0000000012f693a8      0x6c0 Patch.o
+ .data.PADFPatterns
+                0x0000000012f69a68      0x330 Patch.o
+ .data.POffset  0x0000000012f69d98        0x4 Patch.o
+ .data.PSOFPatterns
+                0x0000000012f69d9c      0x1e0 Patch.o
+ .data.PSO_SOPatterns
+                0x0000000012f69f7c     0x1050 Patch.o
+ .data.SIFPatterns
+                0x0000000012f6afcc      0x3c0 Patch.o
+ .data.TRIFPatterns
+                0x0000000012f6b38c       0xc0 Patch.o
+ .data.smc_arr_gc
+                0x0000000012f6b44c       0x2c PatchTimers.o
+ .data.smc_arr_wii
+                0x0000000012f6b478       0x2c PatchTimers.o
+ .data.smc_pal50_arr_wii
+                0x0000000012f6b4a4       0x2c PatchTimers.o
+ .data.DCCache  0x0000000012f6b4d0        0x4 ISO.o
+ .data.DCacheLimit
+                0x0000000012f6b4d4        0x4 ISO.o
+ .data.LastOffset64
+                0x0000000012f6b4d8        0x8 ISO.o
+ .data.CurrentTiming
+                0x0000000012f6b4e0        0x4 EXI.o
+ *fill*         0x0000000012f6b4e4       0x1c 
+ .data.sram     0x0000000012f6b500       0x40 SRAM.o
+                0x0000000012f6b500                sram
+ .data.complete
+                0x0000000012f6b540        0x4 SI.o
+ .data.DefControllers
+                0x0000000012f6b544     0x1878 HID.o
+                0x0000000012f6b544                DefControllers
+ .data.DefRumble
+                0x0000000012f6cdbc       0x40 HID.o
+                0x0000000012f6cdbc                DefRumble
+ .data.HIDHandle
+                0x0000000012f6cdfc        0x4 HID.o
+ .data.MotorCommand
+                0x0000000012f6ce00        0x4 HID.o
+                0x0000000012f6ce00                MotorCommand
+ .data.RumbleDataOff_0079_0006
+                0x0000000012f6ce04        0xe HID.o
+                0x0000000012f6ce04                RumbleDataOff_0079_0006
+ *fill*         0x0000000012f6ce12        0x2 
+ .data.RumbleDataOff_0810_0001
+                0x0000000012f6ce14        0x5 HID.o
+                0x0000000012f6ce14                RumbleDataOff_0810_0001
+ *fill*         0x0000000012f6ce19        0x3 
+ .data.RumbleDataOn_0079_0006
+                0x0000000012f6ce1c        0xe HID.o
+                0x0000000012f6ce1c                RumbleDataOn_0079_0006
+ *fill*         0x0000000012f6ce2a        0x2 
+ .data.RumbleDataOn_0810_0001
+                0x0000000012f6ce2c        0x5 HID.o
+                0x0000000012f6ce2c                RumbleDataOn_0810_0001
+ *fill*         0x0000000012f6ce31        0x3 
+ .data.hidqueue
+                0x0000000012f6ce34        0x4 HID.o
+ .data.CMDBaseBlock
+                0x0000000012f6ce38        0x4 ReadSpeed.o
+ .data.CMDLastBlock
+                0x0000000012f6ce3c        0x4 ReadSpeed.o
+ .data.CMDTicks
+                0x0000000012f6ce40        0x4 ReadSpeed.o
+ .data.READ_TICKS
+                0x0000000012f6ce44        0x4 ReadSpeed.o
+ .data.SEEK_TICKS
+                0x0000000012f6ce48        0x4 ReadSpeed.o
+ .data.UseReadLimit
+                0x0000000012f6ce4c        0x4 ReadSpeed.o
+                0x0000000012f6ce4c                UseReadLimit
+ .data.file_opened
+                0x0000000012f6ce50        0x4 vsprintf.o
+ .data._sd0_fs  0x0000000012f6ce54       0x10 SDI.o
+ .data.ven_fd   0x0000000012f6ce64        0x4 usb.o
+ .data.__usb_fd
+                0x0000000012f6ce68        0x4 usbstorage.o
+ .data.di_fd    0x0000000012f6ce6c        0x4 wdvd.o
+ .data.SOCurrentTotalFDs
+                0x0000000012f6ce70        0x2 sock.o
+                0x0000000012f6ce70                SOCurrentTotalFDs
+ *fill*         0x0000000012f6ce72        0x2 
+ .data.soHeap   0x0000000012f6ce74        0x4 sock.o
+                0x0000000012f6ce74                soHeap
+ .data.sockqueue
+                0x0000000012f6ce78        0x4 sock.o
+ .data.bte_ctrl_reqs
+                0x0000000012f6ce7c        0x8 lwbt/bte.o
+ .data.bte_patch0
+                0x0000000012f6ce84       0xb8 lwbt/bte.o
+ .data.bte_patch1
+                0x0000000012f6cf3c       0x5c lwbt/bte.o
+ .data.bte_pcbs
+                0x0000000012f6cf98        0x8 lwbt/bte.o
+ .data.pool_pbufs
+                0x0000000012f6cfa0        0x8 lwbt/btpbuf.o
+ .data.rom_pbufs
+                0x0000000012f6cfa8        0x8 lwbt/btpbuf.o
+ .data.hci_inq_results
+                0x0000000012f6cfb0        0x8 lwbt/hci.o
+ .data.hci_link_key_results
+                0x0000000012f6cfb8        0x8 lwbt/hci.o
+ .data.hci_links
+                0x0000000012f6cfc0        0x8 lwbt/hci.o
+ .data.hci_pcbs
+                0x0000000012f6cfc8        0x8 lwbt/hci.o
+ .data.l2cap_listenpcbs
+                0x0000000012f6cfd0        0x8 lwbt/l2cap.o
+ .data.l2cap_pcbs
+                0x0000000012f6cfd8        0x8 lwbt/l2cap.o
+ .data.l2cap_segs
+                0x0000000012f6cfe0        0x8 lwbt/l2cap.o
+ .data.l2cap_sigs
+                0x0000000012f6cfe8        0x8 lwbt/l2cap.o
+ .data.bulkqueue
+                0x0000000012f6cff0        0x4 lwbt/physbusif.o
+                0x0000000012f6cff0                bulkqueue
+ .data.intrqueue
+                0x0000000012f6cff4        0x4 lwbt/physbusif.o
+                0x0000000012f6cff4                intrqueue
+ *(.gnu.linkonce.d*)
+                0x0000000012f6cff8                . = ALIGN (0x4)
+
+.igot.plt       0x0000000012f6cff8        0x0
+ .igot.plt      0x0000000012f6cff8        0x0 start.o
+
+.bss            0x0000000012f6cff8    0x4f77c
+                0x0000000012f6cff8                __bss_start = .
+ *(.dynbss)
+ *(.gnu.linkonce.b*)
+ *(.bss*)
+ *fill*         0x0000000012f6cff8        0x8 
+ .bss.stm_in    0x0000000012f6d000       0x20 common.o
+ .bss.stm_out   0x0000000012f6d020       0x20 common.o
+ .bss.timeBase  0x0000000012f6d040        0x4 common.o
+ .bss.timeStarlet
+                0x0000000012f6d044        0x4 common.o
+ .bss.wrappedAround
+                0x0000000012f6d048        0x4 common.o
+ .bss.Buf       0x0000000012f6d04c        0x4 GCAM.o
+ .bss.Bufi      0x0000000012f6d050        0x4 GCAM.o
+ .bss.Bufo      0x0000000012f6d054        0x4 GCAM.o
+ .bss.BufsAllocated
+                0x0000000012f6d058        0x4 GCAM.o
+ .bss.CARDBit   0x0000000012f6d05c        0x4 GCAM.o
+ .bss.CARDBuffer
+                0x0000000012f6d060        0x4 GCAM.o
+ .bss.CARDClean
+                0x0000000012f6d064        0x4 GCAM.o
+ .bss.CARDCommand
+                0x0000000012f6d068        0x4 GCAM.o
+ .bss.CARDIsInserted
+                0x0000000012f6d06c        0x4 GCAM.o
+ .bss.CARDMemory
+                0x0000000012f6d070        0x4 GCAM.o
+ .bss.CARDMemorySize
+                0x0000000012f6d074        0x4 GCAM.o
+ .bss.CARDOffset
+                0x0000000012f6d078        0x4 GCAM.o
+ .bss.CARDRead  0x0000000012f6d07c        0x4 GCAM.o
+ .bss.CARDReadLength
+                0x0000000012f6d080        0x4 GCAM.o
+ .bss.CARDReadPacket
+                0x0000000012f6d084        0x4 GCAM.o
+ .bss.CARDStateCallCount
+                0x0000000012f6d088        0x4 GCAM.o
+ .bss.FirstCMD  0x0000000012f6d08c        0x4 GCAM.o
+ .bss.STRInit   0x0000000012f6d090        0x4 GCAM.o
+ .bss.SystemRegion
+                0x0000000012f6d094        0x4 GCAM.o
+                0x0000000012f6d094                SystemRegion
+ .bss.AXTimerOffset
+                0x0000000012f6d098        0x4 JVSIO.o
+                0x0000000012f6d098                AXTimerOffset
+ .bss.CoinAddTimer
+                0x0000000012f6d09c        0x4 JVSIO.o
+ .bss.DataPos   0x0000000012f6d0a0        0x4 JVSIO.o
+                0x0000000012f6d0a0                DataPos
+ .bss.TestMenuTimer
+                0x0000000012f6d0a4        0x4 JVSIO.o
+ .bss.TestMenuTimerRunning
+                0x0000000012f6d0a8        0x4 JVSIO.o
+ .bss.coin.0    0x0000000012f6d0ac        0x4 JVSIO.o
+ .bss.coinreq.2
+                0x0000000012f6d0b0        0x4 JVSIO.o
+ .bss.jvs_io_buffer
+                0x0000000012f6d0b4       0x80 JVSIO.o
+ .bss.mcoin.1   0x0000000012f6d134        0x4 JVSIO.o
+ .bss.res       0x0000000012f6d138        0x4 JVSIO.o
+                0x0000000012f6d138                res
+ .bss.resp      0x0000000012f6d13c        0x1 JVSIO.o
+                0x0000000012f6d13c                resp
+ *fill*         0x0000000012f6d13d        0x3 
+ .bss.m_csum    0x0000000012f6d140        0x4 JVSIOMessage.o
+                0x0000000012f6d140                m_csum
+ .bss.m_last_start
+                0x0000000012f6d144        0x4 JVSIOMessage.o
+                0x0000000012f6d144                m_last_start
+ .bss.m_msg     0x0000000012f6d148       0x80 JVSIOMessage.o
+                0x0000000012f6d148                m_msg
+ .bss.m_ptr     0x0000000012f6d1c8        0x4 JVSIOMessage.o
+                0x0000000012f6d1c8                m_ptr
+ .bss.FC        0x0000000012f6d1cc        0x4 FST.o
+ .bss.FCEntry   0x0000000012f6d1d0        0x4 FST.o
+ *fill*         0x0000000012f6d1d4        0x4 
+ .bss.FCState   0x0000000012f6d1d8        0x8 FST.o
+ .bss.FSTMode   0x0000000012f6d1e0        0x4 FST.o
+                0x0000000012f6d1e0                FSTMode
+ *fill*         0x0000000012f6d1e4       0x1c 
+ .bss.FSTable   0x0000000012f6d200        0x4 FST.o
+ .bss.FSTableOffset
+                0x0000000012f6d204        0x4 FST.o
+ .bss.FSTableSize
+                0x0000000012f6d208        0x4 FST.o
+ .bss.dolOffset
+                0x0000000012f6d20c        0x4 FST.o
+ .bss.DI_2disc_filenames
+                0x0000000012f6d210        0x8 DI.o
+ .bss.DI_CallbackMsg
+                0x0000000012f6d218       0x20 DI.o
+                0x0000000012f6d218                DI_CallbackMsg
+ .bss.DI_IRQ    0x0000000012f6d238        0x4 DI.o
+                0x0000000012f6d238                DI_IRQ
+ .bss.DI_MessageHeap
+                0x0000000012f6d23c        0x4 DI.o
+ .bss.DiscChangeIRQ
+                0x0000000012f6d240        0x4 DI.o
+                0x0000000012f6d240                DiscChangeIRQ
+ .bss.DiscRequested
+                0x0000000012f6d244        0x4 DI.o
+                0x0000000012f6d244                DiscRequested
+ *fill*         0x0000000012f6d248       0x18 
+ .bss.DummyBuffer
+                0x0000000012f6d260     0x1000 DI.o
+ .bss.GamePath  0x0000000012f6e260      0x100 DI.o
+ .bss.ISOShift64
+                0x0000000012f6e360        0x8 DI.o
+                0x0000000012f6e360                ISOShift64
+ .bss.MediaBuffer
+                0x0000000012f6e368        0x4 DI.o
+ .bss.NetworkCMDBuffer
+                0x0000000012f6e36c        0x4 DI.o
+ .bss.Streaming
+                0x0000000012f6e370        0x4 DI.o
+ .bss.WaitForRealDisc
+                0x0000000012f6e374        0x4 DI.o
+                0x0000000012f6e374                WaitForRealDisc
+ .bss.di_dest   0x0000000012f6e378        0x4 DI.o
+ .bss.di_length
+                0x0000000012f6e37c        0x4 DI.o
+ .bss.di_offset
+                0x0000000012f6e380        0x4 DI.o
+ .bss.di_src    0x0000000012f6e384        0x4 DI.o
+ .bss.RealDiscCMD
+                0x0000000012f6e388        0x4 RealDI.o
+                0x0000000012f6e388                RealDiscCMD
+ .bss.RealDiscError
+                0x0000000012f6e38c        0x4 RealDI.o
+                0x0000000012f6e38c                RealDiscError
+ .bss.WaitForRead
+                0x0000000012f6e390        0x4 RealDI.o
+ .bss.WaitForWrite
+                0x0000000012f6e394        0x4 RealDI.o
+ *fill*         0x0000000012f6e398        0x8 
+ .bss.identify  0x0000000012f6e3a0       0x20 RealDI.o
+ .bss.outbuf    0x0000000012f6e3c0       0x20 RealDI.o
+ .bss.readdiscid
+                0x0000000012f6e3e0       0x20 RealDI.o
+ .bss.realdi_msgrecv
+                0x0000000012f6e400        0x4 RealDI.o
+ *fill*         0x0000000012f6e404       0x1c 
+ .bss.realdimsg
+                0x0000000012f6e420       0x20 RealDI.o
+ .bss.spinup    0x0000000012f6e440       0x20 RealDI.o
+ .bss.switch_stat
+                0x0000000012f6e460        0x4 RealDI.o
+ .bss.AppLoaderSize
+                0x0000000012f6e464        0x4 Patch.o
+                0x0000000012f6e464                AppLoaderSize
+ .bss.DOLMaxOff
+                0x0000000012f6e468        0x4 Patch.o
+                0x0000000012f6e468                DOLMaxOff
+ .bss.DOLMinOff
+                0x0000000012f6e46c        0x4 Patch.o
+                0x0000000012f6e46c                DOLMinOff
+ .bss.DOLSize   0x0000000012f6e470        0x4 Patch.o
+                0x0000000012f6e470                DOLSize
+ .bss.DisableEXIPatch
+                0x0000000012f6e474        0x4 Patch.o
+                0x0000000012f6e474                DisableEXIPatch
+ .bss.DisableSIPatch
+                0x0000000012f6e478        0x4 Patch.o
+                0x0000000012f6e478                DisableSIPatch
+ .bss.ELFLoading
+                0x0000000012f6e47c        0x4 Patch.o
+                0x0000000012f6e47c                ELFLoading
+ .bss.FirstLine
+                0x0000000012f6e480        0x4 Patch.o
+                0x0000000012f6e480                FirstLine
+ .bss.GAME_ID   0x0000000012f6e484        0x4 Patch.o
+                0x0000000012f6e484                GAME_ID
+ .bss.GAME_ID6  0x0000000012f6e488        0x2 Patch.o
+                0x0000000012f6e488                GAME_ID6
+ *fill*         0x0000000012f6e48a        0x2 
+ .bss.GameEntry
+                0x0000000012f6e48c        0x4 Patch.o
+                0x0000000012f6e48c                GameEntry
+ .bss.IsN64Emu  0x0000000012f6e490        0x4 Patch.o
+                0x0000000012f6e490                IsN64Emu
+ .bss.MAT2patched
+                0x0000000012f6e494        0x4 Patch.o
+                0x0000000012f6e494                MAT2patched
+ .bss.NeedConstantRelPatches
+                0x0000000012f6e498        0x4 Patch.o
+                0x0000000012f6e498                NeedConstantRelPatches
+ .bss.NeedRelPatches
+                0x0000000012f6e49c        0x4 Patch.o
+                0x0000000012f6e49c                NeedRelPatches
+ .bss.PSOHack   0x0000000012f6e4a0        0x4 Patch.o
+                0x0000000012f6e4a0                PSOHack
+ .bss.Patch31A0Backup
+                0x0000000012f6e4a4        0x4 Patch.o
+                0x0000000012f6e4a4                Patch31A0Backup
+ .bss.PatchState
+                0x0000000012f6e4a8        0x4 Patch.o
+                0x0000000012f6e4a8                PatchState
+ .bss.TITLE_ID  0x0000000012f6e4ac        0x4 Patch.o
+                0x0000000012f6e4ac                TITLE_ID
+ .bss.TRI_BackupAvailable
+                0x0000000012f6e4b0        0x4 Patch.o
+                0x0000000012f6e4b0                TRI_BackupAvailable
+ .bss.bbaEmuWanted
+                0x0000000012f6e4b4        0x4 Patch.o
+                0x0000000012f6e4b4                bbaEmuWanted
+ .bss.cheatPath
+                0x0000000012f6e4b8       0xff Patch.o
+ *fill*         0x0000000012f6e5b7        0x1 
+ .bss.curFunc   0x0000000012f6e5b8       0x30 Patch.o
+ .bss.isKirby   0x0000000012f6e5e8        0x4 Patch.o
+                0x0000000012f6e5e8                isKirby
+ .bss.piReg     0x0000000012f6e5ec        0x4 Patch.o
+ .bss.useipl    0x0000000012f6e5f0        0x4 Patch.o
+                0x0000000012f6e5f0                useipl
+ .bss.useipltri
+                0x0000000012f6e5f4        0x4 Patch.o
+                0x0000000012f6e5f4                useipltri
+ .bss.TRIGame   0x0000000012f6e5f8        0x4 TRI.o
+                0x0000000012f6e5f8                TRIGame
+ .bss.TRISettingsLoc
+                0x0000000012f6e5fc        0x4 TRI.o
+ .bss.TRISettingsName
+                0x0000000012f6e600        0x4 TRI.o
+ .bss.TRISettingsSize
+                0x0000000012f6e604        0x4 TRI.o
+ .bss.analogPedals
+                0x0000000012f6e608        0x4 TRI.o
+                0x0000000012f6e608                analogPedals
+ .bss.arcadeMode
+                0x0000000012f6e60c        0x4 TRI.o
+                0x0000000012f6e60c                arcadeMode
+ .bss.CacheInited
+                0x0000000012f6e610        0x4 ISO.o
+ .bss.DC        0x0000000012f6e614     0x3000 ISO.o
+ .bss.DataCacheOffset
+                0x0000000012f71614        0x4 ISO.o
+ .bss.Datel     0x0000000012f71618        0x4 ISO.o
+                0x0000000012f71618                Datel
+ *fill*         0x0000000012f7161c        0x4 
+ .bss.GameFile  0x0000000012f71620       0x50 ISO.o
+ .bss.ISOFileOpen
+                0x0000000012f71670        0x4 ISO.o
+                0x0000000012f71670                ISOFileOpen
+ .bss.ISO_IsCISO
+                0x0000000012f71674        0x4 ISO.o
+ .bss.TempCacheCount
+                0x0000000012f71678        0x4 ISO.o
+ .bss.ciso_block_map
+                0x0000000012f7167c      0x800 ISO.o
+ *fill*         0x0000000012f71e7c        0x4 
+ .bss.isoTmpBuf
+                0x0000000012f71e80       0x20 ISO.o
+ .bss.CurrentWriter
+                0x0000000012f71ea0        0x4 Stream.o
+ .bss.StreamCurrent
+                0x0000000012f71ea4        0x4 Stream.o
+                0x0000000012f71ea4                StreamCurrent
+ .bss.StreamEnd
+                0x0000000012f71ea8        0x4 Stream.o
+ .bss.StreamEndOffset
+                0x0000000012f71eac        0x4 Stream.o
+                0x0000000012f71eac                StreamEndOffset
+ .bss.StreamLoop
+                0x0000000012f71eb0        0x4 Stream.o
+ .bss.StreamSize
+                0x0000000012f71eb4        0x4 Stream.o
+                0x0000000012f71eb4                StreamSize
+ .bss.StreamStart
+                0x0000000012f71eb8        0x4 Stream.o
+                0x0000000012f71eb8                StreamStart
+ .bss.buf_loc   0x0000000012f71ebc        0x4 Stream.o
+ .bss.cur_buf   0x0000000012f71ec0        0x4 Stream.o
+ .bss.cur_chunksize
+                0x0000000012f71ec4        0x4 Stream.o
+ .bss.hist      0x0000000012f71ec8       0x10 Stream.o
+ .bss.outl      0x0000000012f71ed8       0x38 Stream.o
+ .bss.outr      0x0000000012f71f10       0x38 Stream.o
+ .bss.samplebufferL
+                0x0000000012f71f48        0x2 Stream.o
+ .bss.samplebufferR
+                0x0000000012f71f4a        0x2 Stream.o
+ .bss.samplecounter
+                0x0000000012f71f4c        0x4 Stream.o
+ .bss.EXI2IRQ   0x0000000012f71f50        0x4 EXI.o
+ .bss.EXI2IRQStatus
+                0x0000000012f71f54        0x4 EXI.o
+ .bss.EXICommand
+                0x0000000012f71f58        0x4 EXI.o
+ .bss.EXIDeviceSelect
+                0x0000000012f71f5c        0x4 EXI.o
+ .bss.EXI_IRQ   0x0000000012f71f60        0x4 EXI.o
+                0x0000000012f71f60                EXI_IRQ
+ .bss.IPLReadOffset
+                0x0000000012f71f64        0x4 EXI.o
+ .bss.IRQ_Cause
+                0x0000000012f71f68       0x10 EXI.o
+ .bss.IRQ_Timer
+                0x0000000012f71f78        0x4 EXI.o
+ .bss.SRAMWriteCount
+                0x0000000012f71f7c        0x4 EXI.o
+ .bss.TRIBackupOffset
+                0x0000000012f71f80        0x4 EXI.o
+ .bss.TRIGameStarted
+                0x0000000012f71f84        0x4 EXI.o
+ .bss.ambbBackupMem
+                0x0000000012f71f88        0x4 EXI.o
+ .bss.exi_inited
+                0x0000000012f71f8c        0x4 EXI.o
+ *fill*         0x0000000012f71f90       0x10 
+ .bss.memCard   0x0000000012f71fa0       0x88 GCNCard.o
+ .bss.SI_IRQ    0x0000000012f72028        0x4 SI.o
+                0x0000000012f72028                SI_IRQ
+ .bss.cur_control
+                0x0000000012f7202c        0x4 SI.o
+ *fill*         0x0000000012f72030       0x10 
+ .bss.AttachedDevices
+                0x0000000012f72040      0x180 HID.o
+ .bss.ControllerID
+                0x0000000012f721c0        0x4 HID.o
+ .bss.HIDRead   0x0000000012f721c4        0x4 HID.o
+ .bss.HIDRumble
+                0x0000000012f721c8        0x4 HID.o
+                0x0000000012f721c8                HIDRumble
+ .bss.HIDRumbleCurrent
+                0x0000000012f721cc        0x4 HID.o
+                0x0000000012f721cc                HIDRumbleCurrent
+ .bss.HIDRumbleLast
+                0x0000000012f721d0        0x4 HID.o
+                0x0000000012f721d0                HIDRumbleLast
+ .bss.HID_Timer
+                0x0000000012f721d4        0x4 HID.o
+ .bss.KeyboardID
+                0x0000000012f721d8        0x4 HID.o
+ .bss.MemPacketSize
+                0x0000000012f721dc        0x4 HID.o
+ .bss.PS3LedSet
+                0x0000000012f721e0        0x4 HID.o
+ .bss.Packet    0x0000000012f721e4        0x4 HID.o
+ .bss.RawRumbleDataLen
+                0x0000000012f721e8        0x4 HID.o
+ .bss.RawRumbleDataOff
+                0x0000000012f721ec        0x4 HID.o
+ .bss.RawRumbleDataOn
+                0x0000000012f721f0        0x4 HID.o
+ .bss.RumbleEnabled
+                0x0000000012f721f4        0x4 HID.o
+ .bss.RumbleTransferLen
+                0x0000000012f721f8        0x4 HID.o
+ .bss.RumbleTransfers
+                0x0000000012f721fc        0x4 HID.o
+ .bss.RumbleType
+                0x0000000012f72200        0x4 HID.o
+ .bss.bEndpointAddressController
+                0x0000000012f72204        0x4 HID.o
+ .bss.bEndpointAddressKeyboard
+                0x0000000012f72208        0x4 HID.o
+ .bss.bEndpointAddressOut
+                0x0000000012f7220c        0x4 HID.o
+ .bss.gcbuf     0x0000000012f72210        0x4 HID.o
+ .bss.hidattach
+                0x0000000012f72214        0x4 HID.o
+ .bss.hidattached
+                0x0000000012f72218        0x4 HID.o
+ .bss.hidattachmsg
+                0x0000000012f7221c        0x4 HID.o
+ .bss.hidchange
+                0x0000000012f72220        0x4 HID.o
+ .bss.hidchangemsg
+                0x0000000012f72224        0x4 HID.o
+ .bss.hidread   0x0000000012f72228        0x4 HID.o
+ .bss.hidreadcontrollermsg
+                0x0000000012f7222c        0x4 HID.o
+ .bss.hidreadkeyboardmsg
+                0x0000000012f72230        0x4 HID.o
+ .bss.hidwaittimer
+                0x0000000012f72234        0x4 HID.o
+ .bss.kbbuf     0x0000000012f72238        0x4 HID.o
+ .bss.keyboardread
+                0x0000000012f7223c        0x4 HID.o
+ .bss.ps3buf    0x0000000012f72240        0x4 HID.o
+ *fill*         0x0000000012f72244       0x1c 
+ .bss.read_ctrl_req
+                0x0000000012f72260       0x58 HID.o
+                0x0000000012f72260                read_ctrl_req
+ *fill*         0x0000000012f722b8        0x8 
+ .bss.read_irq_req
+                0x0000000012f722c0       0x58 HID.o
+                0x0000000012f722c0                read_irq_req
+ *fill*         0x0000000012f72318        0x8 
+ .bss.read_kb_ctrl_req
+                0x0000000012f72320       0x58 HID.o
+                0x0000000012f72320                read_kb_ctrl_req
+ *fill*         0x0000000012f72378        0x8 
+ .bss.read_kb_irq_req
+                0x0000000012f72380       0x58 HID.o
+                0x0000000012f72380                read_kb_irq_req
+ .bss.wMaxPacketSize
+                0x0000000012f723d8        0x4 HID.o
+ *fill*         0x0000000012f723dc        0x4 
+ .bss.write_ctrl_req
+                0x0000000012f723e0       0x58 HID.o
+                0x0000000012f723e0                write_ctrl_req
+ *fill*         0x0000000012f72438        0x8 
+ .bss.write_irq_req
+                0x0000000012f72440       0x58 HID.o
+                0x0000000012f72440                write_irq_req
+ *fill*         0x0000000012f72498        0x8 
+ .bss.write_kb_ctrl_req
+                0x0000000012f724a0       0x58 HID.o
+                0x0000000012f724a0                write_kb_ctrl_req
+ *fill*         0x0000000012f724f8        0x8 
+ .bss.write_kb_irq_req
+                0x0000000012f72500       0x58 HID.o
+                0x0000000012f72500                write_kb_irq_req
+ .bss.disk_read
+                0x0000000012f72558        0x4 diskio.o
+                0x0000000012f72558                disk_read
+ .bss.disk_write
+                0x0000000012f7255c        0x4 diskio.o
+                0x0000000012f7255c                disk_write
+ .bss.s_cnt     0x0000000012f72560        0x4 diskio.o
+                0x0000000012f72560                s_cnt
+ .bss.s_size    0x0000000012f72564        0x4 diskio.o
+                0x0000000012f72564                s_size
+ .bss.BI2region
+                0x0000000012f72568        0x4 Config.o
+                0x0000000012f72568                BI2region
+ .bss.USBReadTimer
+                0x0000000012f7256c        0x4 main.o
+                0x0000000012f7256c                USBReadTimer
+ .bss.access_led
+                0x0000000012f72570        0x4 main.o
+                0x0000000012f72570                access_led
+ .bss.drcAddress
+                0x0000000012f72574        0x4 main.o
+                0x0000000012f72574                drcAddress
+ .bss.drcAddressAligned
+                0x0000000012f72578        0x4 main.o
+                0x0000000012f72578                drcAddressAligned
+ .bss.fatfs     0x0000000012f7257c        0x4 main.o
+ .bss.isWiiVC   0x0000000012f72580        0x4 main.o
+                0x0000000012f72580                isWiiVC
+ .bss.virtentry
+                0x0000000012f72584        0x4 main.o
+                0x0000000012f72584                virtentry
+ .bss.wiiVCInternal
+                0x0000000012f72588        0x4 main.o
+                0x0000000012f72588                wiiVCInternal
+ .bss.CMDLastFinish
+                0x0000000012f7258c        0x4 ReadSpeed.o
+ .bss.CMDStartTime
+                0x0000000012f72590        0x4 ReadSpeed.o
+ .bss.SDisInit  0x0000000012f72594        0x4 vsprintf.o
+                0x0000000012f72594                SDisInit
+ .bss.dbgfile   0x0000000012f72598       0x50 vsprintf.o
+ .bss.__sd0_cid
+                0x0000000012f725e8       0x10 SDI.o
+ .bss.__sd0_fd  0x0000000012f725f8        0x4 SDI.o
+ .bss.__sd0_rca
+                0x0000000012f725fc        0x2 SDI.o
+ *fill*         0x0000000012f725fe        0x2 
+ .bss.__sd0_sdhc
+                0x0000000012f72600        0x4 SDI.o
+ .bss.rw_buffer
+                0x0000000012f72604        0x4 SDI.o
+ .bss.status    0x0000000012f72608        0x4 SDI.o
+ .bss.__ep_in   0x0000000012f7260c        0x1 usbstorage.o
+ .bss.__ep_out  0x0000000012f7260d        0x1 usbstorage.o
+ *fill*         0x0000000012f7260e        0x2 
+ .bss.__inited  0x0000000012f72610        0x4 usbstorage.o
+ .bss.__interface
+                0x0000000012f72614        0x4 usbstorage.o
+ .bss.__lun     0x0000000012f72618        0x1 usbstorage.o
+ *fill*         0x0000000012f72619        0x3 
+ .bss.__mounted
+                0x0000000012f7261c        0x4 usbstorage.o
+ .bss.__pid     0x0000000012f72620        0x2 usbstorage.o
+ *fill*         0x0000000012f72622        0x2 
+ .bss.__tag     0x0000000012f72624        0x4 usbstorage.o
+ .bss.__vid     0x0000000012f72628        0x2 usbstorage.o
+ *fill*         0x0000000012f7262a        0x2 
+ .bss.cbw_buffer
+                0x0000000012f7262c        0x4 usbstorage.o
+ .bss.transferbuffer
+                0x0000000012f72630        0x4 usbstorage.o
+ .bss.alreadyMounted
+                0x0000000012f72634        0x4 wdvd.o
+ .bss.fst       0x0000000012f72638        0x4 wdvd.o
+ .bss.fst_buffer
+                0x0000000012f7263c        0x4 wdvd.o
+ .bss.inbuf     0x0000000012f72640       0x20 wdvd.o
+ .bss.name_table
+                0x0000000012f72660        0x4 wdvd.o
+ .bss.openDir   0x0000000012f72664        0xc wdvd.o
+                0x0000000012f72664                openDir
+ .bss.openFile  0x0000000012f72670        0xc wdvd.o
+                0x0000000012f72670                openFile
+ .bss.SOOutParams
+                0x0000000012f7267c      0x100 sock.o
+ .bss.SOParams  0x0000000012f7277c      0x100 sock.o
+ .bss.SOVec     0x0000000012f7287c      0x100 sock.o
+ .bss.SOVecResA
+                0x0000000012f7297c      0x100 sock.o
+ .bss.SOVecResB
+                0x0000000012f72a7c      0x100 sock.o
+ .bss.SOVecResC
+                0x0000000012f72b7c      0x100 sock.o
+ .bss.bindParams
+                0x0000000012f72c7c      0x100 sock.o
+ .bss.nwcFd     0x0000000012f72d7c        0x4 sock.o
+ .bss.ourCurrentIP
+                0x0000000012f72d80        0x4 sock.o
+ .bss.sendParams
+                0x0000000012f72d84      0x100 sock.o
+ .bss.soBusy    0x0000000012f72e84       0x40 sock.o
+ .bss.sockFd    0x0000000012f72ec4        0x4 sock.o
+ .bss.sockmsg   0x0000000012f72ec8      0x100 sock.o
+ .bss.btstate   0x0000000012f72fc8       0x14 lwbt/bte.o
+ .bss.memb_mem_bte_ctrl_reqs
+                0x0000000012f72fdc     0x1c00 lwbt/bte.o
+ .bss.memb_mem_bte_pcbs
+                0x0000000012f74bdc      0x2d8 lwbt/bte.o
+ .bss.ram_block
+                0x0000000012f74eb4    0x10010 lwbt/btmemr.o
+ .bss.ram_end   0x0000000012f84ec4        0x4 lwbt/btmemr.o
+ .bss.ram_free  0x0000000012f84ec8        0x4 lwbt/btmemr.o
+ .bss.memb_mem_pool_pbufs
+                0x0000000012f84ecc    0x32280 lwbt/btpbuf.o
+ .bss.memb_mem_rom_pbufs
+                0x0000000012fb714c      0x384 lwbt/btpbuf.o
+ .bss.hci_active_links
+                0x0000000012fb74d0        0x4 lwbt/hci.o
+                0x0000000012fb74d0                hci_active_links
+ .bss.hci_dev   0x0000000012fb74d4        0x4 lwbt/hci.o
+                0x0000000012fb74d4                hci_dev
+ .bss.hci_tmp_link
+                0x0000000012fb74d8        0x4 lwbt/hci.o
+                0x0000000012fb74d8                hci_tmp_link
+ .bss.memb_mem_hci_inq_results
+                0x0000000012fb74dc     0x1800 lwbt/hci.o
+ .bss.memb_mem_hci_link_key_results
+                0x0000000012fb8cdc     0x2000 lwbt/hci.o
+ .bss.memb_mem_hci_links
+                0x0000000012fbacdc       0xa8 lwbt/hci.o
+ .bss.memb_mem_hci_pcbs
+                0x0000000012fbad84       0x5c lwbt/hci.o
+ .bss.l2cap_active_pcbs
+                0x0000000012fbade0        0x4 lwbt/l2cap.o
+                0x0000000012fbade0                l2cap_active_pcbs
+ .bss.l2cap_disconnect_bb_cb
+                0x0000000012fbade4        0x4 lwbt/l2cap.o
+ .bss.l2cap_insegs
+                0x0000000012fbade8        0x4 lwbt/l2cap.o
+                0x0000000012fbade8                l2cap_insegs
+ .bss.l2cap_listen_pcbs
+                0x0000000012fbadec        0x4 lwbt/l2cap.o
+                0x0000000012fbadec                l2cap_listen_pcbs
+ .bss.l2cap_tmp_inseg
+                0x0000000012fbadf0        0x4 lwbt/l2cap.o
+                0x0000000012fbadf0                l2cap_tmp_inseg
+ .bss.l2cap_tmp_pcb
+                0x0000000012fbadf4        0x4 lwbt/l2cap.o
+                0x0000000012fbadf4                l2cap_tmp_pcb
+ .bss.l2cap_tmp_sig
+                0x0000000012fbadf8        0x4 lwbt/l2cap.o
+                0x0000000012fbadf8                l2cap_tmp_sig
+ .bss.memb_mem_l2cap_listenpcbs
+                0x0000000012fbadfc      0x230 lwbt/l2cap.o
+ .bss.memb_mem_l2cap_pcbs
+                0x0000000012fbb02c      0x498 lwbt/l2cap.o
+ .bss.memb_mem_l2cap_segs
+                0x0000000012fbb4c4      0x1c0 lwbt/l2cap.o
+ .bss.memb_mem_l2cap_sigs
+                0x0000000012fbb684       0xf0 lwbt/l2cap.o
+ .bss.sigid_nxt
+                0x0000000012fbb774        0x1 lwbt/l2cap.o
+                0x0000000012fbb774                sigid_nxt
+ *fill*         0x0000000012fbb775        0xb 
+ .bss.__usbdev  0x0000000012fbb780       0x14 lwbt/physbusif.o
+ *fill*         0x0000000012fbb794        0xc 
+ .bss.aclbufs   0x0000000012fbb7a0        0x8 lwbt/physbusif.o
+ .bss.bulk      0x0000000012fbb7a8        0x4 lwbt/physbusif.o
+                0x0000000012fbb7a8                bulk
+ .bss.bulkdata  0x0000000012fbb7ac        0x4 lwbt/physbusif.o
+                0x0000000012fbb7ac                bulkdata
+ .bss.bulkheap  0x0000000012fbb7b0        0x4 lwbt/physbusif.o
+                0x0000000012fbb7b0                bulkheap
+ *fill*         0x0000000012fbb7b4        0xc 
+ .bss.bulkmsg   0x0000000012fbb7c0       0x20 lwbt/physbusif.o
+ .bss.bulkpEndP
+                0x0000000012fbb7e0       0x20 lwbt/physbusif.o
+                0x0000000012fbb7e0                bulkpEndP
+ .bss.bulkpLength
+                0x0000000012fbb800       0x20 lwbt/physbusif.o
+                0x0000000012fbb800                bulkpLength
+ .bss.bulkres   0x0000000012fbb820        0x4 lwbt/physbusif.o
+                0x0000000012fbb820                bulkres
+ *fill*         0x0000000012fbb824       0x1c 
+ .bss.bulkvec   0x0000000012fbb840       0x18 lwbt/physbusif.o
+                0x0000000012fbb840                bulkvec
+ *fill*         0x0000000012fbb858        0x8 
+ .bss.ctrlbufs  0x0000000012fbb860        0x8 lwbt/physbusif.o
+ .bss.intr      0x0000000012fbb868        0x4 lwbt/physbusif.o
+                0x0000000012fbb868                intr
+ .bss.intrdata  0x0000000012fbb86c        0x4 lwbt/physbusif.o
+                0x0000000012fbb86c                intrdata
+ .bss.intrheap  0x0000000012fbb870        0x4 lwbt/physbusif.o
+                0x0000000012fbb870                intrheap
+ *fill*         0x0000000012fbb874        0xc 
+ .bss.intrmsg   0x0000000012fbb880       0x20 lwbt/physbusif.o
+ .bss.intrpEndP
+                0x0000000012fbb8a0       0x20 lwbt/physbusif.o
+                0x0000000012fbb8a0                intrpEndP
+ .bss.intrpLength
+                0x0000000012fbb8c0       0x20 lwbt/physbusif.o
+                0x0000000012fbb8c0                intrpLength
+ .bss.intrres   0x0000000012fbb8e0        0x4 lwbt/physbusif.o
+                0x0000000012fbb8e0                intrres
+ *fill*         0x0000000012fbb8e4       0x1c 
+ .bss.intrvec   0x0000000012fbb900       0x18 lwbt/physbusif.o
+                0x0000000012fbb900                intrvec
+ .bss.BTChannelsUsed
+                0x0000000012fbb918        0x4 BT.o
+ *fill*         0x0000000012fbb91c        0x4 
+ .bss.BTKeys    0x0000000012fbb920       0xdc BT.o
+ .bss.BTPadConnected
+                0x0000000012fbb9fc       0x10 BT.o
+ *fill*         0x0000000012fbba0c       0x14 
+ .bss.BTPadStatus
+                0x0000000012fbba20      0x280 BT.o
+ .bss.BTTimer   0x0000000012fbbca0        0x4 BT.o
+                0x0000000012fbbca0                BTTimer
+ .bss.inited    0x0000000012fbbca4        0x4 BT.o
+                0x0000000012fbbca4                inited
+ .bss.FatFs     0x0000000012fbbca8        0x4 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .bss.Fsid      0x0000000012fbbcac        0x2 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ *fill*         0x0000000012fbbcae        0x2 
+ .bss.tmpwchar  0x0000000012fbbcb0      0x800 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .bss           0x0000000012fbc4b0        0x8 be/libc.a(lib_a-tzvars.o)
+                0x0000000012fbc4b0                _timezone
+                0x0000000012fbc4b4                _daylight
+ .bss           0x0000000012fbc4b8      0x2b8 be/libc.a(lib_a-locale.o)
+                0x0000000012fbc764                _PathLocale
+                0x0000000012fbc768                __mlocale_changed
+                0x0000000012fbc76c                __nlocale_changed
+ .bss           0x0000000012fbc770        0x4 be/libc.a(lib_a-environ.o)
+ *(COMMON)
+                0x0000000012fbc774                . = ALIGN (0x4)
+                0x0000000012fbc774                __bss_end = .
+
+.stack          0x0000000012fe0000     0x2000
+                0x0000000012fe0000                __stack_end = .
+                0x0000000012fe2000                . = (. + __stack_size)
+ *fill*         0x0000000012fe0000     0x2000 
+                0x0000000012fe2000                . = ALIGN (0x40)
+                0x0000000012fe2000                __stack_addr = .
+LOAD start.o
+LOAD common.o
+LOAD alloc.o
+LOAD GCAM.o
+LOAD JVSIO.o
+LOAD JVSIOMessage.o
+LOAD FST.o
+LOAD DI.o
+LOAD RealDI.o
+LOAD Patch.o
+LOAD PatchTimers.o
+LOAD TRI.o
+LOAD PatchWidescreen.o
+LOAD ISO.o
+LOAD Stream.o
+LOAD adp.o
+LOAD EXI.o
+LOAD SRAM.o
+LOAD GCNCard.o
+LOAD SI.o
+LOAD HID.o
+LOAD diskio.o
+LOAD Config.o
+LOAD utils_asm.o
+LOAD ES.o
+LOAD NAND.o
+LOAD main.o
+LOAD syscalls.o
+LOAD ReadSpeed.o
+LOAD vsprintf.o
+LOAD string.o
+LOAD prs.o
+LOAD SDI.o
+LOAD usb.o
+LOAD usbstorage.o
+LOAD wdvd.o
+LOAD sock.o
+LOAD lwbt/bte.o
+LOAD lwbt/btmemb.o
+LOAD lwbt/btmemr.o
+LOAD lwbt/btpbuf.o
+LOAD lwbt/hci.o
+LOAD lwbt/l2cap.o
+LOAD lwbt/physbusif.o
+LOAD BT.o
+LOAD ../fatfs/libfatfs-arm.a
+LOAD be/libc.a
+LOAD be/libgcc.a
+OUTPUT(kernel.elf elf32-bigarm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x28
+ .ARM.attributes
+                0x0000000000000000       0x1c start.o
+ .ARM.attributes
+                0x000000000000001c       0x2c common.o
+ .ARM.attributes
+                0x0000000000000048       0x2c alloc.o
+ .ARM.attributes
+                0x0000000000000074       0x2c GCAM.o
+ .ARM.attributes
+                0x00000000000000a0       0x2c JVSIO.o
+ .ARM.attributes
+                0x00000000000000cc       0x2c JVSIOMessage.o
+ .ARM.attributes
+                0x00000000000000f8       0x2c FST.o
+ .ARM.attributes
+                0x0000000000000124       0x2c DI.o
+ .ARM.attributes
+                0x0000000000000150       0x2c RealDI.o
+ .ARM.attributes
+                0x000000000000017c       0x2c Patch.o
+ .ARM.attributes
+                0x00000000000001a8       0x2c PatchTimers.o
+ .ARM.attributes
+                0x00000000000001d4       0x2c TRI.o
+ .ARM.attributes
+                0x0000000000000200       0x2c PatchWidescreen.o
+ .ARM.attributes
+                0x000000000000022c       0x2c ISO.o
+ .ARM.attributes
+                0x0000000000000258       0x2c Stream.o
+ .ARM.attributes
+                0x0000000000000284       0x2c adp.o
+ .ARM.attributes
+                0x00000000000002b0       0x2c EXI.o
+ .ARM.attributes
+                0x00000000000002dc       0x2c SRAM.o
+ .ARM.attributes
+                0x0000000000000308       0x2c GCNCard.o
+ .ARM.attributes
+                0x0000000000000334       0x2c SI.o
+ .ARM.attributes
+                0x0000000000000360       0x2c HID.o
+ .ARM.attributes
+                0x000000000000038c       0x2c diskio.o
+ .ARM.attributes
+                0x00000000000003b8       0x2c Config.o
+ .ARM.attributes
+                0x00000000000003e4       0x1c utils_asm.o
+ .ARM.attributes
+                0x0000000000000400       0x2c main.o
+ .ARM.attributes
+                0x000000000000042c       0x1c syscalls.o
+ .ARM.attributes
+                0x0000000000000448       0x2c ReadSpeed.o
+ .ARM.attributes
+                0x0000000000000474       0x2c vsprintf.o
+ .ARM.attributes
+                0x00000000000004a0       0x2c string.o
+ .ARM.attributes
+                0x00000000000004cc       0x2c prs.o
+ .ARM.attributes
+                0x00000000000004f8       0x2c SDI.o
+ .ARM.attributes
+                0x0000000000000524       0x2c usb.o
+ .ARM.attributes
+                0x0000000000000550       0x2c usbstorage.o
+ .ARM.attributes
+                0x000000000000057c       0x2c wdvd.o
+ .ARM.attributes
+                0x00000000000005a8       0x2c sock.o
+ .ARM.attributes
+                0x00000000000005d4       0x2c lwbt/bte.o
+ .ARM.attributes
+                0x0000000000000600       0x2c lwbt/btmemb.o
+ .ARM.attributes
+                0x000000000000062c       0x2c lwbt/btmemr.o
+ .ARM.attributes
+                0x0000000000000658       0x2c lwbt/btpbuf.o
+ .ARM.attributes
+                0x0000000000000684       0x2c lwbt/hci.o
+ .ARM.attributes
+                0x00000000000006b0       0x2c lwbt/l2cap.o
+ .ARM.attributes
+                0x00000000000006dc       0x2c lwbt/physbusif.o
+ .ARM.attributes
+                0x0000000000000708       0x2c BT.o
+ .ARM.attributes
+                0x0000000000000734       0x2c ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .ARM.attributes
+                0x0000000000000760       0x2c ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .ARM.attributes
+                0x000000000000078c       0x2c ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .ARM.attributes
+                0x00000000000007b8       0x30 be/libc.a(lib_a-gmtime.o)
+ .ARM.attributes
+                0x00000000000007e8       0x30 be/libc.a(lib_a-gmtime_r.o)
+ .ARM.attributes
+                0x0000000000000818       0x30 be/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000848       0x30 be/libc.a(lib_a-isprint.o)
+ .ARM.attributes
+                0x0000000000000878       0x30 be/libc.a(lib_a-mbstowcs.o)
+ .ARM.attributes
+                0x00000000000008a8       0x30 be/libc.a(lib_a-mbstowcs_r.o)
+ .ARM.attributes
+                0x00000000000008d8       0x30 be/libc.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x0000000000000908       0x30 be/libc.a(lib_a-mktm_r.o)
+ .ARM.attributes
+                0x0000000000000938       0x30 be/libc.a(lib_a-strcasecmp.o)
+ .ARM.attributes
+                0x0000000000000968       0x30 be/libc.a(lib_a-strchr.o)
+ .ARM.attributes
+                0x0000000000000998       0x30 be/libc.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000000000009c8       0x30 be/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000000009f8       0x30 be/libc.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x0000000000000a28       0x30 be/libc.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x0000000000000a58       0x30 be/libc.a(lib_a-strnlen.o)
+ .ARM.attributes
+                0x0000000000000a88       0x30 be/libc.a(lib_a-strstr.o)
+ .ARM.attributes
+                0x0000000000000ab8       0x30 be/libc.a(lib_a-strtoul.o)
+ .ARM.attributes
+                0x0000000000000ae8       0x30 be/libc.a(lib_a-tzlock.o)
+ .ARM.attributes
+                0x0000000000000b18       0x30 be/libc.a(lib_a-tzvars.o)
+ .ARM.attributes
+                0x0000000000000b48       0x30 be/libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x0000000000000b78       0x30 be/libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x0000000000000ba8       0x30 be/libc.a(lib_a-gettzinfo.o)
+ .ARM.attributes
+                0x0000000000000bd8       0x30 be/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000000000000c08       0x30 be/libc.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000000000000c38       0x30 be/libc.a(lib_a-strcat.o)
+ .ARM.attributes
+                0x0000000000000c68       0x16 be/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000000000000c7e       0x30 be/libc.a(lib_a-strlcpy.o)
+ .ARM.attributes
+                0x0000000000000cae       0x30 be/libc.a(lib_a-strncasecmp.o)
+ .ARM.attributes
+                0x0000000000000cde       0x30 be/libc.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x0000000000000d0e       0x30 be/libc.a(lib_a-getenv_r.o)
+ .ARM.attributes
+                0x0000000000000d3e       0x30 be/libc.a(lib_a-environ.o)
+ .ARM.attributes
+                0x0000000000000d6e       0x30 be/libc.a(lib_a-envlock.o)
+ .ARM.attributes
+                0x0000000000000d9e       0x18 be/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000db6       0x18 be/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000dce       0x18 be/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x0000000000000de6       0x18 be/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000000000000dfe       0x18 be/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x0000000000000e16       0x18 be/libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x0000000000000e2e       0x18 be/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000e46       0x30 be/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x0000000000000e76       0x30 be/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x0000000000000ea6       0x30 be/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000000000000ed6       0x18 be/libgcc.a(_clzsi2.o)
+
+.comment        0x0000000000000000       0x45
+ .comment       0x0000000000000000       0x23 common.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 alloc.o
+ .comment       0x0000000000000023       0x24 GCAM.o
+ .comment       0x0000000000000023       0x24 JVSIO.o
+ .comment       0x0000000000000023       0x24 JVSIOMessage.o
+ .comment       0x0000000000000023       0x24 FST.o
+ .comment       0x0000000000000023       0x24 DI.o
+ .comment       0x0000000000000023       0x24 RealDI.o
+ .comment       0x0000000000000023       0x24 Patch.o
+ .comment       0x0000000000000023       0x24 PatchTimers.o
+ .comment       0x0000000000000023       0x24 TRI.o
+ .comment       0x0000000000000023       0x24 PatchWidescreen.o
+ .comment       0x0000000000000023       0x24 ISO.o
+ .comment       0x0000000000000023       0x24 Stream.o
+ .comment       0x0000000000000023       0x24 adp.o
+ .comment       0x0000000000000023       0x24 EXI.o
+ .comment       0x0000000000000023       0x24 SRAM.o
+ .comment       0x0000000000000023       0x24 GCNCard.o
+ .comment       0x0000000000000023       0x24 SI.o
+ .comment       0x0000000000000023       0x24 HID.o
+ .comment       0x0000000000000023       0x24 diskio.o
+ .comment       0x0000000000000023       0x24 Config.o
+ .comment       0x0000000000000023       0x24 main.o
+ .comment       0x0000000000000023       0x24 ReadSpeed.o
+ .comment       0x0000000000000023       0x24 vsprintf.o
+ .comment       0x0000000000000023       0x24 string.o
+ .comment       0x0000000000000023       0x24 prs.o
+ .comment       0x0000000000000023       0x24 SDI.o
+ .comment       0x0000000000000023       0x24 usb.o
+ .comment       0x0000000000000023       0x24 usbstorage.o
+ .comment       0x0000000000000023       0x24 wdvd.o
+ .comment       0x0000000000000023       0x24 sock.o
+ .comment       0x0000000000000023       0x24 lwbt/bte.o
+ .comment       0x0000000000000023       0x24 lwbt/btmemb.o
+ .comment       0x0000000000000023       0x24 lwbt/btmemr.o
+ .comment       0x0000000000000023       0x24 lwbt/btpbuf.o
+ .comment       0x0000000000000023       0x24 lwbt/hci.o
+ .comment       0x0000000000000023       0x24 lwbt/l2cap.o
+ .comment       0x0000000000000023       0x24 lwbt/physbusif.o
+ .comment       0x0000000000000023       0x24 BT.o
+ .comment       0x0000000000000023       0x24 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .comment       0x0000000000000023       0x24 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .comment       0x0000000000000023       0x24 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+ .comment       0x0000000000000023       0x22 be/libc.a(lib_a-gmtime.o)
+                                         0x23 (size before relaxing)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-gmtime_r.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-impure.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-isprint.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-mbstowcs.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-mbstowcs_r.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-mbtowc_r.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-mktm_r.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strcasecmp.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strchr.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strcpy.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strncmp.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strncpy.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strnlen.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strstr.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strtoul.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-tzlock.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-tzvars.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-wctomb_r.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-ctype_.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-gettzinfo.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-locale.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-memchr-stub.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strcat.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strlcpy.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strncasecmp.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-strtol.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-getenv_r.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-environ.o)
+ .comment       0x0000000000000045       0x23 be/libc.a(lib_a-envlock.o)
+ .comment       0x0000000000000045       0x23 be/libgcc.a(bpabi.o)
+ .comment       0x0000000000000045       0x23 be/libgcc.a(_divdi3.o)
+ .comment       0x0000000000000045       0x23 be/libgcc.a(_udivdi3.o)
+
+.debug_line     0x0000000000000000    0x37ba1
+ .debug_line    0x0000000000000000       0x40 start.o
+ .debug_line    0x0000000000000040      0x7a7 common.o
+ .debug_line    0x00000000000007e7       0xba alloc.o
+ .debug_line    0x00000000000008a1     0x1416 GCAM.o
+ .debug_line    0x0000000000001cb7      0xafc JVSIO.o
+ .debug_line    0x00000000000027b3      0x558 JVSIOMessage.o
+ .debug_line    0x0000000000002d0b      0x6b1 FST.o
+ .debug_line    0x00000000000033bc     0x1487 DI.o
+ .debug_line    0x0000000000004843      0x884 RealDI.o
+ .debug_line    0x00000000000050c7     0xe899 Patch.o
+ .debug_line    0x0000000000013960     0x13af PatchTimers.o
+ .debug_line    0x0000000000014d0f     0x1b41 TRI.o
+ .debug_line    0x0000000000016850     0x20fd PatchWidescreen.o
+ .debug_line    0x000000000001894d     0x117f ISO.o
+ .debug_line    0x0000000000019acc      0x850 Stream.o
+ .debug_line    0x000000000001a31c      0x33d adp.o
+ .debug_line    0x000000000001a659      0xebf EXI.o
+ .debug_line    0x000000000001b518      0x68b SRAM.o
+ .debug_line    0x000000000001bba3      0x7bb GCNCard.o
+ .debug_line    0x000000000001c35e      0x4f1 SI.o
+ .debug_line    0x000000000001c84f     0x3355 HID.o
+ .debug_line    0x000000000001fba4      0x421 diskio.o
+ .debug_line    0x000000000001ffc5      0x172 Config.o
+ .debug_line    0x0000000000020137       0x87 utils_asm.o
+ .debug_line    0x00000000000201be      0xeee main.o
+ .debug_line    0x00000000000210ac       0x69 syscalls.o
+ .debug_line    0x0000000000021115      0x3fe ReadSpeed.o
+ .debug_line    0x0000000000021513      0xa8a vsprintf.o
+ .debug_line    0x0000000000021f9d      0x43e string.o
+ .debug_line    0x00000000000223db      0x55d prs.o
+ .debug_line    0x0000000000022938     0x160f SDI.o
+ .debug_line    0x0000000000023f47      0x37e usb.o
+ .debug_line    0x00000000000242c5      0x8dd usbstorage.o
+ .debug_line    0x0000000000024ba2      0x978 wdvd.o
+ .debug_line    0x000000000002551a      0xac7 sock.o
+ .debug_line    0x0000000000025fe1     0x1945 lwbt/bte.o
+ .debug_line    0x0000000000027926      0x1df lwbt/btmemb.o
+ .debug_line    0x0000000000027b05      0x578 lwbt/btmemr.o
+ .debug_line    0x000000000002807d      0xa0e lwbt/btpbuf.o
+ .debug_line    0x0000000000028a8b     0x31a6 lwbt/hci.o
+ .debug_line    0x000000000002bc31     0x2a04 lwbt/l2cap.o
+ .debug_line    0x000000000002e635      0xb51 lwbt/physbusif.o
+ .debug_line    0x000000000002f186     0x1942 BT.o
+ .debug_line    0x0000000000030ac8     0x6b52 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_line    0x000000000003761a      0x3a5 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_line    0x00000000000379bf      0x1e2 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+
+.debug_info     0x0000000000000000    0x5dce1
+ .debug_info    0x0000000000000000       0x26 start.o
+ .debug_info    0x0000000000000026     0x1102 common.o
+ .debug_info    0x0000000000001128      0x1d9 alloc.o
+ .debug_info    0x0000000000001301     0x182f GCAM.o
+ .debug_info    0x0000000000002b30      0xbe5 JVSIO.o
+ .debug_info    0x0000000000003715      0x5be JVSIOMessage.o
+ .debug_info    0x0000000000003cd3      0xe1c FST.o
+ .debug_info    0x0000000000004aef     0x2fec DI.o
+ .debug_info    0x0000000000007adb     0x1422 RealDI.o
+ .debug_info    0x0000000000008efd    0x1861e Patch.o
+ .debug_info    0x000000000002151b     0x2cd8 PatchTimers.o
+ .debug_info    0x00000000000241f3     0x42ad TRI.o
+ .debug_info    0x00000000000284a0     0x47cc PatchWidescreen.o
+ .debug_info    0x000000000002cc6c     0x20fa ISO.o
+ .debug_info    0x000000000002ed66      0xdd2 Stream.o
+ .debug_info    0x000000000002fb38      0x2e4 adp.o
+ .debug_info    0x000000000002fe1c     0x1993 EXI.o
+ .debug_info    0x00000000000317af      0x68f SRAM.o
+ .debug_info    0x0000000000031e3e     0x1066 GCNCard.o
+ .debug_info    0x0000000000032ea4      0x8ca SI.o
+ .debug_info    0x000000000003376e     0x6fdd HID.o
+ .debug_info    0x000000000003a74b      0xbd6 diskio.o
+ .debug_info    0x000000000003b321      0x833 Config.o
+ .debug_info    0x000000000003bb54       0x26 utils_asm.o
+ .debug_info    0x000000000003bb7a     0x2d1f main.o
+ .debug_info    0x000000000003e899       0x26 syscalls.o
+ .debug_info    0x000000000003e8bf      0x7b1 ReadSpeed.o
+ .debug_info    0x000000000003f070      0xf88 vsprintf.o
+ .debug_info    0x000000000003fff8      0x6ad string.o
+ .debug_info    0x00000000000406a5      0x294 prs.o
+ .debug_info    0x0000000000040939     0x26fd SDI.o
+ .debug_info    0x0000000000043036      0xada usb.o
+ .debug_info    0x0000000000043b10      0xff6 usbstorage.o
+ .debug_info    0x0000000000044b06     0x1019 wdvd.o
+ .debug_info    0x0000000000045b1f     0x131a sock.o
+ .debug_info    0x0000000000046e39     0x3239 lwbt/bte.o
+ .debug_info    0x000000000004a072      0x294 lwbt/btmemb.o
+ .debug_info    0x000000000004a306      0x574 lwbt/btmemr.o
+ .debug_info    0x000000000004a87a      0xc78 lwbt/btpbuf.o
+ .debug_info    0x000000000004b4f2     0x4806 lwbt/hci.o
+ .debug_info    0x000000000004fcf8     0x38d5 lwbt/l2cap.o
+ .debug_info    0x00000000000535cd     0x1762 lwbt/physbusif.o
+ .debug_info    0x0000000000054d2f     0x23f2 BT.o
+ .debug_info    0x0000000000057121     0x60fa ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_info    0x000000000005d21b      0x8f8 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_info    0x000000000005db13      0x1ce ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+
+.debug_abbrev   0x0000000000000000     0x90f8
+ .debug_abbrev  0x0000000000000000       0x14 start.o
+ .debug_abbrev  0x0000000000000014      0x411 common.o
+ .debug_abbrev  0x0000000000000425       0xfb alloc.o
+ .debug_abbrev  0x0000000000000520      0x430 GCAM.o
+ .debug_abbrev  0x0000000000000950      0x2d3 JVSIO.o
+ .debug_abbrev  0x0000000000000c23      0x206 JVSIOMessage.o
+ .debug_abbrev  0x0000000000000e29      0x272 FST.o
+ .debug_abbrev  0x000000000000109b      0x5c8 DI.o
+ .debug_abbrev  0x0000000000001663      0x400 RealDI.o
+ .debug_abbrev  0x0000000000001a63      0x66b Patch.o
+ .debug_abbrev  0x00000000000020ce      0x340 PatchTimers.o
+ .debug_abbrev  0x000000000000240e      0x35e TRI.o
+ .debug_abbrev  0x000000000000276c      0x253 PatchWidescreen.o
+ .debug_abbrev  0x00000000000029bf      0x3db ISO.o
+ .debug_abbrev  0x0000000000002d9a      0x34a Stream.o
+ .debug_abbrev  0x00000000000030e4      0x13f adp.o
+ .debug_abbrev  0x0000000000003223      0x43c EXI.o
+ .debug_abbrev  0x000000000000365f      0x26e SRAM.o
+ .debug_abbrev  0x00000000000038cd      0x3f3 GCNCard.o
+ .debug_abbrev  0x0000000000003cc0      0x22a SI.o
+ .debug_abbrev  0x0000000000003eea      0x5b7 HID.o
+ .debug_abbrev  0x00000000000044a1      0x323 diskio.o
+ .debug_abbrev  0x00000000000047c4      0x2bc Config.o
+ .debug_abbrev  0x0000000000004a80       0x14 utils_asm.o
+ .debug_abbrev  0x0000000000004a94      0x48d main.o
+ .debug_abbrev  0x0000000000004f21       0x14 syscalls.o
+ .debug_abbrev  0x0000000000004f35      0x2f0 ReadSpeed.o
+ .debug_abbrev  0x0000000000005225      0x42a vsprintf.o
+ .debug_abbrev  0x000000000000564f      0x22a string.o
+ .debug_abbrev  0x0000000000005879       0xdd prs.o
+ .debug_abbrev  0x0000000000005956      0x378 SDI.o
+ .debug_abbrev  0x0000000000005cce      0x2c3 usb.o
+ .debug_abbrev  0x0000000000005f91      0x359 usbstorage.o
+ .debug_abbrev  0x00000000000062ea      0x433 wdvd.o
+ .debug_abbrev  0x000000000000671d      0x2f2 sock.o
+ .debug_abbrev  0x0000000000006a0f      0x504 lwbt/bte.o
+ .debug_abbrev  0x0000000000006f13      0x13f lwbt/btmemb.o
+ .debug_abbrev  0x0000000000007052      0x24b lwbt/btmemr.o
+ .debug_abbrev  0x000000000000729d      0x381 lwbt/btpbuf.o
+ .debug_abbrev  0x000000000000761e      0x50b lwbt/hci.o
+ .debug_abbrev  0x0000000000007b29      0x559 lwbt/l2cap.o
+ .debug_abbrev  0x0000000000008082      0x46d lwbt/physbusif.o
+ .debug_abbrev  0x00000000000084ef      0x50e BT.o
+ .debug_abbrev  0x00000000000089fd      0x3d5 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_abbrev  0x0000000000008dd2      0x247 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_abbrev  0x0000000000009019       0xdf ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+
+.debug_aranges  0x0000000000000000     0x1100
+ .debug_aranges
+                0x0000000000000000       0x20 start.o
+ .debug_aranges
+                0x0000000000000020       0x70 common.o
+ .debug_aranges
+                0x0000000000000090       0x30 alloc.o
+ .debug_aranges
+                0x00000000000000c0       0x50 GCAM.o
+ .debug_aranges
+                0x0000000000000110       0x20 JVSIO.o
+ .debug_aranges
+                0x0000000000000130       0x50 JVSIOMessage.o
+ .debug_aranges
+                0x0000000000000180       0x30 FST.o
+ .debug_aranges
+                0x00000000000001b0       0x78 DI.o
+ .debug_aranges
+                0x0000000000000228       0x50 RealDI.o
+ .debug_aranges
+                0x0000000000000278       0xa0 Patch.o
+ .debug_aranges
+                0x0000000000000318       0x28 PatchTimers.o
+ .debug_aranges
+                0x0000000000000340       0x40 TRI.o
+ .debug_aranges
+                0x0000000000000380       0x40 PatchWidescreen.o
+ .debug_aranges
+                0x00000000000003c0       0x40 ISO.o
+ .debug_aranges
+                0x0000000000000400       0x60 Stream.o
+ .debug_aranges
+                0x0000000000000460       0x28 adp.o
+ .debug_aranges
+                0x0000000000000488       0x70 EXI.o
+ .debug_aranges
+                0x00000000000004f8       0x30 SRAM.o
+ .debug_aranges
+                0x0000000000000528       0x70 GCNCard.o
+ .debug_aranges
+                0x0000000000000598       0x30 SI.o
+ .debug_aranges
+                0x00000000000005c8       0xa0 HID.o
+ .debug_aranges
+                0x0000000000000668       0x58 diskio.o
+ .debug_aranges
+                0x00000000000006c0       0x28 Config.o
+ .debug_aranges
+                0x00000000000006e8       0x20 utils_asm.o
+ .debug_aranges
+                0x0000000000000708       0x20 main.o
+ .debug_aranges
+                0x0000000000000728       0x20 syscalls.o
+ .debug_aranges
+                0x0000000000000748       0x40 ReadSpeed.o
+ .debug_aranges
+                0x0000000000000788       0x40 vsprintf.o
+ .debug_aranges
+                0x00000000000007c8       0x68 string.o
+ .debug_aranges
+                0x0000000000000830       0x28 prs.o
+ .debug_aranges
+                0x0000000000000858       0x60 SDI.o
+ .debug_aranges
+                0x00000000000008b8       0x48 usb.o
+ .debug_aranges
+                0x0000000000000900       0x48 usbstorage.o
+ .debug_aranges
+                0x0000000000000948       0xa8 wdvd.o
+ .debug_aranges
+                0x00000000000009f0       0x38 sock.o
+ .debug_aranges
+                0x0000000000000a28      0x128 lwbt/bte.o
+ .debug_aranges
+                0x0000000000000b50       0x38 lwbt/btmemb.o
+ .debug_aranges
+                0x0000000000000b88       0x48 lwbt/btmemr.o
+ .debug_aranges
+                0x0000000000000bd0       0x80 lwbt/btpbuf.o
+ .debug_aranges
+                0x0000000000000c50      0x1c8 lwbt/hci.o
+ .debug_aranges
+                0x0000000000000e18       0xe0 lwbt/l2cap.o
+ .debug_aranges
+                0x0000000000000ef8       0x70 lwbt/physbusif.o
+ .debug_aranges
+                0x0000000000000f68       0x68 BT.o
+ .debug_aranges
+                0x0000000000000fd0       0xc8 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_aranges
+                0x0000000000001098       0x40 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_aranges
+                0x00000000000010d8       0x28 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+
+.debug_str      0x0000000000000000     0x7434
+ .debug_str     0x0000000000000000       0x39 start.o
+ .debug_str     0x0000000000000039      0x558 common.o
+                                        0x684 (size before relaxing)
+ .debug_str     0x0000000000000591       0x39 alloc.o
+                                        0x219 (size before relaxing)
+ .debug_str     0x00000000000005ca      0x5fe GCAM.o
+                                        0x906 (size before relaxing)
+ .debug_str     0x0000000000000bc8      0x1d6 JVSIO.o
+                                        0x498 (size before relaxing)
+ .debug_str     0x0000000000000d9e       0x39 JVSIOMessage.o
+                                        0x259 (size before relaxing)
+ .debug_str     0x0000000000000dd7      0x113 FST.o
+                                        0x63c (size before relaxing)
+ .debug_str     0x0000000000000eea      0x47f DI.o
+                                        0xb95 (size before relaxing)
+ .debug_str     0x0000000000001369      0x240 RealDI.o
+                                        0x687 (size before relaxing)
+ .debug_str     0x00000000000015a9     0x1c7a Patch.o
+                                       0x2762 (size before relaxing)
+ .debug_str     0x0000000000003223       0xa2 PatchTimers.o
+                                        0x315 (size before relaxing)
+ .debug_str     0x00000000000032c5      0x2a4 TRI.o
+                                        0xae7 (size before relaxing)
+ .debug_str     0x0000000000003569       0x8c PatchWidescreen.o
+                                        0x337 (size before relaxing)
+ .debug_str     0x00000000000035f5      0x20c ISO.o
+                                        0x9ab (size before relaxing)
+ .debug_str     0x0000000000003801      0x19d Stream.o
+                                        0x40c (size before relaxing)
+ .debug_str     0x000000000000399e       0x51 adp.o
+                                        0x1ce (size before relaxing)
+ .debug_str     0x00000000000039ef      0x524 EXI.o
+                                        0xaaa (size before relaxing)
+ .debug_str     0x0000000000003f13      0x158 SRAM.o
+                                        0x589 (size before relaxing)
+ .debug_str     0x000000000000406b       0xde GCNCard.o
+                                        0x8df (size before relaxing)
+ .debug_str     0x0000000000004149       0x78 SI.o
+                                        0x31f (size before relaxing)
+ .debug_str     0x00000000000041c1      0x803 HID.o
+                                        0xf96 (size before relaxing)
+ .debug_str     0x00000000000049c4      0x177 diskio.o
+                                        0x457 (size before relaxing)
+ .debug_str     0x0000000000004b3b       0x29 Config.o
+                                        0x6ca (size before relaxing)
+ .debug_str     0x0000000000004b64        0xc utils_asm.o
+                                         0x3d (size before relaxing)
+ .debug_str     0x0000000000004b70      0x195 main.o
+                                        0xd4c (size before relaxing)
+ .debug_str     0x0000000000004d05        0xb syscalls.o
+                                         0x3c (size before relaxing)
+ .debug_str     0x0000000000004d10       0xf6 ReadSpeed.o
+                                        0x5c5 (size before relaxing)
+ .debug_str     0x0000000000004e06       0xc2 vsprintf.o
+                                        0x667 (size before relaxing)
+ .debug_str     0x0000000000004ec8       0x17 string.o
+                                        0x241 (size before relaxing)
+ .debug_str     0x0000000000004edf       0x3f prs.o
+                                        0x23d (size before relaxing)
+ .debug_str     0x0000000000004f1e      0x227 SDI.o
+                                        0x4f2 (size before relaxing)
+ .debug_str     0x0000000000005145       0xe3 usb.o
+                                        0x442 (size before relaxing)
+ .debug_str     0x0000000000005228      0x137 usbstorage.o
+                                        0x4ee (size before relaxing)
+ .debug_str     0x000000000000535f      0x1f2 wdvd.o
+                                        0x53c (size before relaxing)
+ .debug_str     0x0000000000005551      0x18e sock.o
+                                        0x566 (size before relaxing)
+ .debug_str     0x00000000000056df      0xb2a lwbt/bte.o
+                                        0xe10 (size before relaxing)
+ .debug_str     0x0000000000006209       0x28 lwbt/btmemb.o
+                                        0x229 (size before relaxing)
+ .debug_str     0x0000000000006231       0x9b lwbt/btmemr.o
+                                        0x287 (size before relaxing)
+ .debug_str     0x00000000000062cc      0x10b lwbt/btpbuf.o
+                                        0x3f7 (size before relaxing)
+ .debug_str     0x00000000000063d7      0x513 lwbt/hci.o
+                                        0xbef (size before relaxing)
+ .debug_str     0x00000000000068ea      0x24f lwbt/l2cap.o
+                                        0x8b4 (size before relaxing)
+ .debug_str     0x0000000000006b39      0x25b lwbt/physbusif.o
+                                        0x786 (size before relaxing)
+ .debug_str     0x0000000000006d94      0x28a BT.o
+                                        0xb50 (size before relaxing)
+ .debug_str     0x000000000000701e      0x366 ../fatfs/libfatfs-arm.a(ff-arm.o)
+                                        0x86c (size before relaxing)
+ .debug_str     0x0000000000007384       0x96 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+                                        0x4c3 (size before relaxing)
+ .debug_str     0x000000000000741a       0x1a ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+                                        0x1dc (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x554f2
+ .debug_loc     0x0000000000000000      0xad3 common.o
+ .debug_loc     0x0000000000000ad3       0xf2 alloc.o
+ .debug_loc     0x0000000000000bc5     0x1310 GCAM.o
+ .debug_loc     0x0000000000001ed5      0xa3b JVSIO.o
+ .debug_loc     0x0000000000002910      0x7ff JVSIOMessage.o
+ .debug_loc     0x000000000000310f      0x573 FST.o
+ .debug_loc     0x0000000000003682     0x1be6 DI.o
+ .debug_loc     0x0000000000005268      0x8fb RealDI.o
+ .debug_loc     0x0000000000005b63    0x181a8 Patch.o
+ .debug_loc     0x000000000001dd0b     0x26dd PatchTimers.o
+ .debug_loc     0x00000000000203e8     0x24b9 TRI.o
+ .debug_loc     0x00000000000228a1     0x3b41 PatchWidescreen.o
+ .debug_loc     0x00000000000263e2     0x2766 ISO.o
+ .debug_loc     0x0000000000028b48      0x686 Stream.o
+ .debug_loc     0x00000000000291ce      0x83b adp.o
+ .debug_loc     0x0000000000029a09     0x1b6d EXI.o
+ .debug_loc     0x000000000002b576      0x84a SRAM.o
+ .debug_loc     0x000000000002bdc0      0x7ec GCNCard.o
+ .debug_loc     0x000000000002c5ac      0x77e SI.o
+ .debug_loc     0x000000000002cd2a     0x54ed HID.o
+ .debug_loc     0x0000000000032217      0x622 diskio.o
+ .debug_loc     0x0000000000032839       0x2f Config.o
+ .debug_loc     0x0000000000032868     0x14cb main.o
+ .debug_loc     0x0000000000033d33      0x368 ReadSpeed.o
+ .debug_loc     0x000000000003409b     0x119f vsprintf.o
+ .debug_loc     0x000000000003523a      0x58d string.o
+ .debug_loc     0x00000000000357c7      0xcb6 prs.o
+ .debug_loc     0x000000000003647d     0x22a5 SDI.o
+ .debug_loc     0x0000000000038722      0x978 usb.o
+ .debug_loc     0x000000000003909a      0xcab usbstorage.o
+ .debug_loc     0x0000000000039d45      0x689 wdvd.o
+ .debug_loc     0x000000000003a3ce      0x730 sock.o
+ .debug_loc     0x000000000003aafe     0x3282 lwbt/bte.o
+ .debug_loc     0x000000000003dd80      0x219 lwbt/btmemb.o
+ .debug_loc     0x000000000003df99      0x731 lwbt/btmemr.o
+ .debug_loc     0x000000000003e6ca      0xc78 lwbt/btpbuf.o
+ .debug_loc     0x000000000003f342     0x38e5 lwbt/hci.o
+ .debug_loc     0x0000000000042c27     0x28de lwbt/l2cap.o
+ .debug_loc     0x0000000000045505      0x8b2 lwbt/physbusif.o
+ .debug_loc     0x0000000000045db7     0x11f2 BT.o
+ .debug_loc     0x0000000000046fa9     0xdb9d ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_loc     0x0000000000054b46      0x5f5 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_loc     0x000000000005513b      0x3b7 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+
+.debug_ranges   0x0000000000000000     0xbea0
+ .debug_ranges  0x0000000000000000      0x228 common.o
+ .debug_ranges  0x0000000000000228       0x20 alloc.o
+ .debug_ranges  0x0000000000000248      0x200 GCAM.o
+ .debug_ranges  0x0000000000000448      0x168 JVSIO.o
+ .debug_ranges  0x00000000000005b0      0x200 JVSIOMessage.o
+ .debug_ranges  0x00000000000007b0       0x88 FST.o
+ .debug_ranges  0x0000000000000838      0x3a8 DI.o
+ .debug_ranges  0x0000000000000be0      0x1e0 RealDI.o
+ .debug_ranges  0x0000000000000dc0     0x4520 Patch.o
+ .debug_ranges  0x00000000000052e0      0x6b8 PatchTimers.o
+ .debug_ranges  0x0000000000005998      0x1a0 TRI.o
+ .debug_ranges  0x0000000000005b38      0x868 PatchWidescreen.o
+ .debug_ranges  0x00000000000063a0      0x770 ISO.o
+ .debug_ranges  0x0000000000006b10      0x2c8 Stream.o
+ .debug_ranges  0x0000000000006dd8       0x88 adp.o
+ .debug_ranges  0x0000000000006e60      0x2d0 EXI.o
+ .debug_ranges  0x0000000000007130       0x90 SRAM.o
+ .debug_ranges  0x00000000000071c0      0x158 GCNCard.o
+ .debug_ranges  0x0000000000007318      0x110 SI.o
+ .debug_ranges  0x0000000000007428      0xaf0 HID.o
+ .debug_ranges  0x0000000000007f18       0x78 diskio.o
+ .debug_ranges  0x0000000000007f90       0x30 Config.o
+ .debug_ranges  0x0000000000007fc0      0x218 main.o
+ .debug_ranges  0x00000000000081d8       0xf8 ReadSpeed.o
+ .debug_ranges  0x00000000000082d0       0xb8 vsprintf.o
+ .debug_ranges  0x0000000000008388       0xa0 string.o
+ .debug_ranges  0x0000000000008428       0x18 prs.o
+ .debug_ranges  0x0000000000008440      0x388 SDI.o
+ .debug_ranges  0x00000000000087c8      0x128 usb.o
+ .debug_ranges  0x00000000000088f0      0x2b0 usbstorage.o
+ .debug_ranges  0x0000000000008ba0      0x208 wdvd.o
+ .debug_ranges  0x0000000000008da8       0xe8 sock.o
+ .debug_ranges  0x0000000000008e90      0x2a8 lwbt/bte.o
+ .debug_ranges  0x0000000000009138       0x28 lwbt/btmemb.o
+ .debug_ranges  0x0000000000009160       0x88 lwbt/btmemr.o
+ .debug_ranges  0x00000000000091e8      0x140 lwbt/btpbuf.o
+ .debug_ranges  0x0000000000009328      0xc98 lwbt/hci.o
+ .debug_ranges  0x0000000000009fc0      0x660 lwbt/l2cap.o
+ .debug_ranges  0x000000000000a620      0x198 lwbt/physbusif.o
+ .debug_ranges  0x000000000000a7b8      0x398 BT.o
+ .debug_ranges  0x000000000000ab50     0x1258 ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_ranges  0x000000000000bda8       0xe0 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_ranges  0x000000000000be88       0x18 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+
+.debug_frame    0x0000000000000000     0x3994
+ .debug_frame   0x0000000000000000      0x144 common.o
+ .debug_frame   0x0000000000000144       0x50 alloc.o
+ .debug_frame   0x0000000000000194      0x110 GCAM.o
+ .debug_frame   0x00000000000002a4       0x44 JVSIO.o
+ .debug_frame   0x00000000000002e8       0xe4 JVSIOMessage.o
+ .debug_frame   0x00000000000003cc       0x88 FST.o
+ .debug_frame   0x0000000000000454      0x1b8 DI.o
+ .debug_frame   0x000000000000060c      0x114 RealDI.o
+ .debug_frame   0x0000000000000720      0x260 Patch.o
+ .debug_frame   0x0000000000000980       0x9c PatchTimers.o
+ .debug_frame   0x0000000000000a1c       0xc4 TRI.o
+ .debug_frame   0x0000000000000ae0       0xd0 PatchWidescreen.o
+ .debug_frame   0x0000000000000bb0       0xd8 ISO.o
+ .debug_frame   0x0000000000000c88      0x14c Stream.o
+ .debug_frame   0x0000000000000dd4       0x5c adp.o
+ .debug_frame   0x0000000000000e30      0x1c4 EXI.o
+ .debug_frame   0x0000000000000ff4       0x68 SRAM.o
+ .debug_frame   0x000000000000105c      0x12c GCNCard.o
+ .debug_frame   0x0000000000001188       0x64 SI.o
+ .debug_frame   0x00000000000011ec      0x2c4 HID.o
+ .debug_frame   0x00000000000014b0       0xe4 diskio.o
+ .debug_frame   0x0000000000001594       0x40 Config.o
+ .debug_frame   0x00000000000015d4       0x3c main.o
+ .debug_frame   0x0000000000001610       0x80 ReadSpeed.o
+ .debug_frame   0x0000000000001690       0xec vsprintf.o
+ .debug_frame   0x000000000000177c      0x1b0 string.o
+ .debug_frame   0x000000000000192c       0x50 prs.o
+ .debug_frame   0x000000000000197c      0x1b4 SDI.o
+ .debug_frame   0x0000000000001b30      0x14c usb.o
+ .debug_frame   0x0000000000001c7c       0xf0 usbstorage.o
+ .debug_frame   0x0000000000001d6c      0x254 wdvd.o
+ .debug_frame   0x0000000000001fc0       0xbc sock.o
+ .debug_frame   0x000000000000207c      0x41c lwbt/bte.o
+ .debug_frame   0x0000000000002498       0x5c lwbt/btmemb.o
+ .debug_frame   0x00000000000024f4       0xc4 lwbt/btmemr.o
+ .debug_frame   0x00000000000025b8      0x158 lwbt/btpbuf.o
+ .debug_frame   0x0000000000002710      0x6a8 lwbt/hci.o
+ .debug_frame   0x0000000000002db8      0x384 lwbt/l2cap.o
+ .debug_frame   0x000000000000313c      0x19c lwbt/physbusif.o
+ .debug_frame   0x00000000000032d8      0x180 BT.o
+ .debug_frame   0x0000000000003458      0x44c ../fatfs/libfatfs-arm.a(ff-arm.o)
+ .debug_frame   0x00000000000038a4       0xb8 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+ .debug_frame   0x000000000000395c       0x38 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)

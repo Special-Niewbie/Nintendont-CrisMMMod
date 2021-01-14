@@ -1,0 +1,1 @@
+SonicRidersCopy.elf: SonicRidersCopy.S

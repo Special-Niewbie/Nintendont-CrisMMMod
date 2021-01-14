@@ -1,0 +1,1 @@
+FakeEntryLoad.elf: FakeEntryLoad.S
