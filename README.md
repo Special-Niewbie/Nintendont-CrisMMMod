@@ -61,7 +61,7 @@ A Wii Homebrew Project to play GC Games on Wii and vWii on Wii U
                                                           ** To download the custom game background Settings --> Update Menu --> and scroll down till "Theme Menu" --> Download Loader Theme. Done!
 														  
 * The exactly list to consult for the over 135 Text custom colors, it's here: https://en.wikipedia.org/wiki/Web_colors
-  -If you cannot find in between of over 135 Text custom color tones buiold-in you can customize the Nintendont Text Menu Color = Download in this repository the blank textcolor.ini file and specify a custom text color by placing the color's hexadecimal RGBA value.
+  -If you cannot find in between of over 135 Text custom color tones build-in you can customize the Nintendont Text Menu Color = Download in this repository the blank textcolor.ini file and specify a custom text color by placing the color's hexadecimal RGBA value.
   -You can copy the hexadecimal RGBA value (example: 0x33FFFF - copy the code without 0x and paste like that --> 33FFFF add other two FF in the end will be like that --> 33FFFFFF ) from this site Hexadecimal RGBA Value site click here. Once pasted the hexadecimal RGBA value in the textcolor.ini click here to download save it, and place the file into the “/apps/Nintendont/” folder.​
 
 * Upgrade the Games Titles = If will be some misspelling of some games, once it will be upgraded the list file you can upgrade it by Nintendont Menu Settings without to do it manually.
