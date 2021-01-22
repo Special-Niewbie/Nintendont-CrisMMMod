@@ -67,7 +67,7 @@ A Wii Homebrew Project to play GC Games on Wii and vWii on Wii U
 * Upgrade the Games Titles = If will be some misspelling of some games, once it will be upgraded the list file you can upgrade it by Nintendont Menu Settings without to do it manually.
                              ** Settings --> Update Menu --> Download titles.txt. Done!
 							 
-* Upgrade to the latest Controllers Supports for Nintendont = You can download the latest controllers.zip file from Nintendont. And place your particolar unzipped controller.ini file into the root of your SD card to work with Nintendont.
+* Upgrade to the latest Controllers Supports for Nintendont = You can download the latest controllers.zip file from Nintendont. And place your particolar unzipped controller.ini file into the SD:/controllers/ .ini file.
                                                              ** Settings --> Update Menu --> Download controller.zip. Done!
                                                              							 
 * Upgrade to the latest ID Games list file = You can download the latest gcn_md5.txt file from Nintendont. once it will be upgraded the list file you can upgrade it by Nintendont Menu Settings without to do it manually.
