@@ -41,6 +41,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 #include "themes.h"
 #include "mysterio.h"
+#include "crismmmod.h"
 
 extern char launch_dir[MAXPATHLEN];
 extern char loaderPath[MAXPATHLEN];
@@ -380,7 +381,6 @@ static s32 Download(DOWNLOADS download_number) {
 	}
 
 	// Write the file to disk.
-	
 	if (download_number != DOWNLOAD_NINBLACK) {
 		// Zip-file needs to be decompressed to the loader's drive
 
@@ -438,8 +438,9 @@ static s32 Download(DOWNLOADS download_number) {
 end:
 	if (ret != 1) {
 		PrintFormat(DEFAULT_SIZE, MAROON, MENU_POS_X, MENU_POS_Y + 20*line, "Error: %s", errmsg);
-    }
-    
+    } else {
+		PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*line, "Restart Nintendont to complete update");
+	}
 	UpdateScreen();
 	if (outbuf != NULL) free(outbuf);
 	net_deinit();
@@ -500,6 +501,25 @@ void DeleteBackground() {
 				break;
 			case 3:
 				snprintf(path, sizeof(path), "%sbackground.jpg", exists? launch_dir : "/apps/Nintendont/");
+				break;
+		}
+		
+		f_unlink_char(path);
+    }
+}
+
+void DeleteTextColorCustoms() {
+    char path[MAXPATHLEN];
+    bool exists = strlen(launch_dir);
+    int i;
+    //just delete every possible textcolor file
+    for (i = 0; i < 1; i++){
+		if (i != 0){
+			memset(path, 0, sizeof(path));
+		}
+		switch (i){
+			case 0:
+				snprintf(path, sizeof(path), "%stextcolor.ini", exists? launch_dir : "/apps/Nintendont/");
 				break;
 		}
 		
@@ -598,7 +618,7 @@ void LoaderMenu(const bool previewState) {
             */
         
             PrintInfo();
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Boot Loader Theme Download Menu");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Boot Loader Download Themes");
             PrintButtonActions("Go Back", "Download", "Go Back", NULL);
         
             // Now the entries
@@ -712,7 +732,7 @@ void DarkMenu(const bool previewState) {
             */
         
             PrintInfo();
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Nintendont Menu Dark Theme Download Menu");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Background Menu Download Dark Themes");
             PrintButtonActions("Go Back", "Download", "Go Back", NULL);
         
             // Now the entries
@@ -799,7 +819,7 @@ void LightMenu(const bool previewState) {
             */
         
             PrintInfo();
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Nintendont Menu Light Theme Download Menu");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Background Menu Download Light Themes");
             PrintButtonActions("Go Back", "Download", "Go Back", NULL);
         
             // Now the entries
@@ -886,7 +906,7 @@ void GradientMenu(const bool previewState) {
             */
         
             PrintInfo();
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Nintendont Menu Gradient Theme Download Menu");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Background Menu Download Gradient Themes");
             PrintButtonActions("Go Back", "Download", "Go Back", NULL);
         
             // Now the entries
@@ -973,7 +993,7 @@ void BlackMenu(const bool previewState) {
             */
         
             PrintInfo();
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Nintendont Menu Black Theme Download Menu");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Background Menu Download Black Themes");
             PrintButtonActions("Go Back", "Download", "Go Back", NULL);
         
             // Now the entries
@@ -1060,7 +1080,7 @@ void UnicolorMenu(const bool previewState) {
             */
         
             PrintInfo();
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Nintendont Menu Unicolor Theme Download Menu");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Background Menu Download Unicolor Themes");
             PrintButtonActions("Go Back", "Download", "Go Back", NULL);
         
             // Now the entries
@@ -1170,22 +1190,23 @@ void ThemeMenu() {
             // Now the entries
         
             PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*5, "Boot Loader Download Themes");
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*6, "Nintendont Menu Download Dark Themes");
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*7, "Nintendont Menu Download Light Themes");
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*8, "Nintendont Menu Download Gradient Themes");
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*9, "Nintendont Menu Download Black Themes");
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*10, "Nintendont Menu Download Unicolor Themes");
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*11, "Set Black Screen on Game Boot");
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*12, "Download Preview Pack");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*6, "Background Menu Download Dark Themes");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*7, "Background Menu Download Light Themes");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*8, "Background Menu Download Gradient Themes");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*9, "Background Menu Download Black Themes");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*10, "Background Menu Download Unicolor Themes");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*11, "Boot Loader Set Black Screen");
+			PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*12, "Text Color Custom Menu");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*13, "Download Preview Pack");
             if (previewDownloaded) {
                 if (previewState) {
-                    PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*14, "Preview Pack: Enabled");
+                    PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*15, "Preview Pack: Enabled");
                 } else {
-                    PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*14, "Preview Pack: Disabled");
+                    PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*15, "Preview Pack: Disabled");
                 }
             }
             
-            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*15, "Restore Default Theme");
+            PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 50, MENU_POS_Y + 20*16, "Restore Default Theme");
             PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 35, MENU_POS_Y + 20*(5+selected), ARROW_RIGHT);
             
             
@@ -1227,7 +1248,10 @@ void ThemeMenu() {
                     Download(DOWNLOAD_NINBLACK);
                     ClearScreen();
                     break;
-                case 7:
+				case 7:
+                    TextColorCustomMenu();
+					break;
+                case 8:
                     if (Download(PREVIEW) == 1) {
                         previewDownloaded = true;
                         previewState = PreviewEnabled();
@@ -1235,10 +1259,10 @@ void ThemeMenu() {
                     
                     ClearScreen();
                     break;
-                case 9:
+                case 10:
                     previewState = SetPreview(previewState);
                     break;
-                case 10:
+                case 11:
                     RestoreDefault();
                     break;
                 default:
@@ -1251,11 +1275,11 @@ void ThemeMenu() {
         } else if (FPAD_Down(1)) {
             delay = ticks_to_millisecs(gettime()) + 150;
             selected++;
-            if (selected == 8 && previewDownloaded) {
+            if (selected == 9 && previewDownloaded) {
                 selected++;
-            } else if (selected == 8 && !previewDownloaded) {
+            } else if (selected == 9 && !previewDownloaded) {
                 selected += 2;
-            } else if (selected > 10) {
+            } else if (selected > 11) {
                 selected = 0;
             }
             
@@ -1263,12 +1287,12 @@ void ThemeMenu() {
         } else if (FPAD_Up(1)) {
             delay = ticks_to_millisecs(gettime()) + 150;
             selected--;
-            if (selected == 8 && previewDownloaded) {
+            if (selected == 9 && previewDownloaded) {
                 selected--;
-            } else if (selected == 9 && !previewDownloaded) {
+            } else if (selected == 10 && !previewDownloaded) {
                 selected -= 2;
             } else if (selected < 0) {
-                selected = 10;
+                selected = 11;
             }
             
             redraw = true;

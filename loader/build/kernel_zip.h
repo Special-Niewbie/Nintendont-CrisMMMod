@@ -6,7 +6,7 @@
 extern const uint8_t kernel_zip[];
 extern const uint8_t kernel_zip_end[];
 #if __cplusplus >= 201103L
-static constexpr size_t kernel_zip_size=145924;
+static constexpr size_t kernel_zip_size=145926;
 #else
-static const size_t kernel_zip_size=145924;
+static const size_t kernel_zip_size=145926;
 #endif

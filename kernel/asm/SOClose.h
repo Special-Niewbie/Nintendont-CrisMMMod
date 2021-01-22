@@ -1,6 +1,6 @@
 /*
 	Filename    : SOClose.bin
-	Date created: Sat Jan 09 23:28:16 2021
+	Date created: Fri Jan 22 10:46:04 2021
 */
 
 #define SOClose_size 0x10

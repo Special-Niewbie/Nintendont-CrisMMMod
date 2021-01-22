@@ -1605,8 +1605,8 @@ static bool UpdateSettingsMenu(MenuCtx *ctx)
 		ListLoopIndex++;
 		
 		// Triforce Analog Pedals.
-		PrintFormat(MENU_SIZE, BLACK, MENU_POS_X + 320, SettingY(ListLoopIndex),
-			    "%-18s:%-4s", "TRI Analog Pedals", (ncfg->Config & (NIN_CFG_TRI_ANALOG_PEDALS)) ? "On " : "Off");
+		PrintFormat(MENU_SIZE, text_color, MENU_POS_X + 320, SettingY(ListLoopIndex),
+			    "%-18s:%-4s", "TRI Analog Pedals", (ncfg->Config & (NIN_CFG_TRI_ANALOG_PEDALS)) ? "On  (NEW)" : "Off (NEW)");
 		ListLoopIndex++;
 
 		// Wiimote CC Rumble

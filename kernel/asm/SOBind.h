@@ -1,6 +1,6 @@
 /*
 	Filename    : SOBind.bin
-	Date created: Sat Jan 09 23:28:16 2021
+	Date created: Fri Jan 22 10:46:03 2021
 */
 
 #define SOBind_size 0x10
