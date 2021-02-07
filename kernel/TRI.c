@@ -356,7 +356,10 @@ void TRISetupGames()
 	{
 		dbgprintf("TRI:F-Zero AX (Rev C)\r\n");
 		TRIGame = TRI_AX;
-		SystemRegion = REGION_EXPORT; //Setting the region to JAPAN will change the game's language to Japanese.
+		if(ncfg->Language == NIN_LAN_ENGLISH)
+			SystemRegion = REGION_EXPORT;
+		else
+			SystemRegion = REGION_JAPAN;
 		AXTimerOffset = 0x003CD1C0;
 		TRISettingsName = SETTINGS_AX_RVC;
 		TRISettingsLoc = 0x3CF6F0;
@@ -436,7 +439,10 @@ void TRISetupGames()
 	{
 		dbgprintf("TRI:F-Zero AX (Rev D)\r\n");
 		TRIGame = TRI_AX;
-		SystemRegion = REGION_EXPORT; //Setting the region to JAPAN will change the game's language to Japanese.
+		if(ncfg->Language == NIN_LAN_ENGLISH)
+			SystemRegion = REGION_EXPORT;
+		else
+			SystemRegion = REGION_JAPAN;
 		AXTimerOffset = 0x003CD6A0;
 		TRISettingsName = SETTINGS_AX_RVD;
 		TRISettingsLoc = 0x3CFBD0;
@@ -527,7 +533,10 @@ void TRISetupGames()
 	{
 		dbgprintf("TRI:F-Zero AX (Rev E)\r\n");
 		TRIGame = TRI_AX;
-		SystemRegion = REGION_EXPORT; //Setting the region to JAPAN will change the game's language to Japanese.
+		if(ncfg->Language == NIN_LAN_ENGLISH)
+			SystemRegion = REGION_EXPORT;
+		else
+			SystemRegion = REGION_JAPAN;
 		AXTimerOffset = 0x003CDC20;
 		TRISettingsName = SETTINGS_AX_RVE;
 		TRISettingsLoc = 0x3D0150;
