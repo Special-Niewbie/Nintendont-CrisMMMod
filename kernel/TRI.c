@@ -356,7 +356,7 @@ void TRISetupGames()
 	{
 		dbgprintf("TRI:F-Zero AX (Rev C)\r\n");
 		TRIGame = TRI_AX;
-		if(ncfg->Language == NIN_LAN_ENGLISH)
+		if(ncfg->Language == NIN_LAN_ENGLISH || ncfg->Language == NIN_LAN_AUTO)
 			SystemRegion = REGION_EXPORT;
 		else
 			SystemRegion = REGION_JAPAN;
@@ -439,7 +439,7 @@ void TRISetupGames()
 	{
 		dbgprintf("TRI:F-Zero AX (Rev D)\r\n");
 		TRIGame = TRI_AX;
-		if(ncfg->Language == NIN_LAN_ENGLISH)
+		if(ncfg->Language == NIN_LAN_ENGLISH || ncfg->Language == NIN_LAN_AUTO)
 			SystemRegion = REGION_EXPORT;
 		else
 			SystemRegion = REGION_JAPAN;
@@ -533,7 +533,7 @@ void TRISetupGames()
 	{
 		dbgprintf("TRI:F-Zero AX (Rev E)\r\n");
 		TRIGame = TRI_AX;
-		if(ncfg->Language == NIN_LAN_ENGLISH)
+		if(ncfg->Language == NIN_LAN_ENGLISH || ncfg->Language == NIN_LAN_AUTO)
 			SystemRegion = REGION_EXPORT;
 		else
 			SystemRegion = REGION_JAPAN;
