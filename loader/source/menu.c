@@ -960,6 +960,10 @@ static const char *const *GetSettingsDescription(const MenuCtx *ctx)
 					"found on PAL GameCubes, so",
 					"it usually won't have an",
 					"effect on NTSC games.",
+					"",
+					"In F-Zero AX, a different",
+					"setting than English will",
+					"display the text in Japanese.",
 					NULL
 				};
 				return desc_language;
