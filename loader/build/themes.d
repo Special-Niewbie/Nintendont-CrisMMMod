@@ -88,7 +88,8 @@ themes.o: C\:/Users/Nintendont-CrisMMMod/loader/source/themes.c \
  C\:/Users/Nintendont-CrisMMMod/loader/source/unzip/ioapi.h \
  C\:/Users/Nintendont-CrisMMMod/loader/build/background_png.h \
  C\:/Users/Nintendont-CrisMMMod/loader/include/themes.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/mysterio.h
+ C\:/Users/Nintendont-CrisMMMod/loader/include/mysterio.h \
+ C\:/Users/Nintendont-CrisMMMod/loader/include/crismmmod.h
 C\:/devkitPro/libogc/include/gccore.h:
 C\:/devkitPro/libogc/include/ogc/dsp.h:
 C\:/devkitPro/libogc/include/gctypes.h:
@@ -179,3 +180,4 @@ C\:/Users/Nintendont-CrisMMMod/loader/source/unzip/ioapi.h:
 C\:/Users/Nintendont-CrisMMMod/loader/build/background_png.h:
 C\:/Users/Nintendont-CrisMMMod/loader/include/themes.h:
 C\:/Users/Nintendont-CrisMMMod/loader/include/mysterio.h:
+C\:/Users/Nintendont-CrisMMMod/loader/include/crismmmod.h:

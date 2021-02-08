@@ -1,6 +1,6 @@
 /*
 	Filename    : CalcWidescreen.bin
-	Date created: Sat Jan 09 23:28:07 2021
+	Date created: Fri Jan 22 10:45:55 2021
 */
 
 #define CalcWidescreen_size 0x44

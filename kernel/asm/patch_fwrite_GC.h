@@ -1,6 +1,6 @@
 /*
 	Filename    : patch_fwrite_GC.bin
-	Date created: Sat Jan 09 23:28:20 2021
+	Date created: Fri Jan 22 10:46:07 2021
 */
 
 #define patch_fwrite_GC_size 0x90

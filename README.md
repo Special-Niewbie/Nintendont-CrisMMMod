@@ -60,16 +60,17 @@ A Wii Homebrew Project to play GC Games on Wii and vWii on Wii U
 * Custom Game Loader ![](nintendont/example_loader.png) = CrisMMMods custom game background loader themes are now working for ALL GameCube games. They will appear when the game boots and come with or without a loading bar. (If you will download the themes by the Nintendont app it will create all the new Folder automatically) Create a folder named 'CustomGameLoader' inside your Nintendont folder and place files named after the following scheme: GAMEID3.png for themes without loading bar, and GAMEID3X.png for themes with loading bar (for example GZLX.png for Wind Waker theme with loading bar).
                                                           ** To download the custom game background Settings --> Update Menu --> and scroll down till "Theme Menu" --> Download Loader Theme. Done!
 														  
-* Custom the Nintendont Text Menu Color = Download from above the textcolor.ini file and specify a custom text color by placing the color's hexadecimal RGBA value. 
-                                          ** You can copy the hexadecimal RGBA value (example: 0x33FFFF ) from this site https://web.archive.org/web/20161119074958/http://www.nthelp.com/colorcodes.htm . Once placed/ paste, one hexadecimal RGBA value in the textcolor.ini save it, and place the file into the /apps/Nintendont/  folder.
+* The exactly list to consult for the over 135 Text custom colors, it's here: https://en.wikipedia.org/wiki/Web_colors
+  -If you cannot find in between of over 135 Text custom color tones build-in you can customize the Nintendont Text Menu Color = Download in this repository the blank textcolor.ini file and specify a custom text color by placing the color's hexadecimal RGBA value.
+  -You can copy the hexadecimal RGBA value (example: 0x33FFFF - copy the code without 0x and paste like that --> 33FFFF add other two FF in the end will be like that --> 33FFFFFF ) from this site Hexadecimal RGBA Value site click here. Once pasted the hexadecimal RGBA value in the textcolor.ini click here to download save it, and place the file into the “/apps/Nintendont/” folder.​
 
-* Upgrade the Games titles = If will be some misspelling of some games, once it will be upgraded the list file you can upgrade it by Nintendont Menu Settings without to do it manually.
+* Upgrade the Games Titles = If will be some misspelling of some games, once it will be upgraded the list file you can upgrade it by Nintendont Menu Settings without to do it manually.
                              ** Settings --> Update Menu --> Download titles.txt. Done!
 							 
-* Download the latest controllers zip file from Nintendont = You can download the latest controllers.zip file from Nintendont. And place your particolar unzipped controller.ini file into the root of your SD card to work with Nintendont.
+* Upgrade to the latest Controllers Supports for Nintendont = You can download the latest controllers.zip file from Nintendont. And place your particolar unzipped controller.ini file into the SD:/controllers/ .ini file.
                                                              ** Settings --> Update Menu --> Download controller.zip. Done!
                                                              							 
-* Download the latest gcn_md5 txt file = You can download the latest gcn_md5.txt file from Nintendont. once it will be upgraded the list file you can upgrade it by Nintendont Menu Settings without to do it manually.
+* Upgrade to the latest ID Games list file = You can download the latest gcn_md5.txt file from Nintendont. once it will be upgraded the list file you can upgrade it by Nintendont Menu Settings without to do it manually.
                                          ** Settings --> Update Menu --> Download gcn_md5. Done!
 
   

@@ -1,6 +1,6 @@
 /*
 	Filename    : MajoraSaveRegs.bin
-	Date created: Sat Jan 09 23:28:12 2021
+	Date created: Fri Jan 22 10:46:00 2021
 */
 
 #define MajoraSaveRegs_size 0x28
