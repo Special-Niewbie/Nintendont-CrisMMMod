@@ -1079,7 +1079,7 @@ int main(int argc, char **argv)
 		}
 	}
 
-	if(ncfg->Config & NIN_CFG_MEMCARDEMU)
+	if(ncfg->Config & NIN_CFG_MEMCARDEMU || IsTRIGame != 0)
 	{
 		// Memory card emulation is enabled.
 		// Set up the memory card file.
