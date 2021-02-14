@@ -28,6 +28,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <di/di.h>
 #include <unistd.h>
 #include <locale.h>
+#include <asndlib.h>
+#include <mp3player.h>
 
 #include "exi.h"
 #include "dip.h"
@@ -48,6 +50,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "TRI.h"
 #include "Config.h"
 #include "wdvd.h"
+#include "sample_mp3.h"
 
 #include "ff_utf8.h"
 #include "diskio.h"
@@ -561,6 +564,7 @@ extern vu32 FoundVersion;
 extern void _jmp813();
 int main(int argc, char **argv)
 {
+
 	// Exit after 10 seconds if there is an error
 	__exception_setreload(10);
 //	u64 timeout = 0;
@@ -1152,6 +1156,14 @@ int main(int argc, char **argv)
 	bool useipl = false;
 	bool useipltri = false;
 
+	
+	/*
+	//Check if game is Triforce game
+	u32 IsTRIGame = 0;
+	if (ncfg->GameID != 0x47545050) //Damn you Knights Of The Temple!
+		IsTRIGame = TRISetupGames(ncfg->GamePath, CurDICMD, ISOShift);
+	*/ //Above it's disable, because of AntonyRyuki Update "Change Languages in F-Zero AX"
+
 	if (!(ncfg->Config & (NIN_CFG_SKIP_IPL)))
 	{
 		if(IsTRIGame == 0)
@@ -1266,6 +1278,7 @@ int main(int argc, char **argv)
 
 		if(loaderMode == 0){
 			PrintInfo();
+			MP3Player_Stop();
 
 			PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*6, "Loading patched kernel... %d", STATUS_LOADING);
 			if(STATUS_LOADING == 0)

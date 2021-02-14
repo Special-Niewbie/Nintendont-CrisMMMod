@@ -1,6 +1,6 @@
 /*
 	Filename    : DHCP_release.bin
-	Date created: Fri Jan 22 10:45:56 2021
+	Date created: Sun Feb 14 13:40:04 2021
 */
 
 #define DHCP_release_size 0x10

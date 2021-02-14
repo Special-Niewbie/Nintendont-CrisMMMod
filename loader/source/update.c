@@ -29,6 +29,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <zlib.h>
 #include <ogc/lwp_watchdog.h>
 #include <sys/param.h>
+#include <mp3player.h>
 
 #include "exi.h"
 #include "FPad.h"
@@ -43,6 +44,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "ff_utf8.h"
 #include "unzip/miniunz.h"
 #include "unzip/ioapi.h"
+#include "sample_mp3.h"
 
 #include "themes.h"
 #include "mysterio.h"
@@ -329,6 +331,7 @@ void UpdateNintendont(void) {
 	u64 delay = ticks_to_millisecs(gettime()) + 500;
 
 	while (true) {
+		MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
 		if (redraw) {
 			PrintInfo();
             PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*3, "Update Menu");

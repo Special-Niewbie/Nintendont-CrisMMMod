@@ -382,7 +382,7 @@ void loaderTheme(bool autoboot, int mode) {
     GRRLIB_Render();
 }
 
-void Animation() {	
+void Animation() {
 	//Boot Animation
 	const u8 *gcbootanim[] = {gc0_jpg
 				, gc1_jpg

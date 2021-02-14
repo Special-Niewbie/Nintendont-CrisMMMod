@@ -1,6 +1,6 @@
 sock.o: \
- C\:/Users/Nintendont-CrisMMMod/loader/source/ppc/IOSInterface/source/sock.c \
- C\:/Users/Nintendont-CrisMMMod/loader/source/ppc/IOSInterface/include/sock.h \
- C\:/Users/Nintendont-CrisMMMod/loader/source/ppc/IOSInterface/include/cache.h
-C\:/Users/Nintendont-CrisMMMod/loader/source/ppc/IOSInterface/include/sock.h:
-C\:/Users/Nintendont-CrisMMMod/loader/source/ppc/IOSInterface/include/cache.h:
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/ppc/IOSInterface/source/sock.c \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/ppc/IOSInterface/include/sock.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/ppc/IOSInterface/include/cache.h
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/ppc/IOSInterface/include/sock.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/ppc/IOSInterface/include/cache.h:

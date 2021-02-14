@@ -24,6 +24,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <sys/param.h>
 #include <ogc/lwp_watchdog.h>
 #include <network.h>
+#include <asndlib.h>
+#include <mp3player.h>
 
 #include "font.h"
 #include "menu.h"
@@ -38,10 +40,12 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "unzip/ioapi.h"
 
 #include "background_png.h"
+#include "sample_mp3.h"
 
 #include "mysterio.h"
 #include "themes.h"
 #include "crismmmod.h"
+
 
 extern char launch_dir[MAXPATHLEN];
 extern char loaderPath[MAXPATHLEN];
@@ -362,6 +366,7 @@ static const downloads_t Downloads[] = {
 	//Preview.zip
     {"https://helixteamhub.cloud/api/projects/nintendont-crismmmod/repositories/nintendont-crismmmodweb/commits/webdav/files/themes%2FPreview.zip?api_signing_key=cc53b4ea-688d-40a0-bd89-99ef16ce604c&expires_at=2121-01-13T21%3A53%3A18.058Z&signature=7d75562d2865182f887e252e0c04a2c0630af0da466d5ded898654393e7887c0", "Downloading Preview Files", "Preview.zip", 0x500000} // 5MB
 };
+
 
 //took code from update.c (sorry, but why reinvent the wheel?)
 extern void changeToDefaultDrive();
@@ -6439,6 +6444,7 @@ void BlueGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -6580,6 +6586,7 @@ void BrownGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -6731,6 +6738,7 @@ void CyanGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -6858,6 +6866,7 @@ void GreenGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -7014,6 +7023,7 @@ void GreyGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -7130,6 +7140,7 @@ void OrangeGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -7221,6 +7232,7 @@ void PinkGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -7317,6 +7329,7 @@ void PurpleGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -7462,6 +7475,7 @@ void RedGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -7573,6 +7587,7 @@ void WhiteGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -7724,6 +7739,7 @@ void YellowGroupsMenu(const bool previewState) {
     u64 delay = ticks_to_millisecs(gettime()) + 500;
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
@@ -7851,14 +7867,18 @@ void TextColorCustomMenu() {
     bool redraw = true;
     int selected = 0;
     u64 delay = ticks_to_millisecs(gettime()) + 500;
+    ASND_Init();
+	MP3Player_Init();
     
     while (true) {
+    	MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
         if (redraw) {
             /*
             * Print the Menu
             */
         
             PrintInfo();
+
             PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 195, MENU_POS_Y + 20*3, "Text Color Custom Menu");
             PrintButtonActions("Go Back", "Select", "Go Back", NULL);
         

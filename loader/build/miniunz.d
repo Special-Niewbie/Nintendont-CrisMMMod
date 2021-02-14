@@ -1,20 +1,21 @@
-miniunz.o: C\:/Users/Nintendont-CrisMMMod/loader/source/unzip/miniunz.c \
- C\:/Users/Nintendont-CrisMMMod/loader/source/unzip/unzip.h \
- C\:/Users/Nintendont-CrisMMMod/loader/extlibs/include/zlib.h \
- C\:/Users/Nintendont-CrisMMMod/loader/extlibs/include/zconf.h \
- C\:/Users/Nintendont-CrisMMMod/loader/source/unzip/ioapi.h \
- c\:\users\nintendont-crismmmod\fatfs\ff_utf8.h \
- c\:\users\nintendont-crismmmod\fatfs\ff.h \
- c\:\users\nintendont-crismmmod\fatfs\integer.h \
- c\:\users\nintendont-crismmmod\fatfs\ffconf.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/global.h \
+miniunz.o: \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/unzip/miniunz.c \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/unzip/unzip.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/extlibs/include/zlib.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/extlibs/include/zconf.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/unzip/ioapi.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ff_utf8.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ff.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ffconf.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h \
  C\:/devkitPro/libogc/include/gctypes.h \
  C\:/devkitPro/libogc/include/ogc/ipc.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/Config.h \
- c\:\users\nintendont-crismmmod\common\include\commonconfig.h \
- c\:\users\nintendont-crismmmod\common\include\NintendontVersion.h \
- c\:\users\nintendont-crismmmod\common\include\Metadata.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/grrlib.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfig.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\NintendontVersion.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\Metadata.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/grrlib.h \
  C\:/devkitPro/libogc/include/gccore.h \
  C\:/devkitPro/libogc/include/ogc/dsp.h \
  C\:/devkitPro/libogc/include/ogc/aram.h \
@@ -66,23 +67,23 @@ miniunz.o: C\:/Users/Nintendont-CrisMMMod/loader/source/unzip/miniunz.c \
  C\:/devkitPro/libogc/include/ogc/system.h \
  C\:/devkitPro/libogc/include/ogc/wiilaunch.h \
  C\:/devkitPro/libogc/include/ogc/libversion.h \
- c\:\users\nintendont-crismmmod\fatfs\integer.h
-C\:/Users/Nintendont-CrisMMMod/loader/source/unzip/unzip.h:
-C\:/Users/Nintendont-CrisMMMod/loader/extlibs/include/zlib.h:
-C\:/Users/Nintendont-CrisMMMod/loader/extlibs/include/zconf.h:
-C\:/Users/Nintendont-CrisMMMod/loader/source/unzip/ioapi.h:
-c\:\users\nintendont-crismmmod\fatfs\ff_utf8.h:
-c\:\users\nintendont-crismmmod\fatfs\ff.h:
-c\:\users\nintendont-crismmmod\fatfs\integer.h:
-c\:\users\nintendont-crismmmod\fatfs\ffconf.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/global.h:
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/unzip/unzip.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/extlibs/include/zlib.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/extlibs/include/zconf.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/unzip/ioapi.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ff_utf8.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ff.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ffconf.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h:
 C\:/devkitPro/libogc/include/gctypes.h:
 C\:/devkitPro/libogc/include/ogc/ipc.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/Config.h:
-c\:\users\nintendont-crismmmod\common\include\commonconfig.h:
-c\:\users\nintendont-crismmmod\common\include\NintendontVersion.h:
-c\:\users\nintendont-crismmmod\common\include\Metadata.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/grrlib.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfig.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\NintendontVersion.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\Metadata.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/grrlib.h:
 C\:/devkitPro/libogc/include/gccore.h:
 C\:/devkitPro/libogc/include/ogc/dsp.h:
 C\:/devkitPro/libogc/include/ogc/aram.h:
@@ -134,4 +135,4 @@ C\:/devkitPro/libogc/include/ogc/mutex.h:
 C\:/devkitPro/libogc/include/ogc/system.h:
 C\:/devkitPro/libogc/include/ogc/wiilaunch.h:
 C\:/devkitPro/libogc/include/ogc/libversion.h:
-c\:\users\nintendont-crismmmod\fatfs\integer.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h:

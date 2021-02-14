@@ -1,4 +1,4 @@
-menu.o: C\:/Users/Nintendont-CrisMMMod/loader/source/menu.c \
+menu.o: C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/menu.c \
  C\:/devkitPro/libogc/include/gccore.h \
  C\:/devkitPro/libogc/include/ogc/dsp.h \
  C\:/devkitPro/libogc/include/gctypes.h \
@@ -50,42 +50,46 @@ menu.o: C\:/Users/Nintendont-CrisMMMod/loader/source/menu.c \
  C\:/devkitPro/libogc/include/ogc/mutex.h \
  C\:/devkitPro/libogc/include/ogc/system.h \
  C\:/devkitPro/libogc/include/ogc/wiilaunch.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/font.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/exi.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/font.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/exi.h \
  C\:/devkitPro/libogc/include/ogc/usbgecko.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/global.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h \
  C\:/devkitPro/libogc/include/ogc/ipc.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/Config.h \
- c\:\users\nintendont-crismmmod\common\include\commonconfig.h \
- c\:\users\nintendont-crismmmod\common\include\NintendontVersion.h \
- c\:\users\nintendont-crismmmod\common\include\Metadata.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/grrlib.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfig.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\NintendontVersion.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\Metadata.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/grrlib.h \
  C\:/devkitPro/libogc/include/ogc/libversion.h \
- c\:\users\nintendont-crismmmod\fatfs\integer.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/global.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/FPad.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/FPad.h \
  C\:/devkitPro/libogc/include/wiiuse/wpad.h \
  C\:/devkitPro/libogc/include/wiiuse/wiiuse.h \
  C\:/devkitPro/libogc/include/bte/bte.h \
  C\:/devkitPro/libogc/include/bte/bd_addr.h \
  C\:/devkitPro/libogc/include/ogc/pad.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/Config.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/update.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/titles.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/dip.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/update.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/titles.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/dip.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/sample_mp3.h \
  C\:/devkitPro/libogc/include/ogc/stm.h \
  C\:/devkitPro/libogc/include/ogc/consol.h \
- C\:/devkitPro/libogc/include/di/di.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/menu.h \
+ C\:/devkitPro/libogc/include/asndlib.h \
+ C\:/devkitPro/libogc/include/mp3player.h \
+ C\:/devkitPro/libogc/include/mad.h C\:/devkitPro/libogc/include/di/di.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/build/bootanim_audio_mp3.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/menu.h \
  C\:/devkitPro/libogc/include/ogc/video.h \
- c\:\users\nintendont-crismmmod\common\include\commonconfigstrings.h \
- c\:\users\nintendont-crismmmod\fatfs\ff_utf8.h \
- c\:\users\nintendont-crismmmod\fatfs\ff.h \
- c\:\users\nintendont-crismmmod\fatfs\integer.h \
- c\:\users\nintendont-crismmmod\fatfs\ffconf.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/ShowGameInfo.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/menu.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/mysterio.h
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfigstrings.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ff_utf8.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ff.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ffconf.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ShowGameInfo.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/menu.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/mysterio.h
 C\:/devkitPro/libogc/include/gccore.h:
 C\:/devkitPro/libogc/include/ogc/dsp.h:
 C\:/devkitPro/libogc/include/gctypes.h:
@@ -137,39 +141,44 @@ C\:/devkitPro/libogc/include/ogc/usbstorage.h:
 C\:/devkitPro/libogc/include/ogc/mutex.h:
 C\:/devkitPro/libogc/include/ogc/system.h:
 C\:/devkitPro/libogc/include/ogc/wiilaunch.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/font.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/exi.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/font.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/exi.h:
 C\:/devkitPro/libogc/include/ogc/usbgecko.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/global.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h:
 C\:/devkitPro/libogc/include/ogc/ipc.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/Config.h:
-c\:\users\nintendont-crismmmod\common\include\commonconfig.h:
-c\:\users\nintendont-crismmmod\common\include\NintendontVersion.h:
-c\:\users\nintendont-crismmmod\common\include\Metadata.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/grrlib.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfig.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\NintendontVersion.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\Metadata.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/grrlib.h:
 C\:/devkitPro/libogc/include/ogc/libversion.h:
-c\:\users\nintendont-crismmmod\fatfs\integer.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/global.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/FPad.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/FPad.h:
 C\:/devkitPro/libogc/include/wiiuse/wpad.h:
 C\:/devkitPro/libogc/include/wiiuse/wiiuse.h:
 C\:/devkitPro/libogc/include/bte/bte.h:
 C\:/devkitPro/libogc/include/bte/bd_addr.h:
 C\:/devkitPro/libogc/include/ogc/pad.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/Config.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/update.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/titles.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/dip.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/update.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/titles.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/dip.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/sample_mp3.h:
 C\:/devkitPro/libogc/include/ogc/stm.h:
 C\:/devkitPro/libogc/include/ogc/consol.h:
+C\:/devkitPro/libogc/include/asndlib.h:
+C\:/devkitPro/libogc/include/mp3player.h:
+C\:/devkitPro/libogc/include/mad.h:
 C\:/devkitPro/libogc/include/di/di.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/menu.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/build/bootanim_audio_mp3.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/menu.h:
 C\:/devkitPro/libogc/include/ogc/video.h:
-c\:\users\nintendont-crismmmod\common\include\commonconfigstrings.h:
-c\:\users\nintendont-crismmmod\fatfs\ff_utf8.h:
-c\:\users\nintendont-crismmmod\fatfs\ff.h:
-c\:\users\nintendont-crismmmod\fatfs\integer.h:
-c\:\users\nintendont-crismmmod\fatfs\ffconf.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/ShowGameInfo.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/menu.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/mysterio.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfigstrings.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ff_utf8.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ff.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\ffconf.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ShowGameInfo.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/menu.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/mysterio.h:

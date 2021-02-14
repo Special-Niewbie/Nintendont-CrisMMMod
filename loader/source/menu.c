@@ -28,15 +28,19 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "update.h"
 #include "titles.h"
 #include "dip.h"
+#include "sample_mp3.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <ogc/stm.h>
 #include <ogc/consol.h>
 #include <ogc/system.h>
+#include <asndlib.h>
+#include <mp3player.h>
 //#include <fat.h>
 #include <di/di.h>
 
+#include "bootanim_audio_mp3.h"
 #include "menu.h"
 #include "../../common/include/CommonConfigStrings.h"
 #include "ff_utf8.h"
@@ -109,8 +113,10 @@ void HandleSTMEvent(u32 event)
 			break;
 	}
 }
+
 int compare_names(const void *a, const void *b)
 {
+
 	const gameinfo *da = (const gameinfo *) a;
 	const gameinfo *db = (const gameinfo *) b;
 
@@ -126,9 +132,12 @@ int compare_names(const void *a, const void *b)
 			ret = 1;
 		else
 			ret = 0;
+
 	}
+
 	return ret;
 }
+
 
 /**
  * Check if a disc image is valid.
@@ -1686,6 +1695,9 @@ static int SelectGame(void)
 	// Depending on how many games are on the storage device,
 	// this could take a while.
 	ShowLoadingScreen();
+	ASND_Init();
+	MP3Player_Init();
+	
 
 	// Load the game list.
 	u32 gamecount = 0;
@@ -1763,6 +1775,7 @@ static int SelectGame(void)
 
 	while(1)
 	{
+		MP3Player_PlayBuffer(sample_mp3, sample_mp3_size, NULL);
 		VIDEO_WaitVSync();
 		FPAD_Update();
 		if(Shutdown)
@@ -1840,6 +1853,7 @@ static int SelectGame(void)
 			Screenshot();
 			ClearScreen();
 			ctx.redraw = false;
+
 		}
 	}
 
@@ -1918,6 +1932,7 @@ bool SelectDevAndGame(void)
 		}
 		else if (FPAD_Start(0))
 		{
+			MP3Player_Stop();
 			ShowMessageScreenAndExit("Returning to loader...", 0);
 		}
 		else if (FPAD_Down(0))

@@ -1,6 +1,6 @@
 /*
 	Filename    : IPGetLinkState.bin
-	Date created: Fri Jan 22 10:45:59 2021
+	Date created: Sun Feb 14 13:40:07 2021
 */
 
 #define IPGetLinkState_size 0x10
