@@ -1,6 +1,6 @@
 /*
 	Filename    : CalcGXWidescreen.bin
-	Date created: Fri Jan 22 10:45:55 2021
+	Date created: Sun Feb 14 13:40:02 2021
 */
 
 #define CalcGXWidescreen_size 0x5c

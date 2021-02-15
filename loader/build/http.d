@@ -1,18 +1,18 @@
-http.o: C\:/Users/Nintendont-CrisMMMod/loader/source/http.c \
+http.o: C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/http.c \
  C\:/devkitPro/libogc/include/network.h \
  C\:/devkitPro/libogc/include/gctypes.h \
  C\:/devkitPro/libogc/include/ogc/lwp_watchdog.h \
  C\:/devkitPro/libogc/include/ogc/lwp_queue.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/http.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/exi.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/http.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/exi.h \
  C\:/devkitPro/libogc/include/ogc/usbgecko.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/global.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h \
  C\:/devkitPro/libogc/include/ogc/ipc.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/Config.h \
- c\:\users\nintendont-crismmmod\common\include\commonconfig.h \
- c\:\users\nintendont-crismmmod\common\include\NintendontVersion.h \
- c\:\users\nintendont-crismmmod\common\include\Metadata.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/grrlib.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfig.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\NintendontVersion.h \
+ c\:\wiiuprojects\nintendont-crismmmodtest\common\include\Metadata.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/grrlib.h \
  C\:/devkitPro/libogc/include/gccore.h \
  C\:/devkitPro/libogc/include/ogc/dsp.h \
  C\:/devkitPro/libogc/include/ogc/aram.h \
@@ -64,22 +64,22 @@ http.o: C\:/Users/Nintendont-CrisMMMod/loader/source/http.c \
  C\:/devkitPro/libogc/include/ogc/system.h \
  C\:/devkitPro/libogc/include/ogc/wiilaunch.h \
  C\:/devkitPro/libogc/include/ogc/libversion.h \
- c\:\users\nintendont-crismmmod\fatfs\integer.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/ssl.h
+ c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h \
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ssl.h
 C\:/devkitPro/libogc/include/network.h:
 C\:/devkitPro/libogc/include/gctypes.h:
 C\:/devkitPro/libogc/include/ogc/lwp_watchdog.h:
 C\:/devkitPro/libogc/include/ogc/lwp_queue.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/http.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/exi.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/http.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/exi.h:
 C\:/devkitPro/libogc/include/ogc/usbgecko.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/global.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h:
 C\:/devkitPro/libogc/include/ogc/ipc.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/Config.h:
-c\:\users\nintendont-crismmmod\common\include\commonconfig.h:
-c\:\users\nintendont-crismmmod\common\include\NintendontVersion.h:
-c\:\users\nintendont-crismmmod\common\include\Metadata.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/grrlib.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfig.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\NintendontVersion.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\common\include\Metadata.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/grrlib.h:
 C\:/devkitPro/libogc/include/gccore.h:
 C\:/devkitPro/libogc/include/ogc/dsp.h:
 C\:/devkitPro/libogc/include/ogc/aram.h:
@@ -131,5 +131,5 @@ C\:/devkitPro/libogc/include/ogc/mutex.h:
 C\:/devkitPro/libogc/include/ogc/system.h:
 C\:/devkitPro/libogc/include/ogc/wiilaunch.h:
 C\:/devkitPro/libogc/include/ogc/libversion.h:
-c\:\users\nintendont-crismmmod\fatfs\integer.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/ssl.h:
+c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ssl.h:

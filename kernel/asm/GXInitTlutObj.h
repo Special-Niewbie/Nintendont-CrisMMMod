@@ -1,6 +1,6 @@
 /*
 	Filename    : GXInitTlutObj.bin
-	Date created: Fri Jan 22 10:45:58 2021
+	Date created: Sun Feb 14 13:40:06 2021
 */
 
 #define GXInitTlutObj_size 0x1c

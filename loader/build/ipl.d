@@ -1,4 +1,4 @@
-ipl.o: C\:/Users/Nintendont-CrisMMMod/loader/source/ipl.c \
+ipl.o: C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/ipl.c \
  C\:/devkitPro/libogc/include/gccore.h \
  C\:/devkitPro/libogc/include/ogc/dsp.h \
  C\:/devkitPro/libogc/include/gctypes.h \
@@ -50,7 +50,7 @@ ipl.o: C\:/Users/Nintendont-CrisMMMod/loader/source/ipl.c \
  C\:/devkitPro/libogc/include/ogc/mutex.h \
  C\:/devkitPro/libogc/include/ogc/system.h \
  C\:/devkitPro/libogc/include/ogc/wiilaunch.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/ipl.h
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ipl.h
 C\:/devkitPro/libogc/include/gccore.h:
 C\:/devkitPro/libogc/include/ogc/dsp.h:
 C\:/devkitPro/libogc/include/gctypes.h:
@@ -102,4 +102,4 @@ C\:/devkitPro/libogc/include/ogc/usbstorage.h:
 C\:/devkitPro/libogc/include/ogc/mutex.h:
 C\:/devkitPro/libogc/include/ogc/system.h:
 C\:/devkitPro/libogc/include/ogc/wiilaunch.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/ipl.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ipl.h:

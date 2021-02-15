@@ -1,4 +1,4 @@
-usb.o: C\:/Users/Nintendont-CrisMMMod/loader/source/usb.c \
+usb.o: C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/usb.c \
  C\:/devkitPro/libogc/include/gcutil.h \
  C\:/devkitPro/libogc/include/gccore.h \
  C\:/devkitPro/libogc/include/ogc/dsp.h \
@@ -54,7 +54,7 @@ usb.o: C\:/Users/Nintendont-CrisMMMod/loader/source/usb.c \
  C\:/devkitPro/libogc/include/ogc/machine/asm.h \
  C\:/devkitPro/libogc/include/ogc/machine/processor.h \
  C\:/devkitPro/libogc/include/ogc/machine/asm.h \
- C\:/Users/Nintendont-CrisMMMod/loader/include/usb_ogc.h
+ C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/usb_ogc.h
 C\:/devkitPro/libogc/include/gcutil.h:
 C\:/devkitPro/libogc/include/gccore.h:
 C\:/devkitPro/libogc/include/ogc/dsp.h:
@@ -110,4 +110,4 @@ C\:/devkitPro/libogc/include/ogc/ipc.h:
 C\:/devkitPro/libogc/include/ogc/machine/asm.h:
 C\:/devkitPro/libogc/include/ogc/machine/processor.h:
 C\:/devkitPro/libogc/include/ogc/machine/asm.h:
-C\:/Users/Nintendont-CrisMMMod/loader/include/usb_ogc.h:
+C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/usb_ogc.h:

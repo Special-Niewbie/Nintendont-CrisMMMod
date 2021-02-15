@@ -1,6 +1,6 @@
 /*
 	Filename    : __CARDReadStatus.bin
-	Date created: Fri Jan 22 10:46:06 2021
+	Date created: Sun Feb 14 13:40:16 2021
 */
 
 #define __CARDReadStatus_size 0x10
