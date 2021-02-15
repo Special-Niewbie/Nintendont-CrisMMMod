@@ -1472,7 +1472,7 @@ int main(int argc, char **argv)
 	}
 //	memcpy( (void*)0x80000000, (void*)0x90140000, 0x1200000 );
 	
-	if ((!useipl || !useipltri) && (!(ncfg->Config & (NIN_CFG_SKIP_IPL))))
+	if ((!useipl && !useipltri) && (!(ncfg->Config & (NIN_CFG_SKIP_IPL))))
 	{
 		MP3Player_Stop();
 		Animation();
