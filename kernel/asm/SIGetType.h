@@ -1,6 +1,6 @@
 /*
 	Filename    : SIGetType.bin
-	Date created: Sun Feb 14 13:40:12 2021
+	Date created: Sun Feb 21 19:28:51 2021
 */
 
 #define SIGetType_size 0x38

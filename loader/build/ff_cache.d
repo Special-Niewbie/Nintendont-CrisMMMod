@@ -1,6 +1,6 @@
 ff_cache.o: \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/ff_cache.c \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/common.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/source/ff_cache.c \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/common.h \
  C\:/devkitPro/libogc/include/gctypes.h \
  C\:/devkitPro/libogc/include/ogc/disc_io.h \
  C\:/devkitPro/libogc/include/gccore.h \
@@ -52,13 +52,13 @@ ff_cache.o: \
  C\:/devkitPro/libogc/include/ogc/mutex.h \
  C\:/devkitPro/libogc/include/ogc/system.h \
  C\:/devkitPro/libogc/include/ogc/wiilaunch.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/cache.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/common.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/disc.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/disc.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/mem_allocate.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/bit_ops.h
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/common.h:
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/cache.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/common.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/disc.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/disc.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/mem_allocate.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/bit_ops.h
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/common.h:
 C\:/devkitPro/libogc/include/gctypes.h:
 C\:/devkitPro/libogc/include/ogc/disc_io.h:
 C\:/devkitPro/libogc/include/gccore.h:
@@ -110,9 +110,9 @@ C\:/devkitPro/libogc/include/ogc/usbstorage.h:
 C\:/devkitPro/libogc/include/ogc/mutex.h:
 C\:/devkitPro/libogc/include/ogc/system.h:
 C\:/devkitPro/libogc/include/ogc/wiilaunch.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/cache.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/common.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/disc.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/disc.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/mem_allocate.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ff_cache/bit_ops.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/cache.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/common.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/disc.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/disc.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/mem_allocate.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ff_cache/bit_ops.h:

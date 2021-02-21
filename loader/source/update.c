@@ -30,6 +30,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <ogc/lwp_watchdog.h>
 #include <sys/param.h>
 #include <mp3player.h>
+#include <asndlib.h>
 
 #include "exi.h"
 #include "FPad.h"
@@ -69,7 +70,7 @@ typedef enum {
 } DOWNLOADS;
 
 static const downloads_t Downloads[] = {
-	{"https://helixteamhub.cloud/api/projects/nintendont-crismmmod/repositories/nintendont-crismmmodweb/commits/webdav/files/boot.dol?api_signing_key=cc53b4ea-688d-40a0-bd89-99ef16ce604c&expires_at=2121-01-13T03%3A27%3A58.283Z&signature=920cf6e46db81df6a9d2a6bc8fe07f7535452814909ce6244759bab3de9b588b", "Downloading CrisMMMod", "boot.dol", 0x700000}, // 7MB
+	{"https://helixteamhub.cloud/api/projects/nintendont-crismmmod/repositories/nintendont-crismmmodweb/commits/webdav/files/boot.dol?api_signing_key=cc53b4ea-688d-40a0-bd89-99ef16ce604c&expires_at=2121-01-13T03%3A27%3A58.283Z&signature=920cf6e46db81df6a9d2a6bc8fe07f7535452814909ce6244759bab3de9b588b", "Downloading CrisMMMod", "boot.dol", 0x1300000}, // 13MB
 	{"http://send0r.lima-city.de/Nintendont/MasterMod/boot.dol", "Downloading MasterMod", "boot.dol", 0x400000}, // 4MB
 	{"https://raw.githubusercontent.com/FIX94/Nintendont/master/loader/loader.dol", "Updating Nintendont", "boot.dol", 0x400000}, // 4MB
 	{"https://helixteamhub.cloud/api/projects/nintendont-crismmmod/repositories/nintendont-crismmmodweb/commits/webdav/files/titles.txt?api_signing_key=cc53b4ea-688d-40a0-bd89-99ef16ce604c&expires_at=2121-01-14T01%3A40%3A55.387Z&signature=f8456a323aeeedd87d265ea84430f8bc8e5b68baf38214a2a0e7d949356b721e", "Updating titles.txt", "titles.txt", 0x80000}, // 512KB
@@ -125,6 +126,8 @@ static inline bool LatestVersion(int *major, int *minor, int *current_line) {
 	int line = *current_line;
 
 	PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*line, Downloads[DOWNLOAD_VERSION].text);
+	MP3Player_Stop();
+	ASND_End();
 	UpdateScreen();
 	line++;
 	if(!http_request(Downloads[DOWNLOAD_VERSION].url, Downloads[DOWNLOAD_VERSION].max_size)) {

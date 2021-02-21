@@ -1,6 +1,6 @@
 /*
 	Filename    : RestoreSettingsVS4V06JAP.bin
-	Date created: Sun Feb 14 13:40:11 2021
+	Date created: Sun Feb 21 19:28:50 2021
 */
 
 #define RestoreSettingsVS4V06JAP_size 0x2c

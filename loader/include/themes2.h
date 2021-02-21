@@ -2,7 +2,7 @@
 
 Nintendont (Loader) - Playing Gamecubes in Wii mode on a Wii U
 
-Copyright (C) 2018  send0r
+Copyright (C) 2018  CrisMod
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

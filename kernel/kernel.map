@@ -229,7 +229,7 @@ Discarded input sections
                 0x0000000000000000       0x68 ES.o
  .debug_ranges  0x0000000000000000       0x98 ES.o
  .debug_line    0x0000000000000000      0x998 ES.o
- .debug_str     0x0000000000000000      0x5cb ES.o
+ .debug_str     0x0000000000000000      0x5c7 ES.o
  .comment       0x0000000000000000       0x24 ES.o
  .debug_frame   0x0000000000000000      0x184 ES.o
  .ARM.attributes
@@ -246,7 +246,7 @@ Discarded input sections
                 0x0000000000000000       0x20 NAND.o
  .debug_ranges  0x0000000000000000       0x10 NAND.o
  .debug_line    0x0000000000000000       0xd0 NAND.o
- .debug_str     0x0000000000000000      0x226 NAND.o
+ .debug_str     0x0000000000000000      0x222 NAND.o
  .comment       0x0000000000000000       0x24 NAND.o
  .debug_frame   0x0000000000000000       0x2c NAND.o
  .ARM.attributes
@@ -3705,98 +3705,98 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000000010d8       0x28 ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
 
-.debug_str      0x0000000000000000     0x744a
- .debug_str     0x0000000000000000       0x44 start.o
- .debug_str     0x0000000000000044      0x558 common.o
-                                        0x68f (size before relaxing)
- .debug_str     0x000000000000059c       0x39 alloc.o
-                                        0x224 (size before relaxing)
- .debug_str     0x00000000000005d5      0x5fe GCAM.o
-                                        0x911 (size before relaxing)
- .debug_str     0x0000000000000bd3      0x1d6 JVSIO.o
-                                        0x4a3 (size before relaxing)
- .debug_str     0x0000000000000da9       0x39 JVSIOMessage.o
-                                        0x264 (size before relaxing)
- .debug_str     0x0000000000000de2      0x113 FST.o
-                                        0x647 (size before relaxing)
- .debug_str     0x0000000000000ef5      0x47f DI.o
-                                        0xba0 (size before relaxing)
- .debug_str     0x0000000000001374      0x240 RealDI.o
-                                        0x692 (size before relaxing)
- .debug_str     0x00000000000015b4     0x1c7a Patch.o
-                                       0x276d (size before relaxing)
- .debug_str     0x000000000000322e       0xa2 PatchTimers.o
-                                        0x320 (size before relaxing)
- .debug_str     0x00000000000032d0      0x334 TRI.o
-                                        0xb82 (size before relaxing)
- .debug_str     0x0000000000003604       0x8c PatchWidescreen.o
-                                        0x342 (size before relaxing)
- .debug_str     0x0000000000003690      0x20c ISO.o
-                                        0x9b6 (size before relaxing)
- .debug_str     0x000000000000389c      0x19d Stream.o
-                                        0x417 (size before relaxing)
- .debug_str     0x0000000000003a39       0x51 adp.o
-                                        0x1d9 (size before relaxing)
- .debug_str     0x0000000000003a8a      0x524 EXI.o
-                                        0xab5 (size before relaxing)
- .debug_str     0x0000000000003fae       0xc8 SRAM.o
-                                        0x594 (size before relaxing)
- .debug_str     0x0000000000004076       0xde GCNCard.o
-                                        0x8ea (size before relaxing)
- .debug_str     0x0000000000004154       0x78 SI.o
-                                        0x32a (size before relaxing)
- .debug_str     0x00000000000041cc      0x803 HID.o
-                                        0xfa1 (size before relaxing)
- .debug_str     0x00000000000049cf      0x177 diskio.o
-                                        0x462 (size before relaxing)
- .debug_str     0x0000000000004b46       0x29 Config.o
-                                        0x6d5 (size before relaxing)
- .debug_str     0x0000000000004b6f        0xc utils_asm.o
-                                         0x48 (size before relaxing)
- .debug_str     0x0000000000004b7b      0x195 main.o
-                                        0xd57 (size before relaxing)
- .debug_str     0x0000000000004d10        0xb syscalls.o
-                                         0x47 (size before relaxing)
- .debug_str     0x0000000000004d1b       0xf6 ReadSpeed.o
-                                        0x5d0 (size before relaxing)
- .debug_str     0x0000000000004e11       0xc2 vsprintf.o
-                                        0x672 (size before relaxing)
- .debug_str     0x0000000000004ed3       0x17 string.o
-                                        0x24c (size before relaxing)
- .debug_str     0x0000000000004eea       0x3f prs.o
+.debug_str      0x0000000000000000     0x7442
+ .debug_str     0x0000000000000000       0x40 start.o
+ .debug_str     0x0000000000000040      0x558 common.o
+                                        0x68b (size before relaxing)
+ .debug_str     0x0000000000000598       0x39 alloc.o
+                                        0x220 (size before relaxing)
+ .debug_str     0x00000000000005d1      0x5fe GCAM.o
+                                        0x90d (size before relaxing)
+ .debug_str     0x0000000000000bcf      0x1d6 JVSIO.o
+                                        0x49f (size before relaxing)
+ .debug_str     0x0000000000000da5       0x39 JVSIOMessage.o
+                                        0x260 (size before relaxing)
+ .debug_str     0x0000000000000dde      0x113 FST.o
+                                        0x643 (size before relaxing)
+ .debug_str     0x0000000000000ef1      0x47f DI.o
+                                        0xb9c (size before relaxing)
+ .debug_str     0x0000000000001370      0x240 RealDI.o
+                                        0x68e (size before relaxing)
+ .debug_str     0x00000000000015b0     0x1c7a Patch.o
+                                       0x2769 (size before relaxing)
+ .debug_str     0x000000000000322a       0xa2 PatchTimers.o
+                                        0x31c (size before relaxing)
+ .debug_str     0x00000000000032cc      0x334 TRI.o
+                                        0xb7e (size before relaxing)
+ .debug_str     0x0000000000003600       0x8c PatchWidescreen.o
+                                        0x33e (size before relaxing)
+ .debug_str     0x000000000000368c      0x20c ISO.o
+                                        0x9b2 (size before relaxing)
+ .debug_str     0x0000000000003898      0x19d Stream.o
+                                        0x413 (size before relaxing)
+ .debug_str     0x0000000000003a35       0x51 adp.o
+                                        0x1d5 (size before relaxing)
+ .debug_str     0x0000000000003a86      0x524 EXI.o
+                                        0xab1 (size before relaxing)
+ .debug_str     0x0000000000003faa       0xc8 SRAM.o
+                                        0x590 (size before relaxing)
+ .debug_str     0x0000000000004072       0xde GCNCard.o
+                                        0x8e6 (size before relaxing)
+ .debug_str     0x0000000000004150       0x78 SI.o
+                                        0x326 (size before relaxing)
+ .debug_str     0x00000000000041c8      0x803 HID.o
+                                        0xf9d (size before relaxing)
+ .debug_str     0x00000000000049cb      0x177 diskio.o
+                                        0x45e (size before relaxing)
+ .debug_str     0x0000000000004b42       0x29 Config.o
+                                        0x6d1 (size before relaxing)
+ .debug_str     0x0000000000004b6b        0xc utils_asm.o
+                                         0x44 (size before relaxing)
+ .debug_str     0x0000000000004b77      0x195 main.o
+                                        0xd53 (size before relaxing)
+ .debug_str     0x0000000000004d0c        0xb syscalls.o
+                                         0x43 (size before relaxing)
+ .debug_str     0x0000000000004d17       0xf6 ReadSpeed.o
+                                        0x5cc (size before relaxing)
+ .debug_str     0x0000000000004e0d       0xc2 vsprintf.o
+                                        0x66e (size before relaxing)
+ .debug_str     0x0000000000004ecf       0x17 string.o
                                         0x248 (size before relaxing)
- .debug_str     0x0000000000004f29      0x227 SDI.o
-                                        0x4fd (size before relaxing)
- .debug_str     0x0000000000005150       0xe3 usb.o
-                                        0x44d (size before relaxing)
- .debug_str     0x0000000000005233      0x137 usbstorage.o
+ .debug_str     0x0000000000004ee6       0x3f prs.o
+                                        0x244 (size before relaxing)
+ .debug_str     0x0000000000004f25      0x227 SDI.o
                                         0x4f9 (size before relaxing)
- .debug_str     0x000000000000536a      0x1f2 wdvd.o
-                                        0x547 (size before relaxing)
- .debug_str     0x000000000000555c      0x18e sock.o
-                                        0x571 (size before relaxing)
- .debug_str     0x00000000000056ea      0xb2a lwbt/bte.o
-                                        0xe1b (size before relaxing)
- .debug_str     0x0000000000006214       0x28 lwbt/btmemb.o
-                                        0x234 (size before relaxing)
- .debug_str     0x000000000000623c       0x9b lwbt/btmemr.o
-                                        0x292 (size before relaxing)
- .debug_str     0x00000000000062d7      0x10b lwbt/btpbuf.o
-                                        0x402 (size before relaxing)
- .debug_str     0x00000000000063e2      0x513 lwbt/hci.o
-                                        0xbfa (size before relaxing)
- .debug_str     0x00000000000068f5      0x24f lwbt/l2cap.o
-                                        0x8bf (size before relaxing)
- .debug_str     0x0000000000006b44      0x25b lwbt/physbusif.o
-                                        0x791 (size before relaxing)
- .debug_str     0x0000000000006d9f      0x28a BT.o
-                                        0xb5b (size before relaxing)
- .debug_str     0x0000000000007029      0x371 ../fatfs/libfatfs-arm.a(ff-arm.o)
-                                        0x877 (size before relaxing)
- .debug_str     0x000000000000739a       0x96 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
-                                        0x4ce (size before relaxing)
- .debug_str     0x0000000000007430       0x1a ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
-                                        0x1e7 (size before relaxing)
+ .debug_str     0x000000000000514c       0xe3 usb.o
+                                        0x449 (size before relaxing)
+ .debug_str     0x000000000000522f      0x137 usbstorage.o
+                                        0x4f5 (size before relaxing)
+ .debug_str     0x0000000000005366      0x1f2 wdvd.o
+                                        0x543 (size before relaxing)
+ .debug_str     0x0000000000005558      0x18e sock.o
+                                        0x56d (size before relaxing)
+ .debug_str     0x00000000000056e6      0xb2a lwbt/bte.o
+                                        0xe17 (size before relaxing)
+ .debug_str     0x0000000000006210       0x28 lwbt/btmemb.o
+                                        0x230 (size before relaxing)
+ .debug_str     0x0000000000006238       0x9b lwbt/btmemr.o
+                                        0x28e (size before relaxing)
+ .debug_str     0x00000000000062d3      0x10b lwbt/btpbuf.o
+                                        0x3fe (size before relaxing)
+ .debug_str     0x00000000000063de      0x513 lwbt/hci.o
+                                        0xbf6 (size before relaxing)
+ .debug_str     0x00000000000068f1      0x24f lwbt/l2cap.o
+                                        0x8bb (size before relaxing)
+ .debug_str     0x0000000000006b40      0x25b lwbt/physbusif.o
+                                        0x78d (size before relaxing)
+ .debug_str     0x0000000000006d9b      0x28a BT.o
+                                        0xb57 (size before relaxing)
+ .debug_str     0x0000000000007025      0x36d ../fatfs/libfatfs-arm.a(ff-arm.o)
+                                        0x873 (size before relaxing)
+ .debug_str     0x0000000000007392       0x96 ../fatfs/libfatfs-arm.a(ff_utf8-arm.o)
+                                        0x4ca (size before relaxing)
+ .debug_str     0x0000000000007428       0x1a ../fatfs/libfatfs-arm.a(ccsbcs-arm.o)
+                                        0x1e3 (size before relaxing)
 
 .debug_loc      0x0000000000000000    0x554f2
  .debug_loc     0x0000000000000000      0xad3 common.o

@@ -1,6 +1,6 @@
 /*
 	Filename    : dns_clear_server.bin
-	Date created: Sun Feb 14 13:40:17 2021
+	Date created: Sun Feb 21 19:28:54 2021
 */
 
 #define dns_clear_server_size 0x10

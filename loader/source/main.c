@@ -1223,6 +1223,7 @@ int main(int argc, char **argv)
 				f_close(&f);
 			}
 		}
+
 	}
 
 	//check and eventually load loader theme
@@ -1395,6 +1396,8 @@ int main(int argc, char **argv)
 				PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*15, "Init CARD...");
 			if(abs(STATUS_LOADING) > 10 && abs(STATUS_LOADING) < 20)
 				PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X, MENU_POS_Y + 20*15, "Init CARD... Done!");
+			MP3Player_Stop();
+			ASND_End();
 			GRRLIB_Screen2Texture(0, 0, screen_buffer, GX_FALSE); // Copy all status messages
 			GRRLIB_Render();
 			ClearScreen();
@@ -1442,6 +1445,7 @@ int main(int argc, char **argv)
 				PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 350*1, MENU_POS_Y + 20*19, "\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88");
 			if(abs(STATUS_LOADING) > 10 && abs(STATUS_LOADING) < 20)
 				PrintFormat(DEFAULT_SIZE, text_color, MENU_POS_X + 400*1, MENU_POS_Y + 20*19, "\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88");
+			MP3Player_Stop();
 			GRRLIB_Screen2Texture(0, 0, screen_buffer, GX_FALSE); // Copy all status messages
 			GRRLIB_Render();
 			ClearScreen();
@@ -1470,15 +1474,21 @@ int main(int argc, char **argv)
 		GRRLIB_Render();
 		DrawBuffer(); // Draw all status messages
 	}
+
 //	memcpy( (void*)0x80000000, (void*)0x90140000, 0x1200000 );
 	
-	if (!useipl && (!(ncfg->Config & (NIN_CFG_SKIP_IPL))))
+	if ((!useipl && !useipltri) && (!(ncfg->Config & (NIN_CFG_SKIP_IPL))))
+	{
+		MP3Player_Stop();
+		ASND_End();
 		Animation();
-	
+	}
+
 	//GRRLIB_FreeTexture(background);
 	GRRLIB_FreeTexture(screen_buffer);
 	GRRLIB_FreeTTF(myFont);
 	GRRLIB_Exit();
+
 
 	gprintf("GameRegion:");
 

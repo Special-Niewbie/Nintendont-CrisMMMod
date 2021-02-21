@@ -1,6 +1,6 @@
 /*
 	Filename    : avetcp_init.bin
-	Date created: Sun Feb 14 13:40:16 2021
+	Date created: Sun Feb 21 19:28:54 2021
 */
 
 #define avetcp_init_size 0x10

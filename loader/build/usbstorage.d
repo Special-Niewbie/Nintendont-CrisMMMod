@@ -1,5 +1,5 @@
 usbstorage.o: \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/usbstorage.c \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/source/usbstorage.c \
  C\:/devkitPro/libogc/include/gccore.h \
  C\:/devkitPro/libogc/include/ogc/dsp.h \
  C\:/devkitPro/libogc/include/gctypes.h \
@@ -53,8 +53,8 @@ usbstorage.o: \
  C\:/devkitPro/libogc/include/ogc/wiilaunch.h \
  C\:/devkitPro/libogc/include/ogc/lwp_heap.h \
  C\:/devkitPro/libogc/include/ogc/machine/asm.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/usb_ogc.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/usbstorage_ogc.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/usb_ogc.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/usbstorage_ogc.h \
  C\:/devkitPro/libogc/include/ogc/machine/asm.h \
  C\:/devkitPro/libogc/include/ogc/machine/processor.h \
  C\:/devkitPro/libogc/include/ogc/machine/asm.h \
@@ -113,8 +113,8 @@ C\:/devkitPro/libogc/include/ogc/system.h:
 C\:/devkitPro/libogc/include/ogc/wiilaunch.h:
 C\:/devkitPro/libogc/include/ogc/lwp_heap.h:
 C\:/devkitPro/libogc/include/ogc/machine/asm.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/usb_ogc.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/usbstorage_ogc.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/usb_ogc.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/usbstorage_ogc.h:
 C\:/devkitPro/libogc/include/ogc/machine/asm.h:
 C\:/devkitPro/libogc/include/ogc/machine/processor.h:
 C\:/devkitPro/libogc/include/ogc/machine/asm.h:

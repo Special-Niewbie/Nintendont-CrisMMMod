@@ -1,6 +1,6 @@
 /*
 	Filename    : SonicRidersCopy.bin
-	Date created: Sun Feb 14 13:40:15 2021
+	Date created: Sun Feb 21 19:28:53 2021
 */
 
 #define SonicRidersCopy_size 0x18

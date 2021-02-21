@@ -1,10 +1,10 @@
-wdvd.o: C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/wdvd.c \
+wdvd.o: C\:/WiiUProjects/Nintendont-CrisMMMod/loader/source/wdvd.c \
  C\:/devkitPro/libogc/include/ogc/es.h \
  C\:/devkitPro/libogc/include/gctypes.h \
  C\:/devkitPro/libogc/include/gcutil.h \
  C\:/devkitPro/libogc/include/ogc/lwp_watchdog.h \
  C\:/devkitPro/libogc/include/ogc/lwp_queue.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/wdvd.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/wdvd.h \
  C\:/devkitPro/libogc/include/gccore.h \
  C\:/devkitPro/libogc/include/ogc/dsp.h \
  C\:/devkitPro/libogc/include/ogc/aram.h \
@@ -59,7 +59,7 @@ C\:/devkitPro/libogc/include/gctypes.h:
 C\:/devkitPro/libogc/include/gcutil.h:
 C\:/devkitPro/libogc/include/ogc/lwp_watchdog.h:
 C\:/devkitPro/libogc/include/ogc/lwp_queue.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/wdvd.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/wdvd.h:
 C\:/devkitPro/libogc/include/gccore.h:
 C\:/devkitPro/libogc/include/ogc/dsp.h:
 C\:/devkitPro/libogc/include/ogc/aram.h:

@@ -1,6 +1,6 @@
 /*
 	Filename    : RestoreSettingsYAKRVB.bin
-	Date created: Sun Feb 14 13:40:12 2021
+	Date created: Sun Feb 21 19:28:50 2021
 */
 
 #define RestoreSettingsYAKRVB_size 0x28

@@ -3,8 +3,10 @@ A Wii Homebrew Project to play GC Games on Wii and vWii on Wii U
 
 ### Features:
 * Works on Wii and Wii U (in vWii mode)
-* GameCube BIOS Animation.
+* Real, GameCube BIOS Animation
+* Theme, GameCube BIOS Animation.
 * Custom Background
+* Sound Background
 * Loader Themes
 * Custom Game Loader Themes
 * Custom Text Color
@@ -48,8 +50,18 @@ A Wii Homebrew Project to play GC Games on Wii and vWii on Wii U
 3. Connect your storage device to your Wii or Wii U and start The Homebrew Channel.
 4. Select Nintendont.
 
-### Guide how to personalize your Nintendont: 
-* GameCube Loader Animation https://www.youtube.com/watch?v=XOfJtJ03_As = CrisMMMod renders an animation which looks like the original GameCube BIOS start-up before every game launch. It's perfect if you can't find the BIOS files or want to feel the nostalgia of GameCube on vWii when starting PAL games.
+### Guide how to personalize your Nintendont:
+* GameCube / Triforce Real Boot Loader = Cris-MMMod from the version 7.30, can support the GameCube Real Boot Loader/ Triforce and GameCube Boot Loader Animation all in the same time. IMPORTANT: If you Downloaded or add manually the Custom Game Loader Theme, you have to take out or delete from Nintendont-CrisMMMod folder, otherwhise will go in conflict with the Real GC Boot Loader!!!!!
+The differences, are that, if you decided to have more real GameCube Boot Loader Menu or Triforce user experiences, you have to place your owned GameCube/Triforce Bios backup in the root of your SD card. The BIOS files are copyrighted and can't be provided or shared here. The BIOS files are automatically loaded from Nintendoen-CrisMMMod if found on the root of the SD card and will load based on the launched game region and type. 
+                                        ** Please, put the ".bin" backup Real Bios file into the SD:/ and rename on base of your real GC Region console like: 
+iplpal.bin (GC) EU
+iplusa.bin (GC) USA
+ipljap.bin (GC) JP
+segaboot.bin (Triforce) INT
+                                        ** How to use the Real BIOS GC Boot Loader, when you selected the game region as the same of your GC Region BIOS, it will booting the Real GC Animation and you have to hold pressed A button and the GC Menu Cube will appear to access the Memory Card manager functions, Settings, Date and so on...
+                                        
+
+* GameCube Boot Loader Animation https://www.youtube.com/watch?v=XOfJtJ03_As = CrisMMMod renders an animation which looks like the original GameCube BIOS start-up before every game launch. It's perfect if you can't find the BIOS files or want to feel the nostalgia of GameCube on vWii when starting PAL games.
                                                                           ** To activate it, simply go to Settings --> Skip IPL: and select "No"
 
 * Custom Background =  To use a custom background in Nintendont's menus, just place a background.png or background.jpg inside your /apps/Nintendont/ folder with a resolution of 640x480 pixels. Or you can simply download from avialable Nintendont's Settings Menu.

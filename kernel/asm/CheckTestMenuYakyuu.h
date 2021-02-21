@@ -1,6 +1,6 @@
 /*
 	Filename    : CheckTestMenuYakyuu.bin
-	Date created: Sun Feb 14 13:40:03 2021
+	Date created: Sun Feb 21 19:28:43 2021
 */
 
 #define CheckTestMenuYakyuu_size 0x34

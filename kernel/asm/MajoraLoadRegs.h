@@ -1,6 +1,6 @@
 /*
 	Filename    : MajoraLoadRegs.bin
-	Date created: Sun Feb 14 13:40:08 2021
+	Date created: Sun Feb 21 19:28:47 2021
 */
 
 #define MajoraLoadRegs_size 0x1c

@@ -1,6 +1,6 @@
 /*
 	Filename    : GXLoadTlut.bin
-	Date created: Sun Feb 14 13:40:07 2021
+	Date created: Sun Feb 21 19:28:46 2021
 */
 
 #define GXLoadTlut_size 0xc

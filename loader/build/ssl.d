@@ -1,4 +1,4 @@
-ssl.o: C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/ssl.c \
+ssl.o: C\:/WiiUProjects/Nintendont-CrisMMMod/loader/source/ssl.c \
  C\:/devkitPro/libogc/include/ogc/machine/processor.h \
  C\:/devkitPro/libogc/include/gctypes.h \
  C\:/devkitPro/libogc/include/ogc/machine/asm.h \
@@ -52,7 +52,7 @@ ssl.o: C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/ssl.c \
  C\:/devkitPro/libogc/include/ogc/mutex.h \
  C\:/devkitPro/libogc/include/ogc/system.h \
  C\:/devkitPro/libogc/include/ogc/wiilaunch.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ssl.h
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ssl.h
 C\:/devkitPro/libogc/include/ogc/machine/processor.h:
 C\:/devkitPro/libogc/include/gctypes.h:
 C\:/devkitPro/libogc/include/ogc/machine/asm.h:
@@ -106,4 +106,4 @@ C\:/devkitPro/libogc/include/ogc/usbstorage.h:
 C\:/devkitPro/libogc/include/ogc/mutex.h:
 C\:/devkitPro/libogc/include/ogc/system.h:
 C\:/devkitPro/libogc/include/ogc/wiilaunch.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/ssl.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/ssl.h:

@@ -1,13 +1,13 @@
-FPad.o: C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/FPad.c \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/FPad.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h \
+FPad.o: C\:/WiiUProjects/Nintendont-CrisMMMod/loader/source/FPad.c \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/FPad.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/global.h \
  C\:/devkitPro/libogc/include/gctypes.h \
  C\:/devkitPro/libogc/include/ogc/ipc.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h \
- c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfig.h \
- c\:\wiiuprojects\nintendont-crismmmodtest\common\include\NintendontVersion.h \
- c\:\wiiuprojects\nintendont-crismmmodtest\common\include\Metadata.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/grrlib.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/Config.h \
+ c\:\wiiuprojects\nintendont-crismmmod\common\include\commonconfig.h \
+ c\:\wiiuprojects\nintendont-crismmmod\common\include\NintendontVersion.h \
+ c\:\wiiuprojects\nintendont-crismmmod\common\include\Metadata.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/grrlib.h \
  C\:/devkitPro/libogc/include/gccore.h \
  C\:/devkitPro/libogc/include/ogc/dsp.h \
  C\:/devkitPro/libogc/include/ogc/aram.h \
@@ -59,30 +59,30 @@ FPad.o: C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/source/FPad.c \
  C\:/devkitPro/libogc/include/ogc/system.h \
  C\:/devkitPro/libogc/include/ogc/wiilaunch.h \
  C\:/devkitPro/libogc/include/ogc/libversion.h \
- c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h \
+ c\:\wiiuprojects\nintendont-crismmmod\fatfs\integer.h \
  C\:/devkitPro/libogc/include/wiiuse/wpad.h \
  C\:/devkitPro/libogc/include/wiiuse/wiiuse.h \
  C\:/devkitPro/libogc/include/bte/bte.h \
  C\:/devkitPro/libogc/include/bte/bd_addr.h \
  C\:/devkitPro/libogc/include/ogc/pad.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/exi.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/global.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/exi.h \
  C\:/devkitPro/libogc/include/ogc/usbgecko.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/extlibs/include/wiidrc/wiidrc.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/extlibs/include/wupc/wupc.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/menu.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/extlibs/include/wiidrc/wiidrc.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/extlibs/include/wupc/wupc.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/menu.h \
  C\:/devkitPro/libogc/include/ogc/video.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/build/PADReadGC_bin.h \
- C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/HID.h
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/FPad.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h:
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/build/PADReadGC_bin.h \
+ C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/HID.h
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/FPad.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/global.h:
 C\:/devkitPro/libogc/include/gctypes.h:
 C\:/devkitPro/libogc/include/ogc/ipc.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/Config.h:
-c\:\wiiuprojects\nintendont-crismmmodtest\common\include\commonconfig.h:
-c\:\wiiuprojects\nintendont-crismmmodtest\common\include\NintendontVersion.h:
-c\:\wiiuprojects\nintendont-crismmmodtest\common\include\Metadata.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/grrlib.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/Config.h:
+c\:\wiiuprojects\nintendont-crismmmod\common\include\commonconfig.h:
+c\:\wiiuprojects\nintendont-crismmmod\common\include\NintendontVersion.h:
+c\:\wiiuprojects\nintendont-crismmmod\common\include\Metadata.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/grrlib.h:
 C\:/devkitPro/libogc/include/gccore.h:
 C\:/devkitPro/libogc/include/ogc/dsp.h:
 C\:/devkitPro/libogc/include/ogc/aram.h:
@@ -134,18 +134,18 @@ C\:/devkitPro/libogc/include/ogc/mutex.h:
 C\:/devkitPro/libogc/include/ogc/system.h:
 C\:/devkitPro/libogc/include/ogc/wiilaunch.h:
 C\:/devkitPro/libogc/include/ogc/libversion.h:
-c\:\wiiuprojects\nintendont-crismmmodtest\fatfs\integer.h:
+c\:\wiiuprojects\nintendont-crismmmod\fatfs\integer.h:
 C\:/devkitPro/libogc/include/wiiuse/wpad.h:
 C\:/devkitPro/libogc/include/wiiuse/wiiuse.h:
 C\:/devkitPro/libogc/include/bte/bte.h:
 C\:/devkitPro/libogc/include/bte/bd_addr.h:
 C\:/devkitPro/libogc/include/ogc/pad.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/global.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/exi.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/global.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/exi.h:
 C\:/devkitPro/libogc/include/ogc/usbgecko.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/extlibs/include/wiidrc/wiidrc.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/extlibs/include/wupc/wupc.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/menu.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/extlibs/include/wiidrc/wiidrc.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/extlibs/include/wupc/wupc.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/menu.h:
 C\:/devkitPro/libogc/include/ogc/video.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/build/PADReadGC_bin.h:
-C\:/WiiUProjects/Nintendont-CrisMMModTEST/loader/include/HID.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/build/PADReadGC_bin.h:
+C\:/WiiUProjects/Nintendont-CrisMMMod/loader/include/HID.h:
