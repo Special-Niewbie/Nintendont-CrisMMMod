@@ -51,7 +51,8 @@ A Wii Homebrew Project to play GC Games on Wii and vWii on Wii U
 4. Select Nintendont.
 
 ### Guide how to personalize your Nintendont:
-* GameCube / Triforce Real Boot Loader = Cris-MMMod from the version 7.30, can support the GameCube Real Boot Loader/ Triforce and GameCube Boot Loader Animation all in the same time. IMPORTANT: If you Downloaded or add manually the Custom Game Loader Theme, you have to take out or delete from Nintendont-CrisMMMod folder, otherwhise will go in conflict with the Real GC Boot Loader!!!!!
+* GameCube / Triforce Real Boot Loader = Cris-MMMod from the version 7.30, can support the GameCube Real Boot Loader/ Triforce and GameCube Boot Loader Animation all in the same time. 
+IMPORTANT: To use the Real GC Boot Loader (with the Triforce no problems about), IF you Downloaded or added manually the ".png" Custom Game Loader Theme, you have to take out or delete from Nintendont-CrisMMMod folder (SD:/apps/Nintendont/); otherwhise will go in conflict with the Real GC Boot Loader and the games will not boot!!!!!
 The differences, are that, if you decided to have more real GameCube Boot Loader Menu or Triforce user experiences, you have to place your owned GameCube/Triforce Bios backup in the root of your SD card. The BIOS files are copyrighted and can't be provided or shared here. The BIOS files are automatically loaded from Nintendoen-CrisMMMod if found on the root of the SD card and will load based on the launched game region and type. 
                                         ** Please, put the ".bin" backup Real Bios file into the SD:/ and rename on base of your real GC Region console like: 
 iplpal.bin (GC) EU
