@@ -1060,27 +1060,32 @@ int main(int argc, char **argv)
 //Set Language
 	if( (ncfg->Language == NIN_LAN_AUTO || ncfg->Language >= NIN_LAN_LAST) && IsTRIGame == 0 )
 	{
-		switch (CONF_GetLanguage())
+		if(BI2region == BI2_REGION_PAL)
 		{
-			case CONF_LANG_GERMAN:
-				ncfg->Language = NIN_LAN_GERMAN;
-				break;
-			case CONF_LANG_FRENCH:
-				ncfg->Language = NIN_LAN_FRENCH;
-				break;
-			case CONF_LANG_SPANISH:
-				ncfg->Language = NIN_LAN_SPANISH;
-				break;
-			case CONF_LANG_ITALIAN:
-				ncfg->Language = NIN_LAN_ITALIAN;
-				break;
-			case CONF_LANG_DUTCH:
-				ncfg->Language = NIN_LAN_DUTCH;
-				break;
-			default:
-				ncfg->Language = NIN_LAN_ENGLISH;
-				break;
+			switch (CONF_GetLanguage())
+			{
+				case CONF_LANG_GERMAN:
+					ncfg->Language = NIN_LAN_GERMAN;
+					break;
+				case CONF_LANG_FRENCH:
+					ncfg->Language = NIN_LAN_FRENCH;
+					break;
+				case CONF_LANG_SPANISH:
+					ncfg->Language = NIN_LAN_SPANISH;
+					break;
+				case CONF_LANG_ITALIAN:
+					ncfg->Language = NIN_LAN_ITALIAN;
+					break;
+				case CONF_LANG_DUTCH:
+					ncfg->Language = NIN_LAN_DUTCH;
+					break;
+				default:
+					ncfg->Language = NIN_LAN_ENGLISH;
+					break;
+			}
 		}
+		else
+			ncfg->Language = NIN_LAN_ENGLISH;
 	}
 
 	if(ncfg->Config & NIN_CFG_MEMCARDEMU || IsTRIGame != 0)
