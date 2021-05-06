@@ -1084,7 +1084,7 @@ int main(int argc, char **argv)
 					break;
 			}
 		}
-		else
+		else if(BI2region == BI2_REGION_USA)
 			ncfg->Language = NIN_LAN_ENGLISH;
 	}
 
