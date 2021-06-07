@@ -1129,7 +1129,7 @@ int main(int argc, char **argv)
 		snprintf(MemCard, sizeof(MemCard), "%s/%s.raw", BasePath, MemCardName);
 		gprintf("Using %s as Memory Card.\r\n", MemCard);
 		FIL f;
-		if ( (f_open_char(&f, MemCard, FA_READ|FA_OPEN_EXISTING) != FR_OK) && IsTRIGame == 0 )
+		if (f_open_char(&f, MemCard, FA_READ|FA_OPEN_EXISTING) != FR_OK)
 		{
 			// Memory card file not found. Create it.
 			if(GenerateMemCard(MemCard, BI2region) == false)
